@@ -1,0 +1,271 @@
+method
+ name ""
+ refid "NiminFetishFantasyv0_fla:MainTimeline/instance/doOldCave/inline_method#2"
+ returns QName(PackageNamespace(""), "void")
+ body
+  maxstack 5
+  localcount 1
+  initscopedepth 12
+  maxscopedepth 12
+  code
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           18353
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "The thought doesn't make it a second time through your mind before you find yourself turning around and crashing your "
+   findpropstrict      QName(PackageNamespace(""), "buttDesc")
+   callproperty        QName(PackageNamespace(""), "buttDesc"), 0
+   add
+   pushstring          " rump down onto the hill with a rumble. Your "
+   add
+   findpropstrict      QName(PackageNamespace(""), "legDesc")
+   pushbyte            2
+   callproperty        QName(PackageNamespace(""), "legDesc"), 1
+   add
+   pushstring          " "
+   add
+   findpropstrict      QName(PackageNamespace(""), "legVerb")
+   pushbyte            5
+   callproperty        QName(PackageNamespace(""), "legVerb"), 1
+   add
+   pushstring          " it on either side, your "
+   add
+   findpropstrict      QName(PackageNamespace(""), "clitDesc")
+   callproperty        QName(PackageNamespace(""), "clitDesc"), 0
+   add
+   pushstring          " clit"
+   add
+   findpropstrict      QName(PackageNamespace(""), "plural")
+   pushbyte            2
+   callproperty        QName(PackageNamespace(""), "plural"), 1
+   add
+   pushstring          " grinding against a protruding grassy mound that slides perfectly into your relatively "
+   add
+   findpropstrict      QName(PackageNamespace(""), "vulvaDesc")
+   callproperty        QName(PackageNamespace(""), "vulvaDesc"), 0
+   add
+   pushstring          " lips. You can hear rocks crash to the floor of the cave within as your "
+   add
+   findpropstrict      QName(PackageNamespace(""), "hipDesc")
+   callproperty        QName(PackageNamespace(""), "hipDesc"), 0
+   add
+   pushstring          " hips rock back and forth, making the ground quake beneath you. Your sensual fluids flood about the grass, making it perfectly slick for your needs.\r\rRather quickly, with all the extra sensitive area of your genitals humping an entire hill, you find yourself letting out a shout that echoes across the fields, your body trembling with orgasm."
+   add
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           18354
+   getlex              QName(PackageNamespace(""), "cockTotal")
+   pushbyte            1
+   ifngt               L73
+
+   debugline           18355
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          " Your proportionately "
+   findpropstrict      QName(PackageNamespace(""), "cockDesc")
+   callproperty        QName(PackageNamespace(""), "cockDesc"), 0
+   add
+   pushstring          " cock"
+   add
+   findpropstrict      QName(PackageNamespace(""), "plural")
+   pushbyte            1
+   callproperty        QName(PackageNamespace(""), "plural"), 1
+   add
+   pushstring          " bounce"
+   add
+   findpropstrict      QName(PackageNamespace(""), "plural")
+   pushbyte            3
+   callproperty        QName(PackageNamespace(""), "plural"), 1
+   add
+   pushstring          " up and down as spunk gushes from the tip, flinging about the landscape and forming large puddles."
+   add
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           18356
+   findpropstrict      QName(PackageNamespace(""), "cumAmount")
+   callpropvoid        QName(PackageNamespace(""), "cumAmount"), 0
+
+L73:
+   debugline           18358
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          " Yet, you don't have much time to enjoy your quivering state before you find yourself beginning to shrink, sliding down one side of the hill as you're caught off balance. You become slick with your own lubrication as you roll through the messy grass and splash down in your own puddle. Picking yourself up, the slime sticking to your body in webs and strands, you take a moment to flick off some of the goop before heading back to the cave."
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           18359
+   findpropstrict      QName(PackageNamespace(""), "pregCheck")
+   pushbyte            1
+   callproperty        QName(PackageNamespace(""), "pregCheck"), 1
+   convert_b
+   dup
+   iffalse             L90
+
+   pop
+   findpropstrict      QName(PackageNamespace(""), "percent")
+   callproperty        QName(PackageNamespace(""), "percent"), 0
+   pushbyte            60
+   lessequals
+L90:
+   dup
+   iffalse             L98
+
+   pop
+   getlex              QName(PackageNamespace(""), "vagSize")
+   getlex              QName(PackageNamespace(""), "vagSizeMod")
+   multiply
+   pushbyte            56
+   greaterthan
+L98:
+   iffalse             L183
+
+   debugline           18360
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          " And you're quite surprised to find you're sporting a much larger belly. You have no idea how it could have possibly happened, but your mind was rather far-off while you were up there. Placing your hand on it, you can feel a body writhe about, squirming inside of you, and in no rush to come out it seems. It seems like you got pregnant quite rapidly?"
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           18361
+   findproperty        QName(PackageNamespace(""), "i")
+   pushbyte            0
+   initproperty        QName(PackageNamespace(""), "i")
+
+   jump                L165
+
+L109:
+   label
+   debugline           18363
+   getlex              QName(PackageNamespace(""), "pregArray")
+   getlex              QName(PackageNamespace(""), "i")
+   getproperty         MultinameL([PrivateNamespace("NiminFetishFantasyv0_fla:MainTimeline"), PackageNamespace(""), PackageNamespace("flash.events"), PackageNamespace("flash.net"), PrivateNamespace("$0"), PackageNamespace("NiminFetishFantasyv0_fla"), PackageInternalNs("NiminFetishFantasyv0_fla"), Namespace("http://adobe.com/AS3/2006/builtin"), PackageNamespace("adobe.utils"), PackageNamespace("flash.accessibility"), PackageNamespace("flash.desktop"), PackageNamespace("flash.display"), PackageNamespace("flash.errors"), PackageNamespace("flash.external"), PackageNamespace("flash.filters"), PackageNamespace("flash.geom"), PackageNamespace("flash.globalization"), PackageNamespace("flash.media"), PackageNamespace("flash.net.drm"), PackageNamespace("flash.printing"), PackageNamespace("flash.profiler"), PackageNamespace("flash.sampler"), PackageNamespace("flash.sensors"), PackageNamespace("flash.system"), PackageNamespace("flash.text"), PackageNamespace("flash.text.ime"), PackageNamespace("flash.text.engine"), PackageNamespace("flash.ui"), PackageNamespace("flash.utils"), PackageNamespace("flash.xml"), ProtectedNamespace("NiminFetishFantasyv0_fla:MainTimeline"), StaticProtectedNs("NiminFetishFantasyv0_fla:MainTimeline"), StaticProtectedNs("flash.display:MovieClip"), StaticProtectedNs("flash.display:Sprite"), StaticProtectedNs("flash.display:DisplayObjectContainer"), StaticProtectedNs("flash.display:InteractiveObject"), StaticProtectedNs("flash.display:DisplayObject"), StaticProtectedNs("flash.events:EventDispatcher"), StaticProtectedNs("Object")])
+   pushfalse
+   ifne                L159
+
+   debugline           18364
+   getlex              QName(PackageNamespace(""), "pregArray")
+   getlex              QName(PackageNamespace(""), "i")
+   pushtrue
+   setproperty         MultinameL([PrivateNamespace("NiminFetishFantasyv0_fla:MainTimeline"), PackageNamespace(""), PackageNamespace("flash.events"), PackageNamespace("flash.net"), PrivateNamespace("$0"), PackageNamespace("NiminFetishFantasyv0_fla"), PackageInternalNs("NiminFetishFantasyv0_fla"), Namespace("http://adobe.com/AS3/2006/builtin"), PackageNamespace("adobe.utils"), PackageNamespace("flash.accessibility"), PackageNamespace("flash.desktop"), PackageNamespace("flash.display"), PackageNamespace("flash.errors"), PackageNamespace("flash.external"), PackageNamespace("flash.filters"), PackageNamespace("flash.geom"), PackageNamespace("flash.globalization"), PackageNamespace("flash.media"), PackageNamespace("flash.net.drm"), PackageNamespace("flash.printing"), PackageNamespace("flash.profiler"), PackageNamespace("flash.sampler"), PackageNamespace("flash.sensors"), PackageNamespace("flash.system"), PackageNamespace("flash.text"), PackageNamespace("flash.text.ime"), PackageNamespace("flash.text.engine"), PackageNamespace("flash.ui"), PackageNamespace("flash.utils"), PackageNamespace("flash.xml"), ProtectedNamespace("NiminFetishFantasyv0_fla:MainTimeline"), StaticProtectedNs("NiminFetishFantasyv0_fla:MainTimeline"), StaticProtectedNs("flash.display:MovieClip"), StaticProtectedNs("flash.display:Sprite"), StaticProtectedNs("flash.display:DisplayObjectContainer"), StaticProtectedNs("flash.display:InteractiveObject"), StaticProtectedNs("flash.display:DisplayObject"), StaticProtectedNs("flash.events:EventDispatcher"), StaticProtectedNs("Object")])
+
+   debugline           18365
+   findpropstrict      QName(PackageNamespace(""), "percent")
+   callproperty        QName(PackageNamespace(""), "percent"), 0
+   pushbyte            50
+   ifnle               L133
+
+   getlex              QName(PackageNamespace(""), "pregArray")
+   getlex              QName(PackageNamespace(""), "i")
+   pushbyte            1
+   add
+   pushshort           201
+   setproperty         MultinameL([PrivateNamespace("NiminFetishFantasyv0_fla:MainTimeline"), PackageNamespace(""), PackageNamespace("flash.events"), PackageNamespace("flash.net"), PrivateNamespace("$0"), PackageNamespace("NiminFetishFantasyv0_fla"), PackageInternalNs("NiminFetishFantasyv0_fla"), Namespace("http://adobe.com/AS3/2006/builtin"), PackageNamespace("adobe.utils"), PackageNamespace("flash.accessibility"), PackageNamespace("flash.desktop"), PackageNamespace("flash.display"), PackageNamespace("flash.errors"), PackageNamespace("flash.external"), PackageNamespace("flash.filters"), PackageNamespace("flash.geom"), PackageNamespace("flash.globalization"), PackageNamespace("flash.media"), PackageNamespace("flash.net.drm"), PackageNamespace("flash.printing"), PackageNamespace("flash.profiler"), PackageNamespace("flash.sampler"), PackageNamespace("flash.sensors"), PackageNamespace("flash.system"), PackageNamespace("flash.text"), PackageNamespace("flash.text.ime"), PackageNamespace("flash.text.engine"), PackageNamespace("flash.ui"), PackageNamespace("flash.utils"), PackageNamespace("flash.xml"), ProtectedNamespace("NiminFetishFantasyv0_fla:MainTimeline"), StaticProtectedNs("NiminFetishFantasyv0_fla:MainTimeline"), StaticProtectedNs("flash.display:MovieClip"), StaticProtectedNs("flash.display:Sprite"), StaticProtectedNs("flash.display:DisplayObjectContainer"), StaticProtectedNs("flash.display:InteractiveObject"), StaticProtectedNs("flash.display:DisplayObject"), StaticProtectedNs("flash.events:EventDispatcher"), StaticProtectedNs("Object")])
+
+   jump                L140
+
+L133:
+   debugline           18366
+   getlex              QName(PackageNamespace(""), "pregArray")
+   getlex              QName(PackageNamespace(""), "i")
+   pushbyte            1
+   add
+   pushshort           202
+   setproperty         MultinameL([PrivateNamespace("NiminFetishFantasyv0_fla:MainTimeline"), PackageNamespace(""), PackageNamespace("flash.events"), PackageNamespace("flash.net"), PrivateNamespace("$0"), PackageNamespace("NiminFetishFantasyv0_fla"), PackageInternalNs("NiminFetishFantasyv0_fla"), Namespace("http://adobe.com/AS3/2006/builtin"), PackageNamespace("adobe.utils"), PackageNamespace("flash.accessibility"), PackageNamespace("flash.desktop"), PackageNamespace("flash.display"), PackageNamespace("flash.errors"), PackageNamespace("flash.external"), PackageNamespace("flash.filters"), PackageNamespace("flash.geom"), PackageNamespace("flash.globalization"), PackageNamespace("flash.media"), PackageNamespace("flash.net.drm"), PackageNamespace("flash.printing"), PackageNamespace("flash.profiler"), PackageNamespace("flash.sampler"), PackageNamespace("flash.sensors"), PackageNamespace("flash.system"), PackageNamespace("flash.text"), PackageNamespace("flash.text.ime"), PackageNamespace("flash.text.engine"), PackageNamespace("flash.ui"), PackageNamespace("flash.utils"), PackageNamespace("flash.xml"), ProtectedNamespace("NiminFetishFantasyv0_fla:MainTimeline"), StaticProtectedNs("NiminFetishFantasyv0_fla:MainTimeline"), StaticProtectedNs("flash.display:MovieClip"), StaticProtectedNs("flash.display:Sprite"), StaticProtectedNs("flash.display:DisplayObjectContainer"), StaticProtectedNs("flash.display:InteractiveObject"), StaticProtectedNs("flash.display:DisplayObject"), StaticProtectedNs("flash.events:EventDispatcher"), StaticProtectedNs("Object")])
+
+L140:
+   debugline           18367
+   getlex              QName(PackageNamespace(""), "pregArray")
+   getlex              QName(PackageNamespace(""), "i")
+   pushbyte            2
+   add
+   pushshort           230
+   setproperty         MultinameL([PrivateNamespace("NiminFetishFantasyv0_fla:MainTimeline"), PackageNamespace(""), PackageNamespace("flash.events"), PackageNamespace("flash.net"), PrivateNamespace("$0"), PackageNamespace("NiminFetishFantasyv0_fla"), PackageInternalNs("NiminFetishFantasyv0_fla"), Namespace("http://adobe.com/AS3/2006/builtin"), PackageNamespace("adobe.utils"), PackageNamespace("flash.accessibility"), PackageNamespace("flash.desktop"), PackageNamespace("flash.display"), PackageNamespace("flash.errors"), PackageNamespace("flash.external"), PackageNamespace("flash.filters"), PackageNamespace("flash.geom"), PackageNamespace("flash.globalization"), PackageNamespace("flash.media"), PackageNamespace("flash.net.drm"), PackageNamespace("flash.printing"), PackageNamespace("flash.profiler"), PackageNamespace("flash.sampler"), PackageNamespace("flash.sensors"), PackageNamespace("flash.system"), PackageNamespace("flash.text"), PackageNamespace("flash.text.ime"), PackageNamespace("flash.text.engine"), PackageNamespace("flash.ui"), PackageNamespace("flash.utils"), PackageNamespace("flash.xml"), ProtectedNamespace("NiminFetishFantasyv0_fla:MainTimeline"), StaticProtectedNs("NiminFetishFantasyv0_fla:MainTimeline"), StaticProtectedNs("flash.display:MovieClip"), StaticProtectedNs("flash.display:Sprite"), StaticProtectedNs("flash.display:DisplayObjectContainer"), StaticProtectedNs("flash.display:InteractiveObject"), StaticProtectedNs("flash.display:DisplayObject"), StaticProtectedNs("flash.events:EventDispatcher"), StaticProtectedNs("Object")])
+
+   debugline           18368
+   getlex              QName(PackageNamespace(""), "pregArray")
+   getlex              QName(PackageNamespace(""), "i")
+   pushbyte            3
+   add
+   pushshort           220
+   setproperty         MultinameL([PrivateNamespace("NiminFetishFantasyv0_fla:MainTimeline"), PackageNamespace(""), PackageNamespace("flash.events"), PackageNamespace("flash.net"), PrivateNamespace("$0"), PackageNamespace("NiminFetishFantasyv0_fla"), PackageInternalNs("NiminFetishFantasyv0_fla"), Namespace("http://adobe.com/AS3/2006/builtin"), PackageNamespace("adobe.utils"), PackageNamespace("flash.accessibility"), PackageNamespace("flash.desktop"), PackageNamespace("flash.display"), PackageNamespace("flash.errors"), PackageNamespace("flash.external"), PackageNamespace("flash.filters"), PackageNamespace("flash.geom"), PackageNamespace("flash.globalization"), PackageNamespace("flash.media"), PackageNamespace("flash.net.drm"), PackageNamespace("flash.printing"), PackageNamespace("flash.profiler"), PackageNamespace("flash.sampler"), PackageNamespace("flash.sensors"), PackageNamespace("flash.system"), PackageNamespace("flash.text"), PackageNamespace("flash.text.ime"), PackageNamespace("flash.text.engine"), PackageNamespace("flash.ui"), PackageNamespace("flash.utils"), PackageNamespace("flash.xml"), ProtectedNamespace("NiminFetishFantasyv0_fla:MainTimeline"), StaticProtectedNs("NiminFetishFantasyv0_fla:MainTimeline"), StaticProtectedNs("flash.display:MovieClip"), StaticProtectedNs("flash.display:Sprite"), StaticProtectedNs("flash.display:DisplayObjectContainer"), StaticProtectedNs("flash.display:InteractiveObject"), StaticProtectedNs("flash.display:DisplayObject"), StaticProtectedNs("flash.events:EventDispatcher"), StaticProtectedNs("Object")])
+
+   debugline           18369
+   findproperty        QName(PackageNamespace(""), "i")
+   getlex              QName(PackageNamespace(""), "pregArray")
+   getproperty         QName(PackageNamespace(""), "length")
+   initproperty        QName(PackageNamespace(""), "i")
+
+L159:
+   debugline           18371
+   findproperty        QName(PackageNamespace(""), "i")
+   getlex              QName(PackageNamespace(""), "i")
+   pushbyte            5
+   add
+   initproperty        QName(PackageNamespace(""), "i")
+
+L165:
+   debugline           18362
+   getlex              QName(PackageNamespace(""), "i")
+   getlex              QName(PackageNamespace(""), "pregArray")
+   getproperty         QName(PackageNamespace(""), "length")
+   iflt                L109
+
+   debugline           18373
+   findpropstrict      QName(PackageNamespace(""), "doLust")
+   getlex              QName(PackageNamespace(""), "Math")
+   getlex              QName(PackageNamespace(""), "sen")
+   pushbyte            2
+   divide
+   callproperty        QName(PackageNamespace(""), "floor"), 1
+   negate
+   pushbyte            2
+   pushbyte            1
+   pushbyte            2
+   callpropvoid        QName(PackageNamespace(""), "doLust"), 4
+
+   jump                L195
+
+L183:
+   debugline           18375
+   findpropstrict      QName(PackageNamespace(""), "doLust")
+   getlex              QName(PackageNamespace(""), "Math")
+   getlex              QName(PackageNamespace(""), "sen")
+   pushbyte            2
+   divide
+   callproperty        QName(PackageNamespace(""), "floor"), 1
+   negate
+   pushbyte            2
+   pushbyte            1
+   pushbyte            2
+   callpropvoid        QName(PackageNamespace(""), "doLust"), 4
+
+L195:
+   debugline           18376
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "\r\rRather eager to get away, you run off to Firmshaft, getting a slight bit of vertigo along the way from the extra inches you'll have to get used to."
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           18377
+   getlex              QName(PackageNamespace(""), "ment")
+   pushbyte            30
+   ifnge               L208
+
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          " Especially as you re-don your now too-small clothes, feeling the outfit hug your body tightly and definitely needing some readjusting when you get back to town..."
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+L208:
+   debugline           18378
+   findproperty        QName(PackageNamespace(""), "hrs")
+   pushbyte            3
+   initproperty        QName(PackageNamespace(""), "hrs")
+
+   debugline           18379
+   findpropstrict      QName(PackageNamespace(""), "doEnd")
+   callpropvoid        QName(PackageNamespace(""), "doEnd"), 0
+
+   debugline           18380
+   returnvoid
+  end ; code
+ end ; body
+end ; method

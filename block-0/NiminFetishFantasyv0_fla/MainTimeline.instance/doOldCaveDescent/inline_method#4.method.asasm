@@ -1,0 +1,119 @@
+method
+ name ""
+ refid "NiminFetishFantasyv0_fla:MainTimeline/instance/doOldCaveDescent/inline_method#4"
+ returns QName(PackageNamespace(""), "void")
+ flag NEED_ACTIVATION
+ body
+  maxstack 3
+  localcount 2
+  initscopedepth 12
+  maxscopedepth 13
+  code
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           19586
+   newactivation
+   dup
+   setlocal1
+
+   pushscope
+
+   debug               1, "anonymous$345", 0, 19586
+   debugline           19587
+   getlex              QName(PackageNamespace(""), "buttonChoice")
+   pushbyte            2
+   ifne                L32
+
+   debugline           19588
+   getlex              QName(PackageNamespace(""), "currentDungeon")
+   pushshort           1001
+   ifne                L20
+
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "The beast-man gives you a grunt. \"Fine.\"\r\rBefore you're even gone, he's already turning back to the wall and slipping a hand under his loin cloth... You head down the next set of stairs."
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   jump                L25
+
+L20:
+   debugline           19589
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "You leave the beast-man to himself and head towards the stairs."
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+L25:
+   debugline           19590
+   findpropstrict      QName(PackageNamespace(""), "doNext")
+   callpropvoid        QName(PackageNamespace(""), "doNext"), 0
+
+   debugline           19591
+   findproperty        QName(PackageNamespace(""), "doListen")
+   newfunction         "NiminFetishFantasyv0_fla:MainTimeline/instance/doOldCaveDescent/inline_method#1"
+   initproperty        QName(PackageNamespace(""), "doListen")
+
+L32:
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           19596
+   getlex              QName(PackageNamespace(""), "buttonChoice")
+   pushbyte            4
+   ifne                L58
+
+   debugline           19597
+   getlex              QName(PackageNamespace(""), "currentDungeon")
+   pushshort           1001
+   ifne                L46
+
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "The beast-man gives you a grunt. \"Fine.\"\r\rBefore you're even gone, he's already turning back to the wall and slipping a hand under his loin cloth... You head back out to Firmshaft."
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   jump                L51
+
+L46:
+   debugline           19598
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "You leave the beast-man to himself and head towards the stairs."
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+L51:
+   debugline           19599
+   findpropstrict      QName(PackageNamespace(""), "doNext")
+   callpropvoid        QName(PackageNamespace(""), "doNext"), 0
+
+   debugline           19600
+   findproperty        QName(PackageNamespace(""), "doListen")
+   newfunction         "NiminFetishFantasyv0_fla:MainTimeline/instance/doOldCaveDescent/inline_method#2"
+   initproperty        QName(PackageNamespace(""), "doListen")
+
+L58:
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           19606
+   getlex              QName(PackageNamespace(""), "buttonChoice")
+   pushbyte            1
+   ifne                L75
+
+   debugline           19607
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "\"Ahh, goody. Me need something to do!\" The beast-man begins to charge after you once more."
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           19608
+   findpropstrict      QName(PackageNamespace(""), "doNext")
+   callpropvoid        QName(PackageNamespace(""), "doNext"), 0
+
+   debugline           19609
+   findproperty        QName(PackageNamespace(""), "doListen")
+   newfunction         "NiminFetishFantasyv0_fla:MainTimeline/instance/doOldCaveDescent/inline_method#3"
+   initproperty        QName(PackageNamespace(""), "doListen")
+
+L75:
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           19617
+   returnvoid
+  end ; code
+ end ; body
+end ; method

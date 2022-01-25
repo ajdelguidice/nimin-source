@@ -1,0 +1,104 @@
+method
+ name ""
+ refid "NiminFetishFantasyv0_fla:MainTimeline/instance/doLevelUP/inline_method#18"
+ returns QName(PackageNamespace(""), "void")
+ body
+  maxstack 5
+  localcount 1
+  initscopedepth 13
+  maxscopedepth 13
+  code
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           13051
+   getlex              QName(PackageNamespace(""), "buttonChoice")
+   pushbyte            6
+   ifne                L66
+
+   debugline           13052
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "You take a moment to focus, channeling the experience you have gained to return your body to a more youthful state. You close your eyes and concentrate, feeling your "
+   findpropstrict      QName(PackageNamespace(""), "skinDesc")
+   callproperty        QName(PackageNamespace(""), "skinDesc"), 0
+   add
+   pushstring          " brush across the inside of your "
+   add
+   findpropstrict      QName(PackageNamespace(""), "currentClothes")
+   callproperty        QName(PackageNamespace(""), "currentClothes"), 0
+   add
+   pushstring          " as you shrink within. The feeling slowly grows more and more powerful as you become more sensitive, a breeze licking across you and causing you to shiver erotically.\r\rBy the time you open your eyes, wispy steam floats off of you from the energy you expelled in the process. Your body seems to have fully reverted to a less aged state, your muscles and mind weaker, but your nerves and arousal stronger."
+   add
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           13053
+   getlex              QName(PackageNamespace(""), "tallness")
+   pushbyte            5
+   ifngt               L35
+
+   debugline           13054
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "\r\rThere's also the slight problem of your clothes barely hanging onto you, much of your body being exposed from the overly loose garments. You quickly grab the fabric before it can completely fall away, holding it the best you can to cover yourself as you quickly dash away to the tailor for a quick re-fitting."
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           13055
+   findproperty        QName(PackageNamespace(""), "hrs")
+   getlex              QName(PackageNamespace(""), "hrs")
+   pushbyte            1
+   add
+   initproperty        QName(PackageNamespace(""), "hrs")
+
+L35:
+   debugline           13057
+   findproperty        QName(PackageNamespace(""), "tallness")
+   getlex              QName(PackageNamespace(""), "tallness")
+   getlex              QName(PackageNamespace(""), "Math")
+   getlex              QName(PackageNamespace(""), "tallness")
+   pushbyte            2
+   divide
+   callproperty        QName(PackageNamespace(""), "floor"), 1
+   subtract
+   initproperty        QName(PackageNamespace(""), "tallness")
+
+   debugline           13058
+   findproperty        QName(PackageNamespace(""), "body")
+   pushbyte            5
+   initproperty        QName(PackageNamespace(""), "body")
+
+   debugline           13059
+   findpropstrict      QName(PackageNamespace(""), "stats")
+   pushbyte            -3
+   pushbyte            -3
+   pushbyte            5
+   dup
+   callpropvoid        QName(PackageNamespace(""), "stats"), 4
+
+   debugline           13060
+   findproperty        QName(PackageNamespace(""), "levelUP")
+   getlex              QName(PackageNamespace(""), "levelUP")
+   pushbyte            3
+   subtract
+   initproperty        QName(PackageNamespace(""), "levelUP")
+
+   debugline           13061
+   findpropstrict      QName(PackageNamespace(""), "doEnd")
+   callpropvoid        QName(PackageNamespace(""), "doEnd"), 0
+
+   jump                L73
+
+L66:
+   debugline           13065
+   findproperty        QName(PackageNamespace(""), "choicePage")
+   pushbyte            1
+   initproperty        QName(PackageNamespace(""), "choicePage")
+
+   debugline           13066
+   findpropstrict      QName(PackageNamespace(""), "doLevelUP")
+   callpropvoid        QName(PackageNamespace(""), "doLevelUP"), 0
+
+L73:
+   debugline           13068
+   returnvoid
+  end ; code
+ end ; body
+end ; method

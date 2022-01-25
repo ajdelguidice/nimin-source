@@ -1,0 +1,147 @@
+method
+ name ""
+ refid "NiminFetishFantasyv0_fla:MainTimeline/instance/doLevelUP/inline_method#0"
+ returns QName(PackageNamespace(""), "void")
+ body
+  maxstack 5
+  localcount 3
+  initscopedepth 12
+  maxscopedepth 12
+  code
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           12238
+   getlex              QName(PackageNamespace(""), "buttonChoice")
+   pushbyte            6
+   ifne                L105
+
+   debugline           12239
+   findproperty        QName(PackageNamespace(""), "HPMod")
+   getlex              QName(PackageNamespace(""), "HPMod")
+   pushbyte            2
+   add
+   initproperty        QName(PackageNamespace(""), "HPMod")
+
+   debugline           12240
+   findpropstrict      QName(PackageNamespace(""), "doHP")
+   pushbyte            2
+   callpropvoid        QName(PackageNamespace(""), "doHP"), 1
+
+   debugline           12241
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "The exercise makes you healthier."
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           12242
+   getlex              QName(PackageNamespace(""), "Math")
+   getlex              QName(PackageNamespace(""), "bodyBuildLevel")
+   pushbyte            1
+   add
+   pushbyte            2
+   divide
+   callproperty        QName(PackageNamespace(""), "floor"), 1
+   getlex              QName(PackageNamespace(""), "Math")
+   getlex              QName(PackageNamespace(""), "bodyBuildLevel")
+   pushbyte            2
+   divide
+   callproperty        QName(PackageNamespace(""), "floor"), 1
+   ifngt               L46
+
+   debugline           12243
+   findpropstrict      QName(PackageNamespace(""), "stats")
+   pushbyte            2
+   pushbyte            0
+   dup
+   dup
+   callpropvoid        QName(PackageNamespace(""), "stats"), 4
+
+   debugline           12244
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          " You flex your muscles, feeling stronger already!"
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+L46:
+   debugline           12246
+   getlex              QName(PackageNamespace(""), "Math")
+   getlex              QName(PackageNamespace(""), "bodyBuildLevel")
+   pushbyte            1
+   add
+   pushbyte            3
+   divide
+   callproperty        QName(PackageNamespace(""), "floor"), 1
+   getlex              QName(PackageNamespace(""), "Math")
+   getlex              QName(PackageNamespace(""), "bodyBuildLevel")
+   pushbyte            3
+   divide
+   callproperty        QName(PackageNamespace(""), "floor"), 1
+   ifngt               L77
+
+   debugline           12247
+   findproperty        QName(PackageNamespace(""), "body")
+   getlex              QName(PackageNamespace(""), "body")
+   pushbyte            2
+   add
+   initproperty        QName(PackageNamespace(""), "body")
+
+   debugline           12248
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "\r\rEven your body feels more developed and you measure 2 inches taller than you were before."
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           12249
+   findproperty        QName(PackageNamespace(""), "tallness")
+   getlex              QName(PackageNamespace(""), "tallness")
+   pushbyte            2
+   add
+   initproperty        QName(PackageNamespace(""), "tallness")
+
+L77:
+   debugline           12251
+   findpropstrict      QName(PackageNamespace(""), "bodyBuildLevel")
+   dup
+   setlocal1
+
+   getproperty         QName(PackageNamespace(""), "bodyBuildLevel")
+   increment_i
+   setlocal2
+
+   getlocal1
+   getlocal2
+   setproperty         QName(PackageNamespace(""), "bodyBuildLevel")
+
+   kill                2
+   kill                1
+   debugline           12252
+   findpropstrict      QName(PackageNamespace(""), "levelUP")
+   dup
+   setlocal1
+
+   getproperty         QName(PackageNamespace(""), "levelUP")
+   decrement_i
+   setlocal2
+
+   getlocal1
+   getlocal2
+   setproperty         QName(PackageNamespace(""), "levelUP")
+
+   kill                2
+   kill                1
+   debugline           12253
+   findpropstrict      QName(PackageNamespace(""), "doEnd")
+   callpropvoid        QName(PackageNamespace(""), "doEnd"), 0
+
+   jump                L108
+
+L105:
+   debugline           12256
+   findpropstrict      QName(PackageNamespace(""), "doLevelUP")
+   callpropvoid        QName(PackageNamespace(""), "doLevelUP"), 0
+
+L108:
+   debugline           12258
+   returnvoid
+  end ; code
+ end ; body
+end ; method

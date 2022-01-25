@@ -1,0 +1,363 @@
+method
+ name ""
+ refid "NiminFetishFantasyv0_fla:MainTimeline/instance/doLevelUP/inline_method#9"
+ returns QName(PackageNamespace(""), "void")
+ body
+  maxstack 5
+  localcount 3
+  initscopedepth 12
+  maxscopedepth 12
+  code
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           12677
+   getlex              QName(PackageNamespace(""), "buttonChoice")
+   pushbyte            6
+   ifne                L260
+
+   debugline           12678
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "Your alchemical prowess has improved!"
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           12679
+   findpropstrict      QName(PackageNamespace(""), "levelUP")
+   dup
+   setlocal1
+
+   getproperty         QName(PackageNamespace(""), "levelUP")
+   decrement_i
+   setlocal2
+
+   getlocal1
+   getlocal2
+   setproperty         QName(PackageNamespace(""), "levelUP")
+
+   kill                2
+   kill                1
+   debugline           12680
+   findpropstrict      QName(PackageNamespace(""), "alchemistLevel")
+   dup
+   setlocal1
+
+   getproperty         QName(PackageNamespace(""), "alchemistLevel")
+   increment_i
+   setlocal2
+
+   getlocal1
+   getlocal2
+   setproperty         QName(PackageNamespace(""), "alchemistLevel")
+
+   kill                2
+   kill                1
+   debugline           12682
+   findproperty        QName(PackageNamespace(""), "i")
+   pushbyte            0
+   initproperty        QName(PackageNamespace(""), "i")
+
+   jump                L238
+
+L39:
+   label
+   debugline           12684
+   findproperty        QName(PackageNamespace(""), "rndArray")
+   newarray            0
+   initproperty        QName(PackageNamespace(""), "rndArray")
+
+   debugline           12686
+   getlex              QName(PackageNamespace(""), "rndArray")
+   pushshort           209
+   pushbyte            110
+   pushshort           203
+   pushshort           212
+   callpropvoid        QName(Namespace("http://adobe.com/AS3/2006/builtin"), "push"), 4
+
+   debugline           12688
+   getlex              QName(PackageNamespace(""), "knowLustDraft")
+   pushtrue
+   ifne                L60
+
+   getlex              QName(PackageNamespace(""), "rndArray")
+   pushshort           209
+   pushbyte            114
+   pushshort           523
+   callpropvoid        QName(Namespace("http://adobe.com/AS3/2006/builtin"), "push"), 3
+
+L60:
+   debugline           12689
+   getlex              QName(PackageNamespace(""), "knowRejuvPot")
+   pushtrue
+   ifne                L68
+
+   getlex              QName(PackageNamespace(""), "rndArray")
+   pushbyte            115
+   pushshort           203
+   callpropvoid        QName(Namespace("http://adobe.com/AS3/2006/builtin"), "push"), 2
+
+L68:
+   debugline           12690
+   getlex              QName(PackageNamespace(""), "knowExpPreg")
+   pushtrue
+   ifne                L76
+
+   getlex              QName(PackageNamespace(""), "rndArray")
+   pushbyte            114
+   pushshort           219
+   callpropvoid        QName(Namespace("http://adobe.com/AS3/2006/builtin"), "push"), 2
+
+L76:
+   debugline           12691
+   getlex              QName(PackageNamespace(""), "knowBallSwell")
+   pushtrue
+   ifne                L83
+
+   getlex              QName(PackageNamespace(""), "rndArray")
+   pushshort           208
+   callpropvoid        QName(Namespace("http://adobe.com/AS3/2006/builtin"), "push"), 1
+
+L83:
+   debugline           12692
+   getlex              QName(PackageNamespace(""), "knowMaleEnhance")
+   pushtrue
+   ifne                L92
+
+   getlex              QName(PackageNamespace(""), "rndArray")
+   pushshort           201
+   pushshort           208
+   pushshort           218
+   callpropvoid        QName(Namespace("http://adobe.com/AS3/2006/builtin"), "push"), 3
+
+L92:
+   debugline           12694
+   getlex              QName(PackageNamespace(""), "knowSLustDraft")
+   pushtrue
+   ifne                L101
+
+   getlex              QName(PackageNamespace(""), "rndArray")
+   pushshort           209
+   pushbyte            112
+   pushshort           524
+   callpropvoid        QName(Namespace("http://adobe.com/AS3/2006/builtin"), "push"), 3
+
+L101:
+   debugline           12695
+   getlex              QName(PackageNamespace(""), "knowSRejuvPot")
+   pushtrue
+   ifne                L110
+
+   getlex              QName(PackageNamespace(""), "rndArray")
+   pushshort           503
+   pushshort           500
+   pushshort           501
+   callpropvoid        QName(Namespace("http://adobe.com/AS3/2006/builtin"), "push"), 3
+
+L110:
+   debugline           12696
+   getlex              QName(PackageNamespace(""), "knowSExpPreg")
+   pushtrue
+   ifne                L118
+
+   getlex              QName(PackageNamespace(""), "rndArray")
+   pushshort           213
+   pushshort           219
+   callpropvoid        QName(Namespace("http://adobe.com/AS3/2006/builtin"), "push"), 2
+
+L118:
+   debugline           12697
+   getlex              QName(PackageNamespace(""), "knowSBallSwell")
+   pushtrue
+   ifne                L126
+
+   getlex              QName(PackageNamespace(""), "rndArray")
+   pushshort           208
+   pushshort           218
+   callpropvoid        QName(Namespace("http://adobe.com/AS3/2006/builtin"), "push"), 2
+
+L126:
+   debugline           12698
+   getlex              QName(PackageNamespace(""), "knowGenSwap")
+   pushtrue
+   ifne                L134
+
+   getlex              QName(PackageNamespace(""), "rndArray")
+   pushbyte            110
+   pushbyte            120
+   callpropvoid        QName(Namespace("http://adobe.com/AS3/2006/builtin"), "push"), 2
+
+L134:
+   debugline           12699
+   getlex              QName(PackageNamespace(""), "knowMasoPot")
+   pushtrue
+   ifne                L142
+
+   getlex              QName(PackageNamespace(""), "rndArray")
+   pushshort           203
+   pushshort           503
+   callpropvoid        QName(Namespace("http://adobe.com/AS3/2006/builtin"), "push"), 2
+
+L142:
+   debugline           12700
+   getlex              QName(PackageNamespace(""), "knowBabyFree")
+   pushtrue
+   ifne                L150
+
+   getlex              QName(PackageNamespace(""), "rndArray")
+   pushbyte            110
+   pushshort           203
+   callpropvoid        QName(Namespace("http://adobe.com/AS3/2006/builtin"), "push"), 2
+
+L150:
+   debugline           12701
+   getlex              QName(PackageNamespace(""), "knowPotPot")
+   pushtrue
+   ifne                L158
+
+   getlex              QName(PackageNamespace(""), "rndArray")
+   pushshort           507
+   pushshort           523
+   callpropvoid        QName(Namespace("http://adobe.com/AS3/2006/builtin"), "push"), 2
+
+L158:
+   debugline           12702
+   getlex              QName(PackageNamespace(""), "knowMilkSuppress")
+   pushtrue
+   ifne                L166
+
+   getlex              QName(PackageNamespace(""), "rndArray")
+   pushshort           201
+   pushshort           533
+   callpropvoid        QName(Namespace("http://adobe.com/AS3/2006/builtin"), "push"), 2
+
+L166:
+   debugline           12704
+   getlex              QName(PackageNamespace(""), "knowSGenSwap")
+   pushtrue
+   ifne                L176
+
+   getlex              QName(PackageNamespace(""), "rndArray")
+   pushshort           201
+   pushshort           202
+   pushshort           207
+   pushshort           210
+   callpropvoid        QName(Namespace("http://adobe.com/AS3/2006/builtin"), "push"), 4
+
+L176:
+   debugline           12705
+   getlex              QName(PackageNamespace(""), "knowSMasoPot")
+   pushtrue
+   ifne                L184
+
+   getlex              QName(PackageNamespace(""), "rndArray")
+   pushshort           222
+   pushshort           504
+   callpropvoid        QName(Namespace("http://adobe.com/AS3/2006/builtin"), "push"), 2
+
+L184:
+   debugline           12706
+   getlex              QName(PackageNamespace(""), "knowSBabyFree")
+   pushtrue
+   ifne                L192
+
+   getlex              QName(PackageNamespace(""), "rndArray")
+   pushbyte            120
+   pushshort           210
+   callpropvoid        QName(Namespace("http://adobe.com/AS3/2006/builtin"), "push"), 2
+
+L192:
+   debugline           12707
+   getlex              QName(PackageNamespace(""), "knowSPotPot")
+   pushtrue
+   ifne                L200
+
+   getlex              QName(PackageNamespace(""), "rndArray")
+   pushshort           512
+   pushshort           524
+   callpropvoid        QName(Namespace("http://adobe.com/AS3/2006/builtin"), "push"), 2
+
+L200:
+   debugline           12708
+   getlex              QName(PackageNamespace(""), "knowPussJuice")
+   pushtrue
+   ifne                L208
+
+   getlex              QName(PackageNamespace(""), "rndArray")
+   pushshort           210
+   pushbyte            114
+   callpropvoid        QName(Namespace("http://adobe.com/AS3/2006/builtin"), "push"), 2
+
+L208:
+   debugline           12709
+   getlex              QName(PackageNamespace(""), "knowPheromone")
+   pushtrue
+   ifne                L217
+
+   getlex              QName(PackageNamespace(""), "rndArray")
+   pushshort           530
+   pushshort           212
+   pushshort           206
+   callpropvoid        QName(Namespace("http://adobe.com/AS3/2006/builtin"), "push"), 3
+
+L217:
+   debugline           12710
+   getlex              QName(PackageNamespace(""), "knowBazoomba")
+   pushtrue
+   ifne                L227
+
+   getlex              QName(PackageNamespace(""), "rndArray")
+   pushshort           207
+   pushshort           212
+   pushshort           501
+   pushshort           529
+   callpropvoid        QName(Namespace("http://adobe.com/AS3/2006/builtin"), "push"), 4
+
+L227:
+   debugline           12712
+   findpropstrict      QName(PackageNamespace(""), "itemAdd")
+   findpropstrict      QName(PackageNamespace(""), "chooseFrom")
+   callproperty        QName(PackageNamespace(""), "chooseFrom"), 0
+   callpropvoid        QName(PackageNamespace(""), "itemAdd"), 1
+
+   debugline           12714
+   findproperty        QName(PackageNamespace(""), "i")
+   getlex              QName(PackageNamespace(""), "i")
+   pushbyte            1
+   add
+   initproperty        QName(PackageNamespace(""), "i")
+
+L238:
+   debugline           12683
+   findpropstrict      QName(PackageNamespace(""), "percent")
+   callproperty        QName(PackageNamespace(""), "percent"), 0
+   getlex              QName(PackageNamespace(""), "alchemistLevel")
+   pushbyte            10
+   findpropstrict      QName(PackageNamespace(""), "percent")
+   callproperty        QName(PackageNamespace(""), "percent"), 0
+   add
+   multiply
+   pushbyte            20
+   getlex              QName(PackageNamespace(""), "i")
+   pushbyte            2
+   add
+   multiply
+   getlex              QName(PackageNamespace(""), "i")
+   multiply
+   subtract
+   iflt                L39
+
+   debugline           12716
+   findpropstrict      QName(PackageNamespace(""), "doEnd")
+   callpropvoid        QName(PackageNamespace(""), "doEnd"), 0
+
+   jump                L263
+
+L260:
+   debugline           12719
+   findpropstrict      QName(PackageNamespace(""), "doLevelUP")
+   callpropvoid        QName(PackageNamespace(""), "doLevelUP"), 0
+
+L263:
+   debugline           12721
+   returnvoid
+  end ; code
+ end ; body
+end ; method

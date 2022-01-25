@@ -1,0 +1,30 @@
+method
+ name ""
+ refid "NiminFetishFantasyv0_fla:MainTimeline/instance/doOldCaveDescent/inline_method#7"
+ returns QName(PackageNamespace(""), "void")
+ body
+  maxstack 2
+  localcount 1
+  initscopedepth 12
+  maxscopedepth 12
+  code
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           19660
+   findproperty        QName(PackageNamespace(""), "inDungeon")
+   pushfalse
+   initproperty        QName(PackageNamespace(""), "inDungeon")
+
+   debugline           19661
+   findpropstrict      QName(PackageNamespace(""), "regionChange")
+   pushbyte            2
+   callpropvoid        QName(PackageNamespace(""), "regionChange"), 1
+
+   debugline           19662
+   findpropstrict      QName(PackageNamespace(""), "doEnd")
+   callpropvoid        QName(PackageNamespace(""), "doEnd"), 0
+
+   debugline           19663
+   returnvoid
+  end ; code
+ end ; body
+end ; method

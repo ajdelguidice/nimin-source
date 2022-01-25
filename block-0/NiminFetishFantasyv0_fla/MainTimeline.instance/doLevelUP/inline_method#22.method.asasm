@@ -1,0 +1,111 @@
+method
+ name ""
+ refid "NiminFetishFantasyv0_fla:MainTimeline/instance/doLevelUP/inline_method#22"
+ returns QName(PackageNamespace(""), "void")
+ flag NEED_ACTIVATION
+ body
+  maxstack 13
+  localcount 2
+  initscopedepth 14
+  maxscopedepth 15
+  code
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           13117
+   newactivation
+   dup
+   setlocal1
+
+   pushscope
+
+   debug               1, "anonymous$105", 0, 13117
+   debugline           13118
+   getlex              QName(PackageNamespace(""), "buttonChoice")
+   pushbyte            6
+   ifne                L71
+
+   debugline           13119
+   findpropstrict      QName(PackageNamespace(""), "viewButtonOutline")
+   pushbyte            0
+   dup
+   dup
+   pushbyte            0
+   pushbyte            1
+   dup
+   dup
+   pushbyte            0
+   dup
+   dup
+   pushbyte            0
+   pushbyte            1
+   callpropvoid        QName(PackageNamespace(""), "viewButtonOutline"), 12
+
+   debugline           13120
+   findpropstrict      QName(PackageNamespace(""), "viewButtonText")
+   pushbyte            0
+   dup
+   dup
+   pushbyte            0
+   pushbyte            1
+   dup
+   dup
+   pushbyte            0
+   dup
+   dup
+   pushbyte            0
+   pushbyte            1
+   callpropvoid        QName(PackageNamespace(""), "viewButtonText"), 12
+
+   debugline           13121
+   findpropstrict      QName(PackageNamespace(""), "buttonWrite")
+   pushbyte            5
+   pushstring          "Male"
+   callpropvoid        QName(PackageNamespace(""), "buttonWrite"), 2
+
+   debugline           13122
+   findpropstrict      QName(PackageNamespace(""), "buttonWrite")
+   pushbyte            6
+   pushstring          "Female"
+   callpropvoid        QName(PackageNamespace(""), "buttonWrite"), 2
+
+   debugline           13123
+   findpropstrict      QName(PackageNamespace(""), "buttonWrite")
+   pushbyte            7
+   pushstring          "Herm"
+   callpropvoid        QName(PackageNamespace(""), "buttonWrite"), 2
+
+   debugline           13124
+   findpropstrict      QName(PackageNamespace(""), "buttonWrite")
+   pushbyte            12
+   pushstring          "Cancel"
+   callpropvoid        QName(PackageNamespace(""), "buttonWrite"), 2
+
+   debugline           13125
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "Which gender would you like to reset to? (The one you select is the one you will remain as, if you have the appropriate genitals)"
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           13126
+   findproperty        QName(PackageNamespace(""), "doListen")
+   newfunction         "NiminFetishFantasyv0_fla:MainTimeline/instance/doLevelUP/inline_method#21"
+   initproperty        QName(PackageNamespace(""), "doListen")
+
+   jump                L79
+
+L71:
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           13156
+   findproperty        QName(PackageNamespace(""), "choicePage")
+   pushbyte            1
+   initproperty        QName(PackageNamespace(""), "choicePage")
+
+   debugline           13157
+   findpropstrict      QName(PackageNamespace(""), "doLevelUP")
+   callpropvoid        QName(PackageNamespace(""), "doLevelUP"), 0
+
+L79:
+   debugline           13159
+   returnvoid
+  end ; code
+ end ; body
+end ; method

@@ -1,0 +1,84 @@
+method
+ name ""
+ refid "NiminFetishFantasyv0_fla:MainTimeline/instance/doLustForcedMasturbate/inline_method"
+ returns QName(PackageNamespace(""), "void")
+ body
+  maxstack 3
+  localcount 1
+  initscopedepth 11
+  maxscopedepth 11
+  code
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           2243
+   getlex              QName(PackageNamespace(""), "ePref")
+   pushbyte            0
+   equals
+   dup
+   iftrue              L17
+
+   pop
+   getlex              QName(PackageNamespace(""), "ePref")
+   pushbyte            1
+   equals
+   dup
+   iffalse             L17
+
+   pop
+   getlex              QName(PackageNamespace(""), "gender")
+   pushbyte            2
+   equals
+L17:
+   dup
+   iftrue              L29
+
+   pop
+   getlex              QName(PackageNamespace(""), "ePref")
+   pushbyte            2
+   equals
+   dup
+   iffalse             L29
+
+   pop
+   getlex              QName(PackageNamespace(""), "gender")
+   pushbyte            1
+   equals
+L29:
+   dup
+   iftrue              L35
+
+   pop
+   getlex              QName(PackageNamespace(""), "gender")
+   pushbyte            0
+   equals
+L35:
+   iffalse             L51
+
+   debugline           2244
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "Unfortunately, the "
+   findpropstrict      QName(PackageNamespace(""), "enemyName")
+   callproperty        QName(PackageNamespace(""), "enemyName"), 0
+   add
+   pushstring          " has no interest in taking advantage of your state and lands a heavy blow, knocking you out."
+   add
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           2245
+   findpropstrict      QName(PackageNamespace(""), "doHP")
+   pushint             -100000
+   callpropvoid        QName(PackageNamespace(""), "doHP"), 1
+
+   jump                L54
+
+L51:
+   debugline           2247
+   findpropstrict      QName(PackageNamespace(""), "doGetRaped")
+   callpropvoid        QName(PackageNamespace(""), "doGetRaped"), 0
+
+L54:
+   debugline           2248
+   returnvoid
+  end ; code
+ end ; body
+end ; method

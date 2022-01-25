@@ -1,0 +1,297 @@
+method
+ name ""
+ refid "NiminFetishFantasyv0_fla:MainTimeline/instance/doLevelUP/inline_method#3"
+ returns QName(PackageNamespace(""), "void")
+ flag NEED_ACTIVATION
+ body
+  maxstack 4
+  localcount 2
+  initscopedepth 13
+  maxscopedepth 14
+  code
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           12269
+   newactivation
+   dup
+   setlocal1
+
+   pushscope
+
+   debug               1, "anonymous$86", 0, 12269
+   debugline           12270
+   getlex              QName(PackageNamespace(""), "buttonChoice")
+   pushbyte            6
+   ifne                L219
+
+   debugline           12271
+   getlex              QName(PackageNamespace(""), "Math")
+   getlex              QName(PackageNamespace(""), "hyperHappyLevel")
+   pushbyte            1
+   add
+   pushbyte            5
+   divide
+   callproperty        QName(PackageNamespace(""), "floor"), 1
+   getlex              QName(PackageNamespace(""), "Math")
+   getlex              QName(PackageNamespace(""), "hyperHappyLevel")
+   pushbyte            5
+   divide
+   callproperty        QName(PackageNamespace(""), "floor"), 1
+   ifne                L101
+
+   debugline           12272
+   findproperty        QName(PackageNamespace(""), "choiceListArray")
+   newarray            0
+   initproperty        QName(PackageNamespace(""), "choiceListArray")
+
+   debugline           12273
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "Choose a body part you would like to increase."
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           12275
+   getlex              QName(PackageNamespace(""), "choiceListArray")
+   pushstring          "Breasts"
+   callpropvoid        QName(Namespace("http://adobe.com/AS3/2006/builtin"), "push"), 1
+
+   debugline           12276
+   getlex              QName(PackageNamespace(""), "choiceListArray")
+   pushstring          "Nipples"
+   callpropvoid        QName(Namespace("http://adobe.com/AS3/2006/builtin"), "push"), 1
+
+   debugline           12277
+   getlex              QName(PackageNamespace(""), "choiceListArray")
+   pushstring          "Butt"
+   callpropvoid        QName(Namespace("http://adobe.com/AS3/2006/builtin"), "push"), 1
+
+   debugline           12278
+   getlex              QName(PackageNamespace(""), "choiceListArray")
+   pushstring          "Hips"
+   callpropvoid        QName(Namespace("http://adobe.com/AS3/2006/builtin"), "push"), 1
+
+   debugline           12279
+   getlex              QName(PackageNamespace(""), "vagTotal")
+   pushbyte            0
+   ifngt               L66
+
+   debugline           12280
+   getlex              QName(PackageNamespace(""), "choiceListArray")
+   pushstring          "Pussy"
+   callpropvoid        QName(Namespace("http://adobe.com/AS3/2006/builtin"), "push"), 1
+
+   debugline           12281
+   getlex              QName(PackageNamespace(""), "choiceListArray")
+   pushstring          "Vulva"
+   callpropvoid        QName(Namespace("http://adobe.com/AS3/2006/builtin"), "push"), 1
+
+   debugline           12282
+   getlex              QName(PackageNamespace(""), "choiceListArray")
+   pushstring          "Clit"
+   callpropvoid        QName(Namespace("http://adobe.com/AS3/2006/builtin"), "push"), 1
+
+L66:
+   debugline           12284
+   getlex              QName(PackageNamespace(""), "cockTotal")
+   pushbyte            0
+   ifngt               L81
+
+   debugline           12285
+   getlex              QName(PackageNamespace(""), "choiceListArray")
+   pushstring          "Cock"
+   callpropvoid        QName(Namespace("http://adobe.com/AS3/2006/builtin"), "push"), 1
+
+   debugline           12286
+   getlex              QName(PackageNamespace(""), "showBalls")
+   pushtrue
+   ifne                L81
+
+   getlex              QName(PackageNamespace(""), "choiceListArray")
+   pushstring          "Balls"
+   callpropvoid        QName(Namespace("http://adobe.com/AS3/2006/builtin"), "push"), 1
+
+L81:
+   debugline           12288
+   getlex              QName(PackageNamespace(""), "udders")
+   pushtrue
+   ifne                L93
+
+   debugline           12289
+   getlex              QName(PackageNamespace(""), "choiceListArray")
+   pushstring          "Udder"
+   callpropvoid        QName(Namespace("http://adobe.com/AS3/2006/builtin"), "push"), 1
+
+   debugline           12290
+   getlex              QName(PackageNamespace(""), "choiceListArray")
+   pushstring          "Teats"
+   callpropvoid        QName(Namespace("http://adobe.com/AS3/2006/builtin"), "push"), 1
+
+L93:
+   debugline           12293
+   findpropstrict      QName(PackageNamespace(""), "choiceListButtons")
+   pushstring          "Hyper Happy"
+   callpropvoid        QName(PackageNamespace(""), "choiceListButtons"), 1
+
+   debugline           12295
+   findproperty        QName(PackageNamespace(""), "doListen")
+   newfunction         "NiminFetishFantasyv0_fla:MainTimeline/instance/doLevelUP/inline_method#1"
+   initproperty        QName(PackageNamespace(""), "doListen")
+
+L101:
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           12357
+   getlex              QName(PackageNamespace(""), "Math")
+   getlex              QName(PackageNamespace(""), "hyperHappyLevel")
+   pushbyte            1
+   add
+   pushbyte            5
+   divide
+   callproperty        QName(PackageNamespace(""), "floor"), 1
+   getlex              QName(PackageNamespace(""), "Math")
+   getlex              QName(PackageNamespace(""), "hyperHappyLevel")
+   pushbyte            5
+   divide
+   callproperty        QName(PackageNamespace(""), "floor"), 1
+   ifngt               L192
+
+   debugline           12359
+   findproperty        QName(PackageNamespace(""), "choiceListArray")
+   newarray            0
+   initproperty        QName(PackageNamespace(""), "choiceListArray")
+
+   debugline           12360
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "Choose a body part you would like to greatly increase. This will be 10x more effective than a normal level in Hyper Happy, so be careful what you choose."
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           12361
+   getlex              QName(PackageNamespace(""), "choiceListArray")
+   pushstring          "Breasts"
+   callpropvoid        QName(Namespace("http://adobe.com/AS3/2006/builtin"), "push"), 1
+
+   debugline           12362
+   getlex              QName(PackageNamespace(""), "choiceListArray")
+   pushstring          "Nipples"
+   callpropvoid        QName(Namespace("http://adobe.com/AS3/2006/builtin"), "push"), 1
+
+   debugline           12363
+   getlex              QName(PackageNamespace(""), "choiceListArray")
+   pushstring          "Butt"
+   callpropvoid        QName(Namespace("http://adobe.com/AS3/2006/builtin"), "push"), 1
+
+   debugline           12364
+   getlex              QName(PackageNamespace(""), "choiceListArray")
+   pushstring          "Hips"
+   callpropvoid        QName(Namespace("http://adobe.com/AS3/2006/builtin"), "push"), 1
+
+   debugline           12365
+   getlex              QName(PackageNamespace(""), "vagTotal")
+   pushbyte            0
+   ifngt               L157
+
+   debugline           12366
+   getlex              QName(PackageNamespace(""), "choiceListArray")
+   pushstring          "Pussy"
+   callpropvoid        QName(Namespace("http://adobe.com/AS3/2006/builtin"), "push"), 1
+
+   debugline           12367
+   getlex              QName(PackageNamespace(""), "choiceListArray")
+   pushstring          "Vulva"
+   callpropvoid        QName(Namespace("http://adobe.com/AS3/2006/builtin"), "push"), 1
+
+   debugline           12368
+   getlex              QName(PackageNamespace(""), "choiceListArray")
+   pushstring          "Clit"
+   callpropvoid        QName(Namespace("http://adobe.com/AS3/2006/builtin"), "push"), 1
+
+L157:
+   debugline           12370
+   getlex              QName(PackageNamespace(""), "cockTotal")
+   pushbyte            0
+   ifngt               L172
+
+   debugline           12371
+   getlex              QName(PackageNamespace(""), "choiceListArray")
+   pushstring          "Cock"
+   callpropvoid        QName(Namespace("http://adobe.com/AS3/2006/builtin"), "push"), 1
+
+   debugline           12372
+   getlex              QName(PackageNamespace(""), "showBalls")
+   pushtrue
+   ifne                L172
+
+   getlex              QName(PackageNamespace(""), "choiceListArray")
+   pushstring          "Balls"
+   callpropvoid        QName(Namespace("http://adobe.com/AS3/2006/builtin"), "push"), 1
+
+L172:
+   debugline           12374
+   getlex              QName(PackageNamespace(""), "udders")
+   pushtrue
+   ifne                L184
+
+   debugline           12375
+   getlex              QName(PackageNamespace(""), "choiceListArray")
+   pushstring          "Udder"
+   callpropvoid        QName(Namespace("http://adobe.com/AS3/2006/builtin"), "push"), 1
+
+   debugline           12376
+   getlex              QName(PackageNamespace(""), "choiceListArray")
+   pushstring          "Teats"
+   callpropvoid        QName(Namespace("http://adobe.com/AS3/2006/builtin"), "push"), 1
+
+L184:
+   debugline           12378
+   findpropstrict      QName(PackageNamespace(""), "choiceListButtons")
+   pushstring          "Hyper Happy"
+   callpropvoid        QName(PackageNamespace(""), "choiceListButtons"), 1
+
+   debugline           12379
+   findproperty        QName(PackageNamespace(""), "doListen")
+   newfunction         "NiminFetishFantasyv0_fla:MainTimeline/instance/doLevelUP/inline_method#2"
+   initproperty        QName(PackageNamespace(""), "doListen")
+
+L192:
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           12439
+   getlex              QName(PackageNamespace(""), "Math")
+   getlex              QName(PackageNamespace(""), "hyperHappyLevel")
+   pushbyte            1
+   add
+   pushbyte            3
+   divide
+   callproperty        QName(PackageNamespace(""), "floor"), 1
+   getlex              QName(PackageNamespace(""), "Math")
+   getlex              QName(PackageNamespace(""), "hyperHappyLevel")
+   pushbyte            3
+   divide
+   callproperty        QName(PackageNamespace(""), "floor"), 1
+   ifngt               L218
+
+   debugline           12440
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "\r\rYou also become a bit more accustomed to your attributes, learning how to carry them more efficiently."
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           12441
+   findproperty        QName(PackageNamespace(""), "carryMod")
+   getlex              QName(PackageNamespace(""), "carryMod")
+   pushbyte            10
+   add
+   initproperty        QName(PackageNamespace(""), "carryMod")
+
+L218:
+   jump                L222
+
+L219:
+   debugline           12445
+   findpropstrict      QName(PackageNamespace(""), "doLevelUP")
+   callpropvoid        QName(PackageNamespace(""), "doLevelUP"), 0
+
+L222:
+   debugline           12447
+   returnvoid
+  end ; code
+ end ; body
+end ; method

@@ -1,0 +1,79 @@
+method
+ name ""
+ refid "NiminFetishFantasyv0_fla:MainTimeline/instance/doMasturbate/inline_method"
+ returns QName(PackageNamespace(""), "void")
+ body
+  maxstack 2
+  localcount 1
+  initscopedepth 11
+  maxscopedepth 11
+  code
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           11251
+   getlex              QName(PackageNamespace(""), "buttonChoice")
+   pushbyte            1
+   ifne                L7
+
+   findpropstrict      QName(PackageNamespace(""), "doCockMasturbate")
+   callpropvoid        QName(PackageNamespace(""), "doCockMasturbate"), 0
+
+L7:
+   debugline           11252
+   getlex              QName(PackageNamespace(""), "buttonChoice")
+   pushbyte            3
+   ifne                L13
+
+   findpropstrict      QName(PackageNamespace(""), "doVagMasturbate")
+   callpropvoid        QName(PackageNamespace(""), "doVagMasturbate"), 0
+
+L13:
+   debugline           11253
+   getlex              QName(PackageNamespace(""), "buttonChoice")
+   pushbyte            2
+   ifne                L19
+
+   findpropstrict      QName(PackageNamespace(""), "doBothMasturbate")
+   callpropvoid        QName(PackageNamespace(""), "doBothMasturbate"), 0
+
+L19:
+   debugline           11254
+   getlex              QName(PackageNamespace(""), "buttonChoice")
+   pushbyte            4
+   ifne                L25
+
+   findpropstrict      QName(PackageNamespace(""), "doBag")
+   callpropvoid        QName(PackageNamespace(""), "doBag"), 0
+
+L25:
+   debugline           11255
+   getlex              QName(PackageNamespace(""), "buttonChoice")
+   pushbyte            7
+   ifne                L31
+
+   findpropstrict      QName(PackageNamespace(""), "doBoobMasturbate")
+   callpropvoid        QName(PackageNamespace(""), "doBoobMasturbate"), 0
+
+L31:
+   debugline           11256
+   getlex              QName(PackageNamespace(""), "buttonChoice")
+   pushbyte            10
+   ifne                L37
+
+   findpropstrict      QName(PackageNamespace(""), "doUdderMasturbate")
+   callpropvoid        QName(PackageNamespace(""), "doUdderMasturbate"), 0
+
+L37:
+   debugline           11257
+   getlex              QName(PackageNamespace(""), "buttonChoice")
+   pushbyte            12
+   ifne                L43
+
+   findpropstrict      QName(PackageNamespace(""), "doGeneral")
+   callpropvoid        QName(PackageNamespace(""), "doGeneral"), 0
+
+L43:
+   debugline           11258
+   returnvoid
+  end ; code
+ end ; body
+end ; method

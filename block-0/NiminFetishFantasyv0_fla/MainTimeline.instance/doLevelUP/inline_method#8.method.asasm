@@ -1,0 +1,465 @@
+method
+ name ""
+ refid "NiminFetishFantasyv0_fla:MainTimeline/instance/doLevelUP/inline_method#8"
+ returns QName(PackageNamespace(""), "void")
+ flag NEED_ACTIVATION
+ body
+  maxstack 13
+  localcount 2
+  initscopedepth 13
+  maxscopedepth 14
+  code
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           12481
+   newactivation
+   dup
+   setlocal1
+
+   pushscope
+
+   debug               1, "anonymous$91", 0, 12481
+   debugline           12482
+   getlex              QName(PackageNamespace(""), "buttonChoice")
+   pushbyte            6
+   ifne                L376
+
+   debugline           12483
+   getlex              QName(PackageNamespace(""), "Math")
+   getlex              QName(PackageNamespace(""), "fetishMasterLevel")
+   pushbyte            1
+   add
+   pushbyte            4
+   divide
+   callproperty        QName(PackageNamespace(""), "floor"), 1
+   getlex              QName(PackageNamespace(""), "Math")
+   getlex              QName(PackageNamespace(""), "fetishMasterLevel")
+   pushbyte            4
+   divide
+   callproperty        QName(PackageNamespace(""), "floor"), 1
+   ifngt               L120
+
+   debugline           12484
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "Major fetishes affect most sexual situations. Selecting one will increase your lust gained or lost by an additional 30%. However, since they are so profound, they will also make opposing kinks even less interesting."
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           12485
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "\r\rMale - Applies to sexual situations with males. Selecting it will reduce your Female kink by 20% and your Herm kink by 10%."
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           12486
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "\r\rFemale - Applies to sexual situations with females. Selecting it will reduce your Male kink by 20% and your Herm kink by 10%."
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           12487
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "\r\rHerm - Applies to sexual situation with hermaphrodites, people with both male and female genetalia. Selecting this kink will reduce your Male and Female kinks by 20%."
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           12488
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "\r\rNarcissist - Applies to sexual situations that only involve yourself. Selecting it will reduce your Dependent kink by 20%."
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           12489
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "\r\rDependent - Applies to sexual situations that involve others with you. Selecting it will reduce your Narcissist kink by 20%."
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           12490
+   findpropstrict      QName(PackageNamespace(""), "viewButtonText")
+   pushbyte            1
+   dup
+   dup
+   pushbyte            0
+   pushbyte            1
+   dup
+   pushbyte            0
+   dup
+   dup
+   pushbyte            0
+   dup
+   pushbyte            1
+   callpropvoid        QName(PackageNamespace(""), "viewButtonText"), 12
+
+   debugline           12491
+   findpropstrict      QName(PackageNamespace(""), "viewButtonOutline")
+   pushbyte            1
+   dup
+   dup
+   pushbyte            0
+   pushbyte            1
+   dup
+   pushbyte            0
+   dup
+   dup
+   pushbyte            0
+   dup
+   pushbyte            1
+   callpropvoid        QName(PackageNamespace(""), "viewButtonOutline"), 12
+
+   debugline           12492
+   findpropstrict      QName(PackageNamespace(""), "buttonWrite")
+   pushbyte            1
+   pushstring          "Male"
+   callpropvoid        QName(PackageNamespace(""), "buttonWrite"), 2
+
+   debugline           12493
+   findpropstrict      QName(PackageNamespace(""), "buttonWrite")
+   pushbyte            2
+   pushstring          "Female"
+   callpropvoid        QName(PackageNamespace(""), "buttonWrite"), 2
+
+   debugline           12494
+   findpropstrict      QName(PackageNamespace(""), "buttonWrite")
+   pushbyte            3
+   pushstring          "Herm"
+   callpropvoid        QName(PackageNamespace(""), "buttonWrite"), 2
+
+   debugline           12495
+   findpropstrict      QName(PackageNamespace(""), "buttonWrite")
+   pushbyte            5
+   pushstring          "Narcissist"
+   callpropvoid        QName(PackageNamespace(""), "buttonWrite"), 2
+
+   debugline           12496
+   findpropstrict      QName(PackageNamespace(""), "buttonWrite")
+   pushbyte            6
+   pushstring          "Dependent"
+   callpropvoid        QName(PackageNamespace(""), "buttonWrite"), 2
+
+   debugline           12497
+   findpropstrict      QName(PackageNamespace(""), "buttonWrite")
+   pushbyte            12
+   pushstring          "Cancel"
+   callpropvoid        QName(PackageNamespace(""), "buttonWrite"), 2
+
+   debugline           12498
+   findproperty        QName(PackageNamespace(""), "doListen")
+   newfunction         "NiminFetishFantasyv0_fla:MainTimeline/instance/doLevelUP/inline_method#5"
+   initproperty        QName(PackageNamespace(""), "doListen")
+
+   jump                L375
+
+L120:
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           12536
+   getlex              QName(PackageNamespace(""), "Math")
+   getlex              QName(PackageNamespace(""), "fetishMasterLevel")
+   pushbyte            1
+   add
+   pushbyte            3
+   divide
+   callproperty        QName(PackageNamespace(""), "floor"), 1
+   getlex              QName(PackageNamespace(""), "Math")
+   getlex              QName(PackageNamespace(""), "fetishMasterLevel")
+   pushbyte            3
+   divide
+   callproperty        QName(PackageNamespace(""), "floor"), 1
+   ifngt               L250
+
+   debugline           12537
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "Moderate fetishes affect many sexual situations. Selecting one will increase your lust gained or lost by an additional 20%. However, since they are somewhat important, they will also make opposing kinks even less interesting."
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           12538
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "\r\rDominant - Applies to sexual situations where you are in charge. Selecting it will reduce your Submissive kink by 10%."
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           12539
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "\r\rSubmissive - Applies to sexual situations where you are being dominated. Selecting it will reduce your Dominant kink by 10%."
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           12540
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "\r\rLarge Breasts - Applies to sexual situations that involve relatively big titties. Selecting it will reduce your Small Breasts kink by 10%."
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           12541
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "\r\rSmall Breasts- Applies to sexual situations that involve relatively small boobies (mostly does not apply to males). Selecting it will reduce your Large Breasts kink by 10%."
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           12542
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "\r\rFurry - Applies to sexual situations with fur-covered people. Selecting it will reduce your Scaley and Smoothy kinks by 10%."
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           12543
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "\r\rScaly - Applies to sexual situations with scale-covered people. Selecting it will reduce your Furry and Smoothy kinks by 10%."
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           12544
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "\r\rSmoothy - Applies to sexual situations with smooth skin-covered people. Selecting it will reduce your Furry and Scaly kinks by 10%."
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           12545
+   findpropstrict      QName(PackageNamespace(""), "viewButtonText")
+   pushbyte            1
+   dup
+   pushbyte            0
+   dup
+   pushbyte            1
+   dup
+   pushbyte            0
+   dup
+   pushbyte            1
+   dup
+   dup
+   pushbyte            1
+   callpropvoid        QName(PackageNamespace(""), "viewButtonText"), 12
+
+   debugline           12546
+   findpropstrict      QName(PackageNamespace(""), "viewButtonOutline")
+   pushbyte            1
+   dup
+   pushbyte            0
+   dup
+   pushbyte            1
+   dup
+   pushbyte            0
+   dup
+   pushbyte            1
+   dup
+   dup
+   pushbyte            1
+   callpropvoid        QName(PackageNamespace(""), "viewButtonOutline"), 12
+
+   debugline           12547
+   findpropstrict      QName(PackageNamespace(""), "buttonWrite")
+   pushbyte            1
+   pushstring          "Dominant"
+   callpropvoid        QName(PackageNamespace(""), "buttonWrite"), 2
+
+   debugline           12548
+   findpropstrict      QName(PackageNamespace(""), "buttonWrite")
+   pushbyte            2
+   pushstring          "Submissive"
+   callpropvoid        QName(PackageNamespace(""), "buttonWrite"), 2
+
+   debugline           12549
+   findpropstrict      QName(PackageNamespace(""), "buttonWrite")
+   pushbyte            5
+   pushstring          "Large Boobs"
+   callpropvoid        QName(PackageNamespace(""), "buttonWrite"), 2
+
+   debugline           12550
+   findpropstrict      QName(PackageNamespace(""), "buttonWrite")
+   pushbyte            6
+   pushstring          "Small Boobs"
+   callpropvoid        QName(PackageNamespace(""), "buttonWrite"), 2
+
+   debugline           12551
+   findpropstrict      QName(PackageNamespace(""), "buttonWrite")
+   pushbyte            9
+   pushstring          "Furry"
+   callpropvoid        QName(PackageNamespace(""), "buttonWrite"), 2
+
+   debugline           12552
+   findpropstrict      QName(PackageNamespace(""), "buttonWrite")
+   pushbyte            10
+   pushstring          "Scaly"
+   callpropvoid        QName(PackageNamespace(""), "buttonWrite"), 2
+
+   debugline           12553
+   findpropstrict      QName(PackageNamespace(""), "buttonWrite")
+   pushbyte            11
+   pushstring          "Smoothy"
+   callpropvoid        QName(PackageNamespace(""), "buttonWrite"), 2
+
+   debugline           12554
+   findpropstrict      QName(PackageNamespace(""), "buttonWrite")
+   pushbyte            12
+   pushstring          "Cancel"
+   callpropvoid        QName(PackageNamespace(""), "buttonWrite"), 2
+
+   debugline           12555
+   findproperty        QName(PackageNamespace(""), "doListen")
+   newfunction         "NiminFetishFantasyv0_fla:MainTimeline/instance/doLevelUP/inline_method#6"
+   initproperty        QName(PackageNamespace(""), "doListen")
+
+   jump                L375
+
+L250:
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           12603
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "Minor fetishes affect some ssexual situations. Selecting one will increase your lust gained or lost by an additional 10%. They easily allow room for other fetishes, so they don't reduce others."
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           12604
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "\r\rPregnancy - Applies to sexual situations where someone is pregnant."
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           12606
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "\r\rBestiality - Applies to sexual situations with feral animals."
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           12607
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "\r\rMilk - Applies to sexual situations that involve lactation."
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           12608
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "\r\rSize - Applies to sexual situations where one person is significantly larger than the other."
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           12609
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "\r\rUnbirthing - Applies to sexual situations that involve reverse-birthing."
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           12610
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "\r\rOviposition - Applies to sexual situations where eggs are popping out."
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           12611
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "\r\rToy - Applies to sexual situations with inanimate objects."
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           12612
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "\r\rHyper - Applies to sexual situations where something is significantly bigger than usual."
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           12613
+   findpropstrict      QName(PackageNamespace(""), "viewButtonText")
+   pushbyte            1
+   dup
+   dup
+   pushbyte            0
+   pushbyte            1
+   dup
+   dup
+   pushbyte            0
+   pushbyte            1
+   dup
+   pushbyte            0
+   pushbyte            1
+   callpropvoid        QName(PackageNamespace(""), "viewButtonText"), 12
+
+   debugline           12614
+   findpropstrict      QName(PackageNamespace(""), "viewButtonOutline")
+   pushbyte            1
+   dup
+   dup
+   pushbyte            0
+   pushbyte            1
+   dup
+   dup
+   pushbyte            0
+   pushbyte            1
+   dup
+   pushbyte            0
+   pushbyte            1
+   callpropvoid        QName(PackageNamespace(""), "viewButtonOutline"), 12
+
+   debugline           12615
+   findpropstrict      QName(PackageNamespace(""), "buttonWrite")
+   pushbyte            1
+   pushstring          "Pregnancy"
+   callpropvoid        QName(PackageNamespace(""), "buttonWrite"), 2
+
+   debugline           12616
+   findpropstrict      QName(PackageNamespace(""), "buttonWrite")
+   pushbyte            2
+   pushstring          "Bestiality"
+   callpropvoid        QName(PackageNamespace(""), "buttonWrite"), 2
+
+   debugline           12617
+   findpropstrict      QName(PackageNamespace(""), "buttonWrite")
+   pushbyte            3
+   pushstring          "Milk"
+   callpropvoid        QName(PackageNamespace(""), "buttonWrite"), 2
+
+   debugline           12618
+   findpropstrict      QName(PackageNamespace(""), "buttonWrite")
+   pushbyte            5
+   pushstring          "Size"
+   callpropvoid        QName(PackageNamespace(""), "buttonWrite"), 2
+
+   debugline           12619
+   findpropstrict      QName(PackageNamespace(""), "buttonWrite")
+   pushbyte            6
+   pushstring          "Unbirthing"
+   callpropvoid        QName(PackageNamespace(""), "buttonWrite"), 2
+
+   debugline           12620
+   findpropstrict      QName(PackageNamespace(""), "buttonWrite")
+   pushbyte            7
+   pushstring          "Oviposition"
+   callpropvoid        QName(PackageNamespace(""), "buttonWrite"), 2
+
+   debugline           12621
+   findpropstrict      QName(PackageNamespace(""), "buttonWrite")
+   pushbyte            9
+   pushstring          "Toy"
+   callpropvoid        QName(PackageNamespace(""), "buttonWrite"), 2
+
+   debugline           12622
+   findpropstrict      QName(PackageNamespace(""), "buttonWrite")
+   pushbyte            10
+   pushstring          "Hyper"
+   callpropvoid        QName(PackageNamespace(""), "buttonWrite"), 2
+
+   debugline           12623
+   findpropstrict      QName(PackageNamespace(""), "buttonWrite")
+   pushbyte            12
+   pushstring          "Cancel"
+   callpropvoid        QName(PackageNamespace(""), "buttonWrite"), 2
+
+   debugline           12624
+   findproperty        QName(PackageNamespace(""), "doListen")
+   newfunction         "NiminFetishFantasyv0_fla:MainTimeline/instance/doLevelUP/inline_method#7"
+   initproperty        QName(PackageNamespace(""), "doListen")
+
+L375:
+   jump                L380
+
+L376:
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           12667
+   findpropstrict      QName(PackageNamespace(""), "doLevelUP")
+   callpropvoid        QName(PackageNamespace(""), "doLevelUP"), 0
+
+L380:
+   debugline           12669
+   returnvoid
+  end ; code
+ end ; body
+end ; method

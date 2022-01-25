@@ -1,0 +1,155 @@
+method
+ name ""
+ refid "NiminFetishFantasyv0_fla:MainTimeline/instance/doOldCaveDescent/inline_method#10"
+ returns QName(PackageNamespace(""), "void")
+ flag NEED_ACTIVATION
+ body
+  maxstack 3
+  localcount 2
+  initscopedepth 12
+  maxscopedepth 13
+  code
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           19644
+   newactivation
+   dup
+   setlocal1
+
+   pushscope
+
+   debug               1, "anonymous$351", 0, 19644
+   debugline           19645
+   getlex              QName(PackageNamespace(""), "buttonChoice")
+   pushbyte            2
+   ifne                L32
+
+   debugline           19646
+   getlex              QName(PackageNamespace(""), "currentDungeon")
+   pushshort           1004
+   ifne                L20
+
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "\"Maww, fine. Looks like it's just you and me again, Mr. Snuggles.\" The girl returns to her playing, orienting the big minotaur back into her lap with her hand slipping beneath her skirt as you head up to the above floor."
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   jump                L25
+
+L20:
+   debugline           19647
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "She continues on with her doll and you take to the stairs."
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+L25:
+   debugline           19649
+   findpropstrict      QName(PackageNamespace(""), "doNext")
+   callpropvoid        QName(PackageNamespace(""), "doNext"), 0
+
+   debugline           19650
+   findproperty        QName(PackageNamespace(""), "doListen")
+   newfunction         "NiminFetishFantasyv0_fla:MainTimeline/instance/doOldCaveDescent/inline_method#6"
+   initproperty        QName(PackageNamespace(""), "doListen")
+
+L32:
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           19655
+   getlex              QName(PackageNamespace(""), "buttonChoice")
+   pushbyte            4
+   ifne                L58
+
+   debugline           19656
+   getlex              QName(PackageNamespace(""), "currentDungeon")
+   pushshort           1004
+   ifne                L46
+
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "\"Maww, fine. Looks like it's just you and me again, Mr. Snuggles.\" The girl returns to her playing, orienting the big minotaur back into her lap with her hand slipping beneath her skirt as you head up the stairs and out of the cave to Firmshaft."
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   jump                L51
+
+L46:
+   debugline           19657
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "She continues on with her doll and you take to the stairs."
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+L51:
+   debugline           19658
+   findpropstrict      QName(PackageNamespace(""), "doNext")
+   callpropvoid        QName(PackageNamespace(""), "doNext"), 0
+
+   debugline           19659
+   findproperty        QName(PackageNamespace(""), "doListen")
+   newfunction         "NiminFetishFantasyv0_fla:MainTimeline/instance/doOldCaveDescent/inline_method#7"
+   initproperty        QName(PackageNamespace(""), "doListen")
+
+L58:
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           19665
+   getlex              QName(PackageNamespace(""), "buttonChoice")
+   pushbyte            6
+   ifne                L75
+
+   debugline           19666
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "\"Ooo, really?! Yay~!\" The girl hops up to her feet, her skirt flipping up a little to flash you her panties. With Mr. Snuggles in hand, the excitement gets the best of her and she bellows out with her fiercer side. \"I'LL TRY NOT TO TEAR YOU TO SHREDS~\""
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           19667
+   findpropstrict      QName(PackageNamespace(""), "doNext")
+   callpropvoid        QName(PackageNamespace(""), "doNext"), 0
+
+   debugline           19668
+   findproperty        QName(PackageNamespace(""), "doListen")
+   newfunction         "NiminFetishFantasyv0_fla:MainTimeline/instance/doOldCaveDescent/inline_method#8"
+   initproperty        QName(PackageNamespace(""), "doListen")
+
+L75:
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           19676
+   getlex              QName(PackageNamespace(""), "buttonChoice")
+   pushbyte            7
+   ifne                L101
+
+   debugline           19677
+   getlex              QName(PackageNamespace(""), "currentDungeon")
+   pushshort           1004
+   ifne                L89
+
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "\"Maww, fine. Looks like it's just you and me again, Mr. Snuggles.\" The girl returns to her playing, orienting the big minotaur back into her lap with her hand slipping beneath her skirt as you venture down the next set of stairs."
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   jump                L94
+
+L89:
+   debugline           19678
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "She continues on with her doll and you take to the stairs."
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+L94:
+   debugline           19679
+   findpropstrict      QName(PackageNamespace(""), "doNext")
+   callpropvoid        QName(PackageNamespace(""), "doNext"), 0
+
+   debugline           19680
+   findproperty        QName(PackageNamespace(""), "doListen")
+   newfunction         "NiminFetishFantasyv0_fla:MainTimeline/instance/doOldCaveDescent/inline_method#9"
+   initproperty        QName(PackageNamespace(""), "doListen")
+
+L101:
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           19685
+   returnvoid
+  end ; code
+ end ; body
+end ; method

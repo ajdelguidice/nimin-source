@@ -1,0 +1,213 @@
+method
+ name ""
+ refid "NiminFetishFantasyv0_fla:MainTimeline/instance/doLevelUP/inline_method#5"
+ returns QName(PackageNamespace(""), "void")
+ body
+  maxstack 3
+  localcount 3
+  initscopedepth 13
+  maxscopedepth 13
+  code
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           12499
+   getlex              QName(PackageNamespace(""), "buttonChoice")
+   pushbyte            1
+   ifne                L28
+
+   debugline           12500
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "You now find pee-pees more attractive and vagoos more icky."
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           12501
+   findproperty        QName(PackageNamespace(""), "maleFetish")
+   getlex              QName(PackageNamespace(""), "maleFetish")
+   pushdouble          0.3
+   add
+   initproperty        QName(PackageNamespace(""), "maleFetish")
+
+   debugline           12503
+   findproperty        QName(PackageNamespace(""), "femaleFetish")
+   getlex              QName(PackageNamespace(""), "femaleFetish")
+   pushdouble          0.2
+   subtract
+   initproperty        QName(PackageNamespace(""), "femaleFetish")
+
+   debugline           12504
+   findproperty        QName(PackageNamespace(""), "hermFetish")
+   getlex              QName(PackageNamespace(""), "hermFetish")
+   pushdouble          0.1
+   subtract
+   initproperty        QName(PackageNamespace(""), "hermFetish")
+
+L28:
+   debugline           12506
+   getlex              QName(PackageNamespace(""), "buttonChoice")
+   pushbyte            2
+   ifne                L55
+
+   debugline           12507
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "You now find vagoos more attractive and pee-pees more icky."
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           12508
+   findproperty        QName(PackageNamespace(""), "femaleFetish")
+   getlex              QName(PackageNamespace(""), "femaleFetish")
+   pushdouble          0.3
+   add
+   initproperty        QName(PackageNamespace(""), "femaleFetish")
+
+   debugline           12509
+   findproperty        QName(PackageNamespace(""), "maleFetish")
+   getlex              QName(PackageNamespace(""), "maleFetish")
+   pushdouble          0.2
+   subtract
+   initproperty        QName(PackageNamespace(""), "maleFetish")
+
+   debugline           12510
+   findproperty        QName(PackageNamespace(""), "hermFetish")
+   getlex              QName(PackageNamespace(""), "hermFetish")
+   pushdouble          0.1
+   subtract
+   initproperty        QName(PackageNamespace(""), "hermFetish")
+
+L55:
+   debugline           12512
+   getlex              QName(PackageNamespace(""), "buttonChoice")
+   pushbyte            3
+   ifne                L82
+
+   debugline           12513
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "You now find pee-pees and vagoos more attractive together, but kinda weird apart."
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           12514
+   findproperty        QName(PackageNamespace(""), "hermFetish")
+   getlex              QName(PackageNamespace(""), "hermFetish")
+   pushdouble          0.3
+   add
+   initproperty        QName(PackageNamespace(""), "hermFetish")
+
+   debugline           12515
+   findproperty        QName(PackageNamespace(""), "femaleFetish")
+   getlex              QName(PackageNamespace(""), "femaleFetish")
+   pushdouble          0.2
+   subtract
+   initproperty        QName(PackageNamespace(""), "femaleFetish")
+
+   debugline           12516
+   findproperty        QName(PackageNamespace(""), "maleFetish")
+   getlex              QName(PackageNamespace(""), "maleFetish")
+   pushdouble          0.2
+   subtract
+   initproperty        QName(PackageNamespace(""), "maleFetish")
+
+L82:
+   debugline           12518
+   getlex              QName(PackageNamespace(""), "buttonChoice")
+   pushbyte            5
+   ifne                L103
+
+   debugline           12519
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "You now see yourself as more of a sexy devil and everyone else as just trash."
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           12520
+   findproperty        QName(PackageNamespace(""), "narcissistFetish")
+   getlex              QName(PackageNamespace(""), "narcissistFetish")
+   pushdouble          0.3
+   add
+   initproperty        QName(PackageNamespace(""), "narcissistFetish")
+
+   debugline           12521
+   findproperty        QName(PackageNamespace(""), "dependentFetish")
+   getlex              QName(PackageNamespace(""), "dependentFetish")
+   pushdouble          0.2
+   subtract
+   initproperty        QName(PackageNamespace(""), "dependentFetish")
+
+L103:
+   debugline           12523
+   getlex              QName(PackageNamespace(""), "buttonChoice")
+   pushbyte            6
+   ifne                L124
+
+   debugline           12524
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "You now find yourself more needy of others and have less confidence in your own body."
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           12525
+   findproperty        QName(PackageNamespace(""), "dependentFetish")
+   getlex              QName(PackageNamespace(""), "dependentFetish")
+   pushdouble          0.3
+   add
+   initproperty        QName(PackageNamespace(""), "dependentFetish")
+
+   debugline           12526
+   findproperty        QName(PackageNamespace(""), "narcissistFetish")
+   getlex              QName(PackageNamespace(""), "narcissistFetish")
+   pushdouble          0.2
+   subtract
+   initproperty        QName(PackageNamespace(""), "narcissistFetish")
+
+L124:
+   debugline           12528
+   getlex              QName(PackageNamespace(""), "buttonChoice")
+   pushbyte            12
+   ifne                L131
+
+   findpropstrict      QName(PackageNamespace(""), "doLevelUP")
+   callpropvoid        QName(PackageNamespace(""), "doLevelUP"), 0
+
+   jump                L158
+
+L131:
+   debugline           12530
+   findpropstrict      QName(PackageNamespace(""), "levelUP")
+   dup
+   setlocal1
+
+   getproperty         QName(PackageNamespace(""), "levelUP")
+   decrement_i
+   setlocal2
+
+   getlocal1
+   getlocal2
+   setproperty         QName(PackageNamespace(""), "levelUP")
+
+   kill                2
+   kill                1
+   debugline           12531
+   findpropstrict      QName(PackageNamespace(""), "fetishMasterLevel")
+   dup
+   setlocal1
+
+   getproperty         QName(PackageNamespace(""), "fetishMasterLevel")
+   increment_i
+   setlocal2
+
+   getlocal1
+   getlocal2
+   setproperty         QName(PackageNamespace(""), "fetishMasterLevel")
+
+   kill                2
+   kill                1
+   debugline           12532
+   findpropstrict      QName(PackageNamespace(""), "doEnd")
+   callpropvoid        QName(PackageNamespace(""), "doEnd"), 0
+
+L158:
+   debugline           12534
+   returnvoid
+  end ; code
+ end ; body
+end ; method

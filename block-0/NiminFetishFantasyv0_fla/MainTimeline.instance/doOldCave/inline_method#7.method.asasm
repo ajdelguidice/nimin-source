@@ -1,0 +1,149 @@
+method
+ name ""
+ refid "NiminFetishFantasyv0_fla:MainTimeline/instance/doOldCave/inline_method#7"
+ returns QName(PackageNamespace(""), "void")
+ flag NEED_ACTIVATION
+ body
+  maxstack 3
+  localcount 2
+  initscopedepth 13
+  maxscopedepth 14
+  code
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           18414
+   newactivation
+   dup
+   setlocal1
+
+   pushscope
+
+   debug               1, "anonymous$312", 0, 18414
+   debugline           18415
+   findproperty        QName(PackageInternalNs("NiminFetishFantasyv0_fla"), "chance")
+   findpropstrict      QName(PackageNamespace(""), "percent")
+   callproperty        QName(PackageNamespace(""), "percent"), 0
+   setproperty         QName(PackageInternalNs("NiminFetishFantasyv0_fla"), "chance")
+
+   debugline           18416
+   getlex              QName(PackageInternalNs("NiminFetishFantasyv0_fla"), "chance")
+   pushbyte            40
+   ifnle               L44
+
+   debugline           18417
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "Unsure what to do in your miniscule state, you don't venture far from your forgone attire. However, it doesn't seem like you need to go anywhere to run into trouble, as you hear something thump its way towards you.\r\rLong ears bob upon a humanoid head and white fur covers much of its body. Long feet bounce upon the ground as it hops towards you. With a poofy tail and a button nose that twitches, it seems to be a rabbit-like person that is as naked as you are. The fuzzy swinging testicles makes it quite obvious what gender he is...\r\rHe spots you quickly, as though he had known you were there. With a grin, his nose and long whiskers twitch, and a rather mishievous twinkle lights in his eyes. Probably two feet high "
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           18418
+   getlex              QName(PackageNamespace(""), "tallness")
+   pushshort           216
+   ifnle               L29
+
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          " he towers over you, pleased with the result."
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+L29:
+   debugline           18419
+   getlex              QName(PackageNamespace(""), "tallness")
+   pushshort           216
+   ifngt               L37
+
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          " you seem to still be on par with him, though he seems pleased you're much more manageable than before."
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+L37:
+   debugline           18420
+   findpropstrict      QName(PackageNamespace(""), "doNext")
+   callpropvoid        QName(PackageNamespace(""), "doNext"), 0
+
+   debugline           18421
+   findproperty        QName(PackageNamespace(""), "doListen")
+   newfunction         "NiminFetishFantasyv0_fla:MainTimeline/instance/doOldCave/inline_method#5"
+   initproperty        QName(PackageNamespace(""), "doListen")
+
+L44:
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           18429
+   getlex              QName(PackageInternalNs("NiminFetishFantasyv0_fla"), "chance")
+   pushbyte            40
+   greaterthan
+   dup
+   iffalse             L55
+
+   pop
+   getlex              QName(PackageInternalNs("NiminFetishFantasyv0_fla"), "chance")
+   pushbyte            80
+   lessequals
+L55:
+   iffalse             L84
+
+   debugline           18430
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "Unsure what to do in your miniscule state, you don't venture far from your forgone attire. However, it doesn't seem like you need to go anywhere to run into trouble, as you hear something thump its way towards you.\r\rLong ears bob upon a humanoid head and white fur covers much of its body. Long feet bounce upon the ground as it hops towards you. With a poofy tail and a button nose that twitches, it seems to be a rabbit-like person that is as naked as you are. The wobbling tits and thick labia makes it quite obvious what gender she is...\r\rShe spots you quickly, as though she had known you were there. With a grin, her nose and long whiskers twitch, and a rather mishievous twinkle lights in her eyes. Probably two feet high "
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           18431
+   getlex              QName(PackageNamespace(""), "tallness")
+   pushshort           216
+   ifnle               L69
+
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          " she towers over you, pleased with the result."
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+L69:
+   debugline           18432
+   getlex              QName(PackageNamespace(""), "tallness")
+   pushshort           216
+   ifngt               L77
+
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          " you seem to still be on par with her, though she seems pleased you're much more manageable than before."
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+L77:
+   debugline           18433
+   findpropstrict      QName(PackageNamespace(""), "doNext")
+   callpropvoid        QName(PackageNamespace(""), "doNext"), 0
+
+   debugline           18434
+   findproperty        QName(PackageNamespace(""), "doListen")
+   newfunction         "NiminFetishFantasyv0_fla:MainTimeline/instance/doOldCave/inline_method#6"
+   initproperty        QName(PackageNamespace(""), "doListen")
+
+L84:
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           18442
+   getlex              QName(PackageInternalNs("NiminFetishFantasyv0_fla"), "chance")
+   pushbyte            80
+   ifngt               L101
+
+   debugline           18443
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "With the extra-tall grass barring your path behind you, you decide to look around a bit. So small, you're not terribly worried about people spotting your indecency. However, you are careful of the ants and other 'large' creatures that skitter by.\r\rFortunately, none pay you any heed and you manage to make your way to the mouth of the cave. It's still as dark and dank as before, so you don't think to venture inside. Yet, from your shortened vantage point, you notice a small door in the wall at the mouth of the cave. You head towards it, curious as to its existence. How could you have not noticed it when it was bigger?\r\rThe thought doesn't seem to matter, though. When you attempt to open the door, it turns out to be locked. And judging by the keyhole beneath the knob, it would require a rather small key, which you don't have. Nor does this world, yet.\r\rWith a shrug, you turn back towards your pile of clothes. Along the way, your surroundings seem to grow smaller and smaller as you grow taller and taller. By the time you reach the pile, you seem to be back to your normal size, the bottle's effects having worn off.\r\rRedonning your clothing before heading back to Firmshaft, you notice they seem a bit baggier than before... It seems you're still missing a couple inches in height."
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           18444
+   findproperty        QName(PackageNamespace(""), "hrs")
+   pushbyte            2
+   initproperty        QName(PackageNamespace(""), "hrs")
+
+   debugline           18445
+   findpropstrict      QName(PackageNamespace(""), "doEnd")
+   callpropvoid        QName(PackageNamespace(""), "doEnd"), 0
+
+L101:
+   debugline           18447
+   returnvoid
+  end ; code
+ end ; body
+end ; method

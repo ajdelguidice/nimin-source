@@ -1,0 +1,39 @@
+method
+ name ""
+ refid "NiminFetishFantasyv0_fla:MainTimeline/instance/doOldCaveDescent/inline_method#14"
+ returns QName(PackageNamespace(""), "void")
+ body
+  maxstack 2
+  localcount 1
+  initscopedepth 12
+  maxscopedepth 12
+  code
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           19736
+   findproperty        QName(PackageNamespace(""), "enemyID")
+   pushshort           309
+   initproperty        QName(PackageNamespace(""), "enemyID")
+
+   debugline           19737
+   findproperty        QName(PackageNamespace(""), "currentState")
+   pushbyte            2
+   initproperty        QName(PackageNamespace(""), "currentState")
+
+   debugline           19738
+   findpropstrict      QName(PackageNamespace(""), "enemyBaseStats")
+   callpropvoid        QName(PackageNamespace(""), "enemyBaseStats"), 0
+
+   debugline           19739
+   findproperty        QName(PackageNamespace(""), "eMaxHP")
+   getlex              QName(PackageNamespace(""), "eHP")
+   initproperty        QName(PackageNamespace(""), "eMaxHP")
+
+   debugline           19740
+   findpropstrict      QName(PackageNamespace(""), "doBattle")
+   callpropvoid        QName(PackageNamespace(""), "doBattle"), 0
+
+   debugline           19741
+   returnvoid
+  end ; code
+ end ; body
+end ; method
