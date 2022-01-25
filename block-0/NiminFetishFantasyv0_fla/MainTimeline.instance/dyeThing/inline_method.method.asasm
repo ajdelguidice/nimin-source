@@ -1,0 +1,103 @@
+method
+ name ""
+ refid "NiminFetishFantasyv0_fla:MainTimeline/instance/dyeThing/inline_method"
+ returns QName(PackageNamespace(""), "void")
+ body
+  maxstack 4
+  localcount 1
+  initscopedepth 11
+  maxscopedepth 11
+  code
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           9270
+   getlex              QName(PackageNamespace(""), "buttonChoice")
+   pushbyte            5
+   ifne                L30
+
+   debugline           9271
+   findproperty        QName(PackageNamespace(""), "hairColor")
+   getlex              QName(PackageInternalNs("NiminFetishFantasyv0_fla"), "color")
+   initproperty        QName(PackageNamespace(""), "hairColor")
+
+   debugline           9272
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "You smear the "
+   findpropstrict      QName(PackageNamespace(""), "itemName")
+   getlex              QName(PackageInternalNs("NiminFetishFantasyv0_fla"), "ID")
+   callproperty        QName(PackageNamespace(""), "itemName"), 1
+   add
+   pushstring          " around in your "
+   add
+   findpropstrict      QName(PackageNamespace(""), "hairDesc")
+   callproperty        QName(PackageNamespace(""), "hairDesc"), 0
+   add
+   pushstring          ", turning it "
+   add
+   findpropstrict      QName(PackageNamespace(""), "hairC")
+   callproperty        QName(PackageNamespace(""), "hairC"), 0
+   add
+   pushstring          " in color."
+   add
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+L30:
+   debugline           9274
+   getlex              QName(PackageNamespace(""), "buttonChoice")
+   pushbyte            7
+   ifne                L59
+
+   debugline           9275
+   findproperty        QName(PackageNamespace(""), "skinColor")
+   getlex              QName(PackageInternalNs("NiminFetishFantasyv0_fla"), "color")
+   initproperty        QName(PackageNamespace(""), "skinColor")
+
+   debugline           9276
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "You rub the "
+   findpropstrict      QName(PackageNamespace(""), "itemName")
+   getlex              QName(PackageInternalNs("NiminFetishFantasyv0_fla"), "ID")
+   callproperty        QName(PackageNamespace(""), "itemName"), 1
+   add
+   pushstring          " well into your "
+   add
+   findpropstrict      QName(PackageNamespace(""), "skinDesc")
+   callproperty        QName(PackageNamespace(""), "skinDesc"), 0
+   add
+   pushstring          ", making sure it seeps in deep and turns your body a "
+   add
+   findpropstrict      QName(PackageNamespace(""), "skinC")
+   callproperty        QName(PackageNamespace(""), "skinC"), 0
+   add
+   pushstring          " color."
+   add
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+L59:
+   debugline           9278
+   getlex              QName(PackageNamespace(""), "buttonChoice")
+   pushbyte            10
+   ifne                L72
+
+   debugline           9279
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "Apparently you derped and didn't mean to use it, so you put the dye back in your bag."
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           9280
+   findpropstrict      QName(PackageNamespace(""), "itemAdd")
+   getlex              QName(PackageInternalNs("NiminFetishFantasyv0_fla"), "ID")
+   callpropvoid        QName(PackageNamespace(""), "itemAdd"), 1
+
+L72:
+   debugline           9282
+   findpropstrict      QName(PackageNamespace(""), "doEnd")
+   callpropvoid        QName(PackageNamespace(""), "doEnd"), 0
+
+   debugline           9283
+   returnvoid
+  end ; code
+ end ; body
+end ; method

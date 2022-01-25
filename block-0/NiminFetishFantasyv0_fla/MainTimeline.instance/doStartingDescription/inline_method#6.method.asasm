@@ -1,0 +1,41 @@
+method
+ name ""
+ refid "NiminFetishFantasyv0_fla:MainTimeline/instance/doStartingDescription/inline_method#6"
+ returns QName(PackageNamespace(""), "void")
+ flag NEED_ACTIVATION
+ body
+  maxstack 3
+  localcount 2
+  initscopedepth 13
+  maxscopedepth 14
+  code
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           4864
+   newactivation
+   dup
+   setlocal1
+
+   pushscope
+
+   debug               1, "anonymous$26", 0, 4864
+   debugline           4865
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "\r\r\r\"Please... I know you are still young... You still do not know the world... But... It is almost ready again...\""
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           4866
+   findpropstrict      QName(PackageNamespace(""), "doNext")
+   callpropvoid        QName(PackageNamespace(""), "doNext"), 0
+
+   debugline           4867
+   findproperty        QName(PackageNamespace(""), "doListen")
+   newfunction         "NiminFetishFantasyv0_fla:MainTimeline/instance/doStartingDescription/inline_method#5"
+   initproperty        QName(PackageNamespace(""), "doListen")
+
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           4900
+   returnvoid
+  end ; code
+ end ; body
+end ; method

@@ -1,0 +1,392 @@
+method
+ name ""
+ refid "NiminFetishFantasyv0_fla:MainTimeline/instance/doValley/inline_method#0"
+ returns QName(PackageNamespace(""), "void")
+ body
+  maxstack 3
+  localcount 1
+  initscopedepth 12
+  maxscopedepth 12
+  code
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           19229
+   getlex              QName(PackageNamespace(""), "buttonChoice")
+   pushbyte            1
+   ifne                L95
+
+   debugline           19230
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "You attempt to lick the statue's mouth. It's quite awkward, considering you chose to lick it rather than actually kiss it, and the statue doesn't seem to pleased either."
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           19231
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "\r\rYou hear a whir and move back, the statue's face looking somewhat cross. A green-ish glowing mist exudes from the statue and quickly wraps around you, sinking into your "
+   findpropstrict      QName(PackageNamespace(""), "skinDesc")
+   callproperty        QName(PackageNamespace(""), "skinDesc"), 0
+   add
+   pushstring          "."
+   add
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           19232
+   getlex              QName(PackageNamespace(""), "boobTotal")
+   pushbyte            2
+   ifne                L55
+
+   debugline           19233
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "\r\rYour chest, close beneath your nipples, begins to tickle. A new pair of sensitive areolas form amongst your "
+   findpropstrict      QName(PackageNamespace(""), "skinDesc")
+   callproperty        QName(PackageNamespace(""), "skinDesc"), 0
+   add
+   pushstring          ", creating an extra row of breasts beneath the originals."
+   add
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           19234
+   getlex              QName(PackageNamespace(""), "breastSize")
+   pushbyte            4
+   ifngt               L47
+
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          " The new nipples protrude as fleshy mounds form from beneath them. The new boobs wobble as they grow to the same size of your original pair, lifting the originals slightly with their girth.\x09When you head back to town, you'll be covering your extra indecency with your arms the best you can while you head for the tailor to update your "
+   findpropstrict      QName(PackageNamespace(""), "clothesTop")
+   callproperty        QName(PackageNamespace(""), "clothesTop"), 0
+   add
+   pushstring          " accordingly."
+   add
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+L47:
+   debugline           19235
+   findproperty        QName(PackageNamespace(""), "boobTotal")
+   pushbyte            4
+   initproperty        QName(PackageNamespace(""), "boobTotal")
+
+   debugline           19236
+   findproperty        QName(PackageNamespace(""), "fourBoobAffinity")
+   pushbyte            100
+   initproperty        QName(PackageNamespace(""), "fourBoobAffinity")
+
+L55:
+   debugline           19238
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "\r\rAs the mist disappears, you also have this deep feeling of lust building inside... It doesn't seem to dissipate either, constantly nagging."
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           19239
+   getlex              QName(PackageNamespace(""), "ment")
+   pushbyte            60
+   ifngt               L68
+
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          " You have a feeling that the statue is trying to teach you how to really pleasure a woman..."
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+L68:
+   debugline           19240
+   findproperty        QName(PackageNamespace(""), "fertilityStatueCurse")
+   pushbyte            48
+   initproperty        QName(PackageNamespace(""), "fertilityStatueCurse")
+
+   debugline           19241
+   findproperty        QName(PackageNamespace(""), "minLust")
+   getlex              QName(PackageNamespace(""), "minLust")
+   pushbyte            10
+   add
+   initproperty        QName(PackageNamespace(""), "minLust")
+
+   debugline           19242
+   findpropstrict      QName(PackageNamespace(""), "doLust")
+   pushbyte            0
+   dup
+   callpropvoid        QName(PackageNamespace(""), "doLust"), 2
+
+   debugline           19243
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "\r\rThen, a glint of light obscures your view for just a moment and when it's gone you find yourself outside of the valley. The statue must have teleported you, preventing you from trying anything else. For now, you head back to town."
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           19244
+   findproperty        QName(PackageNamespace(""), "hrs")
+   pushbyte            2
+   initproperty        QName(PackageNamespace(""), "hrs")
+
+   debugline           19245
+   findpropstrict      QName(PackageNamespace(""), "doEnd")
+   callpropvoid        QName(PackageNamespace(""), "doEnd"), 0
+
+L95:
+   debugline           19247
+   getlex              QName(PackageNamespace(""), "buttonChoice")
+   pushbyte            3
+   ifne                L189
+
+   debugline           19248
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "You attempt to poke the statue's mouth. That's soooo erotic. Poke. Poke. Poke. Poke. You're an idiot..."
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           19249
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "\r\rYou hear a whir and move back, the statue's face looking somewhat cross. A green-ish glowing mist exudes from the statue and quickly wraps around you, sinking into your "
+   findpropstrict      QName(PackageNamespace(""), "skinDesc")
+   callproperty        QName(PackageNamespace(""), "skinDesc"), 0
+   add
+   pushstring          "."
+   add
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           19250
+   getlex              QName(PackageNamespace(""), "boobTotal")
+   pushbyte            2
+   ifne                L149
+
+   debugline           19251
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "\r\rYour chest, close beneath your nipples, begins to tickle. A new pair of sensitive areolas form amongst your "
+   findpropstrict      QName(PackageNamespace(""), "skinDesc")
+   callproperty        QName(PackageNamespace(""), "skinDesc"), 0
+   add
+   pushstring          ", creating an extra row of breasts beneath the originals."
+   add
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           19252
+   getlex              QName(PackageNamespace(""), "breastSize")
+   pushbyte            4
+   ifngt               L141
+
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          " The new nipples protrude as fleshy mounds form from beneath them. The new boobs wobble as they grow to the same size of your original pair, lifting the originals slightly with their girth.\x09When you head back to town, you'll be covering your extra indecency with your arms the best you can while you head for the tailor to update your "
+   findpropstrict      QName(PackageNamespace(""), "clothesTop")
+   callproperty        QName(PackageNamespace(""), "clothesTop"), 0
+   add
+   pushstring          " accordingly."
+   add
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+L141:
+   debugline           19253
+   findproperty        QName(PackageNamespace(""), "boobTotal")
+   pushbyte            4
+   initproperty        QName(PackageNamespace(""), "boobTotal")
+
+   debugline           19254
+   findproperty        QName(PackageNamespace(""), "fourBoobAffinity")
+   pushbyte            100
+   initproperty        QName(PackageNamespace(""), "fourBoobAffinity")
+
+L149:
+   debugline           19256
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "\r\rAs the mist disappears, you also have this deep feeling of lust building inside... It doesn't seem to dissipate either, constantly nagging."
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           19257
+   getlex              QName(PackageNamespace(""), "ment")
+   pushbyte            60
+   ifngt               L162
+
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          " You have a feeling that the statue is trying to teach you how to really pleasure a woman..."
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+L162:
+   debugline           19258
+   findproperty        QName(PackageNamespace(""), "fertilityStatueCurse")
+   pushbyte            48
+   initproperty        QName(PackageNamespace(""), "fertilityStatueCurse")
+
+   debugline           19259
+   findproperty        QName(PackageNamespace(""), "minLust")
+   getlex              QName(PackageNamespace(""), "minLust")
+   pushbyte            10
+   add
+   initproperty        QName(PackageNamespace(""), "minLust")
+
+   debugline           19260
+   findpropstrict      QName(PackageNamespace(""), "doLust")
+   pushbyte            0
+   dup
+   callpropvoid        QName(PackageNamespace(""), "doLust"), 2
+
+   debugline           19261
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "\r\rThen, a glint of light obscures your view for just a moment and when it's gone you find yourself outside of the valley. The statue must have teleported you, preventing you from trying anything else. For now, you head back to town."
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           19262
+   findproperty        QName(PackageNamespace(""), "hrs")
+   pushbyte            2
+   initproperty        QName(PackageNamespace(""), "hrs")
+
+   debugline           19263
+   findpropstrict      QName(PackageNamespace(""), "doEnd")
+   callpropvoid        QName(PackageNamespace(""), "doEnd"), 0
+
+L189:
+   debugline           19265
+   getlex              QName(PackageNamespace(""), "buttonChoice")
+   pushbyte            9
+   ifne                L219
+
+   debugline           19266
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "You stick the cock carving into the statue's open mouth. It seems to be a perfect fit and a rather lewd activity. Not exactly pleasurable for the statue, but a nice sex-act nonetheless. You feel as though you're slightly more experienced with this practice and the statue's face seems happy with it as well."
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           19267
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "\r\rThen, a glint of light obscures your view for just a moment and when it's gone you find yourself outside of the valley. The statue must have teleported you, preventing you from trying anything else. For now, you head back to town."
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           19268
+   findpropstrict      QName(PackageNamespace(""), "doSexP")
+   pushbyte            15
+   callpropvoid        QName(PackageNamespace(""), "doSexP"), 1
+
+   debugline           19269
+   findpropstrict      QName(PackageNamespace(""), "loseManyItem")
+   pushshort           207
+   pushbyte            1
+   callpropvoid        QName(PackageNamespace(""), "loseManyItem"), 2
+
+   debugline           19270
+   findproperty        QName(PackageNamespace(""), "hrs")
+   pushbyte            2
+   initproperty        QName(PackageNamespace(""), "hrs")
+
+   debugline           19271
+   findpropstrict      QName(PackageNamespace(""), "doEnd")
+   callpropvoid        QName(PackageNamespace(""), "doEnd"), 0
+
+L219:
+   debugline           19273
+   getlex              QName(PackageNamespace(""), "buttonChoice")
+   pushbyte            11
+   ifne                L283
+
+   debugline           19274
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "You pour the milk into the statue's open mouth. The sweet fluids flow down inside of her and she seems pleased..."
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           19275
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "\r\rA loud rumbling echoes from behind the statue. The ground itself shakes, the vegetation before you parting with the soil beneath. You hear trees crack and crunch against each other as they're pushed aside. Birds fly up and away to escape the tremors. And soon enough, you're staring down into an elaborate entryway buried beneath the ground. Stone pillars and fantastic carvings line the walls, leading up to a large sturdy door.\r\rOnce the process settles, you move in to inspect it. You can't read anything that adorns the walls or any suggestion as to how to open the large door. All you can see is a large opening that might one day be a keyhole, but is currently full of static and not yet loaded into the game."
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           19276
+   findpropstrict      QName(PackageNamespace(""), "checkItem")
+   pushshort           254
+   callproperty        QName(PackageNamespace(""), "checkItem"), 1
+   convert_b
+   dup
+   iftrue              L245
+
+   pop
+   findpropstrict      QName(PackageNamespace(""), "checkStash")
+   pushshort           254
+   callproperty        QName(PackageNamespace(""), "checkStash"), 1
+   convert_b
+L245:
+   iffalse             L252
+
+   debugline           19277
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "\r\rYou have already taken the lantern from here, so there's not much else you can do. For now you leave the statue and this hidden entrance and head back to town."
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   jump                L261
+
+L252:
+   debugline           19280
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "\r\rThe only other thing of note is the lantern that hangs beside the door. It sheds a decent amount of light and may be useful in accessing some darker areas, so you take it, just in case. Otherwise, you can't seem to find anything else to do with this hidden entrance and you're left having to head back to town."
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           19281
+   findpropstrict      QName(PackageNamespace(""), "itemAdd")
+   pushshort           254
+   callpropvoid        QName(PackageNamespace(""), "itemAdd"), 1
+
+L261:
+   debugline           19283
+   findpropstrict      QName(PackageNamespace(""), "checkItem")
+   pushshort           500
+   callproperty        QName(PackageNamespace(""), "checkItem"), 1
+   iffalse             L271
+
+   findpropstrict      QName(PackageNamespace(""), "loseManyItem")
+   pushshort           500
+   pushbyte            1
+   callpropvoid        QName(PackageNamespace(""), "loseManyItem"), 2
+
+   jump                L276
+
+L271:
+   debugline           19284
+   findpropstrict      QName(PackageNamespace(""), "loseManyItem")
+   pushshort           501
+   pushbyte            1
+   callpropvoid        QName(PackageNamespace(""), "loseManyItem"), 2
+
+L276:
+   debugline           19285
+   findproperty        QName(PackageNamespace(""), "hrs")
+   pushbyte            3
+   initproperty        QName(PackageNamespace(""), "hrs")
+
+   debugline           19286
+   findpropstrict      QName(PackageNamespace(""), "doEnd")
+   callpropvoid        QName(PackageNamespace(""), "doEnd"), 0
+
+L283:
+   debugline           19288
+   getlex              QName(PackageNamespace(""), "buttonChoice")
+   pushbyte            8
+   ifne                L299
+
+   debugline           19289
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "Wary of ancient puzzles involving oversexualized statues, you head back to town for now."
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           19290
+   findproperty        QName(PackageNamespace(""), "hrs")
+   pushbyte            1
+   initproperty        QName(PackageNamespace(""), "hrs")
+
+   debugline           19291
+   findpropstrict      QName(PackageNamespace(""), "doEnd")
+   callpropvoid        QName(PackageNamespace(""), "doEnd"), 0
+
+L299:
+   debugline           19293
+   returnvoid
+  end ; code
+ end ; body
+end ; method

@@ -1,0 +1,102 @@
+method
+ name ""
+ refid "NiminFetishFantasyv0_fla:MainTimeline/instance/doStartingDescription/inline_method#3"
+ returns QName(PackageNamespace(""), "void")
+ flag NEED_ACTIVATION
+ body
+  maxstack 3
+  localcount 2
+  initscopedepth 16
+  maxscopedepth 17
+  code
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           4873
+   newactivation
+   dup
+   setlocal1
+
+   pushscope
+
+   debug               1, "anonymous$23", 0, 4873
+   debugline           4874
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "Ugh... You awaken from that dream for the fifth time this month. That soft, gentle voice echoes around your mind. A numbing dream with nothing to keep your attention. Something about a tower... Not a dream about flying or fleeing, nor school nor sex. Just this bland dream that you can remember better than all the rest. And yet you can never recall those last words...\r\rIt's been a few months since you started having that dream and it's been growing in frequency. Just so... annoying. Makes you feel anxious and antsy, like there is something missing in your life.\r\rLife isn't bad in "
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           4875
+   getlex              QName(PackageNamespace(""), "race")
+   pushbyte            1
+   ifne                L20
+
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "Softlik, though. The houses of wood and stone are comfortable, safe, and stable. The rolling hills around the city are quite beautiful. Lots of people in town are coming up with new potions or inventions, and with humans being so prone to being changed by the outside world of Nimin, there's rarely a dull moment."
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+L20:
+   debugline           4876
+   getlex              QName(PackageNamespace(""), "race")
+   pushbyte            2
+   ifne                L28
+
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "Firmshaft, though. The large canvas tents provide plenty of room for harems filled with the large genitals equans are most notable for, with plenty of airflow to keep things from getting too hot. The broad plains allow for lots of trotting and races. Between the warmth and the plentiful activity, there's always great sex and comfort around here, with little need to venture into the outside world of Nimin."
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+L28:
+   debugline           4877
+   getlex              QName(PackageNamespace(""), "race")
+   pushbyte            3
+   ifne                L36
+
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "Tieden, though. The wooden buildings and surrounding walls provide plenty of security from the outside world of Nimin, all the forest and jungle around filled with dangers. Not that there's any reason to be afraid; with the training and constant vigil, lupans are great at handling their foes. Especially when it comes to \"handling\" them. Plus letting off steam around here tends to be rather enjoyable."
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+L36:
+   debugline           4878
+   getlex              QName(PackageNamespace(""), "race")
+   pushbyte            4
+   ifne                L44
+
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "Siz'Calit, though. The tree-borne huts and bridges admist the canopy of the jungle allows for plenty of breezes and pleasant napping spots in the hot and humid area. And with so many felin females going into heat and craving sex, it's difficult to tell if the humidity is from the jungle itself or the kinky activity within. It's hard to imagine a sex-crazed felin surviving long in the outside world on Nimin."
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+L44:
+   debugline           4879
+   getlex              QName(PackageNamespace(""), "race")
+   pushbyte            6
+   ifne                L52
+
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "Oviasis, though. The rock-hewn homes built into the sides of the surrounding cliffs provide plenty of insulation against the warm days and cool nights of the desert. This small oasis of paradise in the middle of nowhere provides plenty of ways to lounge, allowing the lizan people to soak in the sun and the women to casually lay their eggs. This near-resort is usually much more pleasant than the outside world of Nimin."
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+L52:
+   debugline           4880
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "\r\rBut that dream..."
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           4881
+   findpropstrict      QName(PackageNamespace(""), "doNext")
+   callpropvoid        QName(PackageNamespace(""), "doNext"), 0
+
+   debugline           4882
+   findproperty        QName(PackageNamespace(""), "doListen")
+   newfunction         "NiminFetishFantasyv0_fla:MainTimeline/instance/doStartingDescription/inline_method#2"
+   initproperty        QName(PackageNamespace(""), "doListen")
+
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           4897
+   returnvoid
+  end ; code
+ end ; body
+end ; method

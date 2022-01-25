@@ -1,0 +1,38 @@
+method
+ name ""
+ refid "NiminFetishFantasyv0_fla:MainTimeline/instance/saveGo/inline_method#0"
+ returns QName(PackageNamespace(""), "void")
+ body
+  maxstack 2
+  localcount 1
+  initscopedepth 12
+  maxscopedepth 12
+  code
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           3362
+   getlex              QName(PackageNamespace(""), "buttonChoice")
+   pushbyte            6
+   ifne                L13
+
+   debugline           3363
+   findpropstrict      QName(PackageNamespace(""), "doSave")
+   getlex              QName(PackageInternalNs("NiminFetishFantasyv0_fla"), "slot")
+   callpropvoid        QName(PackageNamespace(""), "doSave"), 1
+
+   debugline           3364
+   findpropstrict      QName(PackageNamespace(""), "doReturn")
+   callpropvoid        QName(PackageNamespace(""), "doReturn"), 0
+
+   jump                L16
+
+L13:
+   debugline           3367
+   findpropstrict      QName(PackageNamespace(""), "saveGo")
+   callpropvoid        QName(PackageNamespace(""), "saveGo"), 0
+
+L16:
+   debugline           3369
+   returnvoid
+  end ; code
+ end ; body
+end ; method

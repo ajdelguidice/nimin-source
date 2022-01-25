@@ -1,0 +1,60 @@
+method
+ name ""
+ refid "NiminFetishFantasyv0_fla:MainTimeline/instance/loadGo/inline_method#0"
+ returns QName(PackageNamespace(""), "void")
+ body
+  maxstack 3
+  localcount 2
+  initscopedepth 12
+  maxscopedepth 12
+  code
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           3459
+   pushnull
+   coerce              QName(PackageNamespace("flash.net"), "SharedObject")
+   setlocal1
+
+   debugline           3460
+   getlex              QName(PackageNamespace(""), "buttonChoice")
+   pushbyte            6
+   ifne                L32
+
+   debug               1, "so", 0, 3461
+   debugline           3461
+   getlex              QName(PackageNamespace("flash.net"), "SharedObject")
+   pushstring          "Nimin_Save"
+   getlex              QName(PackageInternalNs("NiminFetishFantasyv0_fla"), "slot")
+   add
+   pushstring          ""
+   add
+   pushstring          "/"
+   callproperty        QName(PackageNamespace(""), "getLocal"), 2
+   coerce              QName(PackageNamespace("flash.net"), "SharedObject")
+   setlocal1
+
+   debugline           3462
+   findpropstrict      QName(PackageNamespace(""), "doLoad")
+   getlocal1
+   callpropvoid        QName(PackageNamespace(""), "doLoad"), 1
+
+   debugline           3463
+   getlocal1
+   callpropvoid        QName(PackageNamespace(""), "flush"), 0
+
+   debugline           3464
+   findpropstrict      QName(PackageNamespace(""), "doReturn")
+   callpropvoid        QName(PackageNamespace(""), "doReturn"), 0
+
+   jump                L35
+
+L32:
+   debugline           3467
+   findpropstrict      QName(PackageNamespace(""), "loadGo")
+   callpropvoid        QName(PackageNamespace(""), "loadGo"), 0
+
+L35:
+   debugline           3469
+   returnvoid
+  end ; code
+ end ; body
+end ; method

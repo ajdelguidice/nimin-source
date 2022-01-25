@@ -1,0 +1,110 @@
+method
+ name ""
+ refid "NiminFetishFantasyv0_fla:MainTimeline/instance/doTailor/inline_method#1"
+ returns QName(PackageNamespace(""), "void")
+ flag NEED_ACTIVATION
+ body
+  maxstack 5
+  localcount 2
+  initscopedepth 13
+  maxscopedepth 14
+  code
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           9814
+   newactivation
+   dup
+   setlocal1
+
+   pushscope
+
+   debug               1, "anonymous$73", 0, 9814
+   debugline           9815
+   getlex              QName(PackageNamespace(""), "buttonChoice")
+   pushbyte            6
+   ifne                L74
+
+   debugline           9816
+   getlex              QName(PackageNamespace(""), "coin")
+   findpropstrict      QName(PackageNamespace(""), "clothesValue")
+   findpropstrict      QName(PackageNamespace(""), "clothesID")
+   getlex              QName(PackageInternalNs("NiminFetishFantasyv0_fla"), "buy")
+   callproperty        QName(PackageNamespace(""), "clothesID"), 1
+   callproperty        QName(PackageNamespace(""), "clothesValue"), 1
+   ifnlt               L54
+
+   debugline           9817
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "Sorry, but you only have "
+   getlex              QName(PackageNamespace(""), "coin")
+   add
+   pushstring          " coins. You require at least "
+   add
+   findpropstrict      QName(PackageNamespace(""), "clothesValue")
+   findpropstrict      QName(PackageNamespace(""), "clothesID")
+   getlex              QName(PackageInternalNs("NiminFetishFantasyv0_fla"), "buy")
+   callproperty        QName(PackageNamespace(""), "clothesID"), 1
+   callproperty        QName(PackageNamespace(""), "clothesValue"), 1
+   getlex              QName(PackageNamespace(""), "coin")
+   subtract
+   add
+   pushstring          " more coins to purchase "
+   add
+   findpropstrict      QName(PackageNamespace(""), "clothesName")
+   findpropstrict      QName(PackageNamespace(""), "clothesID")
+   getlex              QName(PackageInternalNs("NiminFetishFantasyv0_fla"), "buy")
+   callproperty        QName(PackageNamespace(""), "clothesID"), 1
+   callproperty        QName(PackageNamespace(""), "clothesName"), 1
+   add
+   pushstring          "."
+   add
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           9818
+   findpropstrict      QName(PackageNamespace(""), "doNext")
+   callpropvoid        QName(PackageNamespace(""), "doNext"), 0
+
+   debugline           9819
+   findproperty        QName(PackageNamespace(""), "doListen")
+   newfunction         "NiminFetishFantasyv0_fla:MainTimeline/instance/doTailor/inline_method#0"
+   initproperty        QName(PackageNamespace(""), "doListen")
+
+   jump                L73
+
+L54:
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           9822
+   findpropstrict      QName(PackageNamespace(""), "clothesChange")
+   findpropstrict      QName(PackageNamespace(""), "clothesID")
+   getlex              QName(PackageInternalNs("NiminFetishFantasyv0_fla"), "buy")
+   callproperty        QName(PackageNamespace(""), "clothesID"), 1
+   callpropvoid        QName(PackageNamespace(""), "clothesChange"), 1
+
+   debugline           9823
+   findpropstrict      QName(PackageNamespace(""), "doCoin")
+   findpropstrict      QName(PackageNamespace(""), "clothesValue")
+   findpropstrict      QName(PackageNamespace(""), "clothesID")
+   getlex              QName(PackageInternalNs("NiminFetishFantasyv0_fla"), "buy")
+   callproperty        QName(PackageNamespace(""), "clothesID"), 1
+   callproperty        QName(PackageNamespace(""), "clothesValue"), 1
+   negate
+   callpropvoid        QName(PackageNamespace(""), "doCoin"), 1
+
+   debugline           9824
+   findpropstrict      QName(PackageNamespace(""), "doTailor")
+   callpropvoid        QName(PackageNamespace(""), "doTailor"), 0
+
+L73:
+   jump                L77
+
+L74:
+   debugline           9828
+   findpropstrict      QName(PackageNamespace(""), "doTailor")
+   callpropvoid        QName(PackageNamespace(""), "doTailor"), 0
+
+L77:
+   debugline           9830
+   returnvoid
+  end ; code
+ end ; body
+end ; method

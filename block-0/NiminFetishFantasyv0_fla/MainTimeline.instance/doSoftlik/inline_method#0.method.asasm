@@ -1,0 +1,224 @@
+method
+ name ""
+ refid "NiminFetishFantasyv0_fla:MainTimeline/instance/doSoftlik/inline_method#0"
+ returns QName(PackageNamespace(""), "void")
+ body
+  maxstack 3
+  localcount 1
+  initscopedepth 11
+  maxscopedepth 11
+  code
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           13518
+   getlex              QName(PackageNamespace(""), "buttonChoice")
+   pushbyte            1
+   ifne                L42
+
+   debugline           13519
+   getlex              QName(PackageNamespace(""), "coin")
+   pushbyte            20
+   ifnlt               L22
+
+   debugline           13520
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "\"Err... You don't exactly have enough to buy that... If you get more coins later, stranger, then maybe we can deal then, but for now I must be on my way. Time is money!\" And with that he disappears down into the streets as randomly as he showed up."
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           13521
+   findproperty        QName(PackageNamespace(""), "hrs")
+   pushbyte            1
+   initproperty        QName(PackageNamespace(""), "hrs")
+
+   debugline           13522
+   findpropstrict      QName(PackageNamespace(""), "doEnd")
+   callpropvoid        QName(PackageNamespace(""), "doEnd"), 0
+
+   jump                L42
+
+L22:
+   debugline           13525
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "\"Alrighty stranger, here you go!\" He quickly takes your money and drops a single pill into your hand. \"Thank you for your business and may we deal again in the future. Meanwhile I must be off, time is money after all!\"  And with that he disappears down into the streets as randomly as he showed up."
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           13526
+   findproperty        QName(PackageNamespace(""), "hrs")
+   pushbyte            1
+   initproperty        QName(PackageNamespace(""), "hrs")
+
+   debugline           13527
+   findpropstrict      QName(PackageNamespace(""), "doCoin")
+   pushbyte            -20
+   callpropvoid        QName(PackageNamespace(""), "doCoin"), 1
+
+   debugline           13528
+   findpropstrict      QName(PackageNamespace(""), "itemAdd")
+   pushshort           534
+   callpropvoid        QName(PackageNamespace(""), "itemAdd"), 1
+
+   debugline           13529
+   findpropstrict      QName(PackageNamespace(""), "doEnd")
+   callpropvoid        QName(PackageNamespace(""), "doEnd"), 0
+
+L42:
+   debugline           13532
+   getlex              QName(PackageNamespace(""), "buttonChoice")
+   pushbyte            3
+   ifne                L103
+
+   debugline           13533
+   getlex              QName(PackageNamespace(""), "coin")
+   pushbyte            100
+   ifnlt               L63
+
+   debugline           13534
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "\"Err... You don't exactly have enough to buy that many... If you get more coins later, stranger, then maybe we can deal then, but for now I must be on my way. Time is money!\" And with that he disappears down into the streets as randomly as he showed up."
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           13535
+   findproperty        QName(PackageNamespace(""), "hrs")
+   pushbyte            1
+   initproperty        QName(PackageNamespace(""), "hrs")
+
+   debugline           13536
+   findpropstrict      QName(PackageNamespace(""), "doEnd")
+   callpropvoid        QName(PackageNamespace(""), "doEnd"), 0
+
+   jump                L103
+
+L63:
+   debugline           13539
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "\"Alrighty stranger, here you go!\" He quickly takes your money and drops six pills into your hand. \"Thank you for your business and may we deal again in the future. Meanwhile I must be off, time is money after all!\"  And with that he disappears down into the streets as randomly as he showed up."
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           13540
+   findproperty        QName(PackageNamespace(""), "hrs")
+   pushbyte            1
+   initproperty        QName(PackageNamespace(""), "hrs")
+
+   debugline           13541
+   findpropstrict      QName(PackageNamespace(""), "doCoin")
+   pushbyte            -100
+   callpropvoid        QName(PackageNamespace(""), "doCoin"), 1
+
+   debugline           13542
+   findpropstrict      QName(PackageNamespace(""), "itemAdd")
+   pushshort           534
+   callpropvoid        QName(PackageNamespace(""), "itemAdd"), 1
+
+   debugline           13543
+   findpropstrict      QName(PackageNamespace(""), "itemAdd")
+   pushshort           534
+   callpropvoid        QName(PackageNamespace(""), "itemAdd"), 1
+
+   debugline           13544
+   findpropstrict      QName(PackageNamespace(""), "itemAdd")
+   pushshort           534
+   callpropvoid        QName(PackageNamespace(""), "itemAdd"), 1
+
+   debugline           13545
+   findpropstrict      QName(PackageNamespace(""), "itemAdd")
+   pushshort           534
+   callpropvoid        QName(PackageNamespace(""), "itemAdd"), 1
+
+   debugline           13546
+   findpropstrict      QName(PackageNamespace(""), "itemAdd")
+   pushshort           534
+   callpropvoid        QName(PackageNamespace(""), "itemAdd"), 1
+
+   debugline           13547
+   findpropstrict      QName(PackageNamespace(""), "itemAdd")
+   pushshort           534
+   callpropvoid        QName(PackageNamespace(""), "itemAdd"), 1
+
+   debugline           13548
+   findpropstrict      QName(PackageNamespace(""), "doEnd")
+   callpropvoid        QName(PackageNamespace(""), "doEnd"), 0
+
+L103:
+   debugline           13551
+   getlex              QName(PackageNamespace(""), "buttonChoice")
+   pushbyte            6
+   ifne                L144
+
+   debugline           13552
+   getlex              QName(PackageNamespace(""), "coin")
+   pushshort           200
+   ifnlt               L124
+
+   debugline           13553
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "\"Sorry, but you don't have enough coins to buy that and I definitely can't afford to give the recipe away for free... If you get more coins later, stranger, then maybe we can deal then, but for now I must be on my way. Time is money!\" And with that he disappears down into the streets as randomly as he showed up."
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           13554
+   findproperty        QName(PackageNamespace(""), "hrs")
+   pushbyte            1
+   initproperty        QName(PackageNamespace(""), "hrs")
+
+   debugline           13555
+   findpropstrict      QName(PackageNamespace(""), "doEnd")
+   callpropvoid        QName(PackageNamespace(""), "doEnd"), 0
+
+   jump                L144
+
+L124:
+   debugline           13558
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "\"Aha, an entrepreneur yourself, eh? Well, since you've got the coins to invest, here you go.\" He takes your money and hands you the parchment with the recipe. \"Thank you for your business and may we deal again in the future. Good luck to your ventures as well. Meanwhile I must be off, time is money after all!\"  And with that he disappears down into the streets as randomly as he showed up."
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           13559
+   findproperty        QName(PackageNamespace(""), "hrs")
+   pushbyte            1
+   initproperty        QName(PackageNamespace(""), "hrs")
+
+   debugline           13560
+   findpropstrict      QName(PackageNamespace(""), "doCoin")
+   pushshort           -200
+   callpropvoid        QName(PackageNamespace(""), "doCoin"), 1
+
+   debugline           13561
+   findproperty        QName(PackageNamespace(""), "knowMaleEnhance")
+   pushtrue
+   initproperty        QName(PackageNamespace(""), "knowMaleEnhance")
+
+   debugline           13562
+   findpropstrict      QName(PackageNamespace(""), "doEnd")
+   callpropvoid        QName(PackageNamespace(""), "doEnd"), 0
+
+L144:
+   debugline           13565
+   getlex              QName(PackageNamespace(""), "buttonChoice")
+   pushbyte            11
+   ifne                L160
+
+   debugline           13566
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "\"Alright, maybe next time then.\" And just as quickly as he appeared, he vanishes into the town to sell off his wares."
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           13567
+   findproperty        QName(PackageNamespace(""), "hrs")
+   pushbyte            1
+   initproperty        QName(PackageNamespace(""), "hrs")
+
+   debugline           13568
+   findpropstrict      QName(PackageNamespace(""), "doEnd")
+   callpropvoid        QName(PackageNamespace(""), "doEnd"), 0
+
+L160:
+   debugline           13570
+   returnvoid
+  end ; code
+ end ; body
+end ; method

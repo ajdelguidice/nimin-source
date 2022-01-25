@@ -1,0 +1,78 @@
+method
+ name ""
+ refid "NiminFetishFantasyv0_fla:MainTimeline/instance/knotholeUpstairs/inline_method#1"
+ returns QName(PackageNamespace(""), "void")
+ body
+  maxstack 5
+  localcount 1
+  initscopedepth 13
+  maxscopedepth 13
+  code
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           19911
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "A couple hours later, you wake up and find yourself laying on a bench, clothes stacked next to you, and feeling very relieved from the experience.\r\rGathering your clothes, and trying to stand, you wobble a bit, still feeling the fuck you had not long ago, your "
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           19912
+   getlex              QName(PackageNamespace(""), "vagTotal")
+   pushbyte            0
+   ifngt               L20
+
+   debugline           19913
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "pussy"
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           19914
+   findpropstrict      QName(PackageNamespace(""), "doImpregnate")
+   pushbyte            3
+   callpropvoid        QName(PackageNamespace(""), "doImpregnate"), 1
+
+   jump                L25
+
+L20:
+   debugline           19916
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "ass"
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+L25:
+   debugline           19917
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          " dripping a bit from the cum still filling it as you -slowly- take your leave of the knothole."
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           19918
+   findpropstrict      QName(PackageNamespace(""), "doLust")
+   getlex              QName(PackageNamespace(""), "Math")
+   getlex              QName(PackageNamespace(""), "sen")
+   pushbyte            2
+   divide
+   callproperty        QName(PackageNamespace(""), "floor"), 1
+   negate
+   pushbyte            2
+   dup
+   pushbyte            5
+   callpropvoid        QName(PackageNamespace(""), "doLust"), 4
+
+   debugline           19919
+   findproperty        QName(PackageNamespace(""), "hrs")
+   getlex              QName(PackageNamespace(""), "hrs")
+   pushbyte            2
+   add
+   initproperty        QName(PackageNamespace(""), "hrs")
+
+   debugline           19920
+   findpropstrict      QName(PackageNamespace(""), "doEnd")
+   callpropvoid        QName(PackageNamespace(""), "doEnd"), 0
+
+   debugline           19921
+   returnvoid
+  end ; code
+ end ; body
+end ; method

@@ -1,0 +1,1711 @@
+method
+ name ""
+ refid "NiminFetishFantasyv0_fla:MainTimeline/instance/makeAlchemy/inline_method#1"
+ returns QName(PackageNamespace(""), "void")
+ flag NEED_ACTIVATION
+ body
+  maxstack 4
+  localcount 2
+  initscopedepth 12
+  maxscopedepth 13
+  code
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           12024
+   newactivation
+   dup
+   setlocal1
+
+   pushscope
+
+   debug               1, "anonymous$82", 0, 12024
+   getscopeobject      0
+   pushfalse
+   setslot             1
+
+   debugline           12025
+   getlex              QName(PackageNamespace(""), "buttonChoice")
+   pushbyte            6
+   ifne                L1293
+
+   debugline           12026
+   getscopeobject      0
+   pushfalse
+   setslot             1
+
+   debugline           12027
+   getlex              QName(PackageInternalNs("NiminFetishFantasyv0_fla"), "ID")
+   pushshort           220
+   equals
+   dup
+   iffalse             L30
+
+   pop
+   findpropstrict      QName(PackageNamespace(""), "countItem")
+   pushshort           209
+   callproperty        QName(PackageNamespace(""), "countItem"), 1
+   pushbyte            7
+   greaterequals
+L30:
+   iffalse             L34
+
+   getscopeobject      0
+   pushtrue
+   setslot             1
+
+L34:
+   debugline           12028
+   getlex              QName(PackageInternalNs("NiminFetishFantasyv0_fla"), "ID")
+   pushshort           221
+   equals
+   dup
+   iffalse             L46
+
+   pop
+   findpropstrict      QName(PackageNamespace(""), "countItem")
+   pushshort           210
+   callproperty        QName(PackageNamespace(""), "countItem"), 1
+   pushbyte            6
+   greaterequals
+L46:
+   dup
+   iffalse             L53
+
+   pop
+   findpropstrict      QName(PackageNamespace(""), "checkItem")
+   pushbyte            114
+   callproperty        QName(PackageNamespace(""), "checkItem"), 1
+   convert_b
+L53:
+   iffalse             L57
+
+   getscopeobject      0
+   pushtrue
+   setslot             1
+
+L57:
+   debugline           12029
+   getlex              QName(PackageInternalNs("NiminFetishFantasyv0_fla"), "ID")
+   pushshort           503
+   equals
+   dup
+   iffalse             L68
+
+   pop
+   findpropstrict      QName(PackageNamespace(""), "checkItem")
+   pushshort           209
+   callproperty        QName(PackageNamespace(""), "checkItem"), 1
+   convert_b
+L68:
+   dup
+   iffalse             L106
+
+   pop
+   findpropstrict      QName(PackageNamespace(""), "checkItem")
+   pushbyte            114
+   callproperty        QName(PackageNamespace(""), "checkItem"), 1
+   convert_b
+   dup
+   iftrue              L82
+
+   pop
+   findpropstrict      QName(PackageNamespace(""), "checkItem")
+   pushshort           523
+   callproperty        QName(PackageNamespace(""), "checkItem"), 1
+   convert_b
+L82:
+   dup
+   iftrue              L94
+
+   pop
+   findpropstrict      QName(PackageNamespace(""), "moistCalc")
+   pushbyte            2
+   callproperty        QName(PackageNamespace(""), "moistCalc"), 1
+   pushbyte            10
+   multiply
+   getlex              QName(PackageNamespace(""), "lust")
+   multiply
+   pushshort           3000
+   greaterthan
+L94:
+   dup
+   iftrue              L106
+
+   pop
+   findpropstrict      QName(PackageNamespace(""), "moistCalc")
+   pushbyte            1
+   callproperty        QName(PackageNamespace(""), "moistCalc"), 1
+   pushbyte            10
+   multiply
+   getlex              QName(PackageNamespace(""), "lust")
+   multiply
+   pushshort           3000
+   greaterthan
+L106:
+   iffalse             L110
+
+   getscopeobject      0
+   pushtrue
+   setslot             1
+
+L110:
+   debugline           12030
+   getlex              QName(PackageInternalNs("NiminFetishFantasyv0_fla"), "ID")
+   pushshort           504
+   equals
+   dup
+   iffalse             L121
+
+   pop
+   findpropstrict      QName(PackageNamespace(""), "checkItem")
+   pushbyte            115
+   callproperty        QName(PackageNamespace(""), "checkItem"), 1
+   convert_b
+L121:
+   dup
+   iffalse             L128
+
+   pop
+   findpropstrict      QName(PackageNamespace(""), "checkItem")
+   pushshort           203
+   callproperty        QName(PackageNamespace(""), "checkItem"), 1
+   convert_b
+L128:
+   iffalse             L132
+
+   getscopeobject      0
+   pushtrue
+   setslot             1
+
+L132:
+   debugline           12031
+   getlex              QName(PackageInternalNs("NiminFetishFantasyv0_fla"), "ID")
+   pushshort           506
+   equals
+   dup
+   iffalse             L143
+
+   pop
+   findpropstrict      QName(PackageNamespace(""), "checkItem")
+   pushbyte            114
+   callproperty        QName(PackageNamespace(""), "checkItem"), 1
+   convert_b
+L143:
+   dup
+   iffalse             L150
+
+   pop
+   findpropstrict      QName(PackageNamespace(""), "checkItem")
+   pushshort           219
+   callproperty        QName(PackageNamespace(""), "checkItem"), 1
+   convert_b
+L150:
+   iffalse             L154
+
+   getscopeobject      0
+   pushtrue
+   setslot             1
+
+L154:
+   debugline           12032
+   getlex              QName(PackageInternalNs("NiminFetishFantasyv0_fla"), "ID")
+   pushshort           507
+   equals
+   dup
+   iffalse             L165
+
+   pop
+   findpropstrict      QName(PackageNamespace(""), "checkItem")
+   pushshort           208
+   callproperty        QName(PackageNamespace(""), "checkItem"), 1
+   convert_b
+L165:
+   iffalse             L169
+
+   getscopeobject      0
+   pushtrue
+   setslot             1
+
+L169:
+   debugline           12033
+   getlex              QName(PackageInternalNs("NiminFetishFantasyv0_fla"), "ID")
+   pushshort           508
+   equals
+   dup
+   iffalse             L181
+
+   pop
+   findpropstrict      QName(PackageNamespace(""), "countItem")
+   pushshort           209
+   callproperty        QName(PackageNamespace(""), "countItem"), 1
+   pushbyte            3
+   greaterequals
+L181:
+   dup
+   iffalse             L220
+
+   pop
+   findpropstrict      QName(PackageNamespace(""), "countItem")
+   pushbyte            112
+   callproperty        QName(PackageNamespace(""), "countItem"), 1
+   pushbyte            2
+   greaterequals
+   dup
+   iftrue              L196
+
+   pop
+   findpropstrict      QName(PackageNamespace(""), "checkItem")
+   pushshort           524
+   callproperty        QName(PackageNamespace(""), "checkItem"), 1
+   convert_b
+L196:
+   dup
+   iftrue              L208
+
+   pop
+   findpropstrict      QName(PackageNamespace(""), "moistCalc")
+   pushbyte            2
+   callproperty        QName(PackageNamespace(""), "moistCalc"), 1
+   pushbyte            10
+   multiply
+   getlex              QName(PackageNamespace(""), "lust")
+   multiply
+   pushshort           6000
+   greaterthan
+L208:
+   dup
+   iftrue              L220
+
+   pop
+   findpropstrict      QName(PackageNamespace(""), "moistCalc")
+   pushbyte            1
+   callproperty        QName(PackageNamespace(""), "moistCalc"), 1
+   pushbyte            10
+   multiply
+   getlex              QName(PackageNamespace(""), "lust")
+   multiply
+   pushshort           6000
+   greaterthan
+L220:
+   iffalse             L224
+
+   getscopeobject      0
+   pushtrue
+   setslot             1
+
+L224:
+   debugline           12034
+   getlex              QName(PackageInternalNs("NiminFetishFantasyv0_fla"), "ID")
+   pushshort           509
+   equals
+   dup
+   iffalse             L235
+
+   pop
+   findpropstrict      QName(PackageNamespace(""), "checkItem")
+   pushshort           503
+   callproperty        QName(PackageNamespace(""), "checkItem"), 1
+   convert_b
+L235:
+   dup
+   iffalse             L250
+
+   pop
+   findpropstrict      QName(PackageNamespace(""), "checkItem")
+   pushshort           501
+   callproperty        QName(PackageNamespace(""), "checkItem"), 1
+   convert_b
+   dup
+   iftrue              L250
+
+   pop
+   findpropstrict      QName(PackageNamespace(""), "countItem")
+   pushshort           500
+   callproperty        QName(PackageNamespace(""), "countItem"), 1
+   pushbyte            3
+   greaterequals
+L250:
+   iffalse             L254
+
+   getscopeobject      0
+   pushtrue
+   setslot             1
+
+L254:
+   debugline           12035
+   getlex              QName(PackageInternalNs("NiminFetishFantasyv0_fla"), "ID")
+   pushshort           511
+   equals
+   dup
+   iffalse             L265
+
+   pop
+   findpropstrict      QName(PackageNamespace(""), "checkItem")
+   pushshort           213
+   callproperty        QName(PackageNamespace(""), "checkItem"), 1
+   convert_b
+L265:
+   dup
+   iffalse             L273
+
+   pop
+   findpropstrict      QName(PackageNamespace(""), "countItem")
+   pushshort           219
+   callproperty        QName(PackageNamespace(""), "countItem"), 1
+   pushbyte            3
+   greaterequals
+L273:
+   iffalse             L277
+
+   getscopeobject      0
+   pushtrue
+   setslot             1
+
+L277:
+   debugline           12036
+   getlex              QName(PackageInternalNs("NiminFetishFantasyv0_fla"), "ID")
+   pushshort           512
+   equals
+   dup
+   iffalse             L288
+
+   pop
+   findpropstrict      QName(PackageNamespace(""), "checkItem")
+   pushshort           208
+   callproperty        QName(PackageNamespace(""), "checkItem"), 1
+   convert_b
+L288:
+   dup
+   iffalse             L295
+
+   pop
+   findpropstrict      QName(PackageNamespace(""), "checkItem")
+   pushshort           218
+   callproperty        QName(PackageNamespace(""), "checkItem"), 1
+   convert_b
+L295:
+   iffalse             L299
+
+   getscopeobject      0
+   pushtrue
+   setslot             1
+
+L299:
+   debugline           12037
+   getlex              QName(PackageInternalNs("NiminFetishFantasyv0_fla"), "ID")
+   pushshort           513
+   equals
+   dup
+   iffalse             L310
+
+   pop
+   findpropstrict      QName(PackageNamespace(""), "checkItem")
+   pushbyte            110
+   callproperty        QName(PackageNamespace(""), "checkItem"), 1
+   convert_b
+L310:
+   dup
+   iffalse             L317
+
+   pop
+   findpropstrict      QName(PackageNamespace(""), "checkItem")
+   pushbyte            120
+   callproperty        QName(PackageNamespace(""), "checkItem"), 1
+   convert_b
+L317:
+   iffalse             L321
+
+   getscopeobject      0
+   pushtrue
+   setslot             1
+
+L321:
+   debugline           12038
+   getlex              QName(PackageInternalNs("NiminFetishFantasyv0_fla"), "ID")
+   pushshort           514
+   equals
+   dup
+   iffalse             L333
+
+   pop
+   findpropstrict      QName(PackageNamespace(""), "countItem")
+   pushshort           203
+   callproperty        QName(PackageNamespace(""), "countItem"), 1
+   pushbyte            2
+   greaterequals
+L333:
+   dup
+   iffalse             L340
+
+   pop
+   findpropstrict      QName(PackageNamespace(""), "checkItem")
+   pushshort           503
+   callproperty        QName(PackageNamespace(""), "checkItem"), 1
+   convert_b
+L340:
+   iffalse             L344
+
+   getscopeobject      0
+   pushtrue
+   setslot             1
+
+L344:
+   debugline           12039
+   getlex              QName(PackageInternalNs("NiminFetishFantasyv0_fla"), "ID")
+   pushshort           515
+   equals
+   dup
+   iffalse             L356
+
+   pop
+   findpropstrict      QName(PackageNamespace(""), "countItem")
+   pushshort           203
+   callproperty        QName(PackageNamespace(""), "countItem"), 1
+   pushbyte            5
+   greaterequals
+L356:
+   iffalse             L360
+
+   getscopeobject      0
+   pushtrue
+   setslot             1
+
+L360:
+   debugline           12040
+   getlex              QName(PackageInternalNs("NiminFetishFantasyv0_fla"), "ID")
+   pushshort           516
+   equals
+   dup
+   iffalse             L371
+
+   pop
+   findpropstrict      QName(PackageNamespace(""), "checkItem")
+   pushbyte            110
+   callproperty        QName(PackageNamespace(""), "checkItem"), 1
+   convert_b
+L371:
+   dup
+   iffalse             L378
+
+   pop
+   findpropstrict      QName(PackageNamespace(""), "checkItem")
+   pushshort           203
+   callproperty        QName(PackageNamespace(""), "checkItem"), 1
+   convert_b
+L378:
+   iffalse             L382
+
+   getscopeobject      0
+   pushtrue
+   setslot             1
+
+L382:
+   debugline           12041
+   getlex              QName(PackageInternalNs("NiminFetishFantasyv0_fla"), "ID")
+   pushshort           517
+   equals
+   dup
+   iffalse             L394
+
+   pop
+   findpropstrict      QName(PackageNamespace(""), "countItem")
+   pushshort           507
+   callproperty        QName(PackageNamespace(""), "countItem"), 1
+   pushbyte            3
+   greaterequals
+L394:
+   dup
+   iffalse             L401
+
+   pop
+   findpropstrict      QName(PackageNamespace(""), "checkItem")
+   pushshort           523
+   callproperty        QName(PackageNamespace(""), "checkItem"), 1
+   convert_b
+L401:
+   iffalse             L405
+
+   getscopeobject      0
+   pushtrue
+   setslot             1
+
+L405:
+   debugline           12042
+   getlex              QName(PackageInternalNs("NiminFetishFantasyv0_fla"), "ID")
+   pushshort           518
+   equals
+   dup
+   iffalse             L416
+
+   pop
+   findpropstrict      QName(PackageNamespace(""), "checkItem")
+   pushshort           201
+   callproperty        QName(PackageNamespace(""), "checkItem"), 1
+   convert_b
+L416:
+   dup
+   iffalse             L423
+
+   pop
+   findpropstrict      QName(PackageNamespace(""), "checkItem")
+   pushshort           202
+   callproperty        QName(PackageNamespace(""), "checkItem"), 1
+   convert_b
+L423:
+   dup
+   iffalse             L430
+
+   pop
+   findpropstrict      QName(PackageNamespace(""), "checkItem")
+   pushshort           207
+   callproperty        QName(PackageNamespace(""), "checkItem"), 1
+   convert_b
+L430:
+   dup
+   iffalse             L437
+
+   pop
+   findpropstrict      QName(PackageNamespace(""), "checkItem")
+   pushshort           210
+   callproperty        QName(PackageNamespace(""), "checkItem"), 1
+   convert_b
+L437:
+   iffalse             L441
+
+   getscopeobject      0
+   pushtrue
+   setslot             1
+
+L441:
+   debugline           12043
+   getlex              QName(PackageInternalNs("NiminFetishFantasyv0_fla"), "ID")
+   pushshort           519
+   equals
+   dup
+   iffalse             L452
+
+   pop
+   findpropstrict      QName(PackageNamespace(""), "checkItem")
+   pushshort           222
+   callproperty        QName(PackageNamespace(""), "checkItem"), 1
+   convert_b
+L452:
+   dup
+   iffalse             L459
+
+   pop
+   findpropstrict      QName(PackageNamespace(""), "checkItem")
+   pushshort           206
+   callproperty        QName(PackageNamespace(""), "checkItem"), 1
+   convert_b
+L459:
+   dup
+   iffalse             L466
+
+   pop
+   findpropstrict      QName(PackageNamespace(""), "checkItem")
+   pushshort           504
+   callproperty        QName(PackageNamespace(""), "checkItem"), 1
+   convert_b
+L466:
+   iffalse             L470
+
+   getscopeobject      0
+   pushtrue
+   setslot             1
+
+L470:
+   debugline           12044
+   getlex              QName(PackageInternalNs("NiminFetishFantasyv0_fla"), "ID")
+   pushshort           520
+   equals
+   dup
+   iffalse             L481
+
+   pop
+   findpropstrict      QName(PackageNamespace(""), "checkItem")
+   pushshort           216
+   callproperty        QName(PackageNamespace(""), "checkItem"), 1
+   convert_b
+L481:
+   dup
+   iffalse             L489
+
+   pop
+   findpropstrict      QName(PackageNamespace(""), "countItem")
+   pushshort           212
+   callproperty        QName(PackageNamespace(""), "countItem"), 1
+   pushbyte            3
+   greaterequals
+L489:
+   iffalse             L493
+
+   getscopeobject      0
+   pushtrue
+   setslot             1
+
+L493:
+   debugline           12045
+   getlex              QName(PackageInternalNs("NiminFetishFantasyv0_fla"), "ID")
+   pushshort           521
+   equals
+   dup
+   iffalse             L504
+
+   pop
+   findpropstrict      QName(PackageNamespace(""), "checkItem")
+   pushbyte            120
+   callproperty        QName(PackageNamespace(""), "checkItem"), 1
+   convert_b
+L504:
+   dup
+   iffalse             L511
+
+   pop
+   findpropstrict      QName(PackageNamespace(""), "checkItem")
+   pushshort           210
+   callproperty        QName(PackageNamespace(""), "checkItem"), 1
+   convert_b
+L511:
+   iffalse             L515
+
+   getscopeobject      0
+   pushtrue
+   setslot             1
+
+L515:
+   debugline           12046
+   getlex              QName(PackageInternalNs("NiminFetishFantasyv0_fla"), "ID")
+   pushshort           522
+   equals
+   dup
+   iffalse             L527
+
+   pop
+   findpropstrict      QName(PackageNamespace(""), "countItem")
+   pushshort           512
+   callproperty        QName(PackageNamespace(""), "countItem"), 1
+   pushbyte            3
+   greaterequals
+L527:
+   dup
+   iffalse             L534
+
+   pop
+   findpropstrict      QName(PackageNamespace(""), "checkItem")
+   pushshort           524
+   callproperty        QName(PackageNamespace(""), "checkItem"), 1
+   convert_b
+L534:
+   iffalse             L538
+
+   getscopeobject      0
+   pushtrue
+   setslot             1
+
+L538:
+   debugline           12047
+   getlex              QName(PackageInternalNs("NiminFetishFantasyv0_fla"), "ID")
+   pushshort           532
+   equals
+   dup
+   iffalse             L549
+
+   pop
+   findpropstrict      QName(PackageNamespace(""), "checkItem")
+   pushshort           530
+   callproperty        QName(PackageNamespace(""), "checkItem"), 1
+   convert_b
+L549:
+   dup
+   iffalse             L556
+
+   pop
+   findpropstrict      QName(PackageNamespace(""), "checkItem")
+   pushshort           212
+   callproperty        QName(PackageNamespace(""), "checkItem"), 1
+   convert_b
+L556:
+   dup
+   iffalse             L563
+
+   pop
+   findpropstrict      QName(PackageNamespace(""), "checkItem")
+   pushshort           206
+   callproperty        QName(PackageNamespace(""), "checkItem"), 1
+   convert_b
+L563:
+   iffalse             L567
+
+   getscopeobject      0
+   pushtrue
+   setslot             1
+
+L567:
+   debugline           12048
+   getlex              QName(PackageInternalNs("NiminFetishFantasyv0_fla"), "ID")
+   pushshort           533
+   equals
+   dup
+   iffalse             L579
+
+   pop
+   findpropstrict      QName(PackageNamespace(""), "countItem")
+   pushbyte            110
+   callproperty        QName(PackageNamespace(""), "countItem"), 1
+   pushbyte            2
+   greaterequals
+L579:
+   iffalse             L583
+
+   getscopeobject      0
+   pushtrue
+   setslot             1
+
+L583:
+   debugline           12049
+   getlex              QName(PackageInternalNs("NiminFetishFantasyv0_fla"), "ID")
+   pushshort           534
+   equals
+   dup
+   iffalse             L595
+
+   pop
+   findpropstrict      QName(PackageNamespace(""), "countItem")
+   pushshort           202
+   callproperty        QName(PackageNamespace(""), "countItem"), 1
+   pushbyte            2
+   greaterequals
+L595:
+   dup
+   iffalse             L609
+
+   pop
+   findpropstrict      QName(PackageNamespace(""), "checkItem")
+   pushshort           208
+   callproperty        QName(PackageNamespace(""), "checkItem"), 1
+   convert_b
+   dup
+   iftrue              L609
+
+   pop
+   findpropstrict      QName(PackageNamespace(""), "checkItem")
+   pushshort           218
+   callproperty        QName(PackageNamespace(""), "checkItem"), 1
+   convert_b
+L609:
+   iffalse             L613
+
+   getscopeobject      0
+   pushtrue
+   setslot             1
+
+L613:
+   debugline           12050
+   getlex              QName(PackageInternalNs("NiminFetishFantasyv0_fla"), "ID")
+   pushshort           535
+   equals
+   dup
+   iffalse             L624
+
+   pop
+   findpropstrict      QName(PackageNamespace(""), "checkItem")
+   pushshort           201
+   callproperty        QName(PackageNamespace(""), "checkItem"), 1
+   convert_b
+L624:
+   dup
+   iffalse             L631
+
+   pop
+   findpropstrict      QName(PackageNamespace(""), "checkItem")
+   pushshort           533
+   callproperty        QName(PackageNamespace(""), "checkItem"), 1
+   convert_b
+L631:
+   iffalse             L635
+
+   getscopeobject      0
+   pushtrue
+   setslot             1
+
+L635:
+   debugline           12051
+   getlex              QName(PackageInternalNs("NiminFetishFantasyv0_fla"), "ID")
+   pushshort           536
+   equals
+   dup
+   iffalse             L647
+
+   pop
+   findpropstrict      QName(PackageNamespace(""), "countItem")
+   pushshort           207
+   callproperty        QName(PackageNamespace(""), "countItem"), 1
+   pushbyte            2
+   greaterequals
+L647:
+   dup
+   iffalse             L655
+
+   pop
+   findpropstrict      QName(PackageNamespace(""), "countItem")
+   pushshort           212
+   callproperty        QName(PackageNamespace(""), "countItem"), 1
+   pushbyte            3
+   greaterequals
+L655:
+   dup
+   iffalse             L662
+
+   pop
+   findpropstrict      QName(PackageNamespace(""), "checkItem")
+   pushshort           501
+   callproperty        QName(PackageNamespace(""), "checkItem"), 1
+   convert_b
+L662:
+   dup
+   iffalse             L669
+
+   pop
+   findpropstrict      QName(PackageNamespace(""), "checkItem")
+   pushshort           529
+   callproperty        QName(PackageNamespace(""), "checkItem"), 1
+   convert_b
+L669:
+   iffalse             L673
+
+   getscopeobject      0
+   pushtrue
+   setslot             1
+
+L673:
+   debugline           12053
+   getscopeobject      0
+   getslot             1
+   pushtrue
+   ifne                L1280
+
+   debugline           12054
+   getlex              QName(PackageInternalNs("NiminFetishFantasyv0_fla"), "ID")
+   pushshort           220
+   ifne                L686
+
+   findpropstrict      QName(PackageNamespace(""), "loseManyItem")
+   pushshort           209
+   pushbyte            7
+   callpropvoid        QName(PackageNamespace(""), "loseManyItem"), 2
+
+L686:
+   debugline           12055
+   getlex              QName(PackageInternalNs("NiminFetishFantasyv0_fla"), "ID")
+   pushshort           221
+   ifne                L700
+
+   debugline           12056
+   findpropstrict      QName(PackageNamespace(""), "loseManyItem")
+   pushshort           210
+   pushbyte            6
+   callpropvoid        QName(PackageNamespace(""), "loseManyItem"), 2
+
+   debugline           12057
+   findpropstrict      QName(PackageNamespace(""), "loseManyItem")
+   pushbyte            114
+   pushbyte            1
+   callpropvoid        QName(PackageNamespace(""), "loseManyItem"), 2
+
+L700:
+   debugline           12059
+   getlex              QName(PackageInternalNs("NiminFetishFantasyv0_fla"), "ID")
+   pushshort           503
+   ifne                L748
+
+   debugline           12060
+   findpropstrict      QName(PackageNamespace(""), "loseManyItem")
+   pushshort           209
+   pushbyte            1
+   callpropvoid        QName(PackageNamespace(""), "loseManyItem"), 2
+
+   debugline           12061
+   findpropstrict      QName(PackageNamespace(""), "moistCalc")
+   pushbyte            2
+   callproperty        QName(PackageNamespace(""), "moistCalc"), 1
+   pushbyte            10
+   multiply
+   getlex              QName(PackageNamespace(""), "lust")
+   multiply
+   pushshort           3000
+   greaterthan
+   dup
+   iftrue              L731
+
+   pop
+   findpropstrict      QName(PackageNamespace(""), "moistCalc")
+   pushbyte            1
+   callproperty        QName(PackageNamespace(""), "moistCalc"), 1
+   pushbyte            10
+   multiply
+   getlex              QName(PackageNamespace(""), "lust")
+   multiply
+   pushshort           3000
+   greaterthan
+L731:
+   iffalse             L733
+
+   jump                L748
+
+L733:
+   debugline           12062
+   findpropstrict      QName(PackageNamespace(""), "checkItem")
+   pushshort           523
+   callproperty        QName(PackageNamespace(""), "checkItem"), 1
+   iffalse             L743
+
+   findpropstrict      QName(PackageNamespace(""), "loseManyItem")
+   pushshort           523
+   pushbyte            1
+   callpropvoid        QName(PackageNamespace(""), "loseManyItem"), 2
+
+   jump                L748
+
+L743:
+   debugline           12063
+   findpropstrict      QName(PackageNamespace(""), "loseManyItem")
+   pushbyte            114
+   pushbyte            1
+   callpropvoid        QName(PackageNamespace(""), "loseManyItem"), 2
+
+L748:
+   debugline           12065
+   getlex              QName(PackageInternalNs("NiminFetishFantasyv0_fla"), "ID")
+   pushshort           504
+   ifne                L762
+
+   debugline           12066
+   findpropstrict      QName(PackageNamespace(""), "loseManyItem")
+   pushbyte            115
+   pushbyte            1
+   callpropvoid        QName(PackageNamespace(""), "loseManyItem"), 2
+
+   debugline           12067
+   findpropstrict      QName(PackageNamespace(""), "loseManyItem")
+   pushshort           203
+   pushbyte            1
+   callpropvoid        QName(PackageNamespace(""), "loseManyItem"), 2
+
+L762:
+   debugline           12069
+   getlex              QName(PackageInternalNs("NiminFetishFantasyv0_fla"), "ID")
+   pushshort           506
+   ifne                L776
+
+   debugline           12070
+   findpropstrict      QName(PackageNamespace(""), "loseManyItem")
+   pushbyte            114
+   pushbyte            1
+   callpropvoid        QName(PackageNamespace(""), "loseManyItem"), 2
+
+   debugline           12071
+   findpropstrict      QName(PackageNamespace(""), "loseManyItem")
+   pushshort           219
+   pushbyte            1
+   callpropvoid        QName(PackageNamespace(""), "loseManyItem"), 2
+
+L776:
+   debugline           12073
+   getlex              QName(PackageInternalNs("NiminFetishFantasyv0_fla"), "ID")
+   pushshort           507
+   ifne                L784
+
+   findpropstrict      QName(PackageNamespace(""), "loseManyItem")
+   pushshort           208
+   pushbyte            1
+   callpropvoid        QName(PackageNamespace(""), "loseManyItem"), 2
+
+L784:
+   debugline           12074
+   getlex              QName(PackageInternalNs("NiminFetishFantasyv0_fla"), "ID")
+   pushshort           508
+   ifne                L832
+
+   debugline           12075
+   findpropstrict      QName(PackageNamespace(""), "loseManyItem")
+   pushshort           209
+   pushbyte            3
+   callpropvoid        QName(PackageNamespace(""), "loseManyItem"), 2
+
+   debugline           12076
+   findpropstrict      QName(PackageNamespace(""), "moistCalc")
+   pushbyte            2
+   callproperty        QName(PackageNamespace(""), "moistCalc"), 1
+   pushbyte            10
+   multiply
+   getlex              QName(PackageNamespace(""), "lust")
+   multiply
+   pushshort           6000
+   greaterthan
+   dup
+   iftrue              L815
+
+   pop
+   findpropstrict      QName(PackageNamespace(""), "moistCalc")
+   pushbyte            1
+   callproperty        QName(PackageNamespace(""), "moistCalc"), 1
+   pushbyte            10
+   multiply
+   getlex              QName(PackageNamespace(""), "lust")
+   multiply
+   pushshort           6000
+   greaterthan
+L815:
+   iffalse             L817
+
+   jump                L832
+
+L817:
+   debugline           12077
+   findpropstrict      QName(PackageNamespace(""), "checkItem")
+   pushshort           524
+   callproperty        QName(PackageNamespace(""), "checkItem"), 1
+   iffalse             L827
+
+   findpropstrict      QName(PackageNamespace(""), "loseManyItem")
+   pushshort           524
+   pushbyte            1
+   callpropvoid        QName(PackageNamespace(""), "loseManyItem"), 2
+
+   jump                L832
+
+L827:
+   debugline           12078
+   findpropstrict      QName(PackageNamespace(""), "loseManyItem")
+   pushbyte            112
+   pushbyte            2
+   callpropvoid        QName(PackageNamespace(""), "loseManyItem"), 2
+
+L832:
+   debugline           12080
+   getlex              QName(PackageInternalNs("NiminFetishFantasyv0_fla"), "ID")
+   pushshort           509
+   ifne                L857
+
+   debugline           12081
+   findpropstrict      QName(PackageNamespace(""), "loseManyItem")
+   pushshort           503
+   pushbyte            1
+   callpropvoid        QName(PackageNamespace(""), "loseManyItem"), 2
+
+   debugline           12082
+   findpropstrict      QName(PackageNamespace(""), "countItem")
+   pushshort           500
+   callproperty        QName(PackageNamespace(""), "countItem"), 1
+   pushbyte            3
+   ifnge               L852
+
+   findpropstrict      QName(PackageNamespace(""), "loseManyItem")
+   pushshort           500
+   pushbyte            3
+   callpropvoid        QName(PackageNamespace(""), "loseManyItem"), 2
+
+   jump                L857
+
+L852:
+   debugline           12083
+   findpropstrict      QName(PackageNamespace(""), "loseManyItem")
+   pushshort           501
+   pushbyte            1
+   callpropvoid        QName(PackageNamespace(""), "loseManyItem"), 2
+
+L857:
+   debugline           12085
+   getlex              QName(PackageInternalNs("NiminFetishFantasyv0_fla"), "ID")
+   pushshort           511
+   ifne                L871
+
+   debugline           12086
+   findpropstrict      QName(PackageNamespace(""), "loseManyItem")
+   pushshort           213
+   pushbyte            1
+   callpropvoid        QName(PackageNamespace(""), "loseManyItem"), 2
+
+   debugline           12087
+   findpropstrict      QName(PackageNamespace(""), "loseManyItem")
+   pushshort           219
+   pushbyte            3
+   callpropvoid        QName(PackageNamespace(""), "loseManyItem"), 2
+
+L871:
+   debugline           12089
+   getlex              QName(PackageInternalNs("NiminFetishFantasyv0_fla"), "ID")
+   pushshort           512
+   ifne                L885
+
+   debugline           12090
+   findpropstrict      QName(PackageNamespace(""), "loseManyItem")
+   pushshort           208
+   pushbyte            1
+   callpropvoid        QName(PackageNamespace(""), "loseManyItem"), 2
+
+   debugline           12091
+   findpropstrict      QName(PackageNamespace(""), "loseManyItem")
+   pushshort           218
+   pushbyte            1
+   callpropvoid        QName(PackageNamespace(""), "loseManyItem"), 2
+
+L885:
+   debugline           12093
+   getlex              QName(PackageInternalNs("NiminFetishFantasyv0_fla"), "ID")
+   pushshort           513
+   ifne                L899
+
+   debugline           12094
+   findpropstrict      QName(PackageNamespace(""), "loseManyItem")
+   pushbyte            110
+   pushbyte            1
+   callpropvoid        QName(PackageNamespace(""), "loseManyItem"), 2
+
+   debugline           12095
+   findpropstrict      QName(PackageNamespace(""), "loseManyItem")
+   pushbyte            120
+   pushbyte            1
+   callpropvoid        QName(PackageNamespace(""), "loseManyItem"), 2
+
+L899:
+   debugline           12097
+   getlex              QName(PackageInternalNs("NiminFetishFantasyv0_fla"), "ID")
+   pushshort           514
+   ifne                L913
+
+   debugline           12098
+   findpropstrict      QName(PackageNamespace(""), "loseManyItem")
+   pushshort           203
+   pushbyte            2
+   callpropvoid        QName(PackageNamespace(""), "loseManyItem"), 2
+
+   debugline           12099
+   findpropstrict      QName(PackageNamespace(""), "loseManyItem")
+   pushshort           503
+   pushbyte            1
+   callpropvoid        QName(PackageNamespace(""), "loseManyItem"), 2
+
+L913:
+   debugline           12101
+   getlex              QName(PackageInternalNs("NiminFetishFantasyv0_fla"), "ID")
+   pushshort           515
+   ifne                L921
+
+   findpropstrict      QName(PackageNamespace(""), "loseManyItem")
+   pushshort           203
+   pushbyte            5
+   callpropvoid        QName(PackageNamespace(""), "loseManyItem"), 2
+
+L921:
+   debugline           12102
+   getlex              QName(PackageInternalNs("NiminFetishFantasyv0_fla"), "ID")
+   pushshort           516
+   ifne                L935
+
+   debugline           12103
+   findpropstrict      QName(PackageNamespace(""), "loseManyItem")
+   pushbyte            110
+   pushbyte            1
+   callpropvoid        QName(PackageNamespace(""), "loseManyItem"), 2
+
+   debugline           12104
+   findpropstrict      QName(PackageNamespace(""), "loseManyItem")
+   pushshort           203
+   pushbyte            1
+   callpropvoid        QName(PackageNamespace(""), "loseManyItem"), 2
+
+L935:
+   debugline           12106
+   getlex              QName(PackageInternalNs("NiminFetishFantasyv0_fla"), "ID")
+   pushshort           517
+   ifne                L949
+
+   debugline           12107
+   findpropstrict      QName(PackageNamespace(""), "loseManyItem")
+   pushshort           507
+   pushbyte            3
+   callpropvoid        QName(PackageNamespace(""), "loseManyItem"), 2
+
+   debugline           12108
+   findpropstrict      QName(PackageNamespace(""), "loseManyItem")
+   pushshort           523
+   pushbyte            1
+   callpropvoid        QName(PackageNamespace(""), "loseManyItem"), 2
+
+L949:
+   debugline           12110
+   getlex              QName(PackageInternalNs("NiminFetishFantasyv0_fla"), "ID")
+   pushshort           518
+   ifne                L973
+
+   debugline           12111
+   findpropstrict      QName(PackageNamespace(""), "loseManyItem")
+   pushshort           201
+   pushbyte            1
+   callpropvoid        QName(PackageNamespace(""), "loseManyItem"), 2
+
+   debugline           12112
+   findpropstrict      QName(PackageNamespace(""), "loseManyItem")
+   pushshort           202
+   pushbyte            1
+   callpropvoid        QName(PackageNamespace(""), "loseManyItem"), 2
+
+   debugline           12113
+   findpropstrict      QName(PackageNamespace(""), "loseManyItem")
+   pushshort           207
+   pushbyte            1
+   callpropvoid        QName(PackageNamespace(""), "loseManyItem"), 2
+
+   debugline           12114
+   findpropstrict      QName(PackageNamespace(""), "loseManyItem")
+   pushshort           210
+   pushbyte            1
+   callpropvoid        QName(PackageNamespace(""), "loseManyItem"), 2
+
+L973:
+   debugline           12116
+   getlex              QName(PackageInternalNs("NiminFetishFantasyv0_fla"), "ID")
+   pushshort           519
+   ifne                L992
+
+   debugline           12117
+   findpropstrict      QName(PackageNamespace(""), "loseManyItem")
+   pushshort           206
+   pushbyte            1
+   callpropvoid        QName(PackageNamespace(""), "loseManyItem"), 2
+
+   debugline           12118
+   findpropstrict      QName(PackageNamespace(""), "loseManyItem")
+   pushshort           222
+   pushbyte            1
+   callpropvoid        QName(PackageNamespace(""), "loseManyItem"), 2
+
+   debugline           12119
+   findpropstrict      QName(PackageNamespace(""), "loseManyItem")
+   pushshort           504
+   pushbyte            1
+   callpropvoid        QName(PackageNamespace(""), "loseManyItem"), 2
+
+L992:
+   debugline           12121
+   getlex              QName(PackageInternalNs("NiminFetishFantasyv0_fla"), "ID")
+   pushshort           520
+   ifne                L1006
+
+   debugline           12122
+   findpropstrict      QName(PackageNamespace(""), "loseManyItem")
+   pushshort           212
+   pushbyte            3
+   callpropvoid        QName(PackageNamespace(""), "loseManyItem"), 2
+
+   debugline           12123
+   findpropstrict      QName(PackageNamespace(""), "loseManyItem")
+   pushshort           216
+   pushbyte            1
+   callpropvoid        QName(PackageNamespace(""), "loseManyItem"), 2
+
+L1006:
+   debugline           12125
+   getlex              QName(PackageInternalNs("NiminFetishFantasyv0_fla"), "ID")
+   pushshort           521
+   ifne                L1020
+
+   debugline           12126
+   findpropstrict      QName(PackageNamespace(""), "loseManyItem")
+   pushbyte            120
+   pushbyte            1
+   callpropvoid        QName(PackageNamespace(""), "loseManyItem"), 2
+
+   debugline           12127
+   findpropstrict      QName(PackageNamespace(""), "loseManyItem")
+   pushshort           210
+   pushbyte            1
+   callpropvoid        QName(PackageNamespace(""), "loseManyItem"), 2
+
+L1020:
+   debugline           12129
+   getlex              QName(PackageInternalNs("NiminFetishFantasyv0_fla"), "ID")
+   pushshort           522
+   ifne                L1034
+
+   debugline           12130
+   findpropstrict      QName(PackageNamespace(""), "loseManyItem")
+   pushshort           512
+   pushbyte            3
+   callpropvoid        QName(PackageNamespace(""), "loseManyItem"), 2
+
+   debugline           12131
+   findpropstrict      QName(PackageNamespace(""), "loseManyItem")
+   pushshort           524
+   pushbyte            1
+   callpropvoid        QName(PackageNamespace(""), "loseManyItem"), 2
+
+L1034:
+   debugline           12133
+   getlex              QName(PackageInternalNs("NiminFetishFantasyv0_fla"), "ID")
+   pushshort           532
+   ifne                L1053
+
+   debugline           12134
+   findpropstrict      QName(PackageNamespace(""), "loseManyItem")
+   pushshort           530
+   pushbyte            1
+   callpropvoid        QName(PackageNamespace(""), "loseManyItem"), 2
+
+   debugline           12135
+   findpropstrict      QName(PackageNamespace(""), "loseManyItem")
+   pushshort           212
+   pushbyte            1
+   callpropvoid        QName(PackageNamespace(""), "loseManyItem"), 2
+
+   debugline           12136
+   findpropstrict      QName(PackageNamespace(""), "loseManyItem")
+   pushshort           206
+   pushbyte            1
+   callpropvoid        QName(PackageNamespace(""), "loseManyItem"), 2
+
+L1053:
+   debugline           12138
+   getlex              QName(PackageInternalNs("NiminFetishFantasyv0_fla"), "ID")
+   pushshort           533
+   ifne                L1062
+
+   debugline           12139
+   findpropstrict      QName(PackageNamespace(""), "loseManyItem")
+   pushbyte            110
+   pushbyte            2
+   callpropvoid        QName(PackageNamespace(""), "loseManyItem"), 2
+
+L1062:
+   debugline           12141
+   getlex              QName(PackageInternalNs("NiminFetishFantasyv0_fla"), "ID")
+   pushshort           534
+   ifne                L1086
+
+   debugline           12142
+   findpropstrict      QName(PackageNamespace(""), "loseManyItem")
+   pushshort           202
+   pushbyte            2
+   callpropvoid        QName(PackageNamespace(""), "loseManyItem"), 2
+
+   debugline           12143
+   findpropstrict      QName(PackageNamespace(""), "checkItem")
+   pushshort           208
+   callproperty        QName(PackageNamespace(""), "checkItem"), 1
+   iffalse             L1081
+
+   findpropstrict      QName(PackageNamespace(""), "loseManyItem")
+   pushshort           208
+   pushbyte            1
+   callpropvoid        QName(PackageNamespace(""), "loseManyItem"), 2
+
+   jump                L1086
+
+L1081:
+   debugline           12144
+   findpropstrict      QName(PackageNamespace(""), "loseManyItem")
+   pushshort           218
+   pushbyte            1
+   callpropvoid        QName(PackageNamespace(""), "loseManyItem"), 2
+
+L1086:
+   debugline           12146
+   getlex              QName(PackageInternalNs("NiminFetishFantasyv0_fla"), "ID")
+   pushshort           535
+   ifne                L1100
+
+   debugline           12147
+   findpropstrict      QName(PackageNamespace(""), "loseManyItem")
+   pushshort           201
+   pushbyte            1
+   callpropvoid        QName(PackageNamespace(""), "loseManyItem"), 2
+
+   debugline           12148
+   findpropstrict      QName(PackageNamespace(""), "loseManyItem")
+   pushshort           533
+   pushbyte            1
+   callpropvoid        QName(PackageNamespace(""), "loseManyItem"), 2
+
+L1100:
+   debugline           12150
+   getlex              QName(PackageInternalNs("NiminFetishFantasyv0_fla"), "ID")
+   pushshort           536
+   ifne                L1124
+
+   debugline           12151
+   findpropstrict      QName(PackageNamespace(""), "loseManyItem")
+   pushshort           501
+   pushbyte            1
+   callpropvoid        QName(PackageNamespace(""), "loseManyItem"), 2
+
+   debugline           12152
+   findpropstrict      QName(PackageNamespace(""), "loseManyItem")
+   pushshort           529
+   pushbyte            1
+   callpropvoid        QName(PackageNamespace(""), "loseManyItem"), 2
+
+   debugline           12153
+   findpropstrict      QName(PackageNamespace(""), "loseManyItem")
+   pushshort           207
+   pushbyte            2
+   callpropvoid        QName(PackageNamespace(""), "loseManyItem"), 2
+
+   debugline           12154
+   findpropstrict      QName(PackageNamespace(""), "loseManyItem")
+   pushshort           212
+   pushbyte            3
+   callpropvoid        QName(PackageNamespace(""), "loseManyItem"), 2
+
+L1124:
+   debugline           12157
+   getlex              QName(PackageInternalNs("NiminFetishFantasyv0_fla"), "level")
+   pushbyte            1
+   ifne                L1168
+
+   debugline           12158
+   findpropstrict      QName(PackageNamespace(""), "itemAdd")
+   getlex              QName(PackageInternalNs("NiminFetishFantasyv0_fla"), "ID")
+   callpropvoid        QName(PackageNamespace(""), "itemAdd"), 1
+
+   debugline           12159
+   findpropstrict      QName(PackageNamespace(""), "percent")
+   callproperty        QName(PackageNamespace(""), "percent"), 0
+   pushbyte            55
+   getlex              QName(PackageNamespace(""), "alchemistLevel")
+   pushbyte            2
+   multiply
+   add
+   ifnle               L1144
+
+   findpropstrict      QName(PackageNamespace(""), "itemAdd")
+   getlex              QName(PackageInternalNs("NiminFetishFantasyv0_fla"), "ID")
+   callpropvoid        QName(PackageNamespace(""), "itemAdd"), 1
+
+L1144:
+   debugline           12160
+   findpropstrict      QName(PackageNamespace(""), "percent")
+   callproperty        QName(PackageNamespace(""), "percent"), 0
+   pushbyte            25
+   getlex              QName(PackageNamespace(""), "alchemistLevel")
+   pushbyte            2
+   multiply
+   add
+   ifnle               L1156
+
+   findpropstrict      QName(PackageNamespace(""), "itemAdd")
+   getlex              QName(PackageInternalNs("NiminFetishFantasyv0_fla"), "ID")
+   callpropvoid        QName(PackageNamespace(""), "itemAdd"), 1
+
+L1156:
+   debugline           12161
+   findpropstrict      QName(PackageNamespace(""), "percent")
+   callproperty        QName(PackageNamespace(""), "percent"), 0
+   pushbyte            5
+   getlex              QName(PackageNamespace(""), "alchemistLevel")
+   pushbyte            2
+   multiply
+   add
+   ifnle               L1168
+
+   findpropstrict      QName(PackageNamespace(""), "itemAdd")
+   getlex              QName(PackageInternalNs("NiminFetishFantasyv0_fla"), "ID")
+   callpropvoid        QName(PackageNamespace(""), "itemAdd"), 1
+
+L1168:
+   debugline           12163
+   getlex              QName(PackageInternalNs("NiminFetishFantasyv0_fla"), "level")
+   pushbyte            2
+   ifne                L1206
+
+   debugline           12164
+   findpropstrict      QName(PackageNamespace(""), "itemAdd")
+   getlex              QName(PackageInternalNs("NiminFetishFantasyv0_fla"), "ID")
+   callpropvoid        QName(PackageNamespace(""), "itemAdd"), 1
+
+   debugline           12165
+   findpropstrict      QName(PackageNamespace(""), "percent")
+   callproperty        QName(PackageNamespace(""), "percent"), 0
+   pushbyte            55
+   getlex              QName(PackageNamespace(""), "alchemistLevel")
+   add
+   ifnle               L1186
+
+   findpropstrict      QName(PackageNamespace(""), "itemAdd")
+   getlex              QName(PackageInternalNs("NiminFetishFantasyv0_fla"), "ID")
+   callpropvoid        QName(PackageNamespace(""), "itemAdd"), 1
+
+L1186:
+   debugline           12166
+   findpropstrict      QName(PackageNamespace(""), "percent")
+   callproperty        QName(PackageNamespace(""), "percent"), 0
+   pushbyte            25
+   getlex              QName(PackageNamespace(""), "alchemistLevel")
+   add
+   ifnle               L1196
+
+   findpropstrict      QName(PackageNamespace(""), "itemAdd")
+   getlex              QName(PackageInternalNs("NiminFetishFantasyv0_fla"), "ID")
+   callpropvoid        QName(PackageNamespace(""), "itemAdd"), 1
+
+L1196:
+   debugline           12167
+   findpropstrict      QName(PackageNamespace(""), "percent")
+   callproperty        QName(PackageNamespace(""), "percent"), 0
+   pushbyte            5
+   getlex              QName(PackageNamespace(""), "alchemistLevel")
+   add
+   ifnle               L1206
+
+   findpropstrict      QName(PackageNamespace(""), "itemAdd")
+   getlex              QName(PackageInternalNs("NiminFetishFantasyv0_fla"), "ID")
+   callpropvoid        QName(PackageNamespace(""), "itemAdd"), 1
+
+L1206:
+   debugline           12169
+   getlex              QName(PackageInternalNs("NiminFetishFantasyv0_fla"), "level")
+   pushbyte            3
+   ifne                L1256
+
+   debugline           12170
+   findpropstrict      QName(PackageNamespace(""), "itemAdd")
+   getlex              QName(PackageInternalNs("NiminFetishFantasyv0_fla"), "ID")
+   callpropvoid        QName(PackageNamespace(""), "itemAdd"), 1
+
+   debugline           12171
+   findpropstrict      QName(PackageNamespace(""), "percent")
+   callproperty        QName(PackageNamespace(""), "percent"), 0
+   pushbyte            55
+   getlex              QName(PackageNamespace(""), "alchemistLevel")
+   pushbyte            2
+   multiply
+   pushbyte            3
+   divide
+   add
+   ifnle               L1228
+
+   findpropstrict      QName(PackageNamespace(""), "itemAdd")
+   getlex              QName(PackageInternalNs("NiminFetishFantasyv0_fla"), "ID")
+   callpropvoid        QName(PackageNamespace(""), "itemAdd"), 1
+
+L1228:
+   debugline           12172
+   findpropstrict      QName(PackageNamespace(""), "percent")
+   callproperty        QName(PackageNamespace(""), "percent"), 0
+   pushbyte            25
+   getlex              QName(PackageNamespace(""), "alchemistLevel")
+   pushbyte            2
+   multiply
+   pushbyte            3
+   divide
+   add
+   ifnle               L1242
+
+   findpropstrict      QName(PackageNamespace(""), "itemAdd")
+   getlex              QName(PackageInternalNs("NiminFetishFantasyv0_fla"), "ID")
+   callpropvoid        QName(PackageNamespace(""), "itemAdd"), 1
+
+L1242:
+   debugline           12173
+   findpropstrict      QName(PackageNamespace(""), "percent")
+   callproperty        QName(PackageNamespace(""), "percent"), 0
+   pushbyte            5
+   getlex              QName(PackageNamespace(""), "alchemistLevel")
+   pushbyte            2
+   multiply
+   pushbyte            3
+   divide
+   add
+   ifnle               L1256
+
+   findpropstrict      QName(PackageNamespace(""), "itemAdd")
+   getlex              QName(PackageInternalNs("NiminFetishFantasyv0_fla"), "ID")
+   callpropvoid        QName(PackageNamespace(""), "itemAdd"), 1
+
+L1256:
+   debugline           12177
+   getlex              QName(PackageInternalNs("NiminFetishFantasyv0_fla"), "ID")
+   pushshort           533
+   ifne                L1276
+
+   debugline           12178
+   findpropstrict      QName(PackageNamespace(""), "itemAdd")
+   getlex              QName(PackageInternalNs("NiminFetishFantasyv0_fla"), "ID")
+   callpropvoid        QName(PackageNamespace(""), "itemAdd"), 1
+
+   debugline           12179
+   findpropstrict      QName(PackageNamespace(""), "itemAdd")
+   getlex              QName(PackageInternalNs("NiminFetishFantasyv0_fla"), "ID")
+   callpropvoid        QName(PackageNamespace(""), "itemAdd"), 1
+
+   debugline           12180
+   findpropstrict      QName(PackageNamespace(""), "itemAdd")
+   getlex              QName(PackageInternalNs("NiminFetishFantasyv0_fla"), "ID")
+   callpropvoid        QName(PackageNamespace(""), "itemAdd"), 1
+
+   debugline           12181
+   findpropstrict      QName(PackageNamespace(""), "itemAdd")
+   getlex              QName(PackageInternalNs("NiminFetishFantasyv0_fla"), "ID")
+   callpropvoid        QName(PackageNamespace(""), "itemAdd"), 1
+
+L1276:
+   debugline           12184
+   findpropstrict      QName(PackageNamespace(""), "doProcess")
+   callpropvoid        QName(PackageNamespace(""), "doProcess"), 0
+
+   jump                L1292
+
+L1280:
+   debugline           12188
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "Sorry, but you do not have the necessary ingredients on hand. Please choose something else."
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           12189
+   findpropstrict      QName(PackageNamespace(""), "doNext")
+   callpropvoid        QName(PackageNamespace(""), "doNext"), 0
+
+   debugline           12190
+   findproperty        QName(PackageNamespace(""), "doListen")
+   newfunction         "NiminFetishFantasyv0_fla:MainTimeline/instance/makeAlchemy/inline_method#0"
+   initproperty        QName(PackageNamespace(""), "doListen")
+
+L1292:
+   jump                L1312
+
+L1293:
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           12198
+   getlex              QName(PackageInternalNs("NiminFetishFantasyv0_fla"), "level")
+   pushbyte            1
+   ifne                L1300
+
+   findpropstrict      QName(PackageNamespace(""), "simpleAlchemy")
+   callpropvoid        QName(PackageNamespace(""), "simpleAlchemy"), 0
+
+L1300:
+   debugline           12199
+   getlex              QName(PackageInternalNs("NiminFetishFantasyv0_fla"), "level")
+   pushbyte            2
+   ifne                L1306
+
+   findpropstrict      QName(PackageNamespace(""), "complexAlchemy")
+   callpropvoid        QName(PackageNamespace(""), "complexAlchemy"), 0
+
+L1306:
+   debugline           12200
+   getlex              QName(PackageInternalNs("NiminFetishFantasyv0_fla"), "level")
+   pushbyte            3
+   ifne                L1312
+
+   findpropstrict      QName(PackageNamespace(""), "advancedAlchemy")
+   callpropvoid        QName(PackageNamespace(""), "advancedAlchemy"), 0
+
+L1312:
+   debugline           12202
+   returnvoid
+  end ; code
+  trait slot QName(PackageInternalNs("NiminFetishFantasyv0_fla"), "tempBool") slotid 1 type QName(PackageNamespace(""), "Boolean") end
+ end ; body
+end ; method

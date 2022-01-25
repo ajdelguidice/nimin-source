@@ -1,0 +1,494 @@
+method
+ name ""
+ refid "NiminFetishFantasyv0_fla:MainTimeline/instance/doValley/inline_method#4"
+ returns QName(PackageNamespace(""), "void")
+ flag NEED_ACTIVATION
+ body
+  maxstack 13
+  localcount 2
+  initscopedepth 12
+  maxscopedepth 13
+  code
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           19216
+   newactivation
+   dup
+   setlocal1
+
+   pushscope
+
+   debug               1, "anonymous$339", 0, 19216
+   debugline           19217
+   getlex              QName(PackageNamespace(""), "buttonChoice")
+   pushbyte            1
+   ifne                L99
+
+   debugline           19218
+   findpropstrict      QName(PackageNamespace(""), "viewButtonOutline")
+   pushbyte            1
+   pushbyte            0
+   pushbyte            1
+   pushbyte            0
+   dup
+   dup
+   pushbyte            0
+   pushbyte            1
+   dup
+   pushbyte            0
+   pushbyte            1
+   pushbyte            0
+   callpropvoid        QName(PackageNamespace(""), "viewButtonOutline"), 12
+
+   debugline           19219
+   findpropstrict      QName(PackageNamespace(""), "viewButtonText")
+   pushbyte            1
+   pushbyte            0
+   pushbyte            1
+   pushbyte            0
+   dup
+   dup
+   pushbyte            0
+   pushbyte            1
+   pushbyte            0
+   dup
+   dup
+   pushbyte            0
+   callpropvoid        QName(PackageNamespace(""), "viewButtonText"), 12
+
+   debugline           19220
+   findpropstrict      QName(PackageNamespace(""), "buttonWrite")
+   pushbyte            1
+   pushstring          "Lick"
+   callpropvoid        QName(PackageNamespace(""), "buttonWrite"), 2
+
+   debugline           19221
+   findpropstrict      QName(PackageNamespace(""), "buttonWrite")
+   pushbyte            3
+   pushstring          "Poke"
+   callpropvoid        QName(PackageNamespace(""), "buttonWrite"), 2
+
+   debugline           19222
+   findpropstrict      QName(PackageNamespace(""), "buttonWrite")
+   pushbyte            9
+   pushstring          "Cock Carv"
+   callpropvoid        QName(PackageNamespace(""), "buttonWrite"), 2
+
+   debugline           19223
+   findpropstrict      QName(PackageNamespace(""), "buttonWrite")
+   pushbyte            11
+   pushstring          "Milk Bottle"
+   callpropvoid        QName(PackageNamespace(""), "buttonWrite"), 2
+
+   debugline           19224
+   findpropstrict      QName(PackageNamespace(""), "checkItem")
+   pushshort           207
+   callproperty        QName(PackageNamespace(""), "checkItem"), 1
+   iffalse             L69
+
+   getlex              QName(PackageNamespace(""), "Choice9")
+   pushtrue
+   setproperty         QName(PackageNamespace(""), "visible")
+
+L69:
+   debugline           19225
+   findpropstrict      QName(PackageNamespace(""), "checkItem")
+   pushshort           500
+   callproperty        QName(PackageNamespace(""), "checkItem"), 1
+   convert_b
+   dup
+   iftrue              L81
+
+   pop
+   findpropstrict      QName(PackageNamespace(""), "checkItem")
+   pushshort           501
+   callproperty        QName(PackageNamespace(""), "checkItem"), 1
+   convert_b
+L81:
+   iffalse             L85
+
+   getlex              QName(PackageNamespace(""), "Choice11")
+   pushtrue
+   setproperty         QName(PackageNamespace(""), "visible")
+
+L85:
+   debugline           19226
+   findpropstrict      QName(PackageNamespace(""), "buttonWrite")
+   pushbyte            8
+   pushstring          "Leave"
+   callpropvoid        QName(PackageNamespace(""), "buttonWrite"), 2
+
+   debugline           19227
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "What would you like to do with the statue's open mouth?"
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           19228
+   findproperty        QName(PackageNamespace(""), "doListen")
+   newfunction         "NiminFetishFantasyv0_fla:MainTimeline/instance/doValley/inline_method#0"
+   initproperty        QName(PackageNamespace(""), "doListen")
+
+L99:
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           19295
+   getlex              QName(PackageNamespace(""), "buttonChoice")
+   pushbyte            3
+   ifne                L192
+
+   debugline           19296
+   findpropstrict      QName(PackageNamespace(""), "viewButtonOutline")
+   pushbyte            1
+   pushbyte            0
+   pushbyte            1
+   pushbyte            0
+   dup
+   dup
+   pushbyte            0
+   pushbyte            1
+   dup
+   pushbyte            0
+   pushbyte            1
+   pushbyte            0
+   callpropvoid        QName(PackageNamespace(""), "viewButtonOutline"), 12
+
+   debugline           19297
+   findpropstrict      QName(PackageNamespace(""), "viewButtonText")
+   pushbyte            1
+   pushbyte            0
+   pushbyte            1
+   pushbyte            0
+   dup
+   dup
+   pushbyte            0
+   pushbyte            1
+   pushbyte            0
+   dup
+   dup
+   pushbyte            0
+   callpropvoid        QName(PackageNamespace(""), "viewButtonText"), 12
+
+   debugline           19298
+   findpropstrict      QName(PackageNamespace(""), "buttonWrite")
+   pushbyte            1
+   pushstring          "Lick"
+   callpropvoid        QName(PackageNamespace(""), "buttonWrite"), 2
+
+   debugline           19299
+   findpropstrict      QName(PackageNamespace(""), "buttonWrite")
+   pushbyte            3
+   pushstring          "Poke"
+   callpropvoid        QName(PackageNamespace(""), "buttonWrite"), 2
+
+   debugline           19300
+   findpropstrict      QName(PackageNamespace(""), "buttonWrite")
+   pushbyte            9
+   pushstring          "Cock Carv"
+   callpropvoid        QName(PackageNamespace(""), "buttonWrite"), 2
+
+   debugline           19301
+   findpropstrict      QName(PackageNamespace(""), "buttonWrite")
+   pushbyte            11
+   pushstring          "Milk Bottle"
+   callpropvoid        QName(PackageNamespace(""), "buttonWrite"), 2
+
+   debugline           19302
+   findpropstrict      QName(PackageNamespace(""), "buttonWrite")
+   pushbyte            8
+   pushstring          "Leave"
+   callpropvoid        QName(PackageNamespace(""), "buttonWrite"), 2
+
+   debugline           19303
+   findpropstrict      QName(PackageNamespace(""), "checkItem")
+   pushshort           207
+   callproperty        QName(PackageNamespace(""), "checkItem"), 1
+   iffalse             L167
+
+   getlex              QName(PackageNamespace(""), "Choice9")
+   pushtrue
+   setproperty         QName(PackageNamespace(""), "visible")
+
+L167:
+   debugline           19304
+   findpropstrict      QName(PackageNamespace(""), "checkItem")
+   pushshort           500
+   callproperty        QName(PackageNamespace(""), "checkItem"), 1
+   convert_b
+   dup
+   iftrue              L179
+
+   pop
+   findpropstrict      QName(PackageNamespace(""), "checkItem")
+   pushshort           501
+   callproperty        QName(PackageNamespace(""), "checkItem"), 1
+   convert_b
+L179:
+   iffalse             L183
+
+   getlex              QName(PackageNamespace(""), "Choice11")
+   pushtrue
+   setproperty         QName(PackageNamespace(""), "visible")
+
+L183:
+   debugline           19305
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "What would you like to do with the statue's ear?"
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           19306
+   findproperty        QName(PackageNamespace(""), "doListen")
+   newfunction         "NiminFetishFantasyv0_fla:MainTimeline/instance/doValley/inline_method#1"
+   initproperty        QName(PackageNamespace(""), "doListen")
+
+L192:
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           19384
+   getlex              QName(PackageNamespace(""), "buttonChoice")
+   pushbyte            6
+   ifne                L285
+
+   debugline           19385
+   findpropstrict      QName(PackageNamespace(""), "viewButtonOutline")
+   pushbyte            1
+   pushbyte            0
+   pushbyte            1
+   pushbyte            0
+   dup
+   dup
+   pushbyte            0
+   pushbyte            1
+   dup
+   pushbyte            0
+   pushbyte            1
+   pushbyte            0
+   callpropvoid        QName(PackageNamespace(""), "viewButtonOutline"), 12
+
+   debugline           19386
+   findpropstrict      QName(PackageNamespace(""), "viewButtonText")
+   pushbyte            1
+   pushbyte            0
+   pushbyte            1
+   pushbyte            0
+   dup
+   dup
+   pushbyte            0
+   pushbyte            1
+   pushbyte            0
+   dup
+   dup
+   pushbyte            0
+   callpropvoid        QName(PackageNamespace(""), "viewButtonText"), 12
+
+   debugline           19387
+   findpropstrict      QName(PackageNamespace(""), "buttonWrite")
+   pushbyte            1
+   pushstring          "Lick"
+   callpropvoid        QName(PackageNamespace(""), "buttonWrite"), 2
+
+   debugline           19388
+   findpropstrict      QName(PackageNamespace(""), "buttonWrite")
+   pushbyte            3
+   pushstring          "Poke"
+   callpropvoid        QName(PackageNamespace(""), "buttonWrite"), 2
+
+   debugline           19389
+   findpropstrict      QName(PackageNamespace(""), "buttonWrite")
+   pushbyte            9
+   pushstring          "Cock Carv"
+   callpropvoid        QName(PackageNamespace(""), "buttonWrite"), 2
+
+   debugline           19390
+   findpropstrict      QName(PackageNamespace(""), "buttonWrite")
+   pushbyte            11
+   pushstring          "Milk Bottle"
+   callpropvoid        QName(PackageNamespace(""), "buttonWrite"), 2
+
+   debugline           19391
+   findpropstrict      QName(PackageNamespace(""), "checkItem")
+   pushshort           207
+   callproperty        QName(PackageNamespace(""), "checkItem"), 1
+   iffalse             L255
+
+   getlex              QName(PackageNamespace(""), "Choice9")
+   pushtrue
+   setproperty         QName(PackageNamespace(""), "visible")
+
+L255:
+   debugline           19392
+   findpropstrict      QName(PackageNamespace(""), "checkItem")
+   pushshort           500
+   callproperty        QName(PackageNamespace(""), "checkItem"), 1
+   convert_b
+   dup
+   iftrue              L267
+
+   pop
+   findpropstrict      QName(PackageNamespace(""), "checkItem")
+   pushshort           501
+   callproperty        QName(PackageNamespace(""), "checkItem"), 1
+   convert_b
+L267:
+   iffalse             L271
+
+   getlex              QName(PackageNamespace(""), "Choice11")
+   pushtrue
+   setproperty         QName(PackageNamespace(""), "visible")
+
+L271:
+   debugline           19393
+   findpropstrict      QName(PackageNamespace(""), "buttonWrite")
+   pushbyte            8
+   pushstring          "Leave"
+   callpropvoid        QName(PackageNamespace(""), "buttonWrite"), 2
+
+   debugline           19394
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "What would you like to do with the statue's four breasts?"
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           19395
+   findproperty        QName(PackageNamespace(""), "doListen")
+   newfunction         "NiminFetishFantasyv0_fla:MainTimeline/instance/doValley/inline_method#2"
+   initproperty        QName(PackageNamespace(""), "doListen")
+
+L285:
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           19449
+   getlex              QName(PackageNamespace(""), "buttonChoice")
+   pushbyte            10
+   ifne                L378
+
+   debugline           19450
+   findpropstrict      QName(PackageNamespace(""), "viewButtonOutline")
+   pushbyte            1
+   pushbyte            0
+   pushbyte            1
+   pushbyte            0
+   dup
+   dup
+   pushbyte            0
+   pushbyte            1
+   dup
+   pushbyte            0
+   pushbyte            1
+   pushbyte            0
+   callpropvoid        QName(PackageNamespace(""), "viewButtonOutline"), 12
+
+   debugline           19451
+   findpropstrict      QName(PackageNamespace(""), "viewButtonText")
+   pushbyte            1
+   pushbyte            0
+   pushbyte            1
+   pushbyte            0
+   dup
+   dup
+   pushbyte            0
+   pushbyte            1
+   pushbyte            0
+   dup
+   dup
+   pushbyte            0
+   callpropvoid        QName(PackageNamespace(""), "viewButtonText"), 12
+
+   debugline           19452
+   findpropstrict      QName(PackageNamespace(""), "buttonWrite")
+   pushbyte            1
+   pushstring          "Lick"
+   callpropvoid        QName(PackageNamespace(""), "buttonWrite"), 2
+
+   debugline           19453
+   findpropstrict      QName(PackageNamespace(""), "buttonWrite")
+   pushbyte            3
+   pushstring          "Poke"
+   callpropvoid        QName(PackageNamespace(""), "buttonWrite"), 2
+
+   debugline           19454
+   findpropstrict      QName(PackageNamespace(""), "buttonWrite")
+   pushbyte            9
+   pushstring          "Cock Carv"
+   callpropvoid        QName(PackageNamespace(""), "buttonWrite"), 2
+
+   debugline           19455
+   findpropstrict      QName(PackageNamespace(""), "buttonWrite")
+   pushbyte            11
+   pushstring          "Milk Bottle"
+   callpropvoid        QName(PackageNamespace(""), "buttonWrite"), 2
+
+   debugline           19456
+   findpropstrict      QName(PackageNamespace(""), "checkItem")
+   pushshort           207
+   callproperty        QName(PackageNamespace(""), "checkItem"), 1
+   iffalse             L348
+
+   getlex              QName(PackageNamespace(""), "Choice9")
+   pushtrue
+   setproperty         QName(PackageNamespace(""), "visible")
+
+L348:
+   debugline           19457
+   findpropstrict      QName(PackageNamespace(""), "checkItem")
+   pushshort           500
+   callproperty        QName(PackageNamespace(""), "checkItem"), 1
+   convert_b
+   dup
+   iftrue              L360
+
+   pop
+   findpropstrict      QName(PackageNamespace(""), "checkItem")
+   pushshort           501
+   callproperty        QName(PackageNamespace(""), "checkItem"), 1
+   convert_b
+L360:
+   iffalse             L364
+
+   getlex              QName(PackageNamespace(""), "Choice11")
+   pushtrue
+   setproperty         QName(PackageNamespace(""), "visible")
+
+L364:
+   debugline           19458
+   findpropstrict      QName(PackageNamespace(""), "buttonWrite")
+   pushbyte            8
+   pushstring          "Leave"
+   callpropvoid        QName(PackageNamespace(""), "buttonWrite"), 2
+
+   debugline           19459
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "What would you like to do with the statue's gaping pussy?"
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           19460
+   findproperty        QName(PackageNamespace(""), "doListen")
+   newfunction         "NiminFetishFantasyv0_fla:MainTimeline/instance/doValley/inline_method#3"
+   initproperty        QName(PackageNamespace(""), "doListen")
+
+L378:
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           19504
+   getlex              QName(PackageNamespace(""), "buttonChoice")
+   pushbyte            12
+   ifne                L395
+
+   debugline           19505
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "Wary of ancient puzzles involving oversexualized statues, you head back to town for now."
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           19506
+   findproperty        QName(PackageNamespace(""), "hrs")
+   pushbyte            1
+   initproperty        QName(PackageNamespace(""), "hrs")
+
+   debugline           19507
+   findpropstrict      QName(PackageNamespace(""), "doEnd")
+   callpropvoid        QName(PackageNamespace(""), "doEnd"), 0
+
+L395:
+   debugline           19509
+   returnvoid
+  end ; code
+ end ; body
+end ; method

@@ -1,0 +1,65 @@
+method
+ name ""
+ refid "NiminFetishFantasyv0_fla:MainTimeline/instance/doSoftlik/inline_method#1"
+ returns QName(PackageNamespace(""), "void")
+ body
+  maxstack 3
+  localcount 1
+  initscopedepth 11
+  maxscopedepth 11
+  code
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           13592
+   getlex              QName(PackageNamespace(""), "buttonChoice")
+   pushbyte            6
+   ifne                L26
+
+   debugline           13593
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "\"Well, here you go.\" He hands you a vial as he takes your coins. \"Now I've got to get going to catch that rat bastard who's going to rip me off. Good luck to you!\"\r\rHe starts trudging down the street, but turns back for only a moment to shout, \"Oh! And don't forget to read the warning label!\" And with that he's gone.\r\rLooking down at the vial, you can't seem to find any kind of warning... Now that you think about it, wasn't there a label on the crate?"
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           13594
+   findpropstrict      QName(PackageNamespace(""), "doCoin")
+   pushbyte            -100
+   callpropvoid        QName(PackageNamespace(""), "doCoin"), 1
+
+   debugline           13595
+   findpropstrict      QName(PackageNamespace(""), "itemAdd")
+   pushshort           257
+   callpropvoid        QName(PackageNamespace(""), "itemAdd"), 1
+
+   debugline           13596
+   findproperty        QName(PackageNamespace(""), "hrs")
+   pushbyte            2
+   initproperty        QName(PackageNamespace(""), "hrs")
+
+   debugline           13597
+   findpropstrict      QName(PackageNamespace(""), "doEnd")
+   callpropvoid        QName(PackageNamespace(""), "doEnd"), 0
+
+   jump                L38
+
+L26:
+   debugline           13600
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "\"Ahh, that's fine. I just hope you have a better day than I've had...\" He trudges off down the street, grumbling over his continued failures."
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           13601
+   findproperty        QName(PackageNamespace(""), "hrs")
+   pushbyte            1
+   initproperty        QName(PackageNamespace(""), "hrs")
+
+   debugline           13602
+   findpropstrict      QName(PackageNamespace(""), "doEnd")
+   callpropvoid        QName(PackageNamespace(""), "doEnd"), 0
+
+L38:
+   debugline           13604
+   returnvoid
+  end ; code
+ end ; body
+end ; method
