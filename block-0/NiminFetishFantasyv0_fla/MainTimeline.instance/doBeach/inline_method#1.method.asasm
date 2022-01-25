@@ -1,0 +1,41 @@
+method
+ name ""
+ refid "NiminFetishFantasyv0_fla:MainTimeline/instance/doBeach/inline_method#1"
+ returns QName(PackageNamespace(""), "void")
+ flag NEED_ACTIVATION
+ body
+  maxstack 3
+  localcount 2
+  initscopedepth 13
+  maxscopedepth 14
+  code
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           16982
+   newactivation
+   dup
+   setlocal1
+
+   pushscope
+
+   debug               1, "anonymous$253", 0, 16982
+   debugline           16983
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "Her 'butt' is large for her slender torso, her hips wider than you'd expect. And she has no legs...\r\rEight large, long tentacles squirm idly below her waist. They share a similar tone of pink as her hair, though much deeper and nearly purple, with a thin membrane of fleshy webbing between them. Their undersides are riddled with little suction cups, popping and sticking onto each other as they writhe. And as you step too close, one twitches out and touches you, realizing you're there.\r\rThe octopus girl's eyes snap open. They're large and nearly all a deep purple in color, with a slight amount of white around the edges. She glares at you in an instant and smirks. And you're quite unsure if it's a playful smirk or a predatory one...\r\rEither way, as her tentacles roll beneath her body and bring her to a 'stand', wobbling slightly from her large bosom and belly, you'll soon find out!"
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           16984
+   findpropstrict      QName(PackageNamespace(""), "doNext")
+   callpropvoid        QName(PackageNamespace(""), "doNext"), 0
+
+   debugline           16985
+   findproperty        QName(PackageNamespace(""), "doListen")
+   newfunction         "NiminFetishFantasyv0_fla:MainTimeline/instance/doBeach/inline_method#0"
+   initproperty        QName(PackageNamespace(""), "doListen")
+
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           16992
+   returnvoid
+  end ; code
+ end ; body
+end ; method

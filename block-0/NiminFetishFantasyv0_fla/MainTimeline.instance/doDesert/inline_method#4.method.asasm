@@ -1,0 +1,47 @@
+method
+ name ""
+ refid "NiminFetishFantasyv0_fla:MainTimeline/instance/doDesert/inline_method#4"
+ returns QName(PackageNamespace(""), "void")
+ body
+  maxstack 4
+  localcount 1
+  initscopedepth 11
+  maxscopedepth 11
+  code
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           16833
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "Wads of white spunk spew through this strange woman's loin cloth. It smatters across your body and paints her thighs as much runs down the inside of the cloth. Plenty of it washes up through her cleavage, finally undoing the clasp with the slick lubrication and making her nipples shine with the moisture as they're freed. She coos and shudders for a few more moments, the cum running out as it continues to pump, her other genitals making a mess upon your "
+   findpropstrict      QName(PackageNamespace(""), "legDesc")
+   pushbyte            1
+   callproperty        QName(PackageNamespace(""), "legDesc"), 1
+   add
+   pushstring          ". Her head hangs low as she tries to regain her breathing, her mind slowly returning.\r\rThe smell of her own naughtiness fills her nose. Realizing what she had just dowe, she looks up at you with eyes wide in fear. Stricken with embarrassment, her normally shy demeanor takes charge as she jumps back from you, her wings flapping around you as they let go and snap back around herself to cover the mess she's made of herself.\r\r\"I-I'm so sorry!\" She turns away and begins to run across the sand, her tail slinking between her legs. Just a few yards away, she kicks up into the air, her wings unfurling and taking her to the air for a speedier retreat. Wads of gooey stuff spills across the desert where she takes off, with more being flung around by the flapping of her wings, leaving a short trail before she disappears into the distance.\r\r\rLeft alone and covered in a stranger's lewd fluids, you're not quite sure how to react... You wipe some of it off, but the hot air quickly takes care of the rest. A little dazed, you turn and head back to town for now."
+   add
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           16834
+   findpropstrict      QName(PackageNamespace(""), "doLust")
+   getlex              QName(PackageNamespace(""), "Math")
+   getlex              QName(PackageNamespace(""), "lib")
+   pushbyte            4
+   divide
+   callproperty        QName(PackageNamespace(""), "floor"), 1
+   pushbyte            0
+   callpropvoid        QName(PackageNamespace(""), "doLust"), 2
+
+   debugline           16835
+   findproperty        QName(PackageNamespace(""), "hrs")
+   pushbyte            2
+   initproperty        QName(PackageNamespace(""), "hrs")
+
+   debugline           16836
+   findpropstrict      QName(PackageNamespace(""), "doEnd")
+   callpropvoid        QName(PackageNamespace(""), "doEnd"), 0
+
+   debugline           16837
+   returnvoid
+  end ; code
+ end ; body
+end ; method

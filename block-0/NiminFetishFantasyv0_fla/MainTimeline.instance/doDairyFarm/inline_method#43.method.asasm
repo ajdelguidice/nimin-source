@@ -1,0 +1,41 @@
+method
+ name ""
+ refid "NiminFetishFantasyv0_fla:MainTimeline/instance/doDairyFarm/inline_method#43"
+ returns QName(PackageNamespace(""), "void")
+ flag NEED_ACTIVATION
+ body
+  maxstack 3
+  localcount 2
+  initscopedepth 12
+  maxscopedepth 13
+  code
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           18163
+   newactivation
+   dup
+   setlocal1
+
+   pushscope
+
+   debug               1, "anonymous$302", 0, 18163
+   debugline           18164
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "With a gentle voice, she speaks,\r\r\"Oh my, w-would you like some help with that?\" She nods down to your milkiness. \"I, umm... Kinda know the feeling and can help you out if you would like.\"\r\r\rDo you accept her offer?"
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           18165
+   findpropstrict      QName(PackageNamespace(""), "buttonConfirm")
+   callpropvoid        QName(PackageNamespace(""), "buttonConfirm"), 0
+
+   debugline           18166
+   findproperty        QName(PackageNamespace(""), "doListen")
+   newfunction         "NiminFetishFantasyv0_fla:MainTimeline/instance/doDairyFarm/inline_method#42"
+   initproperty        QName(PackageNamespace(""), "doListen")
+
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           18216
+   returnvoid
+  end ; code
+ end ; body
+end ; method

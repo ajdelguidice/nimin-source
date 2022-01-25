@@ -1,0 +1,120 @@
+method
+ name ""
+ refid "NiminFetishFantasyv0_fla:MainTimeline/instance/doDairyFarm/inline_method#4"
+ returns QName(PackageNamespace(""), "void")
+ body
+  maxstack 4
+  localcount 1
+  initscopedepth 12
+  maxscopedepth 12
+  code
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           17322
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "You awaken when the machine finally releases you, making you fall to the floor. You udder feels swollen and your teats feel stretched again, but overall the multiple orgasms and extended milking make you feel rather blissful. You take several moments to clean up the mess you've made, hoping nobody will notice your presence here, and head off the farm happy."
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           17323
+   findpropstrict      QName(PackageNamespace(""), "doLust")
+   getlex              QName(PackageNamespace(""), "Math")
+   getlex              QName(PackageNamespace(""), "sen")
+   pushbyte            2
+   divide
+   callproperty        QName(PackageNamespace(""), "floor"), 1
+   negate
+   pushbyte            2
+   pushbyte            4
+   callpropvoid        QName(PackageNamespace(""), "doLust"), 3
+
+   debugline           17324
+   findpropstrict      QName(PackageNamespace(""), "doLust")
+   getlex              QName(PackageNamespace(""), "Math")
+   getlex              QName(PackageNamespace(""), "sen")
+   pushbyte            2
+   divide
+   callproperty        QName(PackageNamespace(""), "floor"), 1
+   negate
+   pushbyte            2
+   pushbyte            4
+   callpropvoid        QName(PackageNamespace(""), "doLust"), 3
+
+   debugline           17325
+   findpropstrict      QName(PackageNamespace(""), "doLust")
+   getlex              QName(PackageNamespace(""), "Math")
+   getlex              QName(PackageNamespace(""), "sen")
+   pushbyte            2
+   divide
+   callproperty        QName(PackageNamespace(""), "floor"), 1
+   negate
+   pushbyte            2
+   pushbyte            4
+   callpropvoid        QName(PackageNamespace(""), "doLust"), 3
+
+   debugline           17326
+   findpropstrict      QName(PackageNamespace(""), "milkAmount")
+   pushbyte            2
+   callpropvoid        QName(PackageNamespace(""), "milkAmount"), 1
+
+   debugline           17327
+   findpropstrict      QName(PackageNamespace(""), "lactChange")
+   pushbyte            2
+   pushbyte            50
+   callpropvoid        QName(PackageNamespace(""), "lactChange"), 2
+
+   debugline           17328
+   findproperty        QName(PackageNamespace(""), "udderSize")
+   getlex              QName(PackageNamespace(""), "udderSize")
+   pushbyte            4
+   add
+   initproperty        QName(PackageNamespace(""), "udderSize")
+
+   debugline           17329
+   findproperty        QName(PackageNamespace(""), "teatSize")
+   getlex              QName(PackageNamespace(""), "teatSize")
+   pushbyte            5
+   add
+   initproperty        QName(PackageNamespace(""), "teatSize")
+
+   debugline           17330
+   findproperty        QName(PackageNamespace(""), "teatPump")
+   getlex              QName(PackageNamespace(""), "teatPump")
+   pushbyte            40
+   add
+   initproperty        QName(PackageNamespace(""), "teatPump")
+
+   debugline           17331
+   findproperty        QName(PackageNamespace(""), "udderPlay")
+   getlex              QName(PackageNamespace(""), "udderPlay")
+   pushbyte            100
+   add
+   initproperty        QName(PackageNamespace(""), "udderPlay")
+
+   debugline           17332
+   findproperty        QName(PackageNamespace(""), "hrs")
+   getlex              QName(PackageNamespace(""), "hrs")
+   pushbyte            13
+   add
+   initproperty        QName(PackageNamespace(""), "hrs")
+
+   debugline           17333
+   findproperty        QName(PackageNamespace(""), "exhaustion")
+   getlex              QName(PackageNamespace(""), "exhaustion")
+   pushbyte            4
+   subtract
+   initproperty        QName(PackageNamespace(""), "exhaustion")
+
+   debugline           17334
+   findproperty        QName(PackageNamespace(""), "skipExhaustion")
+   pushtrue
+   initproperty        QName(PackageNamespace(""), "skipExhaustion")
+
+   debugline           17335
+   findpropstrict      QName(PackageNamespace(""), "doEnd")
+   callpropvoid        QName(PackageNamespace(""), "doEnd"), 0
+
+   debugline           17336
+   returnvoid
+  end ; code
+ end ; body
+end ; method

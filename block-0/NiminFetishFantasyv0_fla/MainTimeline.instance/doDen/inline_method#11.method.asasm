@@ -1,0 +1,553 @@
+method
+ name ""
+ refid "NiminFetishFantasyv0_fla:MainTimeline/instance/doDen/inline_method#11"
+ returns QName(PackageNamespace(""), "void")
+ flag NEED_ACTIVATION
+ body
+  maxstack 5
+  localcount 2
+  initscopedepth 12
+  maxscopedepth 13
+  code
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           18781
+   newactivation
+   dup
+   setlocal1
+
+   pushscope
+
+   debug               1, "anonymous$326", 0, 18781
+   getscopeobject      0
+   pushbyte            0
+   setslot             1
+
+   debugline           18782
+   getlex              QName(PackageNamespace(""), "buttonChoice")
+   pushbyte            1
+   ifne                L246
+
+   debugline           18783
+   getscopeobject      0
+   findpropstrict      QName(PackageNamespace(""), "cumAmount")
+   callproperty        QName(PackageNamespace(""), "cumAmount"), 0
+   convert_i
+   setslot             1
+
+   debugline           18784
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "Rubbing the "
+   findpropstrict      QName(PackageNamespace(""), "cockDesc")
+   callproperty        QName(PackageNamespace(""), "cockDesc"), 0
+   add
+   pushstring          " bulge in your "
+   add
+   findpropstrict      QName(PackageNamespace(""), "clothesBottom")
+   callproperty        QName(PackageNamespace(""), "clothesBottom"), 0
+   add
+   pushstring          ", you make it fairly obvious what you would like to do. The tall girl blushes and doesn't object, leading you right to her room with a rapid pace in her step, telling Daeru and Naeru to go take a nap in the meantime. The obedient pups comply, leaving you alone with the half-naked woman. In a flurry of kisses and hugs, the two of you are soon stripped of your clothes."
+   add
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           18785
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          " Taking the lead, she pushes you back onto her bed, "
+   findpropstrict      QName(PackageNamespace(""), "legVerb")
+   pushbyte            2
+   callproperty        QName(PackageNamespace(""), "legVerb"), 1
+   add
+   pushstring          " your "
+   add
+   findpropstrict      QName(PackageNamespace(""), "legDesc")
+   pushbyte            2
+   callproperty        QName(PackageNamespace(""), "legDesc"), 1
+   add
+   pushstring          " to lick"
+   add
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           18786
+   getlex              QName(PackageNamespace(""), "showBalls")
+   pushtrue
+   ifne                L66
+
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          " your "
+   findpropstrict      QName(PackageNamespace(""), "ballDesc")
+   callproperty        QName(PackageNamespace(""), "ballDesc"), 0
+   add
+   pushstring          " testicles"
+   add
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   jump                L83
+
+L66:
+   debugline           18787
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          " the base"
+   findpropstrict      QName(PackageNamespace(""), "plural")
+   pushbyte            1
+   callproperty        QName(PackageNamespace(""), "plural"), 1
+   add
+   pushstring          " of your cock"
+   add
+   findpropstrict      QName(PackageNamespace(""), "plural")
+   pushbyte            1
+   callproperty        QName(PackageNamespace(""), "plural"), 1
+   add
+   pushstring          ""
+   add
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+L83:
+   debugline           18788
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          " before nibbling up the length of "
+   findpropstrict      QName(PackageNamespace(""), "oneYour")
+   pushbyte            1
+   callproperty        QName(PackageNamespace(""), "oneYour"), 1
+   add
+   pushstring          " shaft"
+   add
+   findpropstrict      QName(PackageNamespace(""), "plural")
+   pushbyte            1
+   callproperty        QName(PackageNamespace(""), "plural"), 1
+   add
+   pushstring          " and gulping down the tip the best she can.\r\rOnce you're thoroughly lubricated with saliva and pre, standing stiff and aching to fill her, she can hardly resist jumping onto it. Yet, she still manages to slowly climb up the bed, her finger-like talons clawing at the sheets as the feathers tickle over your thighs, until she finally struggles to sit upright over your waist squat down over your erection. She lets out a cooing howl as she feels your girth slip through her lips and burrow into her moist inner-walls. Her wings pressing against your "
+   add
+   findpropstrict      QName(PackageNamespace(""), "boobDesc")
+   callproperty        QName(PackageNamespace(""), "boobDesc"), 0
+   add
+   pushstring          " chest"
+   add
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           18789
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          ", she steadies herself while her hips begin to grind and twist hungrily on top of you. Her tongue lolls from her muzzle and she pants happily while her ears bob up and down, her tail flicking about sporadically from the joy of having you inside of her."
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           18790
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "\r\rHaving remained swollen quite a bit with her last pregnancy, her cock slaps loudly against you with each hop and flings pre all over your front. The large testicles rest around your groin, hugging your cock"
+   findpropstrict      QName(PackageNamespace(""), "plural")
+   pushbyte            1
+   callproperty        QName(PackageNamespace(""), "plural"), 1
+   add
+   pushstring          " whenever she lifts high enough to allow them to roll beneath her."
+   add
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           18791
+   getlex              QName(PackageNamespace(""), "cockSize")
+   getlex              QName(PackageNamespace(""), "cockSizeMod")
+   multiply
+   pushbyte            66
+   ifnge               L132
+
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          " Your own length, meanwhile, stretches her belly out further, forcing her belly-scales to protrude from within, yet seems to have no sign of hurting her or her womb. In fact, she seems to enjoy it even more as she blissfully hugs your head whenever it presses out far enough, tenderly rubbing it until it disappears back inside."
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   jump                L142
+
+L132:
+   debugline           18792
+   getlex              QName(PackageNamespace(""), "cockSize")
+   getlex              QName(PackageNamespace(""), "cockSizeMod")
+   multiply
+   pushbyte            36
+   ifnge               L142
+
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "\x09Your own length, meanwhile, stretches the walls of her pussy greatly, causing them to tightly hug against your width. Yet, there are no signs of pain as she blissfully lets it plow through her again and again."
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+L142:
+   debugline           18793
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          " She bounces upon you so roughly that her "
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           18794
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "four pairs of"
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           18795
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          " breasts jiggle obscenely, the nipples stiff and tossing milk about everywhere.\r\rAt this rate, it doesn't take long before Silandrias is letting out a loud, lustful howl as you erupt within her."
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           18796
+   getscopeobject      0
+   getslot             1
+   pushshort           1000
+   ifnlt               L167
+
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          " Your hot load churns about her tunnel as you spray about, not a single drop slipping from her slit as her womb drinks it in."
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   jump                L182
+
+L167:
+   debugline           18797
+   getscopeobject      0
+   getslot             1
+   pushshort           5000
+   ifnlt               L177
+
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          " Your hot load forces her belly to visibly distend as you spray within, the grand amount of spunk churning around and drowning your gushing head, yet hardly any seems to spill from her slit as her womb drinks it in, thirsty for seed."
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   jump                L182
+
+L177:
+   debugline           18798
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          " Your hot load forces her belly to expand, inflating as you spray within, the massive amount of spunk audibly churning within. However, only a fraction of the stuff spews back out through her slit, as her womb seems to gulp it down as though it were desperately thirsty for seed."
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+L182:
+   debugline           18799
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          " With a couple twitches after being filled by you, her own cock explodes over you, whipping the strands of cum across your body like laced icing. She goes on and on until she's sucked all the cum she can get from you and you look reminiscent of a cheese danish before she finally collapses over you with a heavy sigh."
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           18800
+   getlex              QName(PackageNamespace(""), "Math")
+   getscopeobject      0
+   getslot             1
+   pushbyte            50
+   divide
+   callproperty        QName(PackageNamespace(""), "ceil"), 1
+   pushbyte            100
+   greaterthan
+   dup
+   iffalse             L202
+
+   pop
+   getlex              QName(PackageNamespace(""), "silPreg")
+   pushbyte            0
+   greaterthan
+L202:
+   iffalse             L209
+
+   findproperty        QName(PackageNamespace(""), "silPreg")
+   getlex              QName(PackageNamespace(""), "silPreg")
+   pushbyte            100
+   add
+   initproperty        QName(PackageNamespace(""), "silPreg")
+
+   jump                L228
+
+L209:
+   debugline           18801
+   getlex              QName(PackageNamespace(""), "silPreg")
+   pushbyte            0
+   ifngt               L224
+
+   findproperty        QName(PackageNamespace(""), "silPreg")
+   getlex              QName(PackageNamespace(""), "silPreg")
+   getlex              QName(PackageNamespace(""), "Math")
+   getscopeobject      0
+   getslot             1
+   pushbyte            50
+   divide
+   callproperty        QName(PackageNamespace(""), "ceil"), 1
+   add
+   initproperty        QName(PackageNamespace(""), "silPreg")
+
+   jump                L228
+
+L224:
+   debugline           18802
+   findproperty        QName(PackageNamespace(""), "silPreg")
+   pushbyte            1
+   initproperty        QName(PackageNamespace(""), "silPreg")
+
+L228:
+   debugline           18803
+   findpropstrict      QName(PackageNamespace(""), "doLust")
+   getlex              QName(PackageNamespace(""), "Math")
+   getlex              QName(PackageNamespace(""), "sen")
+   pushbyte            2
+   divide
+   callproperty        QName(PackageNamespace(""), "floor"), 1
+   negate
+   pushbyte            2
+   pushbyte            1
+   callpropvoid        QName(PackageNamespace(""), "doLust"), 3
+
+   debugline           18804
+   findpropstrict      QName(PackageNamespace(""), "doNext")
+   callpropvoid        QName(PackageNamespace(""), "doNext"), 0
+
+   debugline           18805
+   findproperty        QName(PackageNamespace(""), "doListen")
+   newfunction         "NiminFetishFantasyv0_fla:MainTimeline/instance/doDen/inline_method#9"
+   initproperty        QName(PackageNamespace(""), "doListen")
+
+L246:
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           18811
+   getlex              QName(PackageNamespace(""), "buttonChoice")
+   pushbyte            3
+   ifne                L411
+
+   debugline           18812
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "Stepping towards her and placing a hand upon the bulge in her loincloth, it doesn't take a scholar to figure out what you'd like. The tall girl blushes and the bulge jumps with sudden bloodflow. She doesn't object, telling Daeru and Naeru to go take a nap in the meantime. The obedient pups comply, leaving her to lead you right to her room with a rapid pace in her step. In a flurry of kisses and hugs, the two of you are soon stripped of your clothes."
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           18813
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          " Eager to release, she pushes you back onto her bed, wedging herself between your thighs as she flops the stiffening erection on top of your "
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           18814
+   getlex              QName(PackageNamespace(""), "cockTotal")
+   pushbyte            0
+   ifngt               L270
+
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "own"
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   jump                L278
+
+L270:
+   debugline           18815
+   getlex              QName(PackageNamespace(""), "cockTotal")
+   pushbyte            1
+   ifnlt               L278
+
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "belly"
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+L278:
+   debugline           18816
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          " with a splatter of slimy pre."
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           18817
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          " Then, her finger-like talons grab onto your "
+   findpropstrict      QName(PackageNamespace(""), "hipDesc")
+   callproperty        QName(PackageNamespace(""), "hipDesc"), 0
+   add
+   pushstring          " hips, the feathers of her wings tickling your thighs as she drags her cock over you until it falls into the "
+   add
+   findpropstrict      QName(PackageNamespace(""), "vulvaDesc")
+   callproperty        QName(PackageNamespace(""), "vulvaDesc"), 0
+   add
+   pushstring          " crevice between. With a moaning grunt, she plunges in.\r\rThe hard phallus pumps in and out of your soft velvety walls while the "
+   add
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           18818
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "large and heavy"
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           18819
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          " balls slap against your "
+   findpropstrict      QName(PackageNamespace(""), "buttDesc")
+   callproperty        QName(PackageNamespace(""), "buttDesc"), 0
+   add
+   pushstring          " rump"
+   add
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           18820
+   getlex              QName(PackageNamespace(""), "silPreg")
+   getlex              QName(PackageNamespace(""), "pregnancyTime")
+   add
+   getlex              QName(PackageNamespace(""), "vagBellyMod")
+   add
+   pushshort           1000
+   ifngt               L325
+
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          ", her pregnant belly bumping against your own,"
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+L325:
+   debugline           18821
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          " with each thrust. Her breasts wobble with her fervor, spraying milk everywhere in tune to her panting as her long tongue lolls from her vulpine muzzle."
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           18822
+   getlex              QName(PackageNamespace(""), "breastSize")
+   pushbyte            3
+   ifngt               L339
+
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          " Your own chest jiggles as well, your body dragging across the bed from her strength."
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   jump                L358
+
+L339:
+   debugline           18823
+   getlex              QName(PackageNamespace(""), "cockTotal")
+   pushbyte            0
+   ifngt               L358
+
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          " More pre slops across yourself as your "
+   findpropstrict      QName(PackageNamespace(""), "cockDesc")
+   callproperty        QName(PackageNamespace(""), "cockDesc"), 0
+   add
+   pushstring          " cock"
+   add
+   findpropstrict      QName(PackageNamespace(""), "plural")
+   pushbyte            1
+   callproperty        QName(PackageNamespace(""), "plural"), 1
+   add
+   pushstring          " bounce around, leaving you rather slick."
+   add
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+L358:
+   debugline           18824
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "\r\rThanks to her generous efforts, you both find yourselves reaching orgasm within minutes. Her body quivers and seizes as it forces a few more loud squishes into your pussy before it explodes within, drenching your insides with thick gooey cum. You shiver in turn,"
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           18825
+   getlex              QName(PackageNamespace(""), "cockTotal")
+   pushbyte            0
+   ifngt               L377
+
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          " more eruptions gushing from your own rod"
+   findpropstrict      QName(PackageNamespace(""), "plural")
+   pushbyte            1
+   callproperty        QName(PackageNamespace(""), "plural"), 1
+   add
+   pushstring          ","
+   add
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+L377:
+   debugline           18826
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          " shouting along with her howling with sensual joy. By the time your both done with your erotic fits, Silandrias collapses upon your belly, rubbing it with a wing as her seed fills you, her cock slipping out and trailing white strands across her sheets. She then crawls up onto the bed beside you to snuggle and kiss you lovingly, before eventually passing out for a nap."
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           18827
+   findpropstrict      QName(PackageNamespace(""), "doImpregnate")
+   getlex              QName(PackageNamespace(""), "dominant")
+   callpropvoid        QName(PackageNamespace(""), "doImpregnate"), 1
+
+   debugline           18828
+   getlex              QName(PackageNamespace(""), "cockTotal")
+   pushbyte            0
+   ifngt               L392
+
+   findpropstrict      QName(PackageNamespace(""), "cumAmount")
+   callpropvoid        QName(PackageNamespace(""), "cumAmount"), 0
+
+L392:
+   debugline           18829
+   findpropstrict      QName(PackageNamespace(""), "doLust")
+   getlex              QName(PackageNamespace(""), "Math")
+   getlex              QName(PackageNamespace(""), "sen")
+   pushbyte            2
+   divide
+   callproperty        QName(PackageNamespace(""), "floor"), 1
+   negate
+   pushbyte            2
+   dup
+   pushbyte            5
+   callpropvoid        QName(PackageNamespace(""), "doLust"), 4
+
+   debugline           18830
+   findpropstrict      QName(PackageNamespace(""), "doNext")
+   callpropvoid        QName(PackageNamespace(""), "doNext"), 0
+
+   debugline           18831
+   findproperty        QName(PackageNamespace(""), "doListen")
+   newfunction         "NiminFetishFantasyv0_fla:MainTimeline/instance/doDen/inline_method#10"
+   initproperty        QName(PackageNamespace(""), "doListen")
+
+L411:
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           18837
+   getlex              QName(PackageNamespace(""), "buttonChoice")
+   pushbyte            9
+   ifne                L438
+
+   debugline           18838
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "Just wanting to spend some time together, you give her a hug. She smiles back at you and leads you through the tunnels with children in tow to a nice room to socialize. There are a few seats of plush pillows and reed mats to sit upon, fitting for someone of her height, with a few tables cluttered with various knick-knacks. Torches light the room and several crystalline chandeliers and chimes break the light into vivid sparkling colors, providing a rather soothing atmosphere. Some of the crystals even glow on their own; shards of magical artifacts long lost to the ravages of the desert.\r\rSilandrias lies down upon one of the mats"
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           18839
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          " and lets you cuddle up behind her. You hug and caress her curves, causing milk to spit across the floor and soak into everything from her multitude of breasts, which the pups are happy to lap up as they bounce around you and curl up with you. Gently kissing her shoulders as you talk the two of you alternate between stories of your travels and how well Naeru and Daeru have been coming along. There's even a bit of small talk mixed in as well as periods of silence where you simply enjoy the company of your small family.\r\rEventually, however, you must be on your way so that something can get done. As much as the two of you would like to continue, you can't ignore the need to get some food or other preparations or ignore the rest of your lives."
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           18840
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "\r\rYou soon give each other a kiss and exchange farewells, giving each of the pups a hug as they lick you, hopefully to not spend too much time apart."
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           18841
+   findproperty        QName(PackageNamespace(""), "hrs")
+   pushbyte            4
+   initproperty        QName(PackageNamespace(""), "hrs")
+
+   debugline           18842
+   findpropstrict      QName(PackageNamespace(""), "doEnd")
+   callpropvoid        QName(PackageNamespace(""), "doEnd"), 0
+
+L438:
+   debugline           18844
+   returnvoid
+  end ; code
+  trait slot QName(PackageInternalNs("NiminFetishFantasyv0_fla"), "getCum") slotid 1 type QName(PackageNamespace(""), "int") end
+ end ; body
+end ; method

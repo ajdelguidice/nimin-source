@@ -1,0 +1,41 @@
+method
+ name ""
+ refid "NiminFetishFantasyv0_fla:MainTimeline/instance/doDen/inline_method#13"
+ returns QName(PackageNamespace(""), "void")
+ body
+  maxstack 3
+  localcount 1
+  initscopedepth 14
+  maxscopedepth 14
+  code
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           18930
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "The kits quickly fumble their way toward their mother with squeaky happy yips, bumping into her fleshy boobs and latching onto her milky nipples as she hugs them into herself with her wings.\r\r\"I-I can't believe it. The creature who we thought had found us and just took care of us out of the goodness of her heart was actually one of us! I still have no idea why, but I guess it's just a natural part of our life to give birth to such adorable pups.\" She leans down and nuzzles them with her muzzle as they nuzzle back. \"Although... I know we weren't born like this and Saeru was much older and didn't become like us. So... How do we have normal children?\"\r\rDespite the question, Silandrias seems perfectly happy caring for her two newborns. It also seems quite hard to call them newborns as within just a couple of hours of feeding from their mother's numerous milky breasts (far too much milk for just two of them to ingest alone), they have grown quite a bit more and are running around and playing like they were much more developed than their age would suggest. Nevertheless, the two of you care for them like children. You spend over a day helping out and making sure all three are doing well, only two find they are doing better than well. It's surprising how self-sufficient the pups are. And, in the end, Silandrias decides to name them after her original caretaker, \"Naeru and Daeru.\"\r\rSince they seem to be doing perfectly well, you eventually head on your way, quite proud of being a father."
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           18931
+   findpropstrict      QName(PackageNamespace(""), "doSexP")
+   pushbyte            75
+   callpropvoid        QName(PackageNamespace(""), "doSexP"), 1
+
+   debugline           18932
+   findproperty        QName(PackageNamespace(""), "silRep")
+   pushbyte            5
+   initproperty        QName(PackageNamespace(""), "silRep")
+
+   debugline           18933
+   findproperty        QName(PackageNamespace(""), "hrs")
+   pushbyte            30
+   initproperty        QName(PackageNamespace(""), "hrs")
+
+   debugline           18934
+   findpropstrict      QName(PackageNamespace(""), "doEnd")
+   callpropvoid        QName(PackageNamespace(""), "doEnd"), 0
+
+   debugline           18935
+   returnvoid
+  end ; code
+ end ; body
+end ; method

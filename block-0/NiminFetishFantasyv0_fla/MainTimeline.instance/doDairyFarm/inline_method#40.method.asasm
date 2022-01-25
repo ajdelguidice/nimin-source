@@ -1,0 +1,41 @@
+method
+ name ""
+ refid "NiminFetishFantasyv0_fla:MainTimeline/instance/doDairyFarm/inline_method#40"
+ returns QName(PackageNamespace(""), "void")
+ flag NEED_ACTIVATION
+ body
+  maxstack 3
+  localcount 2
+  initscopedepth 15
+  maxscopedepth 16
+  code
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           18183
+   newactivation
+   dup
+   setlocal1
+
+   pushscope
+
+   debug               1, "anonymous$299", 0, 18183
+   debugline           18184
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "She continues to speak, trying to distract herself from her shyness and ignore the redness in her face as she milks the both of you.\r\r\"When I was little, I loved the animals, and I still do. However, in my naive youth, I attempted to get to know some of the cows better... by taking one of those DairE Pills. At first I was ecstatic. Imagine a little girl, in a long white dress, with larger than average nipples that poked at the fabric, dripping with milk, just like the cows! I even had the same shawl back then,\" she tugs the yellow shawl around her shoulders, \"and I used to soak it through after an hour of sitting with the cows, playing with my nipples and mooing to be just like them.\"\r\rShe sighs.\r\r\"Having such success, I kept taking the pills. And taking them. And taking them... Before I was even 15 years old, I had a chest larger than any woman's in Softlik and could make more milk than most cows on the farm. Added to the fact that I had these ears and this tail,\" the thing swishes behind her as a big gush of milk shoots from her nipples as she shudder slightly. \"E-Excuse me.. \" She blushes instensely, waiting for a moment as her climax passes. \"W-Well, let's just say I became a little self-aware. I still kept up with the milkings to keep the engorgement away and, well, I'm sure you can guess the rest.\""
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           18185
+   findpropstrict      QName(PackageNamespace(""), "doNext")
+   callpropvoid        QName(PackageNamespace(""), "doNext"), 0
+
+   debugline           18186
+   findproperty        QName(PackageNamespace(""), "doListen")
+   newfunction         "NiminFetishFantasyv0_fla:MainTimeline/instance/doDairyFarm/inline_method#39"
+   initproperty        QName(PackageNamespace(""), "doListen")
+
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           18207
+   returnvoid
+  end ; code
+ end ; body
+end ; method

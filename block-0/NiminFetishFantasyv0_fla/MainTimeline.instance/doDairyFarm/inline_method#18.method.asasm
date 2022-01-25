@@ -1,0 +1,54 @@
+method
+ name ""
+ refid "NiminFetishFantasyv0_fla:MainTimeline/instance/doDairyFarm/inline_method#18"
+ returns QName(PackageNamespace(""), "void")
+ body
+  maxstack 5
+  localcount 1
+  initscopedepth 13
+  maxscopedepth 13
+  code
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           17705
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "As you pull your face from her cunt, you find yourself temporarily wedged between her cheeks as she abruptly stands. With a whimper and her ears drooping in embarrassment, she yanks herself from the milker and turns towards you.\r\r\"P-Please! I don't want to be that kind of girl!\" She fretfully tries to cover her naked, milky chest with her shawl before turning to run away in silence, her tail pushing the skirt between her legs in until it blotches with her feminine mess.\r\rThe way she said it didn't seem to regard the sexual aspect of what just happened... Unsure of what to do, you turn and head away from the farm."
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           17706
+   findpropstrict      QName(PackageNamespace(""), "stats")
+   pushbyte            0
+   pushbyte            -1
+   pushbyte            1
+   pushbyte            0
+   callpropvoid        QName(PackageNamespace(""), "stats"), 4
+
+   debugline           17707
+   findpropstrict      QName(PackageNamespace(""), "doSexP")
+   pushbyte            5
+   callpropvoid        QName(PackageNamespace(""), "doSexP"), 1
+
+   debugline           17708
+   findpropstrict      QName(PackageNamespace(""), "doLust")
+   getlex              QName(PackageNamespace(""), "Math")
+   getlex              QName(PackageNamespace(""), "lib")
+   pushbyte            5
+   divide
+   callproperty        QName(PackageNamespace(""), "floor"), 1
+   pushbyte            1
+   callpropvoid        QName(PackageNamespace(""), "doLust"), 2
+
+   debugline           17709
+   findproperty        QName(PackageNamespace(""), "hrs")
+   pushbyte            2
+   initproperty        QName(PackageNamespace(""), "hrs")
+
+   debugline           17710
+   findpropstrict      QName(PackageNamespace(""), "doEnd")
+   callpropvoid        QName(PackageNamespace(""), "doEnd"), 0
+
+   debugline           17711
+   returnvoid
+  end ; code
+ end ; body
+end ; method

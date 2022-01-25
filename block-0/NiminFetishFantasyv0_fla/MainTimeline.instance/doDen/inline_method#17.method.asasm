@@ -1,0 +1,48 @@
+method
+ name ""
+ refid "NiminFetishFantasyv0_fla:MainTimeline/instance/doDen/inline_method#17"
+ returns QName(PackageNamespace(""), "void")
+ body
+  maxstack 3
+  localcount 1
+  initscopedepth 12
+  maxscopedepth 12
+  code
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           19081
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "The two of you rest for a while, snuggling together with her sticky mess between you. Significantly satisfied, she kisses you before rolling onto the bed for a nice nap"
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           19082
+   getlex              QName(PackageNamespace(""), "knot")
+   pushtrue
+   ifne                L14
+
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          ", pausing for a moment as she bucks her hips to loosen yourself from your softening knot before laying back down to rest"
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+L14:
+   debugline           19083
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          ", her womb quite busy with what you left inside. You kiss her back as she sleeps, taking your sweet time before leaving to continue with other matters."
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           19084
+   findproperty        QName(PackageNamespace(""), "hrs")
+   pushbyte            4
+   initproperty        QName(PackageNamespace(""), "hrs")
+
+   debugline           19085
+   findpropstrict      QName(PackageNamespace(""), "doEnd")
+   callpropvoid        QName(PackageNamespace(""), "doEnd"), 0
+
+   debugline           19086
+   returnvoid
+  end ; code
+ end ; body
+end ; method

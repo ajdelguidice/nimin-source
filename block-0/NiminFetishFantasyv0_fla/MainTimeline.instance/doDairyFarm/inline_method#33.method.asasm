@@ -1,0 +1,86 @@
+method
+ name ""
+ refid "NiminFetishFantasyv0_fla:MainTimeline/instance/doDairyFarm/inline_method#33"
+ returns QName(PackageNamespace(""), "void")
+ flag NEED_ACTIVATION
+ body
+  maxstack 13
+  localcount 2
+  initscopedepth 15
+  maxscopedepth 16
+  code
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           17949
+   newactivation
+   dup
+   setlocal1
+
+   pushscope
+
+   debug               1, "anonymous$292", 0, 17949
+   debugline           17950
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "She collapses forward onto your "
+   findpropstrict      QName(PackageNamespace(""), "boobDesc")
+   callproperty        QName(PackageNamespace(""), "boobDesc"), 0
+   add
+   pushstring          " chest, huffing and heaving. After a few moments, her eyelashes flutter as she turns her head towards you with a glimmer in her eye."
+   add
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           17951
+   findpropstrict      QName(PackageNamespace(""), "viewButtonOutline")
+   pushbyte            0
+   dup
+   dup
+   pushbyte            0
+   pushbyte            1
+   pushbyte            0
+   pushbyte            1
+   pushbyte            0
+   dup
+   dup
+   pushbyte            0
+   dup
+   callpropvoid        QName(PackageNamespace(""), "viewButtonOutline"), 12
+
+   debugline           17952
+   findpropstrict      QName(PackageNamespace(""), "viewButtonText")
+   pushbyte            0
+   dup
+   dup
+   pushbyte            0
+   pushbyte            1
+   pushbyte            0
+   pushbyte            1
+   pushbyte            0
+   dup
+   dup
+   pushbyte            0
+   dup
+   callpropvoid        QName(PackageNamespace(""), "viewButtonText"), 12
+
+   debugline           17953
+   findpropstrict      QName(PackageNamespace(""), "buttonWrite")
+   pushbyte            5
+   pushstring          "Kiss Her"
+   callpropvoid        QName(PackageNamespace(""), "buttonWrite"), 2
+
+   debugline           17954
+   findpropstrict      QName(PackageNamespace(""), "buttonWrite")
+   pushbyte            7
+   pushstring          "Help Up"
+   callpropvoid        QName(PackageNamespace(""), "buttonWrite"), 2
+
+   debugline           17955
+   findproperty        QName(PackageNamespace(""), "doListen")
+   newfunction         "NiminFetishFantasyv0_fla:MainTimeline/instance/doDairyFarm/inline_method#32"
+   initproperty        QName(PackageNamespace(""), "doListen")
+
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           18000
+   returnvoid
+  end ; code
+ end ; body
+end ; method

@@ -1,0 +1,59 @@
+method
+ name ""
+ refid "NiminFetishFantasyv0_fla:MainTimeline/instance/doBeach/inline_method#3"
+ returns QName(PackageNamespace(""), "void")
+ body
+  maxstack 3
+  localcount 1
+  initscopedepth 13
+  maxscopedepth 13
+  code
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           17014
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "\"Whew... Thanks a lot, dearie. Sorry to umm...\" She looks at your "
+   findpropstrict      QName(PackageNamespace(""), "clothesBottom")
+   callproperty        QName(PackageNamespace(""), "clothesBottom"), 0
+   add
+   pushstring          " and how drenched it is with her husband's seed. \"come on you like that... Don't worry though, it'll wash right out. And he takes a drug to keep it sterile for our little outtings. Wouldn't want to have all these eggs be alive now, would we?\" She chuckles. \"But here, take one for yourself. They're good for you, when they don't have babies in them!\"\r\rShe giggles and kisses you on the cheek, thanking you once again before you head off. She dozes back off, her tail idly swishing in the pool of semen, her thighs drenched in the stuff, and looking all the happier for it."
+   add
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           17015
+   findpropstrict      QName(PackageNamespace(""), "itemAdd")
+   pushshort           219
+   callpropvoid        QName(PackageNamespace(""), "itemAdd"), 1
+
+   debugline           17016
+   findpropstrict      QName(PackageNamespace(""), "percent")
+   callproperty        QName(PackageNamespace(""), "percent"), 0
+   pushbyte            35
+   ifnlt               L29
+
+   debugline           17017
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "\r\rAs you begin to leave, however, you spot something move towards you. Another reptillian, this one seems quite male as two cocks hang from his groin and knock against his knees. He seems a bit sheepish at first, blush filling the scales of his face due to his rather immodest lack of an outfit, but realizes the damage is already done and waves you over.\r\r\"Umm... I suppose you helped out my wife then?\" He spots the egg in your hand and the lack of belly on his wife. \"Well, thank you for that. Sometimes I just can't get back in time. Here, take one of these at least, I think I've got plenty.\"\r\rHe hands you a berry but actually refers to his scrotum. It hangs past his wangs and seems stuffed with testicles, though you can't easily count how many. They're each at least the size of a small melon and can easily explain how his wife was so bloated.\r\rNevertheless, he thanks you again and lets you head off, wanting some more time with his wife."
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           17018
+   findpropstrict      QName(PackageNamespace(""), "itemAdd")
+   pushshort           218
+   callpropvoid        QName(PackageNamespace(""), "itemAdd"), 1
+
+L29:
+   debugline           17020
+   findproperty        QName(PackageNamespace(""), "hrs")
+   pushbyte            4
+   initproperty        QName(PackageNamespace(""), "hrs")
+
+   debugline           17021
+   findpropstrict      QName(PackageNamespace(""), "doEnd")
+   callpropvoid        QName(PackageNamespace(""), "doEnd"), 0
+
+   debugline           17022
+   returnvoid
+  end ; code
+ end ; body
+end ; method

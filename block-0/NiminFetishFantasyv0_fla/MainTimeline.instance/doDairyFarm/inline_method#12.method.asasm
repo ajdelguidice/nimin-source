@@ -1,0 +1,92 @@
+method
+ name ""
+ refid "NiminFetishFantasyv0_fla:MainTimeline/instance/doDairyFarm/inline_method#12"
+ returns QName(PackageNamespace(""), "void")
+ flag NEED_ACTIVATION
+ body
+  maxstack 5
+  localcount 4
+  initscopedepth 14
+  maxscopedepth 15
+  code
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           17585
+   newactivation
+   dup
+   setlocal1
+
+   pushscope
+
+   debug               1, "anonymous$271", 0, 17585
+   debugline           17586
+   getlex              QName(PackageNamespace(""), "buttonChoice")
+   pushbyte            6
+   ifne                L59
+
+   debugline           17587
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "She huffs for a few moments, her mind returning to its senses. The realization of her excessively cattle-like behaviour, especially in front of you, embarrasses her immensely. She jerks backward to stand up, a breast swinging out and slapping you in the face with a wet kiss from her nipple, before she turns and runs in the opposite direction. With a kink in her step and her breasts swaying from side to side, she disappears with her tail between her legs, pushing the skirt in to further amplify her endowments.\r\rA bit afraid of what happens next, you decide it best to disappear yourself."
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           17588
+   findpropstrict      QName(PackageNamespace(""), "malonRep")
+   dup
+   setlocal2
+
+   getproperty         QName(PackageNamespace(""), "malonRep")
+   increment_i
+   setlocal3
+
+   getlocal2
+   getlocal3
+   setproperty         QName(PackageNamespace(""), "malonRep")
+
+   kill                3
+   kill                2
+   debugline           17589
+   getlex              QName(PackageNamespace(""), "malonRep")
+   pushbyte            1
+   ifne                L40
+
+   debugline           17590
+   findpropstrict      QName(PackageNamespace(""), "doNext")
+   callpropvoid        QName(PackageNamespace(""), "doNext"), 0
+
+   debugline           17591
+   findproperty        QName(PackageNamespace(""), "doListen")
+   newfunction         "NiminFetishFantasyv0_fla:MainTimeline/instance/doDairyFarm/inline_method#11"
+   initproperty        QName(PackageNamespace(""), "doListen")
+
+   jump                L59
+
+L40:
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           17602
+   findpropstrict      QName(PackageNamespace(""), "stats")
+   pushbyte            1
+   dup
+   dup
+   pushbyte            1
+   callpropvoid        QName(PackageNamespace(""), "stats"), 4
+
+   debugline           17603
+   findpropstrict      QName(PackageNamespace(""), "doSexP")
+   pushbyte            2
+   callpropvoid        QName(PackageNamespace(""), "doSexP"), 1
+
+   debugline           17604
+   findproperty        QName(PackageNamespace(""), "hrs")
+   pushbyte            2
+   initproperty        QName(PackageNamespace(""), "hrs")
+
+   debugline           17605
+   findpropstrict      QName(PackageNamespace(""), "doEnd")
+   callpropvoid        QName(PackageNamespace(""), "doEnd"), 0
+
+L59:
+   debugline           17608
+   returnvoid
+  end ; code
+ end ; body
+end ; method

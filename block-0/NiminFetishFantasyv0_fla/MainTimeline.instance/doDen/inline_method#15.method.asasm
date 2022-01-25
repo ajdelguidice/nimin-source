@@ -1,0 +1,188 @@
+method
+ name ""
+ refid "NiminFetishFantasyv0_fla:MainTimeline/instance/doDen/inline_method#15"
+ returns QName(PackageNamespace(""), "void")
+ flag NEED_ACTIVATION
+ body
+  maxstack 3
+  localcount 2
+  initscopedepth 13
+  maxscopedepth 14
+  code
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           18891
+   newactivation
+   dup
+   setlocal1
+
+   pushscope
+
+   debug               1, "anonymous$330", 0, 18891
+   debugline           18892
+   findproperty        QName(PackageNamespace(""), "silPreg")
+   pushbyte            0
+   initproperty        QName(PackageNamespace(""), "silPreg")
+
+   debugline           18893
+   getlex              QName(PackageNamespace(""), "silRep")
+   pushbyte            1
+   ifne                L36
+
+   debugline           18894
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "A small pile of eggs between her legs, Silandrias leans back against her bed with a deep sigh. Her chest still huffing for air, she lazily fondles her engorged breasts through her cloak, feeling them shrink a little now that her eggy pregnancy has completed.\r\rShe looks down at the pile with another sigh. \"Mmm... They aren't real either. I don't know how I know that exactly, but my body tells me they aren't. Actually...\" She pauses, opening a wing to let you scoot up beside her so she can rest her head on your shoulder as she speaks. \"As you could tell, I'm kinda alone here now... We were alone since the beginning and now I'm alone now, so I have no idea how my kind works...\"\r\rA serious expression of sadness flushes over her face and she stops the story there.\r\rShe soon cheers up, nuzzling her vulpine muzzle into your neck. \"But you made me not lonely and, well... thank you.\" Planting a kiss upon your cheek, she then whispers into your ear. \"And maybe we can discover what my body can do together~\"\r\r\rYou stay a few more hours with her to ensure that she is alright. Her breasts continue to shrink slowly, but are still fairly large by the time you decide to leave, when she is up and about and back to her usual self. For having had such an intense 'birth', she really recovered quite fast, already moving the eggs away and cleaning the mess she made. You give her another hug and a kiss goodbye before leaving the den to continue with your endeavors."
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           18895
+   findproperty        QName(PackageNamespace(""), "hrs")
+   pushbyte            5
+   initproperty        QName(PackageNamespace(""), "hrs")
+
+   debugline           18896
+   findpropstrict      QName(PackageNamespace(""), "doSexP")
+   pushbyte            20
+   callpropvoid        QName(PackageNamespace(""), "doSexP"), 1
+
+   debugline           18897
+   findproperty        QName(PackageNamespace(""), "silRep")
+   pushbyte            2
+   initproperty        QName(PackageNamespace(""), "silRep")
+
+   debugline           18898
+   findpropstrict      QName(PackageNamespace(""), "doEnd")
+   callpropvoid        QName(PackageNamespace(""), "doEnd"), 0
+
+   jump                L128
+
+L36:
+   debugline           18900
+   getlex              QName(PackageNamespace(""), "silRep")
+   pushbyte            2
+   ifne                L61
+
+   debugline           18901
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "The process finished, Silandrias collapses against the bed into her own mess. You move in to check and make sure she's alright, but smile as you see her eyes are shut with her wings folded around her vulpine muzzle, sleeping with a rather content look on her face. The rush to the bedroom and resulting position from the 'failure' therein must have exhausted the poor girl. So, you take the initiative and clean up as well as you can, wiping and spreading out the eggs to dry, before eventually trying to lift her back up onto the bed. She blinks awake only for a few moments to look at the eggs you carefully laid out. \"Don't worry, those aren't real either,\" she says with a chuckle, then curls up and passes back out on the bed as you lay her down to rest.\r\rStaying with her a few more hours to ensure she's alright, you notice both pairs of breasts beginning to shrink once more. Other than that, her blissful sleep confirms that she's quite alright, allowing you to be on your way. With a kiss on her cheek and a subtle whisper of \"Goodnight~\" into her large ear, you head back out and let her sleep peacefully."
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           18902
+   findproperty        QName(PackageNamespace(""), "hrs")
+   pushbyte            5
+   initproperty        QName(PackageNamespace(""), "hrs")
+
+   debugline           18903
+   findpropstrict      QName(PackageNamespace(""), "doSexP")
+   pushbyte            35
+   callpropvoid        QName(PackageNamespace(""), "doSexP"), 1
+
+   debugline           18904
+   findproperty        QName(PackageNamespace(""), "silRep")
+   pushbyte            3
+   initproperty        QName(PackageNamespace(""), "silRep")
+
+   debugline           18905
+   findpropstrict      QName(PackageNamespace(""), "doEnd")
+   callpropvoid        QName(PackageNamespace(""), "doEnd"), 0
+
+   jump                L128
+
+L61:
+   debugline           18907
+   getlex              QName(PackageNamespace(""), "silRep")
+   pushbyte            3
+   ifne                L78
+
+   debugline           18908
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "A grand pile of eggs beside you, painted with the creamy sauce of her loins, Silandrias takes a deep breath and lets out a loud humming sigh. Relaxing against you, she seems perfectly pleased sitting at the entrance to her home, right in view of the open desert, half naked and covered in her own naughty mess with you.\r\rShe stares out into the vast expanse of sand and nuzzles you gently. \"At first there were just eight of us, all by ourselves in these tunnels. Well, nine if you count our caretaker, though she was more like a pet, a creature much like ourselves that raised us and made sure we survived. We never knew where she came from, but we saw her like a mother and she was one of the first to leave, with two of my sisters who ventured out to find others like us.\"\r\r\"Then there were two other sisters who went exploring and found Oviasis. The lizan people were afraid at first, but since we were still so young and innocent it didn't take long before they were teaching us their language and trading supplies with us. Soon three of my sisters were staying in Oviasis nearly all the time, building their own lives there and falling in love. However, the waters there slowly changed them, making them more and more like the lizan people, until eventually you couldn't even tell they were like us. I still visit them every now and then, but without their wings they don't come out here as much anymore. There's so many people there and it's so crowded... well, it's not exactly a place I could call home, like here.\"\r\r\"When my first two sisters came back after a few years with Saeru, they were different too. They still had their wings at least, so they could travel, but they were afraid they might lose them soon as well. But oh, the wonders they said they saw. So many other kinds of people and places, things that they could study and experience. Kinda like my fascination with magical items, except more outgoing. There was so much out there that they couldn't stay here for long. And my other two sisters loved them tremendously and couldn't let them go by themselves. I told them that it was alright, that I still had our sisters in Oviasis to keep me company, that the five of them could head off on their adventures together. They were hesitant, but I wouldn't let them choose otherwise. I even still get letters from them every now and then, somehow sent to Oviasis from some elaborate route, keeping us apprised of their ventures and the different ways they've changed.\"\r\r\"It's quite odd, really. Although my sisters have been able to change into other races so much - and I'm sure even I would too if I spent as much time with other peoples as they have - I have not heard any word of someone else becoming like one of us. Maybe that's why there were so few of us?...\""
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           18909
+   findpropstrict      QName(PackageNamespace(""), "doNext")
+   callpropvoid        QName(PackageNamespace(""), "doNext"), 0
+
+   debugline           18910
+   findproperty        QName(PackageNamespace(""), "doListen")
+   newfunction         "NiminFetishFantasyv0_fla:MainTimeline/instance/doDen/inline_method#12"
+   initproperty        QName(PackageNamespace(""), "doListen")
+
+   jump                L128
+
+L78:
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           18918
+   getlex              QName(PackageNamespace(""), "silRep")
+   pushbyte            4
+   ifne                L128
+
+   debugline           18919
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "Unable to focus any longer, she doubles over once more. This time she doesn't seem to be able to stop it as "
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           18920
+   getlex              QName(PackageNamespace(""), "silTied")
+   pushtrue
+   ifne                L97
+
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "a steady stream of lubrication dribbles down the insides of her thighs."
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   jump                L102
+
+L97:
+   debugline           18921
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "a steady flow of lubrication spills from the tip of her tail."
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+L102:
+   debugline           18922
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          " You attempt to aid her in sitting down, but she continues to bend forward, her instincts rather adamant about rolling onto her belly.\r\rWith her tummy so large, it doesn't take much more than bending slightly at her knees to touch the belly-scales to the floor. She slowly rolls forward, her legs spreading wide to step forward while flanking her own girth, with her lowest pair of breasts soon squishing against the floor, squirting out jets of milk. Then she continues going as the next pair sprays everywhere, followed by the next, and finally her top pair bulges out the sides of her torso like fleshy pillows as she lays down upon them, her legs no longer able to touch the ground. Her wings fold over her bloated chest, covering the white streams to prevent any from spraying into her face, allowing her to yawn wide with a low howl.\r\rFrom behind, her tail lurches forward, "
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           18923
+   getlex              QName(PackageNamespace(""), "silTied")
+   pushtrue
+   ifne                L116
+
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "only to turn straight up as the passage is blocked, giving you a fantastic view of her nethers. The underside of her belly is already thoroughly soaked in pre as her greatly engorged erection pulses out large gobs of the stuff, while her testicles, larger than cantaloupes, hang down heavily over the base of the shaft and are drenched from the slit above. Her tush tenses and her moaning howls stutter as the first egg begins to crown through her lips. You jump in to catch it, coating your hands with slime in the process. Placing the egg aside, you prepare for the next, slipping your fingers slightly into her nethers to help pull the eggs out. Her cock throbs with each passing and looks so close to blowing a massive load, but it seems to be waiting...\r\rIt doesn't wait long.\r\rThe eggs stop for a moment, giving Silandrias a moment to breathe. However, after a deep breath, her howling renews with a much louder and warbling sensual tone. You see white beginning to crown once more as white splatters all over her belly-scales in audible bouts of thick steamy ropes. The crowning progresses, stretching her slit wider and wider than you have seen any of her palmable eggs done before. Your eyes go wide as you even watch her hips spread wider, her body much more elastic than you could have guessed, while her pussy gapes larger than her own head, completely filled with an enormous white shell.\r\rHer gushing peaks as the widest part of the giant egg passes through, quickly slipping out into your arms and right to the floor as you gently settle it upon the ground. Easily more than two feet in height and more than a foot in diameter, the big egg half-fits into one of the several round beddings that decorate the floor of this room. You don't have much time to analyze it, however, as you hear the mother begin to cry out again.\r\rAnother egg just as large pushes through her passage with a spunk-filled greeting into the world. This second egg seems to be the last as Silandrias' belly deflates with its departure, leaving her gasping and moaning as she lay upon her many milky tits, her ejaculation diminishing to a few leftover throbs of oozing cum."
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   jump                L121
+
+L116:
+   debugline           18924
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "pointing straight back to the floor in preparation. The underside of her belly is already thoroughly soaked in pre as her greatly engorged erection pulses out large gobs of the stuff, while her testicles, larger than cantaloupes, hang down heavily over the base of the shaft. Her tush tenses and her moaning howls stutter as the first egg begins to bulge through her tail. You tenderly massage the scales from the outside, coaxing the egg along until it slips out the tip. Placing the egg aside, you prepare for the next, returning to her rump and rubbing the small of her back to help direct the eggs out. Her cock throbs with each passing and looks so close to blowing a massive load, but it seems to be waiting...\r\rIt doesn't wait long.\r\rThe eggs stop for a moment, giving Silandrias a moment to breathe. However, after a deep breath, her howling renews with a much louder and warbling sensual tone. You see another bulge begin to grow at the base of her tail, but it keeps growing and growing, much larger than you have ever seen before. It stretches both her tail and hips obscenely wide, her body far more elastic than you could have ever guessed. However, this new giant egg comes to a halt before the widest portion can enter the passage in her tail. Silandrias grunts and groans, feebly rocking her legs and humping her own belly slightly as she tries to push it through. Her cock also turns redder and redder as she forces more blood to her bottom, making it drool incessantly. Taking a chance to help her out, you smear the slime along her length and stroke the throbbing rod roughly.\r\rSilandrias' howls turn into an erotic outcry as white splatters all over her belly-scales in audible bouts of thick steamy ropes. The intense orgasm relaxes some of her muscles, letting the giant egg into her tail-passage and rapidly push through to the floor as you gently settle it upon the ground. Easily more than two feet in height and more than a foot in diameter, the big egg half-fits into one of the several round beddings that decorate the floor of this room. You don't have much time to analyze it, however, as you hear the mother begin to cry out again.\r\rAnother egg just as large pushes through her passage with a noisy spunk-filled greeting into the world. This second egg seems to be the last as Silandrias' belly deflates with its departure, leaving her gasping and moaning as she lay upon her many milky tits, her ejaculation diminishing to a few leftover throbs of oozing cum."
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+L121:
+   debugline           18925
+   findpropstrict      QName(PackageNamespace(""), "doNext")
+   callpropvoid        QName(PackageNamespace(""), "doNext"), 0
+
+   debugline           18926
+   findproperty        QName(PackageNamespace(""), "doListen")
+   newfunction         "NiminFetishFantasyv0_fla:MainTimeline/instance/doDen/inline_method#14"
+   initproperty        QName(PackageNamespace(""), "doListen")
+
+L128:
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           18938
+   returnvoid
+  end ; code
+ end ; body
+end ; method

@@ -1,0 +1,67 @@
+method
+ name ""
+ refid "NiminFetishFantasyv0_fla:MainTimeline/instance/doDen/inline_method#4"
+ returns QName(PackageNamespace(""), "void")
+ flag NEED_ACTIVATION
+ body
+  maxstack 3
+  localcount 2
+  initscopedepth 13
+  maxscopedepth 14
+  code
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           18616
+   newactivation
+   dup
+   setlocal1
+
+   pushscope
+
+   debug               1, "anonymous$319", 0, 18616
+   debugline           18617
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "Hours later, Silandrias is panting upon the floor, cushioned by her soft breasts, her belly finally empty."
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           18618
+   getlex              QName(PackageNamespace(""), "silPreg")
+   pushshort           2000
+   ifngt               L21
+
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          " With eggs everywhere"
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   jump                L26
+
+L21:
+   debugline           18619
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          " With eggs circling you"
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+L26:
+   debugline           18620
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          ", the laying process has finally finished.\r\rYou crawl up besides the exhausted woman, stroking her auburn hair and coaxing her to relax, she gives you a big smile. \"I'm pretty sure are real too.\""
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           18621
+   findpropstrict      QName(PackageNamespace(""), "doNext")
+   callpropvoid        QName(PackageNamespace(""), "doNext"), 0
+
+   debugline           18622
+   findproperty        QName(PackageNamespace(""), "doListen")
+   newfunction         "NiminFetishFantasyv0_fla:MainTimeline/instance/doDen/inline_method#3"
+   initproperty        QName(PackageNamespace(""), "doListen")
+
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           18637
+   returnvoid
+  end ; code
+ end ; body
+end ; method

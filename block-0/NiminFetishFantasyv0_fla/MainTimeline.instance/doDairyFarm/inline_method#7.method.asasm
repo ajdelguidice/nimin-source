@@ -1,0 +1,447 @@
+method
+ name ""
+ refid "NiminFetishFantasyv0_fla:MainTimeline/instance/doDairyFarm/inline_method#7"
+ returns QName(PackageNamespace(""), "void")
+ flag NEED_ACTIVATION
+ body
+  maxstack 4
+  localcount 2
+  initscopedepth 13
+  maxscopedepth 14
+  code
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           17383
+   newactivation
+   dup
+   setlocal1
+
+   pushscope
+
+   debug               1, "anonymous$266", 0, 17383
+   debugline           17384
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "10 minutes pass and you're feeling quite well.\r\r20 minutes pass and you're udder is feeling much lighter, can't be much left in there.\r\r30 minutes pass and the farmer perks up, ready for the machine to shut off.\r\r40 minutes pass and he starts looking a little worried. Though you've been milked dry, the machine continues to pull and suck on your teats, but without any fluids the pressure is rather low and merely feels silly at this point.\r\r50 minutes pass and the farmer looks at his control panel, scratching his head. He starts to look around the machine, not saying a word...\r\r60 minutes pass and he steps before you sheepishly, hat in hand."
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           17385
+   getlex              QName(PackageNamespace(""), "dairyFarmBrand")
+   pushfalse
+   ifne                L21
+
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "\r\r\"Umm... There seems to be an 'issue'... The timer inside the machine must have been tripped up by some of the other circuitry or something and, well... The machine won't stop now... And I can't shut it down while it's already going without potentially busting it all apart and we can't quite get you out of there without hurting you in the process; it's got ahold of you pretty well, we wouldn't want cows slipping out and walking off on their own.\" He shuffles his feet a bit in embarassment. \"Oh, but it won't go on forever! There's a built in safety shutoff just in case something like this happens. So if you don't mind waiting a little longer, it will turn off and release you on its own. But... The safety shutoff is another 11 hours from now. Don't ask for specifics why so long; it was the shortest time the machine could have such a natural shutoff, with the way it cycles. So, uhh... try to relax. I'll make sure somebody is down here with you for the whole time. We'll take shifts and bring you food and stuff. So terribly sorry...\"\r\rWith a shrug, there's nothing you can really do but wait."
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   jump                L26
+
+L21:
+   debugline           17386
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "\r\r\"Crud... I don't know how to say this...\" he twiddles his fingers sheepishly, \"but it seems the timer must have been tripped by one of the other changes to the circuits. So, I'm terribly sorry, but you'll be stuck here for 12 hours again... And we'll be sure to take shifts and keep you company of course. I'm just so embarassed this happened again...\r\rWith a shrug, there's nothing you can really do but wait."
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+L26:
+   debugline           17387
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          " The machine persistently pumps your teats, "
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           17388
+   getlex              QName(PackageNamespace(""), "udderLactation")
+   pushshort           4000
+   ifngt               L40
+
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "heavily and loudly, working hard to keep up with your milk production"
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   jump                L54
+
+L40:
+   debugline           17389
+   getlex              QName(PackageNamespace(""), "udderLactation")
+   pushshort           1000
+   ifngt               L49
+
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "strongly and steadily with your abundant milk supply"
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   jump                L54
+
+L49:
+   debugline           17390
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "softly and slowly"
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+L54:
+   debugline           17391
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          ". It gets annoying after a while, but never painful. For a machine it's got a rather tender touch, never sucking so hard that your udder would ache while you're running dry. And when your udder starts to fill up again, the machine powers up, sucking out the milk as its made. With the constant gentle milking, it's hard to feel much from it. More like a lingering tingle that just won't go away. Occassionally the tingle starts to build as your nerves focus on it, growing until the machine whirs loudly and spooks whoever is accompanying you. You just grin bashfully and nod everything is alright, your face flushed with blush from the mild orgasm.\r\rThe time passes slowly, the farmers changing shift and try to keep you entertained with conversations about recent events. You also lift yourself from the rail slightly or stretch below it, kicking your "
+   findpropstrict      QName(PackageNamespace(""), "legDesc")
+   pushbyte            2
+   callproperty        QName(PackageNamespace(""), "legDesc"), 1
+   add
+   pushstring          " or even kneeling every now and then to prevent any cramping. Not exactly the most productive use of your time, save for all the milk you're producing..."
+   add
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           17392
+   getlex              QName(PackageNamespace(""), "malonRep")
+   pushbyte            4
+   ifnge               L320
+
+   debugline           17393
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "\r\rEven Malon comes down to visit you one shift."
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           17394
+   getlex              QName(PackageNamespace(""), "dairyFarmBrand")
+   pushfalse
+   ifne                L210
+
+   debugline           17395
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          " She rushes over to you"
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           17396
+   getlex              QName(PackageNamespace(""), "malonPreg")
+   pushbyte            36
+   ifngt               L91
+
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          ", her swollen belly swaying from side to side,"
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+L91:
+   debugline           17397
+   getlex              QName(PackageNamespace(""), "malonChildren")
+   pushbyte            1
+   ifne                L99
+
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          " with your daughter following closely behind"
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+L99:
+   debugline           17398
+   getlex              QName(PackageNamespace(""), "malonChildren")
+   pushbyte            1
+   ifngt               L107
+
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          " with your daughters following closely behind"
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+L107:
+   debugline           17399
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          " and her breasts envelop your head as she embraces you. \"Oh dear, I had heard that you were stuck down here and I was worried. I took the next shift as soon as I could. Are you alright?!\"\r\rYou nod lazily. Bored and rather sensitive in a certain region, but alright.\r\r\"Oh, thank goodness! I know the farmer who made this thing is quite a genius, I use his umm... 'other products' sometimes too, though he doesn't know. But gosh, having to be stuck milking like that for 12 hours straight? I don't exactly envy you. But"
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           17400
+   getlex              QName(PackageNamespace(""), "malonChildren")
+   pushbyte            1
+   ifne                L120
+
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          " your daughter and"
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+L120:
+   debugline           17401
+   getlex              QName(PackageNamespace(""), "malonChildren")
+   pushbyte            1
+   ifngt               L128
+
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          " your daughters and"
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+L128:
+   debugline           17402
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          " I will keep you company for a while, at least until I need to get back to work.\" She smiles warmly."
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           17403
+   getlex              QName(PackageNamespace(""), "lactation")
+   pushbyte            0
+   greaterthan
+   dup
+   iffalse             L143
+
+   pop
+   getlex              QName(PackageNamespace(""), "milkEngorgementLevel")
+   pushbyte            0
+   greaterthan
+L143:
+   iffalse             L162
+
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          " And seeing your "
+   getlex              QName(PackageNamespace(""), "boobTotal")
+   add
+   pushstring          " "
+   add
+   findpropstrict      QName(PackageNamespace(""), "boobDesc")
+   callproperty        QName(PackageNamespace(""), "boobDesc"), 0
+   add
+   pushstring          " hanging tits drip through your "
+   add
+   findpropstrict      QName(PackageNamespace(""), "clothesTop")
+   callproperty        QName(PackageNamespace(""), "clothesTop"), 0
+   add
+   pushstring          " the floor, she takes the liberty of assisting you with the other milking and chuckles. \"And help take care of what the machine doesn't cover, I suppose.\""
+   add
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+L162:
+   debugline           17404
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "\r\rShe pulls the chair in closer, stroking you hair for a bit before you begin to settle into a relaxed conversation. You occassional moans as you produce more milk make her giggle, but her giggling in turn makes her own top wet. Thankfully there's plenty of buckets around, and with the privacy available to you, she's spends some time milking herself as well, slipping into the same beat as your own gasps."
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           17405
+   getlex              QName(PackageNamespace(""), "malonChildren")
+   pushbyte            1
+   ifne                L175
+
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          " Your daughter wanders about, exploring this strange place she has never seen before, amazed at how much milk there is."
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+L175:
+   debugline           17406
+   getlex              QName(PackageNamespace(""), "malonChildren")
+   pushbyte            1
+   ifngt               L183
+
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          " Your daughters wander about, exploring this strange place they have never seen before, amazed at how much milk there is."
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+L183:
+   debugline           17407
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          " After a couple hours, though, you lover needs to head back to work.\r\r\"Alright hun, you seem to be doing well enough.\" She leans in, smothering you in boob-flesh as she kisses your forehead. \"Take care, I'll see you when you're out~\" Then she leaves"
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           17408
+   getlex              QName(PackageNamespace(""), "malonChildren")
+   pushbyte            1
+   ifne                L196
+
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          " with your girl"
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+L196:
+   debugline           17409
+   getlex              QName(PackageNamespace(""), "malonChildren")
+   pushbyte            1
+   ifngt               L204
+
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          " with your girls"
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+L204:
+   debugline           17410
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          " and allows the next farmer to take the shift."
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   jump                L306
+
+L210:
+   debugline           17413
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          " She slowly walks over to you"
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           17414
+   getlex              QName(PackageNamespace(""), "malonPreg")
+   pushbyte            36
+   ifngt               L223
+
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          ", cradling her swollen pregnant belly,"
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+L223:
+   debugline           17415
+   getlex              QName(PackageNamespace(""), "malonChildren")
+   pushbyte            1
+   ifne                L231
+
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          " with your daughter following closely behind"
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+L231:
+   debugline           17416
+   getlex              QName(PackageNamespace(""), "malonChildren")
+   pushbyte            1
+   ifngt               L239
+
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          " with your daughters following closely behind"
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+L239:
+   debugline           17417
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          " and covers you head with her breasts as she hugs you. \"Hehe, I heard you got caught in this thing again and thought I would take a shift to keep you company. Though gosh, with how much this thing is milking you, I'm starting to get a little jealous.\" She giggles at the thought. But then her shirt begins to blotch from the jiggling and she pulls the chair in closer. With plenty of buckets down here and all the privacy, she's able to start milking right in front of you"
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           17418
+   getlex              QName(PackageNamespace(""), "lactation")
+   pushbyte            0
+   greaterthan
+   dup
+   iffalse             L254
+
+   pop
+   getlex              QName(PackageNamespace(""), "milkEngorgementLevel")
+   pushbyte            0
+   greaterthan
+L254:
+   iffalse             L259
+
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          " and takes the liberty to relieve your own chest of milk, since the machine is focused elsewhere"
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+L259:
+   debugline           17419
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          ". A nice conversation picks up as milk flies everywhere and helps the time pass quickly."
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           17420
+   getlex              QName(PackageNamespace(""), "malonChildren")
+   pushbyte            1
+   ifne                L272
+
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "\r\r\"Mommy, mommy, can I be hooked up to the machine too? It looks like fun!\" Your daughter stands beside you, one hand reaching out to grab the rail so she can bend forward a little, the other hand pulling up her white dress. Her naked rump sticking out, she tries to pull the teats of her small exposed udder to try and mimic you.\r\rThe sight makes the two of you laugh. \"Sorry hun, but the machine only works for one person right now. Plus you're not big enough for it yet. Maybe one day.\" She gives the girl a pat on the head. Unphased, the girl just shrugs and continues to play like she's being milked like you, mooing in tune to your own gasps."
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+L272:
+   debugline           17421
+   getlex              QName(PackageNamespace(""), "malonChildren")
+   pushbyte            1
+   ifngt               L280
+
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "\r\r\"Mommy, mommy, can we be hooked up to the machine too? It looks like fun!\" Your daughters stand on boths sides, hands grabbing the rail so they can bend forward a little while their other hands pull up their white dresses. Naked rumps sticking out all around, they try to pull the teats of their small exposed udders to try and mimic you.\r\rThe sight makes the two of you laugh. \"Sorry sweeties, but the machine only works for one person right now. Plus you're not big enough for it yet. Maybe one day.\" She gives the girls pats on their heads. Unphased, they continue to play like they're being milked like you, mooing in tune to your own gasps."
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+L280:
+   debugline           17422
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "\r\rAfter a couple hours, your lover needs to head back to work. \"Alright hun, you seem to be enjoying yourself.\" She leans in, smothering you in boob-flesh again as she kisses your forehead. \"Take care, I'll see you when you're out~\" Then she leaves"
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           17423
+   getlex              QName(PackageNamespace(""), "malonChildren")
+   pushbyte            1
+   ifne                L293
+
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          " with your girl"
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+L293:
+   debugline           17424
+   getlex              QName(PackageNamespace(""), "malonChildren")
+   pushbyte            1
+   ifngt               L301
+
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          " with your girls"
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+L301:
+   debugline           17425
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          " and allows the next farmer to take the shift."
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+L306:
+   debugline           17427
+   getlex              QName(PackageNamespace(""), "lactation")
+   pushbyte            0
+   greaterthan
+   dup
+   iffalse             L316
+
+   pop
+   getlex              QName(PackageNamespace(""), "milkEngorgementLevel")
+   pushbyte            0
+   greaterthan
+L316:
+   iffalse             L320
+
+   findpropstrict      QName(PackageNamespace(""), "milkAmount")
+   pushbyte            1
+   callpropvoid        QName(PackageNamespace(""), "milkAmount"), 1
+
+L320:
+   debugline           17429
+   findpropstrict      QName(PackageNamespace(""), "doNext")
+   callpropvoid        QName(PackageNamespace(""), "doNext"), 0
+
+   debugline           17430
+   findproperty        QName(PackageNamespace(""), "doListen")
+   newfunction         "NiminFetishFantasyv0_fla:MainTimeline/instance/doDairyFarm/inline_method#6"
+   initproperty        QName(PackageNamespace(""), "doListen")
+
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           17453
+   returnvoid
+  end ; code
+ end ; body
+end ; method

@@ -1,0 +1,392 @@
+method
+ name ""
+ refid "NiminFetishFantasyv0_fla:MainTimeline/instance/doDairyFarm/inline_method#5"
+ returns QName(PackageNamespace(""), "void")
+ flag NEED_ACTIVATION
+ body
+  maxstack 13
+  localcount 2
+  initscopedepth 12
+  maxscopedepth 13
+  code
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           17157
+   newactivation
+   dup
+   setlocal1
+
+   pushscope
+
+   debug               1, "anonymous$264", 0, 17157
+   debugline           17158
+   getlex              QName(PackageNamespace(""), "buttonChoice")
+   pushbyte            6
+   ifne                L304
+
+   debugline           17159
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "You slink your way over to the cellar doors, lifting one and shutting it behind you as you slip inside. All the usual bottles that are stored here are gone, having left with the shipment. However, the path still remains and leads you right to the machine. A panel on the side has been removed from the farmer working on it, but it doesn't seem to be dismantled any further to prevent it from functioning.\r\rQuickly stripping your "
+   findpropstrict      QName(PackageNamespace(""), "currentClothes")
+   callproperty        QName(PackageNamespace(""), "currentClothes"), 0
+   add
+   pushstring          " until you're naked for complete freedom, you give your "
+   add
+   findpropstrict      QName(PackageNamespace(""), "udderDesc")
+   callproperty        QName(PackageNamespace(""), "udderDesc"), 0
+   add
+   pushstring          " udder a gentle rub-down in preparation. As the "
+   add
+   findpropstrict      QName(PackageNamespace(""), "teatDesc")
+   callproperty        QName(PackageNamespace(""), "teatDesc"), 0
+   add
+   pushstring          " teats stiffen slightly, you then pick up the control board and carry it to the platform. You lean over the rail and let your milky bag hang below you. Fiddling with the control board, you're not exactly how it works, but there's not too many buttons and dials. So you press a few until you hear the machine grind awake and the hidden doors beneath you open."
+   add
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           17160
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "\r\rThe soft cylinders rise up and engulf your drippy teats. The tender touch of the gentle compression makes you gasp and squirt into the machine before the pumping even begins. And when the cylinders start to rise and fall, the suction increasing and tugging on your teats, you gush strongly with a moan, the machine whirring to take it all in. Your rump sways from side to side as the pleasant sensations build. Swiftly coming to your first climax, you squeeze your udder between your "
+   findpropstrict      QName(PackageNamespace(""), "legDesc")
+   pushbyte            6
+   callproperty        QName(PackageNamespace(""), "legDesc"), 1
+   add
+   pushstring          ", making the machine fill the basement with even louder churning for several seconds."
+   add
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           17161
+   getlex              QName(PackageNamespace(""), "gender")
+   pushbyte            0
+   ifeq                L212
+
+   debugline           17162
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "\r\rAfter the first orgasm, the pleasure lingers with the continuing milking. You reach around your "
+   findpropstrict      QName(PackageNamespace(""), "udderDesc")
+   callproperty        QName(PackageNamespace(""), "udderDesc"), 0
+   add
+   pushstring          " udder and stroke"
+   add
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           17163
+   getlex              QName(PackageNamespace(""), "cockTotal")
+   pushbyte            0
+   ifngt               L82
+
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          " "
+   findpropstrict      QName(PackageNamespace(""), "oneYour")
+   pushbyte            1
+   callproperty        QName(PackageNamespace(""), "oneYour"), 1
+   add
+   pushstring          " growing "
+   add
+   findpropstrict      QName(PackageNamespace(""), "cockDesc")
+   callproperty        QName(PackageNamespace(""), "cockDesc"), 0
+   add
+   pushstring          " erection"
+   add
+   findpropstrict      QName(PackageNamespace(""), "plural")
+   pushbyte            1
+   callproperty        QName(PackageNamespace(""), "plural"), 1
+   add
+   pushstring          "."
+   add
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   jump                L104
+
+L82:
+   debugline           17164
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          " "
+   findpropstrict      QName(PackageNamespace(""), "oneYour")
+   pushbyte            2
+   callproperty        QName(PackageNamespace(""), "oneYour"), 1
+   add
+   pushstring          " swelling "
+   add
+   findpropstrict      QName(PackageNamespace(""), "clitDesc")
+   callproperty        QName(PackageNamespace(""), "clitDesc"), 0
+   add
+   pushstring          " clit"
+   add
+   findpropstrict      QName(PackageNamespace(""), "plural")
+   pushbyte            2
+   callproperty        QName(PackageNamespace(""), "plural"), 1
+   add
+   pushstring          "."
+   add
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+L104:
+   debugline           17165
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          " It's slightly difficult to grope yourself from this position while attached to the machine, but you manage it. Rubbing and wringing steadily and slowly, masturbating in tune with the changing pressure of the pump. Again, the blissful milking combines with your own efforts and rapidly brings you to another high. You cry out in ecstasy, your voice echoing through the emptied basement, as "
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           17166
+   getlex              QName(PackageNamespace(""), "cockTotal")
+   pushbyte            0
+   ifngt               L119
+
+   debugline           17167
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "you blow a load across the back of your udder, painting it in your seed."
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   jump                L124
+
+L119:
+   debugline           17169
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "your pussy gapes and contracts in stuttered climax, drooling fluids down the back of your udder."
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+L124:
+   debugline           17170
+   findpropstrict      QName(PackageNamespace(""), "doLust")
+   getlex              QName(PackageNamespace(""), "Math")
+   getlex              QName(PackageNamespace(""), "sen")
+   pushbyte            2
+   divide
+   callproperty        QName(PackageNamespace(""), "floor"), 1
+   negate
+   pushbyte            2
+   pushbyte            1
+   pushbyte            2
+   pushbyte            4
+   callpropvoid        QName(PackageNamespace(""), "doLust"), 5
+
+   debugline           17171
+   findpropstrict      QName(PackageNamespace(""), "percent")
+   callproperty        QName(PackageNamespace(""), "percent"), 0
+   pushbyte            50
+   ifnlt               L192
+
+   debugline           17172
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "\r\rYou come so hard that you don't even notice as you accidentally mash the buttons of the control board...\r\rWhich side of the control board did you 'accidentally' mash?"
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           17173
+   findpropstrict      QName(PackageNamespace(""), "buttonWrite")
+   pushbyte            5
+   pushstring          "Left Side"
+   callpropvoid        QName(PackageNamespace(""), "buttonWrite"), 2
+
+   debugline           17174
+   findpropstrict      QName(PackageNamespace(""), "buttonWrite")
+   pushbyte            7
+   pushstring          "Right Side"
+   callpropvoid        QName(PackageNamespace(""), "buttonWrite"), 2
+
+   debugline           17175
+   findpropstrict      QName(PackageNamespace(""), "viewButtonOutline")
+   pushbyte            0
+   dup
+   dup
+   pushbyte            0
+   pushbyte            1
+   pushbyte            0
+   pushbyte            1
+   pushbyte            0
+   dup
+   dup
+   pushbyte            0
+   dup
+   callpropvoid        QName(PackageNamespace(""), "viewButtonOutline"), 12
+
+   debugline           17176
+   findpropstrict      QName(PackageNamespace(""), "viewButtonText")
+   pushbyte            0
+   dup
+   dup
+   pushbyte            0
+   pushbyte            1
+   pushbyte            0
+   pushbyte            1
+   pushbyte            0
+   dup
+   dup
+   pushbyte            0
+   dup
+   callpropvoid        QName(PackageNamespace(""), "viewButtonText"), 12
+
+   debugline           17177
+   findproperty        QName(PackageNamespace(""), "doListen")
+   newfunction         "NiminFetishFantasyv0_fla:MainTimeline/instance/doDairyFarm/inline_method#3"
+   initproperty        QName(PackageNamespace(""), "doListen")
+
+   jump                L211
+
+L192:
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           17318
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "\r\rYou slump over the rail, panting and moaning with the persistent pumping of your milk. Taking some time to relax, you take comfort in the milky massage, letting it slowly warm you back up. With no farmers around to watch you, there's no reason you can't keep masturbating over and over while you're here... So you do.\r\rAfter about 6 hours of consistent pumpinng and frequent excitation of your nerves, you slump over your udder and allow the gentle rocking of the pumping to guide you to sleep for the rest of the time..."
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           17319
+   getlex              QName(PackageNamespace(""), "cockTotal")
+   pushbyte            0
+   ifngt               L204
+
+   findpropstrict      QName(PackageNamespace(""), "cumAmount")
+   callpropvoid        QName(PackageNamespace(""), "cumAmount"), 0
+
+L204:
+   debugline           17320
+   findpropstrict      QName(PackageNamespace(""), "doNext")
+   callpropvoid        QName(PackageNamespace(""), "doNext"), 0
+
+   debugline           17321
+   findproperty        QName(PackageNamespace(""), "doListen")
+   newfunction         "NiminFetishFantasyv0_fla:MainTimeline/instance/doDairyFarm/inline_method#4"
+   initproperty        QName(PackageNamespace(""), "doListen")
+
+L211:
+   jump                L303
+
+L212:
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           17340
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "\r\rHours and hours of squirting and dripping passes with the occassional uddergasm. You eventually take a nap for the rest of the 12 hours, awakening only to the sound of the machine releasing you and shutting down. Your udder swollen and your teats stretched, you happily take your leave, pleased with the effective milking."
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           17341
+   findpropstrict      QName(PackageNamespace(""), "doLust")
+   getlex              QName(PackageNamespace(""), "Math")
+   getlex              QName(PackageNamespace(""), "sen")
+   pushbyte            3
+   divide
+   callproperty        QName(PackageNamespace(""), "floor"), 1
+   negate
+   pushbyte            2
+   pushbyte            4
+   callpropvoid        QName(PackageNamespace(""), "doLust"), 3
+
+   debugline           17342
+   findpropstrict      QName(PackageNamespace(""), "doLust")
+   getlex              QName(PackageNamespace(""), "Math")
+   getlex              QName(PackageNamespace(""), "sen")
+   pushbyte            3
+   divide
+   callproperty        QName(PackageNamespace(""), "floor"), 1
+   negate
+   pushbyte            2
+   pushbyte            4
+   callpropvoid        QName(PackageNamespace(""), "doLust"), 3
+
+   debugline           17343
+   findpropstrict      QName(PackageNamespace(""), "doLust")
+   getlex              QName(PackageNamespace(""), "Math")
+   getlex              QName(PackageNamespace(""), "sen")
+   pushbyte            3
+   divide
+   callproperty        QName(PackageNamespace(""), "floor"), 1
+   negate
+   pushbyte            2
+   pushbyte            4
+   callpropvoid        QName(PackageNamespace(""), "doLust"), 3
+
+   debugline           17344
+   findpropstrict      QName(PackageNamespace(""), "milkAmount")
+   pushbyte            2
+   callpropvoid        QName(PackageNamespace(""), "milkAmount"), 1
+
+   debugline           17345
+   findpropstrict      QName(PackageNamespace(""), "lactChange")
+   pushbyte            2
+   pushbyte            50
+   callpropvoid        QName(PackageNamespace(""), "lactChange"), 2
+
+   debugline           17346
+   findproperty        QName(PackageNamespace(""), "udderSize")
+   getlex              QName(PackageNamespace(""), "udderSize")
+   pushbyte            4
+   add
+   initproperty        QName(PackageNamespace(""), "udderSize")
+
+   debugline           17347
+   findproperty        QName(PackageNamespace(""), "teatSize")
+   getlex              QName(PackageNamespace(""), "teatSize")
+   pushbyte            5
+   add
+   initproperty        QName(PackageNamespace(""), "teatSize")
+
+   debugline           17348
+   findproperty        QName(PackageNamespace(""), "teatPump")
+   getlex              QName(PackageNamespace(""), "teatPump")
+   pushbyte            40
+   add
+   initproperty        QName(PackageNamespace(""), "teatPump")
+
+   debugline           17349
+   findproperty        QName(PackageNamespace(""), "udderPlay")
+   getlex              QName(PackageNamespace(""), "udderPlay")
+   pushbyte            100
+   add
+   initproperty        QName(PackageNamespace(""), "udderPlay")
+
+   debugline           17350
+   findproperty        QName(PackageNamespace(""), "hrs")
+   getlex              QName(PackageNamespace(""), "hrs")
+   pushbyte            13
+   add
+   initproperty        QName(PackageNamespace(""), "hrs")
+
+   debugline           17351
+   findproperty        QName(PackageNamespace(""), "exhaustion")
+   getlex              QName(PackageNamespace(""), "exhaustion")
+   pushbyte            4
+   subtract
+   initproperty        QName(PackageNamespace(""), "exhaustion")
+
+   debugline           17352
+   findproperty        QName(PackageNamespace(""), "skipExhaustion")
+   pushtrue
+   initproperty        QName(PackageNamespace(""), "skipExhaustion")
+
+   debugline           17353
+   findpropstrict      QName(PackageNamespace(""), "doEnd")
+   callpropvoid        QName(PackageNamespace(""), "doEnd"), 0
+
+L303:
+   jump                L316
+
+L304:
+   debugline           17357
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "Thinking it best to not deal with that confounded contraption, you go find something less dangerous to do..."
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           17358
+   findproperty        QName(PackageNamespace(""), "hrs")
+   pushbyte            1
+   initproperty        QName(PackageNamespace(""), "hrs")
+
+   debugline           17359
+   findpropstrict      QName(PackageNamespace(""), "doEnd")
+   callpropvoid        QName(PackageNamespace(""), "doEnd"), 0
+
+L316:
+   debugline           17361
+   returnvoid
+  end ; code
+ end ; body
+end ; method

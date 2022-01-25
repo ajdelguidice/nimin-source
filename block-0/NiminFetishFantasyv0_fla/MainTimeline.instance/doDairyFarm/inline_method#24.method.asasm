@@ -1,0 +1,240 @@
+method
+ name ""
+ refid "NiminFetishFantasyv0_fla:MainTimeline/instance/doDairyFarm/inline_method#24"
+ returns QName(PackageNamespace(""), "void")
+ flag NEED_ACTIVATION
+ body
+  maxstack 13
+  localcount 2
+  initscopedepth 12
+  maxscopedepth 13
+  code
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           17501
+   newactivation
+   dup
+   setlocal1
+
+   pushscope
+
+   debug               1, "anonymous$283", 0, 17501
+   debugline           17502
+   getlex              QName(PackageNamespace(""), "buttonChoice")
+   pushbyte            5
+   ifne                L159
+
+   debugline           17503
+   getlex              QName(PackageNamespace(""), "malonRep")
+   pushbyte            1
+   ifnlt               L20
+
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "You quietly open the door and look inside, your eyes going wide at what you see. There are no cows, yet the automatic milker is churning away. In the stalls where the cows should be, stands a young woman, bent forward and hanging onto the guardrail to hold herself up. She wears a long purple skirt with a brown apron, her large rump rocking from side to side as a long tail with a hairy tip dances above in tune. Long red hair dangles down from her shoulders, with long, round ears sticking out. She heaves with each pump of the milker, letting out soft gasping moos.\r\rHer white shirt pushed down around her belly and her yellow shawl draped over the rail beside her, her enormous naked breasts hang down towards the floor. They're larger than watermelons, with nipples several inches long encompassed by the milking cups. Gushes of milk flow through the milker's hoses with each pump, her giant breasts being drained...\r\r\rWhat now?"
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   jump                L94
+
+L20:
+   debugline           17505
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "You quietly open the door and look inside, a smirk crossing your face. There are no cows, yet the automatic milker is churning away. In the stalls where the cows should be, stands Malon, the young farm-hand, bent forward and hanging onto the guardrail to hold herself up, her large rump rocking lazily back and forth as her bovine tail swings above in tune. Her white shirt is scrunched down around her belly, her enormous naked breasts hanging down towards the floor. Her nipples are several inches long and encompassed by the milking cups, gushes of milk flow through the milker's hoses with each pump, her giant breasts being drained. In between gasps, she lets out soft moos..."
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           17506
+   getlex              QName(PackageNamespace(""), "malonRep")
+   pushbyte            4
+   ifne                L74
+
+   debugline           17507
+   getlex              QName(PackageNamespace(""), "malonPreg")
+   pushbyte            36
+   greaterthan
+   dup
+   iffalse             L39
+
+   pop
+   getlex              QName(PackageNamespace(""), "malonPreg")
+   pushbyte            72
+   lessequals
+L39:
+   iffalse             L44
+
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "\r\rShe rubs her slightly protruding belly, pregnant with one of your children..."
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+L44:
+   debugline           17508
+   getlex              QName(PackageNamespace(""), "malonPreg")
+   pushbyte            72
+   greaterthan
+   dup
+   iffalse             L54
+
+   pop
+   getlex              QName(PackageNamespace(""), "malonPreg")
+   pushshort           144
+   lessequals
+L54:
+   iffalse             L59
+
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "\r\rBoth of her hands rub around her giant belly which hangs nearly as low as her tits, pregnant with one of your children. You don't know how she managed to even pull her shirt down like that..."
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+L59:
+   debugline           17509
+   getlex              QName(PackageNamespace(""), "malonPreg")
+   pushshort           144
+   greaterthan
+   dup
+   iffalse             L69
+
+   pop
+   getlex              QName(PackageNamespace(""), "malonPreg")
+   pushshort           216
+   lessequals
+L69:
+   iffalse             L74
+
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "\r\rHer flow of milk through the tubes seems even more powerful than before. You're surprised at how large her tits have grown, her nipples nearly scraping along the ground as she bends over. However, her giant belly that she hugs and caresses as she's milked reaches even further, the hay on the floor tickling her protruding belly button. She has propped it up against the guardrail to help maintain her balance, though she doesn't seem terribly uncomfortable."
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+L74:
+   debugline           17511
+   getlex              QName(PackageNamespace(""), "malonRep")
+   pushbyte            5
+   equals
+   dup
+   iffalse             L84
+
+   pop
+   getlex              QName(PackageNamespace(""), "malonChildren")
+   pushbyte            0
+   greaterthan
+L84:
+   iffalse             L89
+
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "\r\rIt seems as though she has finally found a moment to get away from your offspring and have some time to herself."
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+L89:
+   debugline           17512
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "\r\r\rWhat now?"
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+L94:
+   debugline           17514
+   findpropstrict      QName(PackageNamespace(""), "bc")
+   callpropvoid        QName(PackageNamespace(""), "bc"), 0
+
+   debugline           17515
+   findpropstrict      QName(PackageNamespace(""), "viewButtonOutline")
+   pushbyte            0
+   pushbyte            1
+   pushbyte            0
+   dup
+   pushbyte            1
+   pushbyte            0
+   pushbyte            1
+   pushbyte            0
+   dup
+   pushbyte            1
+   pushbyte            0
+   dup
+   callpropvoid        QName(PackageNamespace(""), "viewButtonOutline"), 12
+
+   debugline           17516
+   findpropstrict      QName(PackageNamespace(""), "viewButtonText")
+   pushbyte            0
+   pushbyte            1
+   pushbyte            0
+   dup
+   pushbyte            1
+   pushbyte            0
+   pushbyte            1
+   pushbyte            0
+   dup
+   pushbyte            1
+   pushbyte            0
+   dup
+   callpropvoid        QName(PackageNamespace(""), "viewButtonText"), 12
+
+   debugline           17517
+   findpropstrict      QName(PackageNamespace(""), "buttonWrite")
+   pushbyte            2
+   pushstring          "Interrupt"
+   callpropvoid        QName(PackageNamespace(""), "buttonWrite"), 2
+
+   debugline           17518
+   findpropstrict      QName(PackageNamespace(""), "buttonWrite")
+   pushbyte            5
+   pushstring          "Assist"
+   callpropvoid        QName(PackageNamespace(""), "buttonWrite"), 2
+
+   debugline           17519
+   findpropstrict      QName(PackageNamespace(""), "buttonWrite")
+   pushbyte            7
+   pushstring          "Fuck"
+   callpropvoid        QName(PackageNamespace(""), "buttonWrite"), 2
+
+   debugline           17520
+   getlex              QName(PackageNamespace(""), "malonRep")
+   pushbyte            1
+   ifnlt               L150
+
+   findpropstrict      QName(PackageNamespace(""), "buttonWrite")
+   pushbyte            7
+   pushstring          "Rape"
+   callpropvoid        QName(PackageNamespace(""), "buttonWrite"), 2
+
+L150:
+   debugline           17521
+   findpropstrict      QName(PackageNamespace(""), "buttonWrite")
+   pushbyte            10
+   pushstring          "Leave"
+   callpropvoid        QName(PackageNamespace(""), "buttonWrite"), 2
+
+   debugline           17522
+   findproperty        QName(PackageNamespace(""), "doListen")
+   newfunction         "NiminFetishFantasyv0_fla:MainTimeline/instance/doDairyFarm/inline_method#23"
+   initproperty        QName(PackageNamespace(""), "doListen")
+
+L159:
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           17816
+   getlex              QName(PackageNamespace(""), "buttonChoice")
+   pushbyte            7
+   ifne                L176
+
+   debugline           17817
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "A little too dangerous, and probably illegal with the whole trespassing thing, you turn around and walk away."
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           17818
+   findproperty        QName(PackageNamespace(""), "hrs")
+   pushbyte            1
+   initproperty        QName(PackageNamespace(""), "hrs")
+
+   debugline           17819
+   findpropstrict      QName(PackageNamespace(""), "doEnd")
+   callpropvoid        QName(PackageNamespace(""), "doEnd"), 0
+
+L176:
+   debugline           17821
+   returnvoid
+  end ; code
+ end ; body
+end ; method

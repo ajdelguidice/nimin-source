@@ -1,0 +1,53 @@
+method
+ name ""
+ refid "NiminFetishFantasyv0_fla:MainTimeline/instance/doDen/inline_method#2"
+ returns QName(PackageNamespace(""), "void")
+ body
+  maxstack 5
+  localcount 1
+  initscopedepth 14
+  maxscopedepth 14
+  code
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           18630
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "Spending a few more hours with the family, everything settles down and there really isn't much to do anymore except to wait. With not a problem to be had, Silandrias and the pups nuzzle you goodbye, since there's things you could actually be doing in the meantime.\r\rOh, and I can't believe I've forgotten about it until now, maybe because of the, umm...\" Her face blushes at what she had been distracted with this whole time. \"But you're welcome to borrow any of the magical treasures I've found as part of my hobby. Although only a few are actually worth using, you can pick one up whenever you're here.\" She smiles and gives you another hug, gushing milk across your front, and finally lets you leave."
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           18631
+   findproperty        QName(PackageNamespace(""), "hrs")
+   pushbyte            30
+   getlex              QName(PackageNamespace(""), "Math")
+   getlex              QName(PackageNamespace(""), "silPreg")
+   pushshort           1000
+   divide
+   callproperty        QName(PackageNamespace(""), "floor"), 1
+   add
+   initproperty        QName(PackageNamespace(""), "hrs")
+
+   debugline           18632
+   findproperty        QName(PackageNamespace(""), "silRep")
+   pushbyte            6
+   initproperty        QName(PackageNamespace(""), "silRep")
+
+   debugline           18633
+   findpropstrict      QName(PackageNamespace(""), "doSexP")
+   pushbyte            50
+   getlex              QName(PackageNamespace(""), "Math")
+   getlex              QName(PackageNamespace(""), "silPreg")
+   pushbyte            100
+   divide
+   callproperty        QName(PackageNamespace(""), "floor"), 1
+   add
+   callpropvoid        QName(PackageNamespace(""), "doSexP"), 1
+
+   debugline           18634
+   findpropstrict      QName(PackageNamespace(""), "doEnd")
+   callpropvoid        QName(PackageNamespace(""), "doEnd"), 0
+
+   debugline           18635
+   returnvoid
+  end ; code
+ end ; body
+end ; method

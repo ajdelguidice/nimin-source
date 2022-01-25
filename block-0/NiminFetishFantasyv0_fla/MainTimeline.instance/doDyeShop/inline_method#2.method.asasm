@@ -1,0 +1,139 @@
+method
+ name ""
+ refid "NiminFetishFantasyv0_fla:MainTimeline/instance/doDyeShop/inline_method#2"
+ returns QName(PackageNamespace(""), "void")
+ flag NEED_ACTIVATION
+ body
+  maxstack 6
+  localcount 2
+  initscopedepth 12
+  maxscopedepth 13
+  code
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           9167
+   newactivation
+   dup
+   setlocal1
+
+   pushscope
+
+   debug               1, "anonymous$62", 0, 9167
+   debugline           9168
+   getlex              QName(PackageNamespace(""), "buttonChoice")
+   pushbyte            4
+   equals
+   not
+   dup
+   iffalse             L19
+
+   pop
+   getlex              QName(PackageNamespace(""), "buttonChoice")
+   pushbyte            8
+   equals
+   not
+L19:
+   dup
+   iffalse             L26
+
+   pop
+   getlex              QName(PackageNamespace(""), "buttonChoice")
+   pushbyte            12
+   equals
+   not
+L26:
+   dup
+   iffalse             L35
+
+   pop
+   findpropstrict      QName(PackageNamespace(""), "dyeID")
+   getlex              QName(PackageNamespace(""), "buttonChoice")
+   callproperty        QName(PackageNamespace(""), "dyeID"), 1
+   pushbyte            0
+   equals
+   not
+L35:
+   iffalse             L61
+
+   debugline           9169
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   findpropstrict      QName(PackageNamespace(""), "itemDescription")
+   findpropstrict      QName(PackageNamespace(""), "dyeID")
+   getlex              QName(PackageNamespace(""), "buttonChoice")
+   callproperty        QName(PackageNamespace(""), "dyeID"), 1
+   callproperty        QName(PackageNamespace(""), "itemDescription"), 1
+   pushstring          "\r\rCost: "
+   add
+   pushbyte            3
+   findpropstrict      QName(PackageNamespace(""), "itemValue")
+   findpropstrict      QName(PackageNamespace(""), "dyeID")
+   getlex              QName(PackageNamespace(""), "buttonChoice")
+   callproperty        QName(PackageNamespace(""), "dyeID"), 1
+   callproperty        QName(PackageNamespace(""), "itemValue"), 1
+   multiply
+   add
+   pushstring          " coins."
+   add
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           9170
+   findproperty        QName(PackageInternalNs("NiminFetishFantasyv0_fla"), "buy")
+   getlex              QName(PackageNamespace(""), "buttonChoice")
+   setproperty         QName(PackageInternalNs("NiminFetishFantasyv0_fla"), "buy")
+
+L61:
+   debugline           9172
+   getlex              QName(PackageNamespace(""), "buttonChoice")
+   pushbyte            4
+   equals
+   dup
+   iffalse             L72
+
+   pop
+   getlex              QName(PackageInternalNs("NiminFetishFantasyv0_fla"), "buy")
+   pushbyte            0
+   equals
+   not
+L72:
+   iffalse             L93
+
+   debugline           9173
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "\r\rAre you sure you would like to buy "
+   findpropstrict      QName(PackageNamespace(""), "itemName")
+   findpropstrict      QName(PackageNamespace(""), "dyeID")
+   getlex              QName(PackageInternalNs("NiminFetishFantasyv0_fla"), "buy")
+   callproperty        QName(PackageNamespace(""), "dyeID"), 1
+   callproperty        QName(PackageNamespace(""), "itemName"), 1
+   add
+   pushstring          "?"
+   add
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           9174
+   findpropstrict      QName(PackageNamespace(""), "buttonConfirm")
+   callpropvoid        QName(PackageNamespace(""), "buttonConfirm"), 0
+
+   debugline           9175
+   findproperty        QName(PackageNamespace(""), "doListen")
+   newfunction         "NiminFetishFantasyv0_fla:MainTimeline/instance/doDyeShop/inline_method#1"
+   initproperty        QName(PackageNamespace(""), "doListen")
+
+L93:
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           9193
+   getlex              QName(PackageNamespace(""), "buttonChoice")
+   pushbyte            12
+   ifne                L101
+
+   debugline           9194
+   findpropstrict      QName(PackageNamespace(""), "doReturn")
+   callpropvoid        QName(PackageNamespace(""), "doReturn"), 0
+
+L101:
+   debugline           9196
+   returnvoid
+  end ; code
+ end ; body
+end ; method

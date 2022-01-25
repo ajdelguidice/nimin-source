@@ -1,0 +1,166 @@
+method
+ name ""
+ refid "NiminFetishFantasyv0_fla:MainTimeline/instance/doDen/inline_method#16"
+ returns QName(PackageNamespace(""), "void")
+ flag NEED_ACTIVATION
+ body
+  maxstack 3
+  localcount 2
+  initscopedepth 12
+  maxscopedepth 13
+  code
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           18866
+   newactivation
+   dup
+   setlocal1
+
+   pushscope
+
+   debug               1, "anonymous$331", 0, 18866
+   debugline           18868
+   getlex              QName(PackageNamespace(""), "silRep")
+   pushbyte            1
+   ifne                L30
+
+   debugline           18869
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "You run up and grab her, rushing her to her bedroom so she can be more comfortable. Laying her onto her back, you make sure her back is supported appropriately to help with the lay."
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           18870
+   getlex              QName(PackageNamespace(""), "silTied")
+   pushtrue
+   ifne                L25
+
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "\r\rHer tail extends itself through the cheeks of her bum and straight across the bed in preparation. Yet, Silandrias quickly gasps loudly as her body realizes that passage is blocked and redirects the flow elsewhere. She spreads her legs wide as she feels her pussy stretch and gape as the eggs force their way through. Her breathing grows rapid and she lets out a warbling howl when the first one breaches her passage, burrowing beneath her testicles and leaving a slimy trail with the next following soon behind. Her wings press down on her belly, trying to help push the orbs out, but they mostly shake from the array of throbbing sensations that blare between her legs like a drum. Slight pain mixed with intense pleasure, she's unsure of what to do and merely pushes harder.\r\rYour hands dive in to lift her package out of the way and help pull the eggs from her supple flesh, making her twitch slightly from your touch. Egg after egg slips out from her, each as large as a grapefruit and smothered in lubrication. Her belly quickly diminishes and within ten minutes she has passed them all."
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   jump                L30
+
+L25:
+   debugline           18871
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "\r\rHer tail extends itself through the cheeks of her bum and straight across the bed in preparation. Silandrias then pushes her bum up from the sheets with her legs and lets out a warbling howls as the base of her tail swells with the first egg, the bulge quickly running down its length. Before it can even get halfway through, another bulge already forms at the base, making her clench the sheets with her talons. Her back arches higher and higher as she pushes, her round belly pointing straight into the air while her muzzle buries itself within her cleavage, moaning loudly into the flesh. Her cock dangles half-hard above, dribbling a bit of its own lubricant over the base of her tail.\r\rYour hands grope along her tail, encouraging the passing of the eggs from the outside, watching them reach and stretch the tip wide before they're quickly desposited. Egg after egg slips out from her, each as large as a grapefruit and smothered in lubrication. Her belly quickly diminishes and within ten minutes she has passed them all."
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+L30:
+   debugline           18873
+   getlex              QName(PackageNamespace(""), "silRep")
+   pushbyte            2
+   ifne                L53
+
+   debugline           18874
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "You run up and grab her, rushing her to her bedroom so she can be more comfortable. However, just as you can get her onto the bed, Silandrias collapses to her knees before it and leans forward over the edge, unable to go any further. The finger-like talons at the tips of her wings reach out over the sheets and clench the fabric as her back arches into the bed, her top breasts preventing her from going to far while the second pair brushes across the edge and make her nipples grow stiff.\r\rOnce more, her tail thrusts itself straight out,"
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           18875
+   getlex              QName(PackageNamespace(""), "silTied")
+   pushtrue
+   ifne                L48
+
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          " only to find the passage is blocked by the leather strap. This result only makes her grunt and moan louder as she feels the eggs shift and stretch her cunt. The intense sensation makes her cock flip her loincloth up and pound against the bed with a strange sense of arousal, strands of pre with a mixture of escaping cum splattering with each whack, her testicles groaning to eject some semen as they feel feminine lubricant drool down their backside.\r\rAs your hands reach in to help pull the eggs out, you accidentally brush over her clit, making her howl and push her entire rump into you while an egg forces its way out. Short stuttered spurts of spunk gently paint the overhanging bedsheets with the confused orgasm, not quite a full climax but the sensations are altogether powerful enough to cause the ejaculation. And between each bout of subtle shooting, an egg slips through her tightening and loosening passage, practically firing out into your hands. Her large belly quickly dwindles and by the time she has made a nice waterfall of cum running down her sheets, she has also made a hefty pile of eggs between her feet."
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   jump                L53
+
+L48:
+   debugline           18876
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          " preparing for the onslaught of eggs to come from her large belly. You can hear her gasp and moan into the sheets as her rump pushes back towards you, forcing the eggs into the base of her tail and down its length in turn. The intense pressure from the eggs at her backside causes all of her genitals to engorge themselves, both cunt and cock dribbling with lubricant as they swell slightly.\r\rYour hands grope along her tail, holding it up and encouraging the passing of the eggs from the outside, watching them reach and stretch the tip wide before they're quickly desposited. All the while she claws at the bed, writhing her breasts across the sheets and making her bum wave erotically. The process is almost torturous as it takes so long for the eggs to travel one and two at a time through her tail, making the rest of her a dribbling mess. Her large belly eventually dwindles in size and by the time she has made a nice waterfall of clear fluids from penis and testicles down to the floor, she has also made a hefty pile of eggs beside you."
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+L53:
+   debugline           18878
+   getlex              QName(PackageNamespace(""), "silRep")
+   pushbyte            3
+   ifne                L76
+
+   debugline           18879
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "You run up and grab her, but notice Silandrias is already beginning to squat as her body forces her to start laying. So, rather than head to her room for comfort, you hug her from behind and gently guide her down to the floor of the tunnel, letting her lean back into your for support. Her head nestles back over your shoulder, her muzzle pressing into your face as she groans with the building pressure below, her wings digging her talons into the floor to anchor herself. In preparation, her tail curls up through your crotch and stretches out over your thigh so she is no longer sitting upon it,"
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           18880
+   getlex              QName(PackageNamespace(""), "silTied")
+   pushtrue
+   ifne                L71
+
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          " but with the passage blocked her legs spread wide as well. You reach around her huge belly the best you can to access her slit. Thankfully, she's already quite half-hard and her increased engorgement allows you to easily grab her masculine portion as it pushes the loin cloth aside and point the rod over her thigh, letting pre drool over her fur. Reaching further, the large orbs are a bit more difficult to lift from this angle, but your fingertips manage to pull at the scaly scrotum and drag it up, propping one hefty testicle against her thigh and shuffling the member around to rest upon your arm.\r\rBefore you can yank the other orb up as well, she lets out a moan and shudders into your body. The second testicle moves further away as the exiting egg pushes it aside, slipping out into a messy puddle of her lubrication below while her cock bucks upon your arm as you hold it back. More pre drizzles down your forearm and over your hand, with even more slick stuff drenching about from underneath. The slippery combination threatens to release the ball from your grip and let it crash against the next oncoming egg, forcing you to grab the sensitive sphere harder to prevent such a tragedy. Her tail whips at you as you do so, her body writhing and an erotic howl escaping her lips as the next egg presses out, with a nice large wad of spunk shooting up to your shoulder. From there, a steady gurgle of hot seed dribbles down your arm and over her thigh, smearing about her dwindling belly and her lower tits, coating her testicles and icing the eggs beneath a white waterfall as they are laid into a pile. On occasion, the egg being laid stretches her especially wide, causing the ejaculating erection to launch a volley up at both of your faces.\r\rBy the time she's finished, you could swear her testicle feels quite lighter..."
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   jump                L76
+
+L71:
+   debugline           18881
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          " a growing bulge at its base already pushing into your groin. You reach around her huge belly to stroke and coax the egg out, feeling the bulge push over your thigh and gently slip out the tip of her tail beside you.\r\rShe arches her back slightly with the continuing oviposition, her loin cloth tenting from the half-hard rod rising beneath. The cloth is moist with pre and grows even wetter with each egg that passes as gobs push through her urethra. Since her tail and backside are doing fine with their steady progress, you manage to reach around with a hand and grab the hunched shaft, smearing the pre down its length. She lets out a guttural moan as she jerks against your body, the loin cloth falling aside and leaving her engorged erection to grow to full length in your grip. The eggs begin to quicken in pace as her hips begin to gently buck up and down with your strokes, clearly expedited by your efforts. By the time a few eggs have slipped out, large wads of hot spunk shoot up over her belly, coating her lower pairs of breasts. The stuff continues to pump out with a gentle gurgle, running down her length and over your hand, spilling from her testicles and forming a nice puddle below. With the occassional larger egg that requires a bit more pushing than the rest, the gentle flood is replaced by lobbing volleys that splatter across your faces and sufficiently make a mess of everything.\r\rBy the time she's finished, even the eggs have been nearly completely coated..."
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+L76:
+   debugline           18883
+   getlex              QName(PackageNamespace(""), "silRep")
+   pushbyte            4
+   ifne                L104
+
+   debugline           18884
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "You run up and grab her, but she lifts a hand, motioning she's alright. Silandrias hugs over your shoulders with one wing while the other cradles her massive tummy the best it can. \"F-First, I want to show you something...\"\r\rUsing you as a crutch, she slowly waddles down the tunnels, taking you down paths you had never seen before. She grunts and wheezes a little as she goes, even having to stop halfway as an egg forces its way through her "
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           18885
+   getlex              QName(PackageNamespace(""), "silTied")
+   pushtrue
+   ifne                L94
+
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          " slit, allowing you to catch it and a bunch of slime just before it falls to the floor."
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   jump                L99
+
+L94:
+   debugline           18886
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          " tail, slipping out with a puddle of slime onto the floor behind her."
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+L99:
+   debugline           18887
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          " \"D-Don't worry about it...,\" she ensures you.\r\rThe two of you quicken your paces to get to your destination before she pops, and soon find yourselves in a relatively small room much deeper underground than you have ever been before in her home. The room is quite odd, with old dirt beddings dotting the floor, hemispherically shaped for some large round object, much larger than any of the eggs you've seen Silandrias lay. And all around, the walls are covered with many, many pictures, with a particularly series centered and more prominent than the rest.\r\rSilandrias takes a deep breath and rests against a wall, making sure her womb has settled enough before speaking. \"This is where me and my sisters hatched...\"\r\r\"I don't know exactly why it's so deep and the tunnels around here look different, like they were made in a hurry, but I believe these pictures can somewhat tell why.\" She takes another deep breath and prepares to explain as much as she can, motioning across the images as she speaks. \"These pictures show that my people were once a much more common race. These tunnels were filled with many families, all living together, with even more tunnel networks like these scattered over what was once a rather lively savannah. Food was plentiful, people were happy, and life was good. However, they saw... something coming.\"\r\rShe focuses on a picture that resembles a wave washing over the land, although the wave itself seems distorted, confused, not clear at all. \"I don't think they knew exactly what it was, but they knew that it would mean the end of our people. Maybe some kind of destructive force? It would explain the many magical items I find strewn throughout the dunes, but even then they are largely intact, not damaged in ways you would expect if that were the case... But anyways, they knew it was coming and in fear of losing us all, they made this room to hide some of their eggs in hopes of making at least some of us survive. And, well, they did.\"\r\r\"Yet, on the other hand, it seems like me and my sisters were the only ones that did survive. I'm sure our parents knew it would happen too, which is why they made all of these pictures. They wouldn't be able to teach us their language, but they could at least teach us some of our history with these images. They taught us how to navigate the tunnels, how to find food, how to live, how to fly. They couldn't teach us everything though, and if it weren't for our caretaker, who we named Saeru - a creature who couldn't speak but could understand us and did her best to take care of us - we probably wouldn't have survived to this day. But even she couldn't help us - me learn how certain things work. None of us ever tried to get... well, like now...\""
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+L104:
+   debugline           18890
+   findpropstrict      QName(PackageNamespace(""), "doNext")
+   callpropvoid        QName(PackageNamespace(""), "doNext"), 0
+
+   debugline           18891
+   findproperty        QName(PackageNamespace(""), "doListen")
+   newfunction         "NiminFetishFantasyv0_fla:MainTimeline/instance/doDen/inline_method#15"
+   initproperty        QName(PackageNamespace(""), "doListen")
+
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           18939
+   returnvoid
+  end ; code
+ end ; body
+end ; method

@@ -1,0 +1,117 @@
+method
+ name ""
+ refid "NiminFetishFantasyv0_fla:MainTimeline/instance/doDairyFarm/inline_method#15"
+ returns QName(PackageNamespace(""), "void")
+ body
+  maxstack 5
+  localcount 1
+  initscopedepth 13
+  maxscopedepth 13
+  code
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           17653
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "Before you can come yourself, the loud bovine expression makes the girl jump with embarrassment, her tail slipping from your hand"
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           17654
+   getlex              QName(PackageNamespace(""), "knot")
+   pushtrue
+   ifne                L15
+
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          " and tries to pull herself from your cock. She recoils at first, your knot yanking at her tender cunt, but her will is greater and she tugs again with a yelp, making your erection ache a little from the force as it flies out"
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   jump                L20
+
+L15:
+   debugline           17655
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          " and your cock sliding out"
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+L20:
+   debugline           17656
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          " from between her legs as she turns to run. The milking cups pop from her long nipples, flinging milk everywhere as she runs away, her large breasts swinging from side to side and her skirt a mess."
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           17657
+   getlex              QName(PackageNamespace(""), "cockSize")
+   getlex              QName(PackageNamespace(""), "cockSizeMod")
+   multiply
+   findpropstrict      QName(PackageNamespace(""), "eVagLimit")
+   pushbyte            56
+   callproperty        QName(PackageNamespace(""), "eVagLimit"), 1
+   ifnle               L47
+
+   debugline           17658
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "\r\rObviously having thoroughly terrified the girl, you turn the opposite direction to make a quick getaway yourself, your cock hard in your "
+   findpropstrict      QName(PackageNamespace(""), "clothesBottom")
+   callproperty        QName(PackageNamespace(""), "clothesBottom"), 0
+   add
+   pushstring          "..."
+   add
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           17659
+   findproperty        QName(PackageNamespace(""), "malonRep")
+   pushbyte            -1
+   initproperty        QName(PackageNamespace(""), "malonRep")
+
+L47:
+   debugline           17661
+   getlex              QName(PackageNamespace(""), "cockSize")
+   getlex              QName(PackageNamespace(""), "cockSizeMod")
+   multiply
+   findpropstrict      QName(PackageNamespace(""), "eVagLimit")
+   pushbyte            56
+   callproperty        QName(PackageNamespace(""), "eVagLimit"), 1
+   ifngt               L59
+
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "\r\rYou're not quite sure if it was because of your actions that frightened her so, or her own reaction to them... Either way, you think it best to not dawdle, despite your cock still being hard..."
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+L59:
+   debugline           17662
+   findpropstrict      QName(PackageNamespace(""), "stats")
+   pushbyte            0
+   pushbyte            -3
+   pushbyte            2
+   pushbyte            0
+   callpropvoid        QName(PackageNamespace(""), "stats"), 4
+
+   debugline           17663
+   findpropstrict      QName(PackageNamespace(""), "doSexP")
+   pushbyte            5
+   callpropvoid        QName(PackageNamespace(""), "doSexP"), 1
+
+   debugline           17664
+   findpropstrict      QName(PackageNamespace(""), "doLust")
+   pushbyte            30
+   pushbyte            0
+   callpropvoid        QName(PackageNamespace(""), "doLust"), 2
+
+   debugline           17665
+   findproperty        QName(PackageNamespace(""), "hrs")
+   pushbyte            2
+   initproperty        QName(PackageNamespace(""), "hrs")
+
+   debugline           17666
+   findpropstrict      QName(PackageNamespace(""), "doEnd")
+   callpropvoid        QName(PackageNamespace(""), "doEnd"), 0
+
+   debugline           17667
+   returnvoid
+  end ; code
+ end ; body
+end ; method

@@ -1,0 +1,41 @@
+method
+ name ""
+ refid "NiminFetishFantasyv0_fla:MainTimeline/instance/doDen/inline_method#12"
+ returns QName(PackageNamespace(""), "void")
+ body
+  maxstack 3
+  localcount 1
+  initscopedepth 13
+  maxscopedepth 13
+  code
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           18911
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "As the nostalgia of her past and the high of the long orgasm lifts from her mind, she blushes heavily as she finally notices the massive mess. \"Oh dear..\"\r\rSilandrias stumbles at first as she stands, the slimy puddle beneath proving difficult footing and her lack of enormous belly leaving her off balance, but with your help she steadies herself and manages to walk on her own soon enough. Her other sites of swelling are shrinking as well, returning the lithe power to her body and making her as spry as usual. The two of you are able to clean up the entrance, as well as all the many many eggs, within just a couple of hours. Although, again, she mentions that these are fakes just like the rest.\r\r\"I actually don't know when or how they become real...,\" she mentions curiously. But soon after cleaning up she's much to tired to think about it further and you help her to her bedroom for a nice long nap. Seeing as she's snoring like a log with such a deep sleep within minutes, you know she'll be just fine, allowing you to head out on your own."
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           18912
+   findproperty        QName(PackageNamespace(""), "hrs")
+   pushbyte            7
+   initproperty        QName(PackageNamespace(""), "hrs")
+
+   debugline           18913
+   findpropstrict      QName(PackageNamespace(""), "doSexP")
+   pushbyte            50
+   callpropvoid        QName(PackageNamespace(""), "doSexP"), 1
+
+   debugline           18914
+   findproperty        QName(PackageNamespace(""), "silRep")
+   pushbyte            4
+   initproperty        QName(PackageNamespace(""), "silRep")
+
+   debugline           18915
+   findpropstrict      QName(PackageNamespace(""), "doEnd")
+   callpropvoid        QName(PackageNamespace(""), "doEnd"), 0
+
+   debugline           18916
+   returnvoid
+  end ; code
+ end ; body
+end ; method

@@ -1,0 +1,138 @@
+method
+ name ""
+ refid "NiminFetishFantasyv0_fla:MainTimeline/instance/doDairyFarm/inline_method#10"
+ returns QName(PackageNamespace(""), "void")
+ body
+  maxstack 5
+  localcount 1
+  initscopedepth 13
+  maxscopedepth 13
+  code
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           17552
+   getlex              QName(PackageNamespace(""), "buttonChoice")
+   pushbyte            5
+   ifne                L28
+
+   debugline           17553
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "With tears welling up in her eyes, she rips away from the cups, letting them pop from her nipples with a milky flood. She turns and runs the other way, her tits bouncing from side to side and milk splashing across the walls as she goes, until she disappears out another door, leaving you with nothing."
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           17554
+   findpropstrict      QName(PackageNamespace(""), "stats")
+   pushbyte            0
+   pushbyte            -3
+   pushbyte            0
+   dup
+   callpropvoid        QName(PackageNamespace(""), "stats"), 4
+
+   debugline           17555
+   findproperty        QName(PackageNamespace(""), "malonRep")
+   pushbyte            -1
+   initproperty        QName(PackageNamespace(""), "malonRep")
+
+   debugline           17556
+   findproperty        QName(PackageNamespace(""), "hrs")
+   pushbyte            2
+   initproperty        QName(PackageNamespace(""), "hrs")
+
+   debugline           17557
+   findpropstrict      QName(PackageNamespace(""), "doEnd")
+   callpropvoid        QName(PackageNamespace(""), "doEnd"), 0
+
+L28:
+   debugline           17559
+   getlex              QName(PackageNamespace(""), "buttonChoice")
+   pushbyte            7
+   ifne                L98
+
+   debugline           17560
+   getlex              QName(PackageNamespace(""), "malonRep")
+   pushbyte            0
+   ifne                L67
+
+   debugline           17561
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "\"Ahh, thank you so much!\" She looks like she wants to hug you, but she's a bit tethered at the moment... and half naked.\r\rShe begins to gather herself, trying to turn away as she removes the milk-cups. You get a short flash of her over-ample chest before she pulls her shirt back into position, rubbing her nipples so they don't show through as well and dabbing the resulting blotch with her shawl.\r\r\"M-My name is Malon. I've been this way most of my life... As a child, I always loved animals. A little too much, you could say... I liked the cows so much that I wanted to be like them. And so, I took one of their DairE Pills... To cut a long story short, I was happy with the results at first, becoming more like my bovine friends. Until eventually I grew up and realized my predicament. And, well, ever since then, I've been like this...\"\r\rShe shuffles uncomfortably in position for a bit, not quite sure what to say. She glances from side to side before deciding to step over to the milk machine, grabbing a bottle that was freshly made. Very freshly.\r\r\"I-I don't know how to thank you for not ruining one of the few pleasures of my life, but at least take this.\" She hands you the bottle as she bows her head.\r\rIn an instant, she turns and hurries out of the barn, her long tail squeezing against her backside and outlining her butt even more."
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           17562
+   findproperty        QName(PackageNamespace(""), "malonRep")
+   pushbyte            1
+   initproperty        QName(PackageNamespace(""), "malonRep")
+
+   debugline           17563
+   findpropstrict      QName(PackageNamespace(""), "doSexP")
+   pushbyte            20
+   callpropvoid        QName(PackageNamespace(""), "doSexP"), 1
+
+   debugline           17564
+   findpropstrict      QName(PackageNamespace(""), "stats")
+   pushbyte            0
+   pushbyte            1
+   pushbyte            0
+   dup
+   callpropvoid        QName(PackageNamespace(""), "stats"), 4
+
+   debugline           17565
+   findproperty        QName(PackageNamespace(""), "hrs")
+   pushbyte            2
+   initproperty        QName(PackageNamespace(""), "hrs")
+
+   debugline           17566
+   findpropstrict      QName(PackageNamespace(""), "itemAdd")
+   pushshort           214
+   callpropvoid        QName(PackageNamespace(""), "itemAdd"), 1
+
+   debugline           17567
+   findpropstrict      QName(PackageNamespace(""), "doEnd")
+   callpropvoid        QName(PackageNamespace(""), "doEnd"), 0
+
+L67:
+   debugline           17569
+   getlex              QName(PackageNamespace(""), "malonRep")
+   pushbyte            1
+   ifne                L98
+
+   debugline           17570
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "\"Hehe, thanks. Just a bit more to go...\" Her eyelids droop as her body shudders, the tail flicking wildly while the milk flow stutters with a strong burst. She lets out a low \"moo\" as she comes, at least partly enjoying some of her bovine endownments.\r\rShe takes a moment before she comes down from her high. \"Mmm... I'm just going to hang out here for a bit. Feel free to take the bottle from the machine. It's really fresh~\" She gives you a wink, rubbing her naked breasts as a bit more milk rushes through the tubes."
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           17571
+   findproperty        QName(PackageNamespace(""), "hrs")
+   pushbyte            2
+   initproperty        QName(PackageNamespace(""), "hrs")
+
+   debugline           17572
+   findpropstrict      QName(PackageNamespace(""), "doSexP")
+   pushbyte            5
+   callpropvoid        QName(PackageNamespace(""), "doSexP"), 1
+
+   debugline           17573
+   findpropstrict      QName(PackageNamespace(""), "itemAdd")
+   pushshort           214
+   callpropvoid        QName(PackageNamespace(""), "itemAdd"), 1
+
+   debugline           17574
+   findpropstrict      QName(PackageNamespace(""), "stats")
+   pushbyte            0
+   pushbyte            1
+   pushbyte            0
+   dup
+   callpropvoid        QName(PackageNamespace(""), "stats"), 4
+
+   debugline           17575
+   findpropstrict      QName(PackageNamespace(""), "doEnd")
+   callpropvoid        QName(PackageNamespace(""), "doEnd"), 0
+
+L98:
+   debugline           17578
+   returnvoid
+  end ; code
+ end ; body
+end ; method

@@ -1,0 +1,73 @@
+method
+ name ""
+ refid "NiminFetishFantasyv0_fla:MainTimeline/instance/doDairyFarm/inline_method#44"
+ returns QName(PackageNamespace(""), "void")
+ body
+  maxstack 3
+  localcount 1
+  initscopedepth 12
+  maxscopedepth 12
+  code
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           18253
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "You both sigh as you try to stand up. The milk everywhere doesn't exactly help, flowing down from your bodies and making the ground even more slippery. Yet, you manage to lean against each other and eventually stand, giving each other one last kiss before parting."
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           18254
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "\r\r\"I'm surprised...\" Malon can't help but comment. \"You... You actually made a lot more milk than me... And it felt fantastic~\" She blushes at the thought, her long erect nipples pratically bare through the soaking wet white shirt. Then she looks around. \"Though... I guess we're worse than the cows... Not that I'm embarassed about that anymore but... We made quite a mess!\"\r\rWith a giggle, she steps over and grabs some empty milk jugs. She strategically places them on the floor, laying them down sideways. \"Howabout we just say some cows kicked over some 'filled' jugs,\" She says with a wink.\r\rYou aren't one to object and quickly depart in the opposite direction as Malon to ensure nobody notices what has transpired..."
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           18255
+   findpropstrict      QName(PackageNamespace(""), "checkItem")
+   pushshort           215
+   callproperty        QName(PackageNamespace(""), "checkItem"), 1
+   iffalse             L30
+
+   debugline           18256
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          " However, you notice a warmth from the pendant Malon had given you. Inspecting it, you notice it has been turned almost completely white, but somewhat pearlescant. A sort of milky complexion that looks like it's slowly flowing around the pendant, though nothing actually moves. Whatever the case may be, things seem lighter now, like you're able to, well, support your milky habits more easily..."
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           18257
+   findpropstrict      QName(PackageNamespace(""), "loseManyItem")
+   pushshort           215
+   pushbyte            1
+   callpropvoid        QName(PackageNamespace(""), "loseManyItem"), 2
+
+   debugline           18258
+   findpropstrict      QName(PackageNamespace(""), "itemAdd")
+   pushshort           252
+   callpropvoid        QName(PackageNamespace(""), "itemAdd"), 1
+
+L30:
+   debugline           18260
+   findproperty        QName(PackageNamespace(""), "hrs")
+   pushbyte            4
+   initproperty        QName(PackageNamespace(""), "hrs")
+
+   debugline           18261
+   findpropstrict      QName(PackageNamespace(""), "doSexP")
+   pushbyte            20
+   callpropvoid        QName(PackageNamespace(""), "doSexP"), 1
+
+   debugline           18262
+   findproperty        QName(PackageNamespace(""), "nipplePlay")
+   getlex              QName(PackageNamespace(""), "nipplePlay")
+   pushbyte            25
+   add
+   initproperty        QName(PackageNamespace(""), "nipplePlay")
+
+   debugline           18263
+   findpropstrict      QName(PackageNamespace(""), "doEnd")
+   callpropvoid        QName(PackageNamespace(""), "doEnd"), 0
+
+   debugline           18264
+   returnvoid
+  end ; code
+ end ; body
+end ; method

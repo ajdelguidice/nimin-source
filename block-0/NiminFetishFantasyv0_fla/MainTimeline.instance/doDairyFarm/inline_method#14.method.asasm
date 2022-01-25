@@ -1,0 +1,86 @@
+method
+ name ""
+ refid "NiminFetishFantasyv0_fla:MainTimeline/instance/doDairyFarm/inline_method#14"
+ returns QName(PackageNamespace(""), "void")
+ flag NEED_ACTIVATION
+ body
+  maxstack 13
+  localcount 2
+  initscopedepth 14
+  maxscopedepth 15
+  code
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           17617
+   newactivation
+   dup
+   setlocal1
+
+   pushscope
+
+   debug               1, "anonymous$273", 0, 17617
+   debugline           17618
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "You don't get far, however, as you feel a tug at your "
+   findpropstrict      QName(PackageNamespace(""), "clothesTop")
+   callproperty        QName(PackageNamespace(""), "clothesTop"), 0
+   add
+   pushstring          " from behind.\r\rYou turn to see Malon huffing a little, her shirt covered with milk, as she had ran to catch up with you.\r\r\"Umm... I... I just wanted to thank you for being so kind to me... Most of the people that work on the farm or visit regard me as being a nuisance or a joke. I mean, I still love the animals so much that I'll never want to leave, but they often regard me like one of them. And, well... When I let out a moo like that, just like a cow, I... I can't help but think that they're right. I'm nothing but a big fat cow...\"\r\rHer head hangs low, her bovine ears drooping in shame.\r\r\rDo you want to tell her that she shouldn't act like a cow and try to avoid mooing, or that she should accept her cow-like qualities?"
+   add
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           17619
+   findpropstrict      QName(PackageNamespace(""), "viewButtonOutline")
+   pushbyte            0
+   dup
+   dup
+   pushbyte            0
+   pushbyte            1
+   pushbyte            0
+   pushbyte            1
+   pushbyte            0
+   dup
+   dup
+   pushbyte            0
+   dup
+   callpropvoid        QName(PackageNamespace(""), "viewButtonOutline"), 12
+
+   debugline           17620
+   findpropstrict      QName(PackageNamespace(""), "viewButtonText")
+   pushbyte            0
+   dup
+   dup
+   pushbyte            0
+   pushbyte            1
+   pushbyte            0
+   pushbyte            1
+   pushbyte            0
+   dup
+   dup
+   pushbyte            0
+   dup
+   callpropvoid        QName(PackageNamespace(""), "viewButtonText"), 12
+
+   debugline           17621
+   findpropstrict      QName(PackageNamespace(""), "buttonWrite")
+   pushbyte            5
+   pushstring          "Don't Moo"
+   callpropvoid        QName(PackageNamespace(""), "buttonWrite"), 2
+
+   debugline           17622
+   findpropstrict      QName(PackageNamespace(""), "buttonWrite")
+   pushbyte            7
+   pushstring          "Moo"
+   callpropvoid        QName(PackageNamespace(""), "buttonWrite"), 2
+
+   debugline           17623
+   findproperty        QName(PackageNamespace(""), "doListen")
+   newfunction         "NiminFetishFantasyv0_fla:MainTimeline/instance/doDairyFarm/inline_method#13"
+   initproperty        QName(PackageNamespace(""), "doListen")
+
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           17640
+   returnvoid
+  end ; code
+ end ; body
+end ; method

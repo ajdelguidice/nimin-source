@@ -1,0 +1,310 @@
+method
+ name ""
+ refid "NiminFetishFantasyv0_fla:MainTimeline/instance/doDairyFarm/inline_method#28"
+ returns QName(PackageNamespace(""), "void")
+ flag NEED_ACTIVATION
+ body
+  maxstack 5
+  localcount 2
+  initscopedepth 14
+  maxscopedepth 15
+  code
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           17848
+   newactivation
+   dup
+   setlocal1
+
+   pushscope
+
+   debug               1, "anonymous$287", 0, 17848
+   getscopeobject      0
+   pushbyte            0
+   setslot             1
+
+   debugline           17849
+   getlex              QName(PackageNamespace(""), "buttonChoice")
+   pushbyte            5
+   ifne                L84
+
+   debugline           17851
+   getlex              QName(PackageNamespace(""), "milkEngorgementLevel")
+   pushbyte            0
+   greaterthan
+   dup
+   iffalse             L24
+
+   pop
+   getlex              QName(PackageNamespace(""), "udderEngorgementLevel")
+   pushbyte            0
+   greaterthan
+L24:
+   iffalse             L36
+
+   getscopeobject      0
+   findpropstrict      QName(PackageNamespace(""), "milkAmount")
+   pushbyte            1
+   callproperty        QName(PackageNamespace(""), "milkAmount"), 1
+   findpropstrict      QName(PackageNamespace(""), "milkAmount")
+   pushbyte            2
+   callproperty        QName(PackageNamespace(""), "milkAmount"), 1
+   add
+   convert_i
+   setslot             1
+
+   jump                L57
+
+L36:
+   debugline           17852
+   getlex              QName(PackageNamespace(""), "milkEngorgementLevel")
+   pushbyte            0
+   ifngt               L47
+
+   getscopeobject      0
+   findpropstrict      QName(PackageNamespace(""), "milkAmount")
+   pushbyte            1
+   callproperty        QName(PackageNamespace(""), "milkAmount"), 1
+   convert_i
+   setslot             1
+
+   jump                L57
+
+L47:
+   debugline           17853
+   getlex              QName(PackageNamespace(""), "udderEngorgementLevel")
+   pushbyte            0
+   ifngt               L57
+
+   getscopeobject      0
+   findpropstrict      QName(PackageNamespace(""), "milkAmount")
+   pushbyte            2
+   callproperty        QName(PackageNamespace(""), "milkAmount"), 1
+   convert_i
+   setslot             1
+
+L57:
+   debugline           17854
+   findproperty        QName(PackageNamespace(""), "nipplePlay")
+   getlex              QName(PackageNamespace(""), "nipplePlay")
+   pushbyte            12
+   add
+   initproperty        QName(PackageNamespace(""), "nipplePlay")
+
+   debugline           17855
+   getlex              QName(PackageNamespace(""), "udders")
+   pushtrue
+   ifne                L72
+
+   findproperty        QName(PackageNamespace(""), "udderPlay")
+   getlex              QName(PackageNamespace(""), "udderPlay")
+   pushbyte            12
+   add
+   initproperty        QName(PackageNamespace(""), "udderPlay")
+
+L72:
+   debugline           17856
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "You shake your head, telling her it's not alright.\r\rA bit defeated, the redness in her cheeks intensifies as she attempts to continue milking you while she drips away. However, you tell her to stop with that as well.\r\rCompletely confused, her eyes quickly go wide as you reach out for her shirt and pull it up. When your hands gently caress her 6-inch long nipples, aiming them towards the bucket and squirting out some of her own milk, the blush in her face recedes as a soft smile grows on her face, cheerfully accepting your efforts.\r\rFacing each other, with your hands on each other's milky bits, the two of you tug and pull until each other sprays into the bucket with a gasp. More and more milk spills from you both, though the moans echoing between you two would suggest something more as they rise in volume. Until, eventually, Malon's tits gush into the bucket as her body quivers and her mouth yawns wide to cry out in ecstacy, only to let out a long \"Mooooooo!\""
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           17857
+   findpropstrict      QName(PackageNamespace(""), "doNext")
+   callpropvoid        QName(PackageNamespace(""), "doNext"), 0
+
+   debugline           17858
+   findproperty        QName(PackageNamespace(""), "doListen")
+   newfunction         "NiminFetishFantasyv0_fla:MainTimeline/instance/doDairyFarm/inline_method#27"
+   initproperty        QName(PackageNamespace(""), "doListen")
+
+L84:
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           17887
+   getlex              QName(PackageNamespace(""), "buttonChoice")
+   pushbyte            7
+   ifne                L227
+
+   debugline           17888
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "Nodding your head to say it's alright, she pulls her shirt up, exposing her enormous breasts. They rest more comfortably on her knees, with 6-inch long nipples dangling like teats. While one hand works your body, her other reaches around a fleshy mass to grab her own nipple. In a couple seconds, her rhythm quickly matches yours, filling the bucket rapidly.\r\r"
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           17890
+   getlex              QName(PackageNamespace(""), "milkEngorgementLevel")
+   pushbyte            0
+   greaterthan
+   dup
+   iffalse             L104
+
+   pop
+   getlex              QName(PackageNamespace(""), "udderEngorgementLevel")
+   pushbyte            0
+   greaterthan
+L104:
+   iffalse             L116
+
+   getscopeobject      0
+   findpropstrict      QName(PackageNamespace(""), "milkAmount")
+   pushbyte            1
+   callproperty        QName(PackageNamespace(""), "milkAmount"), 1
+   findpropstrict      QName(PackageNamespace(""), "milkAmount")
+   pushbyte            2
+   callproperty        QName(PackageNamespace(""), "milkAmount"), 1
+   add
+   convert_i
+   setslot             1
+
+   jump                L137
+
+L116:
+   debugline           17891
+   getlex              QName(PackageNamespace(""), "milkEngorgementLevel")
+   pushbyte            0
+   ifngt               L127
+
+   getscopeobject      0
+   findpropstrict      QName(PackageNamespace(""), "milkAmount")
+   pushbyte            1
+   callproperty        QName(PackageNamespace(""), "milkAmount"), 1
+   convert_i
+   setslot             1
+
+   jump                L137
+
+L127:
+   debugline           17892
+   getlex              QName(PackageNamespace(""), "udderEngorgementLevel")
+   pushbyte            0
+   ifngt               L137
+
+   getscopeobject      0
+   findpropstrict      QName(PackageNamespace(""), "milkAmount")
+   pushbyte            2
+   callproperty        QName(PackageNamespace(""), "milkAmount"), 1
+   convert_i
+   setslot             1
+
+L137:
+   debugline           17893
+   getscopeobject      0
+   getslot             1
+   pushshort           4000
+   ifnle               L147
+
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "After filling up two buckets of milk, most of which was Malon's, she pushes them off to the side with a clap."
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   jump                L176
+
+L147:
+   debugline           17894
+   getscopeobject      0
+   getslot             1
+   pushshort           18000
+   ifnle               L157
+
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "After filling up few buckets of milk, most of which was yours, Malon pushes them off to the side with a sigh."
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   jump                L176
+
+L157:
+   debugline           17895
+   getscopeobject      0
+   getslot             1
+   pushint             35500
+   ifnle               L167
+
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "After filling up several buckets of milk, far surpassing Malon's amount, she pushes them off to the side with a tired sigh, stretching her adept fingers."
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   jump                L176
+
+L167:
+   debugline           17896
+   getscopeobject      0
+   getslot             1
+   pushint             35500
+   ifngt               L176
+
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "After a while, Malon begins to panic. \"Umm... I-I seem to have run out of buckets!\" She sloshes the last one from the stack to the side as you still spill with milk. \"I-I'm so sorry! I didn't know it was that bad for you. Here!\"\r\rShe takes off her shawl, holding it to your mammaries and waiting for the flow to come to a halt. A few minutes pass before she can remove it, your lactation having ceased and her hands covered in the white stuff. \"Whew... That was close.\"\r\rShe wrings her shawl out in a bucket that has yet to overflow before slinging it around her neck again."
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+L176:
+   debugline           17897
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          " \"There, all done!\" She gently pats your "
+   findpropstrict      QName(PackageNamespace(""), "boobDesc")
+   callproperty        QName(PackageNamespace(""), "boobDesc"), 0
+   add
+   pushstring          " breasts"
+   add
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           17898
+   getlex              QName(PackageNamespace(""), "udders")
+   pushtrue
+   ifne                L199
+
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          " and your "
+   findpropstrict      QName(PackageNamespace(""), "udderDesc")
+   callproperty        QName(PackageNamespace(""), "udderDesc"), 0
+   add
+   pushstring          " milky bag."
+   add
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+L199:
+   debugline           17899
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "\r\r\"I enjoyed this little milking session between us 'cows'. I hope to do it again with you some time!\" She smiles as she pulls her shirt back down, lifting her massive tits a few time to get them to settle within the shirt without her large nipples being so obvious. With a wink, she leans forward, giving you a great view of her deep cleavage as she kisses you on your forehead. Then she takes your hand once more, leading your back out of the farmhouse, saying she can take care of the buckets herself.\r\rWith a wave, you say goodbye and head back to Softlik."
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           17900
+   findproperty        QName(PackageNamespace(""), "hrs")
+   pushbyte            3
+   initproperty        QName(PackageNamespace(""), "hrs")
+
+   debugline           17901
+   findpropstrict      QName(PackageNamespace(""), "doLust")
+   pushbyte            5
+   pushbyte            0
+   callpropvoid        QName(PackageNamespace(""), "doLust"), 2
+
+   debugline           17902
+   findpropstrict      QName(PackageNamespace(""), "doSexP")
+   pushbyte            2
+   callpropvoid        QName(PackageNamespace(""), "doSexP"), 1
+
+   debugline           17903
+   findpropstrict      QName(PackageNamespace(""), "stats")
+   pushbyte            0
+   pushbyte            1
+   dup
+   dup
+   callpropvoid        QName(PackageNamespace(""), "stats"), 4
+
+   debugline           17904
+   findpropstrict      QName(PackageNamespace(""), "doEnd")
+   callpropvoid        QName(PackageNamespace(""), "doEnd"), 0
+
+L227:
+   debugline           17906
+   returnvoid
+  end ; code
+  trait slot QName(PackageInternalNs("NiminFetishFantasyv0_fla"), "getMilk") slotid 1 type QName(PackageNamespace(""), "int") end
+ end ; body
+end ; method

@@ -1,0 +1,19 @@
+method
+ name ""
+ refid "NiminFetishFantasyv0_fla:MainTimeline/instance/doeHP/inline_method"
+ returns QName(PackageNamespace(""), "void")
+ body
+  maxstack 1
+  localcount 1
+  initscopedepth 11
+  maxscopedepth 11
+  code
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           21119
+   findpropstrict      QName(PackageNamespace(""), "battleWin")
+   callpropvoid        QName(PackageNamespace(""), "battleWin"), 0
+
+   returnvoid
+  end ; code
+ end ; body
+end ; method

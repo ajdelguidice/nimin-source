@@ -1,0 +1,116 @@
+method
+ name ""
+ refid "NiminFetishFantasyv0_fla:MainTimeline/instance/doDen/inline_method#5"
+ returns QName(PackageNamespace(""), "void")
+ flag NEED_ACTIVATION
+ body
+  maxstack 3
+  localcount 2
+  initscopedepth 12
+  maxscopedepth 13
+  code
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           18606
+   newactivation
+   dup
+   setlocal1
+
+   pushscope
+
+   debug               1, "anonymous$320", 0, 18606
+   debugline           18607
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "The pup grabs you by your "
+   findpropstrict      QName(PackageNamespace(""), "clothesBottom")
+   callproperty        QName(PackageNamespace(""), "clothesBottom"), 0
+   add
+   pushstring          " and yanks you toward a flying carpet to aid with the laying. The two of you fly up and meet the other pup at her "
+   add
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           18608
+   getlex              QName(PackageNamespace(""), "silTied")
+   pushtrue
+   ifne                L26
+
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "nethers, just in time to see her pussy gape surprisingly wide, her hips spreading for the object within. Her cock visibly twitches, spitting out pre in large gobs as the egg approaches, and begins to gush across her scales with steamy spunk as the white shell begins to crown. The seed-cannon doesn't end, continually spurting as the egg pushes its way out as lubrication spills across her swollen testicles, which drops onto the carpet a pup has readied."
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   jump                L31
+
+L26:
+   debugline           18609
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "tail, just in time to see the base of her tail swell obscenely, her hips spreading for the object within. Her cock visible twitches, spitting out pre in large gobs as the egg stalls at her rump, her legs furiously bucking trying to push it. She groans and howls, desperately trying to get it through, but her muscles are too tense to allow it through. So, taking matters into your own hands, you lean up against her erection and knead it roughly.\r\rThe howl turns from pained to ecstatic as the organ bursts across her scales with steamy spunk as the bulge pushes through the base of her tail. The seed-cannon doesn't end, continually spurting as the egg pushes its way through her tail, making it look many times thicker than before, as lubrication spills out from the tip until the egg plops onto the carpet a pup has readied."
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+L31:
+   debugline           18610
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "\r\rThe ejaculation only dies down to a steady gurgle as the next egg prepares itself for birth, giving you a moment to gawk at the egg. Over three feet high and two feet in diameter, it's nearly twice the size of the eggs of the pups. You almost cringe at the thought of trying to birth such a thing yourself.\r\rYour admiration is quickly interupted as the warbling howls echo about again, the increased splurting of semen announcing the next arrival."
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           18611
+   getlex              QName(PackageNamespace(""), "silPreg")
+   pushshort           2000
+   ifngt               L44
+
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          " The pup quickly deposits the egg on a nearby balcony before returning for the next, alternating with her sister to carry the eggs away as they squeeze out of their mother."
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+L44:
+   debugline           18612
+   getlex              QName(PackageNamespace(""), "silPreg")
+   pushshort           4000
+   ifngt               L52
+
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          " When she eventually shrinks from the loss of enough eggs, the pups then deposit the eggs on the next lowest balcony, spreading them out nicely."
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+L52:
+   debugline           18613
+   getlex              QName(PackageNamespace(""), "silPreg")
+   pushshort           8000
+   ifngt               L60
+
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          " After several hours, nearly all of the balconies are filled with giant eggs, rolled around and resting safely against the walls."
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+L60:
+   debugline           18614
+   getlex              QName(PackageNamespace(""), "silPreg")
+   pushshort           2000
+   ifnle               L68
+
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          " The pup quickly deposits the egg on the floor nearby, easier than using the balconies at this height, before returning for the next egg, alternating with her sister to carry the ovoid objects away as they squeeze out of their mother."
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+L68:
+   debugline           18615
+   findpropstrict      QName(PackageNamespace(""), "doNext")
+   callpropvoid        QName(PackageNamespace(""), "doNext"), 0
+
+   debugline           18616
+   findproperty        QName(PackageNamespace(""), "doListen")
+   newfunction         "NiminFetishFantasyv0_fla:MainTimeline/instance/doDen/inline_method#4"
+   initproperty        QName(PackageNamespace(""), "doListen")
+
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           18638
+   returnvoid
+  end ; code
+ end ; body
+end ; method

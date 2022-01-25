@@ -1,0 +1,130 @@
+method
+ name ""
+ refid "NiminFetishFantasyv0_fla:MainTimeline/instance/doBag/inline_method#1"
+ returns QName(PackageNamespace(""), "void")
+ flag NEED_ACTIVATION
+ body
+  maxstack 4
+  localcount 2
+  initscopedepth 12
+  maxscopedepth 13
+  code
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           5065
+   newactivation
+   dup
+   setlocal1
+
+   pushscope
+
+   debug               1, "anonymous$31", 0, 5065
+   debugline           5067
+   findpropstrict      QName(PackageNamespace(""), "choiceListSelect")
+   pushstring          "Bag"
+   callpropvoid        QName(PackageNamespace(""), "choiceListSelect"), 1
+
+   debugline           5069
+   getlex              QName(PackageNamespace(""), "buttonChoice")
+   pushbyte            12
+   ifne                L62
+
+   debugline           5070
+   getlex              QName(PackageNamespace(""), "moveItemID")
+   pushbyte            0
+   ifeq                L53
+
+   debugline           5071
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "Closing your bag while moving an item will discard the item.\r\rAre you sure you want to discard "
+   findpropstrict      QName(PackageNamespace(""), "itemName")
+   getlex              QName(PackageNamespace(""), "moveItemID")
+   callproperty        QName(PackageNamespace(""), "itemName"), 1
+   add
+   pushstring          ""
+   add
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           5072
+   getlex              QName(PackageNamespace(""), "moveItemStack")
+   pushbyte            1
+   ifngt               L40
+
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          " x"
+   getlex              QName(PackageNamespace(""), "moveItemStack")
+   add
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+L40:
+   debugline           5073
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "?"
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           5074
+   findpropstrict      QName(PackageNamespace(""), "buttonConfirm")
+   callpropvoid        QName(PackageNamespace(""), "buttonConfirm"), 0
+
+   debugline           5075
+   findproperty        QName(PackageNamespace(""), "doListen")
+   newfunction         "NiminFetishFantasyv0_fla:MainTimeline/instance/doBag/inline_method#0"
+   initproperty        QName(PackageNamespace(""), "doListen")
+
+   jump                L61
+
+L53:
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           5088
+   findproperty        QName(PackageNamespace(""), "inBag")
+   pushfalse
+   initproperty        QName(PackageNamespace(""), "inBag")
+
+   debugline           5089
+   findpropstrict      QName(PackageNamespace(""), "doReturn")
+   callpropvoid        QName(PackageNamespace(""), "doReturn"), 0
+
+L61:
+   jump                L86
+
+L62:
+   debugline           5092
+   getlex              QName(PackageNamespace(""), "buttonChoice")
+   pushbyte            4
+   equals
+   dup
+   iftrue              L72
+
+   pop
+   getlex              QName(PackageNamespace(""), "buttonChoice")
+   pushbyte            8
+   equals
+L72:
+   iffalse             L76
+
+   findpropstrict      QName(PackageNamespace(""), "doBag")
+   callpropvoid        QName(PackageNamespace(""), "doBag"), 0
+
+   jump                L86
+
+L76:
+   debugline           5094
+   findpropstrict      QName(PackageNamespace(""), "showMoveItem")
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "showMoveItem"), 1
+
+   debugline           5095
+   findpropstrict      QName(PackageNamespace(""), "useItem")
+   getlex              QName(PackageNamespace(""), "choiceListResult")
+   pushbyte            0
+   getproperty         MultinameL([PrivateNamespace("NiminFetishFantasyv0_fla:MainTimeline"), PackageNamespace(""), PackageNamespace("flash.events"), PackageNamespace("flash.net"), PrivateNamespace("$0"), PackageNamespace("NiminFetishFantasyv0_fla"), PackageInternalNs("NiminFetishFantasyv0_fla"), Namespace("http://adobe.com/AS3/2006/builtin"), PackageNamespace("adobe.utils"), PackageNamespace("flash.accessibility"), PackageNamespace("flash.desktop"), PackageNamespace("flash.display"), PackageNamespace("flash.errors"), PackageNamespace("flash.external"), PackageNamespace("flash.filters"), PackageNamespace("flash.geom"), PackageNamespace("flash.globalization"), PackageNamespace("flash.media"), PackageNamespace("flash.net.drm"), PackageNamespace("flash.printing"), PackageNamespace("flash.profiler"), PackageNamespace("flash.sampler"), PackageNamespace("flash.sensors"), PackageNamespace("flash.system"), PackageNamespace("flash.text"), PackageNamespace("flash.text.ime"), PackageNamespace("flash.text.engine"), PackageNamespace("flash.ui"), PackageNamespace("flash.utils"), PackageNamespace("flash.xml"), ProtectedNamespace("NiminFetishFantasyv0_fla:MainTimeline"), StaticProtectedNs("NiminFetishFantasyv0_fla:MainTimeline"), StaticProtectedNs("flash.display:MovieClip"), StaticProtectedNs("flash.display:Sprite"), StaticProtectedNs("flash.display:DisplayObjectContainer"), StaticProtectedNs("flash.display:InteractiveObject"), StaticProtectedNs("flash.display:DisplayObject"), StaticProtectedNs("flash.events:EventDispatcher"), StaticProtectedNs("Object")])
+   callpropvoid        QName(PackageNamespace(""), "useItem"), 1
+
+L86:
+   debugline           5097
+   returnvoid
+  end ; code
+ end ; body
+end ; method

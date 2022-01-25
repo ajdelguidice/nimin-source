@@ -1,0 +1,403 @@
+method
+ name ""
+ refid "NiminFetishFantasyv0_fla:MainTimeline/instance/doDesert/inline_method#0"
+ returns QName(PackageNamespace(""), "void")
+ body
+  maxstack 6
+  localcount 1
+  initscopedepth 11
+  maxscopedepth 11
+  code
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           16694
+   getlex              QName(PackageNamespace(""), "buttonChoice")
+   pushbyte            6
+   ifne                L300
+
+   debugline           16695
+   findproperty        QName(PackageInternalNs("NiminFetishFantasyv0_fla"), "chance")
+   findpropstrict      QName(PackageNamespace(""), "percent")
+   callproperty        QName(PackageNamespace(""), "percent"), 0
+   setproperty         QName(PackageInternalNs("NiminFetishFantasyv0_fla"), "chance")
+
+   debugline           16696
+   getlex              QName(PackageInternalNs("NiminFetishFantasyv0_fla"), "chance")
+   pushbyte            15
+   ifnle               L116
+
+   debugline           16697
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "You munch on the sandvich, enjoying its meaty goodness, letting it fill your stomach, so moist and delicious. However, an odd gurgling inside makes you worry..."
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           16698
+   getlex              QName(PackageNamespace(""), "boobTotal")
+   pushbyte            2
+   ifne                L46
+
+   debugline           16699
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "\r\rYour chest, close beneath your nipples, begins to tickle. A new pair of sensitive areolas form amongst your "
+   findpropstrict      QName(PackageNamespace(""), "skinDesc")
+   callproperty        QName(PackageNamespace(""), "skinDesc"), 0
+   add
+   pushstring          ", creating an extra row of breasts beneath the originals."
+   add
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           16700
+   getlex              QName(PackageNamespace(""), "breastSize")
+   pushbyte            4
+   ifngt               L46
+
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          " The new nipples protrude as fleshy mounds form from beneath them. The new boobs wobble as they grow to the same size of your original pair, lifting the originals slightly with their girth.\x09When you head back to town, you'll be covering your extra indecency with your arms the best you can while you head for the tailor to update your "
+   findpropstrict      QName(PackageNamespace(""), "clothesTop")
+   callproperty        QName(PackageNamespace(""), "clothesTop"), 0
+   add
+   pushstring          " accordingly."
+   add
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+L46:
+   debugline           16702
+   getlex              QName(PackageNamespace(""), "boobTotal")
+   pushbyte            6
+   ifne                L73
+
+   debugline           16703
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "\r\rYour belly tickles"
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           16704
+   getlex              QName(PackageNamespace(""), "breastSize")
+   pushbyte            4
+   ifngt               L63
+
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          ", growing much lighter"
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+L63:
+   debugline           16705
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          ". Checking, you catch your bottom set of nipples disappear flat into your "
+   findpropstrict      QName(PackageNamespace(""), "skinDesc")
+   callproperty        QName(PackageNamespace(""), "skinDesc"), 0
+   add
+   pushstring          ", while your middle pair swells to match the first, leaving you with two sets of equally sized breasts, the top resting upon the bottom."
+   add
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+L73:
+   debugline           16707
+   getlex              QName(PackageNamespace(""), "boobTotal")
+   pushbyte            8
+   ifne                L100
+
+   debugline           16708
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "\r\rYour belly tickles"
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           16709
+   getlex              QName(PackageNamespace(""), "breastSize")
+   pushbyte            4
+   ifngt               L90
+
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          ", growing much lighter"
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+L90:
+   debugline           16710
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          ". Checking, you catch your two lowest sets of nipples disappear flat into your "
+   findpropstrict      QName(PackageNamespace(""), "skinDesc")
+   callproperty        QName(PackageNamespace(""), "skinDesc"), 0
+   add
+   pushstring          ", while the other two pairs swell slightly, leaving you with two sets of breasts larger than before."
+   add
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+L100:
+   debugline           16712
+   findproperty        QName(PackageNamespace(""), "boobTotal")
+   pushbyte            4
+   initproperty        QName(PackageNamespace(""), "boobTotal")
+
+   debugline           16713
+   findproperty        QName(PackageNamespace(""), "fourBoobAffinity")
+   pushbyte            100
+   initproperty        QName(PackageNamespace(""), "fourBoobAffinity")
+
+   debugline           16714
+   findproperty        QName(PackageNamespace(""), "hrs")
+   pushbyte            2
+   initproperty        QName(PackageNamespace(""), "hrs")
+
+   debugline           16715
+   findpropstrict      QName(PackageNamespace(""), "doEnd")
+   callpropvoid        QName(PackageNamespace(""), "doEnd"), 0
+
+   jump                L299
+
+L116:
+   debugline           16717
+   getlex              QName(PackageInternalNs("NiminFetishFantasyv0_fla"), "chance")
+   pushbyte            35
+   ifnle               L189
+
+   debugline           16718
+   getlex              QName(PackageNamespace(""), "cockTotal")
+   pushbyte            0
+   greaterthan
+   dup
+   iffalse             L132
+
+   pop
+   getlex              QName(PackageNamespace(""), "vagTotal")
+   getlex              QName(PackageNamespace(""), "cockTotal")
+   pushbyte            1
+   add
+   lessthan
+L132:
+   iffalse             L166
+
+   debugline           16719
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "You munch on the sandvich, delighting in the flappy meat on your tongue, letting it fill your stomach, so moist and delicious. However, an odd gurgling inside makes you worry..."
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           16720
+   findpropstrict      QName(PackageNamespace(""), "vagChange")
+   pushbyte            0
+   getlex              QName(PackageNamespace(""), "cockTotal")
+   getlex              QName(PackageNamespace(""), "vagTotal")
+   subtract
+   pushbyte            1
+   add
+   callpropvoid        QName(PackageNamespace(""), "vagChange"), 2
+
+   debugline           16721
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "\r\rOne more vagina than you have cock"
+   findpropstrict      QName(PackageNamespace(""), "plural")
+   pushbyte            1
+   callproperty        QName(PackageNamespace(""), "plural"), 1
+   add
+   pushstring          ". Why that is will forever be a mystery...\r\rWhatever this strange lunch may have been for, it's gone now and you're left heading back with a bit more than you intended."
+   add
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           16722
+   findproperty        QName(PackageNamespace(""), "hrs")
+   pushbyte            2
+   initproperty        QName(PackageNamespace(""), "hrs")
+
+   debugline           16723
+   findpropstrict      QName(PackageNamespace(""), "doEnd")
+   callpropvoid        QName(PackageNamespace(""), "doEnd"), 0
+
+   jump                L188
+
+L166:
+   debugline           16726
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "You munch on the sandvich, delighting in the flappy meat on your tongue, letting it fill your stomach, so moist and delicious. However, an odd gurgling inside makes you worry..."
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           16727
+   findpropstrict      QName(PackageNamespace(""), "vagChange")
+   pushbyte            0
+   pushbyte            1
+   callpropvoid        QName(PackageNamespace(""), "vagChange"), 2
+
+   debugline           16728
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "\r\rMaybe you were enjoying the licking of tasty flaps of meat a little too much?...\r\rWhatever this strange lunch may have been for, it's gone now and you're left heading back with a bit more than you intended."
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           16729
+   findproperty        QName(PackageNamespace(""), "hrs")
+   pushbyte            2
+   initproperty        QName(PackageNamespace(""), "hrs")
+
+   debugline           16730
+   findpropstrict      QName(PackageNamespace(""), "doEnd")
+   callpropvoid        QName(PackageNamespace(""), "doEnd"), 0
+
+L188:
+   jump                L299
+
+L189:
+   debugline           16733
+   getlex              QName(PackageInternalNs("NiminFetishFantasyv0_fla"), "chance")
+   pushbyte            55
+   ifnle               L258
+
+   debugline           16734
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "You nibble on the sandvich, the protein so filling. However, your chest quickly begins to feel warm, your "
+   findpropstrict      QName(PackageNamespace(""), "nipDesc")
+   callproperty        QName(PackageNamespace(""), "nipDesc"), 0
+   add
+   pushstring          "nipples standing erect and burning beneath your "
+   add
+   findpropstrict      QName(PackageNamespace(""), "clothesTop")
+   callproperty        QName(PackageNamespace(""), "clothesTop"), 0
+   add
+   pushstring          ". Your hands quickly reach up to touch them and cup them just in time for milk to begin gushing out across the sand!\r\rThe springs of white fluid spew from your breasts, your "
+   add
+   findpropstrict      QName(PackageNamespace(""), "clothesTop")
+   callproperty        QName(PackageNamespace(""), "clothesTop"), 0
+   add
+   pushstring          " rapidly becoming soaked while small rivers begin to form amongst the sand. You collapse to your "
+   add
+   findpropstrict      QName(PackageNamespace(""), "legDesc")
+   pushbyte            6
+   callproperty        QName(PackageNamespace(""), "legDesc"), 1
+   add
+   pushstring          ", pulling "
+   add
+   findpropstrict      QName(PackageNamespace(""), "pullUD")
+   pushbyte            1
+   callproperty        QName(PackageNamespace(""), "pullUD"), 1
+   add
+   pushstring          " your "
+   add
+   findpropstrict      QName(PackageNamespace(""), "clothesTop")
+   callproperty        QName(PackageNamespace(""), "clothesTop"), 0
+   add
+   pushstring          " to squeeze and pump your poor nipples as they fill the area with sustenance.\r\rWithin a few minutes, you have made several puddles around the dunes surrounding you, while your mammary glands come to a halt. You rub them gently, feeling their sensitivity arouse you a little, completely confused as to what just happened. The milking has stopped for now, but you still feel a bit... abundant nevertheless. You quickly toss your clothes back on and hurry away from the moist scene, unsure what the sandvich was possibly intended for."
+   add
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           16735
+   findproperty        QName(PackageNamespace(""), "milkMod")
+   getlex              QName(PackageNamespace(""), "milkMod")
+   pushbyte            15
+   add
+   initproperty        QName(PackageNamespace(""), "milkMod")
+
+   debugline           16736
+   findpropstrict      QName(PackageNamespace(""), "doLust")
+   pushbyte            20
+   pushbyte            0
+   callpropvoid        QName(PackageNamespace(""), "doLust"), 2
+
+   debugline           16737
+   findpropstrict      QName(PackageNamespace(""), "stats")
+   pushbyte            0
+   dup
+   dup
+   pushbyte            2
+   getlex              QName(PackageNamespace(""), "boobTotal")
+   multiply
+   callpropvoid        QName(PackageNamespace(""), "stats"), 4
+
+   debugline           16738
+   findproperty        QName(PackageNamespace(""), "hrs")
+   pushbyte            3
+   initproperty        QName(PackageNamespace(""), "hrs")
+
+   debugline           16739
+   findpropstrict      QName(PackageNamespace(""), "doEnd")
+   callpropvoid        QName(PackageNamespace(""), "doEnd"), 0
+
+   jump                L299
+
+L258:
+   debugline           16741
+   getlex              QName(PackageInternalNs("NiminFetishFantasyv0_fla"), "chance")
+   pushbyte            75
+   ifnle               L279
+
+   debugline           16742
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "You nom the sandvich to death, feeling it make you strong!"
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           16743
+   findproperty        QName(PackageNamespace(""), "hrs")
+   pushbyte            2
+   initproperty        QName(PackageNamespace(""), "hrs")
+
+   debugline           16744
+   findpropstrict      QName(PackageNamespace(""), "doHP")
+   pushshort           150
+   callpropvoid        QName(PackageNamespace(""), "doHP"), 1
+
+   debugline           16745
+   findpropstrict      QName(PackageNamespace(""), "doEnd")
+   callpropvoid        QName(PackageNamespace(""), "doEnd"), 0
+
+   jump                L299
+
+L279:
+   debugline           16748
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "You take a bit of the sandvich and... urk! You suddenly feel green in the face as you realize a sandvich sitting out in the sun with this kind of heat... wouldn't have worked out very well. Once you finish expelling the rather spoiled goods, you drudge back to town feeling a bit sick."
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           16749
+   findproperty        QName(PackageNamespace(""), "HP")
+   pushbyte            1
+   initproperty        QName(PackageNamespace(""), "HP")
+
+   debugline           16750
+   findproperty        QName(PackageNamespace(""), "hrs")
+   pushbyte            4
+   initproperty        QName(PackageNamespace(""), "hrs")
+
+   debugline           16751
+   findpropstrict      QName(PackageNamespace(""), "doHP")
+   pushbyte            0
+   callpropvoid        QName(PackageNamespace(""), "doHP"), 1
+
+   debugline           16752
+   findpropstrict      QName(PackageNamespace(""), "doEnd")
+   callpropvoid        QName(PackageNamespace(""), "doEnd"), 0
+
+L299:
+   jump                L312
+
+L300:
+   debugline           16756
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "Thinking it best to leave strange meats to themselves, you turn your back to the sandvich and walk away, feeling it taunting you from behind as you leave."
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           16757
+   findproperty        QName(PackageNamespace(""), "hrs")
+   pushbyte            1
+   initproperty        QName(PackageNamespace(""), "hrs")
+
+   debugline           16758
+   findpropstrict      QName(PackageNamespace(""), "doEnd")
+   callpropvoid        QName(PackageNamespace(""), "doEnd"), 0
+
+L312:
+   debugline           16760
+   returnvoid
+  end ; code
+ end ; body
+end ; method

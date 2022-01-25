@@ -1,0 +1,189 @@
+method
+ name ""
+ refid "NiminFetishFantasyv0_fla:MainTimeline/instance/doDesert/inline_method#7"
+ returns QName(PackageNamespace(""), "void")
+ body
+  maxstack 3
+  localcount 1
+  initscopedepth 11
+  maxscopedepth 11
+  code
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           16878
+   getlex              QName(PackageNamespace(""), "buttonChoice")
+   pushbyte            6
+   ifne                L116
+
+   debugline           16879
+   getlex              QName(PackageNamespace(""), "firstExplore")
+   pushfalse
+   ifne                L19
+
+   debugline           16880
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "You take a deep breath. You're finally doing it, you're actually going beyond your home. There's a sense of nervousness from the unknown, but at the same time a since of exhiliration, like you're actually going to do something important. And for the first time since you've started having those dreams, you don't feel anxious about your life. You step forward with a sense of relief.\r\r"
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           16881
+   findproperty        QName(PackageNamespace(""), "firstExplore")
+   pushtrue
+   initproperty        QName(PackageNamespace(""), "firstExplore")
+
+   jump                L24
+
+L19:
+   debugline           16883
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          ""
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+L24:
+   debugline           16884
+   getlex              QName(PackageNamespace(""), "currentZone")
+   pushbyte            6
+   ifne                L81
+
+   debugline           16885
+   findpropstrict      QName(PackageNamespace(""), "percent")
+   callproperty        QName(PackageNamespace(""), "percent"), 0
+   pushbyte            50
+   ifnle               L57
+
+   debugline           16886
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "You put your shoulder to the wind and press on, having no idea where you're going as your path is completely hidden by the blowing sand. Eventually, however, you break through the desert to large fields of swaying grass, free from the storm, and signs of civilization come into view. Large tents flutter in the breeze, made from canvas held up by rocks and logs, with a few smaller brick buildings here and there. You can hear the soft clapping of hard feet everywhere, as you spot several large horse-like people walk and dash about.\r\rYou have now entered the Equan home-city of Firmshaft! Although, looking behind you, there seems to be no sign of the path you just took. Getting back might be a bit difficult..."
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           16887
+   findpropstrict      QName(PackageNamespace(""), "regionChange")
+   pushbyte            2
+   callpropvoid        QName(PackageNamespace(""), "regionChange"), 1
+
+   debugline           16888
+   getlex              QName(PackageNamespace(""), "foundFirmshaft")
+   pushfalse
+   ifne                L49
+
+   findproperty        QName(PackageNamespace(""), "foundFirmshaft")
+   pushtrue
+   initproperty        QName(PackageNamespace(""), "foundFirmshaft")
+
+L49:
+   debugline           16889
+   findproperty        QName(PackageNamespace(""), "hrs")
+   pushbyte            4
+   initproperty        QName(PackageNamespace(""), "hrs")
+
+   debugline           16890
+   findpropstrict      QName(PackageNamespace(""), "doEnd")
+   callpropvoid        QName(PackageNamespace(""), "doEnd"), 0
+
+   jump                L80
+
+L57:
+   debugline           16893
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "You put your shoulder to the wind and press on, having no idea where you're going as your path is completely hidden by the blowing sand. Eventually, however, you break through the desert into a dense vegetation with trees surrounding you, protecting you from the storm. You begin to see various wooden structures built amongst the canopy as you continue. Rope-bridges and circular huts everywhere, with lithe cat-like people walking about or jumping from branch to branch. The path leads you right to one of the few spiraling ramps that encircles the trees, bringing you up to the tree-born city.\r\rYou have now entered the Felin home-city of Siz'Calit! Although, looking behind you, there seems to be no sign of the path you just took. Getting back might be a bit difficult..."
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           16894
+   findpropstrict      QName(PackageNamespace(""), "regionChange")
+   pushbyte            4
+   callpropvoid        QName(PackageNamespace(""), "regionChange"), 1
+
+   debugline           16895
+   getlex              QName(PackageNamespace(""), "foundSizCalit")
+   pushfalse
+   ifne                L73
+
+   findproperty        QName(PackageNamespace(""), "foundSizCalit")
+   pushtrue
+   initproperty        QName(PackageNamespace(""), "foundSizCalit")
+
+L73:
+   debugline           16896
+   findproperty        QName(PackageNamespace(""), "hrs")
+   pushbyte            4
+   initproperty        QName(PackageNamespace(""), "hrs")
+
+   debugline           16897
+   findpropstrict      QName(PackageNamespace(""), "doEnd")
+   callpropvoid        QName(PackageNamespace(""), "doEnd"), 0
+
+L80:
+   jump                L115
+
+L81:
+   debugline           16900
+   getlex              QName(PackageNamespace(""), "currentZone")
+   pushbyte            2
+   equals
+   dup
+   iftrue              L91
+
+   pop
+   getlex              QName(PackageNamespace(""), "currentZone")
+   pushbyte            4
+   equals
+L91:
+   iffalse             L115
+
+   debugline           16901
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "You put your shoulder to the wind and press on, having no idea where you're going as your path is completely hidden by the blowing sand. Eventually, however, you break through into an area sheltered from the wind by large rock formations. As you blink and brush the sand from your eyes, you're left in awe by the paradise before you.\r\rAn oasis somewhere within the desert, hidden within a ring of tall rock formations and mountains, you can see the water sparkle from here and the palm trees sway lazily around it. And all along the rocks, built into caves and sprawled across the beaches, reptillian people have made their home here, relaxing and enjoying their gorgeous habitat.\r\rYou have now entered the Lizan home-city of Oviasis! Though thanks to the storm you have no idea how you got here or how to get back..."
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           16902
+   findpropstrict      QName(PackageNamespace(""), "regionChange")
+   pushbyte            6
+   callpropvoid        QName(PackageNamespace(""), "regionChange"), 1
+
+   debugline           16903
+   getlex              QName(PackageNamespace(""), "foundOviasis")
+   pushfalse
+   ifne                L108
+
+   findproperty        QName(PackageNamespace(""), "foundOviasis")
+   pushtrue
+   initproperty        QName(PackageNamespace(""), "foundOviasis")
+
+L108:
+   debugline           16904
+   findproperty        QName(PackageNamespace(""), "hrs")
+   pushbyte            4
+   initproperty        QName(PackageNamespace(""), "hrs")
+
+   debugline           16905
+   findpropstrict      QName(PackageNamespace(""), "doEnd")
+   callpropvoid        QName(PackageNamespace(""), "doEnd"), 0
+
+L115:
+   jump                L128
+
+L116:
+   debugline           16909
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "You return from whence you came, avoiding any unwanted sand in your cracks."
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           16910
+   findproperty        QName(PackageNamespace(""), "hrs")
+   pushbyte            1
+   initproperty        QName(PackageNamespace(""), "hrs")
+
+   debugline           16911
+   findpropstrict      QName(PackageNamespace(""), "doEnd")
+   callpropvoid        QName(PackageNamespace(""), "doEnd"), 0
+
+L128:
+   debugline           16913
+   returnvoid
+  end ; code
+ end ; body
+end ; method

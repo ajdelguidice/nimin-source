@@ -1,0 +1,337 @@
+method
+ name ""
+ refid "NiminFetishFantasyv0_fla:MainTimeline/instance/doDairyFarm/inline_method#32"
+ returns QName(PackageNamespace(""), "void")
+ flag NEED_ACTIVATION
+ body
+  maxstack 5
+  localcount 2
+  initscopedepth 16
+  maxscopedepth 17
+  code
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           17955
+   newactivation
+   dup
+   setlocal1
+
+   pushscope
+
+   debug               1, "anonymous$291", 0, 17955
+   debugline           17956
+   getlex              QName(PackageNamespace(""), "buttonChoice")
+   pushbyte            5
+   ifne                L251
+
+   debugline           17957
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "Your hand slips behind her head, pulling her face to your own. You press your lips to hers.\r\rWithout any resistance, she returns the favor, hugging your head and kissing you deeply. She pushes you forward, back onto her bed. With fervor, you lift her long purple skirt, revealing her wide, cow-like hips and large, dripping, animalistic nether-region."
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           17958
+   getlex              QName(PackageNamespace(""), "cockTotal")
+   pushbyte            0
+   ifngt               L128
+
+   debugline           17959
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "\r\rFlipping back her long red hair, she grinds down your "
+   findpropstrict      QName(PackageNamespace(""), "legDesc")
+   pushbyte            2
+   callproperty        QName(PackageNamespace(""), "legDesc"), 1
+   add
+   pushstring          " and across the bed to pull "
+   add
+   findpropstrict      QName(PackageNamespace(""), "pullUD")
+   pushbyte            2
+   callproperty        QName(PackageNamespace(""), "pullUD"), 1
+   add
+   pushstring          " your "
+   add
+   findpropstrict      QName(PackageNamespace(""), "clothesBottom")
+   callproperty        QName(PackageNamespace(""), "clothesBottom"), 0
+   add
+   pushstring          ", letting "
+   add
+   findpropstrict      QName(PackageNamespace(""), "oneYour")
+   pushbyte            1
+   callproperty        QName(PackageNamespace(""), "oneYour"), 1
+   add
+   pushstring          " "
+   add
+   findpropstrict      QName(PackageNamespace(""), "cockDesc")
+   callproperty        QName(PackageNamespace(""), "cockDesc"), 0
+   add
+   pushstring          " cock"
+   add
+   findpropstrict      QName(PackageNamespace(""), "plural")
+   pushbyte            1
+   callproperty        QName(PackageNamespace(""), "plural"), 1
+   add
+   pushstring          " flop out. She licks and kisses it ravenously, as though something had come over her. She sucks at the tip, slipping her tongue across and through your urethra and savoring the salty taste of your pre."
+   add
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           17960
+   getlex              QName(PackageNamespace(""), "cockSize")
+   getlex              QName(PackageNamespace(""), "cockSizeMod")
+   multiply
+   findpropstrict      QName(PackageNamespace(""), "eVagLimit")
+   pushbyte            56
+   callproperty        QName(PackageNamespace(""), "eVagLimit"), 1
+   ifnle               L90
+
+   debugline           17961
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "\r\rIt doesn't take long before she grows too hungry, crawling back up your body, licking your milk up as she goes. Her own breasts dribble over you until it runs off your sides and soaks into the fluffy blanket. Then, she pulls the blankets open, letting you both slip into the water-resistant sheets, where she slides your cock into her supple folds, devouring its entire length."
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           17962
+   findpropstrict      QName(PackageNamespace(""), "percent")
+   callproperty        QName(PackageNamespace(""), "percent"), 0
+   pushbyte            20
+   ifnle               L86
+
+   debugline           17963
+   findproperty        QName(PackageNamespace(""), "malonRep")
+   pushbyte            4
+   initproperty        QName(PackageNamespace(""), "malonRep")
+
+   debugline           17964
+   findproperty        QName(PackageNamespace(""), "malonPreg")
+   pushbyte            0
+   initproperty        QName(PackageNamespace(""), "malonPreg")
+
+   jump                L90
+
+L86:
+   debugline           17966
+   findproperty        QName(PackageNamespace(""), "malonRep")
+   pushbyte            5
+   initproperty        QName(PackageNamespace(""), "malonRep")
+
+L90:
+   debugline           17968
+   getlex              QName(PackageNamespace(""), "cockSize")
+   getlex              QName(PackageNamespace(""), "cockSizeMod")
+   multiply
+   findpropstrict      QName(PackageNamespace(""), "eVagLimit")
+   pushbyte            56
+   callproperty        QName(PackageNamespace(""), "eVagLimit"), 1
+   ifngt               L119
+
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "\r\rHowever, she can easily tell that you're far too large for her. So, instead, she crawls back up your body, licking your\x09milk up as she goes, while her own breasts dribble over you until it runs off your sides and soaks into the fluffy blanket. Then, she pulls the blankets open, letting you both slip into the water-resistant sheets, where she straddles your "
+   findpropstrict      QName(PackageNamespace(""), "cockDesc")
+   callproperty        QName(PackageNamespace(""), "cockDesc"), 0
+   add
+   pushstring          " erection"
+   add
+   findpropstrict      QName(PackageNamespace(""), "plural")
+   pushbyte            1
+   callproperty        QName(PackageNamespace(""), "plural"), 1
+   add
+   pushstring          ", humping her clit along your length"
+   add
+   findpropstrict      QName(PackageNamespace(""), "plural")
+   pushbyte            1
+   callproperty        QName(PackageNamespace(""), "plural"), 1
+   add
+   pushstring          "."
+   add
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+L119:
+   debugline           17969
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "\r\rOver and over, she grinds her wide hips. She leans down to kiss you some more, her tongue driving into your mouth. You thrust back in turn, making her moan into your throat.\r\rQuickly, her body begins to quiver once again, milk spraying about beneath the sheets. She keeps her mouth shut at first, but as you begin to gush with cum, she can no longer resist, allowing her mouth stretch wide.\r\r\"MOOOOOOO!\""
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           17970
+   findpropstrict      QName(PackageNamespace(""), "cumAmount")
+   callpropvoid        QName(PackageNamespace(""), "cumAmount"), 0
+
+   jump                L215
+
+L128:
+   debugline           17972
+   getlex              QName(PackageNamespace(""), "cockTotal")
+   pushbyte            1
+   lessthan
+   dup
+   iffalse             L138
+
+   pop
+   getlex              QName(PackageNamespace(""), "vagTotal")
+   pushbyte            0
+   greaterthan
+L138:
+   iffalse             L189
+
+   debugline           17973
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "\r\rFlipping back her long red hair, she grinds down your "
+   findpropstrict      QName(PackageNamespace(""), "legDesc")
+   pushbyte            2
+   callproperty        QName(PackageNamespace(""), "legDesc"), 1
+   add
+   pushstring          " and across the bed to pull "
+   add
+   findpropstrict      QName(PackageNamespace(""), "pullUD")
+   pushbyte            2
+   callproperty        QName(PackageNamespace(""), "pullUD"), 1
+   add
+   pushstring          " your "
+   add
+   findpropstrict      QName(PackageNamespace(""), "clothesBottom")
+   callproperty        QName(PackageNamespace(""), "clothesBottom"), 0
+   add
+   pushstring          ". Seeing your "
+   add
+   findpropstrict      QName(PackageNamespace(""), "vulvaDesc")
+   callproperty        QName(PackageNamespace(""), "vulvaDesc"), 0
+   add
+   pushstring          " slit"
+   add
+   findpropstrict      QName(PackageNamespace(""), "plural")
+   pushbyte            2
+   callproperty        QName(PackageNamespace(""), "plural"), 1
+   add
+   pushstring          ", she dives in and begins devouring your clit"
+   add
+   findpropstrict      QName(PackageNamespace(""), "plural")
+   pushbyte            2
+   callproperty        QName(PackageNamespace(""), "plural"), 1
+   add
+   pushstring          ".\r\rIt doesn't take long before she grows too hungry, crawling back up your body, licking your milk up as she goes. Her own breasts dribble over you until it runs off your sides and soaks into the fluffy blanket. Then, she pulls the blankets open, letting you both slip into the water-resistant sheets, where presses her supple folds to your own, letting them kiss erotically.\r\rOver and over, she grinds her wide hips. She leans down to kiss you some more, her tongue driving into your mouth. You thrust back in turn, making her moan into your throat.\r\rQuickly, her body begins to quiver once again, milk spraying about beneath the sheets. She keeps her mouth shut at first, but as you thrust your clit"
+   add
+   findpropstrict      QName(PackageNamespace(""), "plural")
+   pushbyte            2
+   callproperty        QName(PackageNamespace(""), "plural"), 1
+   add
+   pushstring          " against hers as you come, she can no longer resist, allowing her mouth stretch wide.\r\r\"MOOOOOOO!\""
+   add
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           17974
+   findproperty        QName(PackageNamespace(""), "malonRep")
+   pushbyte            5
+   initproperty        QName(PackageNamespace(""), "malonRep")
+
+   jump                L215
+
+L189:
+   debugline           17977
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "\r\rFlipping back her long red hair, she grinds down your "
+   findpropstrict      QName(PackageNamespace(""), "legDesc")
+   pushbyte            2
+   callproperty        QName(PackageNamespace(""), "legDesc"), 1
+   add
+   pushstring          " and across the bed to pull "
+   add
+   findpropstrict      QName(PackageNamespace(""), "pullUD")
+   pushbyte            2
+   callproperty        QName(PackageNamespace(""), "pullUD"), 1
+   add
+   pushstring          " your "
+   add
+   findpropstrict      QName(PackageNamespace(""), "clothesBottom")
+   callproperty        QName(PackageNamespace(""), "clothesBottom"), 0
+   add
+   pushstring          ". Seeing your lack of any genitalia, she kisses your crotch softly several times anyways, before crawling back up your body She licks up your milk up as she goes, while her own breasts dribble over you until it runs off your sides and soaks into the fluffy blanket. Then, she pulls the blankets open, letting you both slip into the water-resistant sheets, where she humps your empty crotch.\r\rOver and over, she grinds her wide hips. She leans down to kiss you some more, her tongue driving into your mouth. You thrust back in turn, making her moan into your throat.\r\rQuickly, her body begins to quiver once again, milk spraying about beneath the sheets. So hot is her body that you can feel yourself climax as well! She keeps her mouth shut at first, but as you thrust back with the phantom orgasm, she can no longer resist, allowing her mouth stretch wide.\r\r\"MOOOOOOO!\""
+   add
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           17978
+   findproperty        QName(PackageNamespace(""), "malonRep")
+   pushbyte            5
+   initproperty        QName(PackageNamespace(""), "malonRep")
+
+L215:
+   debugline           17980
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "\r\r\rThe two of you soon pass out beneath the blankets, trapped within the sea of milk and sensual fluids..."
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           17981
+   findpropstrict      QName(PackageNamespace(""), "doLust")
+   getlex              QName(PackageNamespace(""), "Math")
+   getlex              QName(PackageNamespace(""), "sen")
+   pushbyte            2
+   divide
+   callproperty        QName(PackageNamespace(""), "floor"), 1
+   negate
+   pushbyte            2
+   pushbyte            1
+   pushbyte            2
+   callpropvoid        QName(PackageNamespace(""), "doLust"), 4
+
+   debugline           17982
+   findproperty        QName(PackageNamespace(""), "hrs")
+   pushbyte            9
+   initproperty        QName(PackageNamespace(""), "hrs")
+
+   debugline           17983
+   findproperty        QName(PackageNamespace(""), "exhaustion")
+   pushbyte            0
+   initproperty        QName(PackageNamespace(""), "exhaustion")
+
+   debugline           17984
+   findproperty        QName(PackageNamespace(""), "skipExhaustion")
+   pushtrue
+   initproperty        QName(PackageNamespace(""), "skipExhaustion")
+
+   debugline           17985
+   findpropstrict      QName(PackageNamespace(""), "doNext")
+   callpropvoid        QName(PackageNamespace(""), "doNext"), 0
+
+   debugline           17986
+   findproperty        QName(PackageNamespace(""), "doListen")
+   newfunction         "NiminFetishFantasyv0_fla:MainTimeline/instance/doDairyFarm/inline_method#31"
+   initproperty        QName(PackageNamespace(""), "doListen")
+
+L251:
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           17993
+   getlex              QName(PackageNamespace(""), "buttonChoice")
+   pushbyte            7
+   ifne                L275
+
+   debugline           17994
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "You help her back up onto her stool, the last of both of your milk emptying into the final bucket. With a big sigh, she smiles.\r\r\"W-Well, I suppose I should get this cleaned up. Thanks for helping me!\"\r\rShe leans forward, giving you a great view of her deep cleavage as she kisses you on the forehead. Then she pulls her shirt back up and takes your hand once more, leading your back out of the farmhouse, saying she can take care of the buckets herself.\r\rWith a hug, you say goodbye and head back to Softlik."
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           17995
+   findpropstrict      QName(PackageNamespace(""), "stats")
+   pushbyte            1
+   dup
+   pushbyte            0
+   pushbyte            2
+   callpropvoid        QName(PackageNamespace(""), "stats"), 4
+
+   debugline           17996
+   findpropstrict      QName(PackageNamespace(""), "doSexP")
+   pushbyte            2
+   callpropvoid        QName(PackageNamespace(""), "doSexP"), 1
+
+   debugline           17997
+   findpropstrict      QName(PackageNamespace(""), "doEnd")
+   callpropvoid        QName(PackageNamespace(""), "doEnd"), 0
+
+L275:
+   debugline           17999
+   returnvoid
+  end ; code
+ end ; body
+end ; method

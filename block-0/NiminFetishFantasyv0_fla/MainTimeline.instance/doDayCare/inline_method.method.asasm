@@ -1,0 +1,54 @@
+method
+ name ""
+ refid "NiminFetishFantasyv0_fla:MainTimeline/instance/doDayCare/inline_method"
+ returns QName(PackageNamespace(""), "void")
+ body
+  maxstack 3
+  localcount 1
+  initscopedepth 11
+  maxscopedepth 11
+  code
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           10560
+   getlex              QName(PackageNamespace(""), "buttonChoice")
+   pushbyte            1
+   ifne                L26
+
+   debugline           10561
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "Spending your 500 coins, a caravan is gathered and sent out immediately, thanks to there being a few groups that do this sort of thing for a living. You wait around the Day-Care, anxiously awaiting the safe return of your children (and if you don't have any you're just silly). About 8 hours pass and the caravan comes rolling back in, without a scratch or any other problems, thanks to the skill of those you hired and your children are successfully transported to their new location!"
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           10562
+   findproperty        QName(PackageNamespace(""), "currentDayCare")
+   getlex              QName(PackageNamespace(""), "currentZone")
+   initproperty        QName(PackageNamespace(""), "currentDayCare")
+
+   debugline           10563
+   findproperty        QName(PackageNamespace(""), "hrs")
+   pushbyte            8
+   initproperty        QName(PackageNamespace(""), "hrs")
+
+   debugline           10564
+   findpropstrict      QName(PackageNamespace(""), "doCoin")
+   pushshort           -500
+   callpropvoid        QName(PackageNamespace(""), "doCoin"), 1
+
+   debugline           10565
+   findpropstrict      QName(PackageNamespace(""), "doEnd")
+   callpropvoid        QName(PackageNamespace(""), "doEnd"), 0
+
+   jump                L29
+
+L26:
+   debugline           10568
+   findpropstrict      QName(PackageNamespace(""), "doReturn")
+   callpropvoid        QName(PackageNamespace(""), "doReturn"), 0
+
+L29:
+   debugline           10570
+   returnvoid
+  end ; code
+ end ; body
+end ; method

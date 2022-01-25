@@ -1,0 +1,54 @@
+method
+ name ""
+ refid "NiminFetishFantasyv0_fla:MainTimeline/instance/doDairyFarm/inline_method#11"
+ returns QName(PackageNamespace(""), "void")
+ body
+  maxstack 5
+  localcount 1
+  initscopedepth 14
+  maxscopedepth 14
+  code
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           17592
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "However, on your way out, you feel a tug on your "
+   findpropstrict      QName(PackageNamespace(""), "clothesTop")
+   callproperty        QName(PackageNamespace(""), "clothesTop"), 0
+   add
+   pushstring          ".\r\rYou turn around to see the woman again, covering her chest with the yellow shawl she had left behind.\r\r\"Uhh... umm... Th-that was a bit rude of me. I'm sorry... You seem like you were genuinely trying to help.\" She fumbles a little as she tries to hold the shawl to her chest with a single arm, managing to let a nipple pop out with a blush before she gets it right. She holds out her free hand to shake yours. \"I'm Malon.\"\r\rYou take her hand and shake with the formal introduction.\r\r\"I'm... kinda ashamed for being such a... well, cow. Let's just say I liked them too much when I was younger and took some DairE Pills to act like them. And then I wound up being a little too much like them, resulting in some rather... bothersome attributes for a woman like me. Anyways, here. At least you should get something for your efforts.\"\r\rShe turns away and adjusts her shirt back into place so she doesn't have to worry about her shawl, though her naked breasts are still visible on either side of her body. Then she picks up the bucket you had used and pours it into one of the bottles meant for the milk of normal cows, handing it to you.\r\r\"I-It's not much, but that's all I can offer at the moment...\"\r\rAfter you take the milk, she says her goodbyes and tells you she'll be more welcoming from now on, leaving you to head back to Softlik."
+   add
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           17593
+   findpropstrict      QName(PackageNamespace(""), "stats")
+   pushbyte            1
+   pushbyte            2
+   pushbyte            1
+   pushbyte            2
+   callpropvoid        QName(PackageNamespace(""), "stats"), 4
+
+   debugline           17594
+   findpropstrict      QName(PackageNamespace(""), "doSexP")
+   pushbyte            20
+   callpropvoid        QName(PackageNamespace(""), "doSexP"), 1
+
+   debugline           17595
+   findpropstrict      QName(PackageNamespace(""), "itemAdd")
+   pushshort           214
+   callpropvoid        QName(PackageNamespace(""), "itemAdd"), 1
+
+   debugline           17596
+   findproperty        QName(PackageNamespace(""), "hrs")
+   pushbyte            2
+   initproperty        QName(PackageNamespace(""), "hrs")
+
+   debugline           17598
+   findpropstrict      QName(PackageNamespace(""), "doEnd")
+   callpropvoid        QName(PackageNamespace(""), "doEnd"), 0
+
+   debugline           17599
+   returnvoid
+  end ; code
+ end ; body
+end ; method

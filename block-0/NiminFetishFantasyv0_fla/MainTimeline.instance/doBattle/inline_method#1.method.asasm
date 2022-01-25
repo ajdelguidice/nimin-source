@@ -1,0 +1,20 @@
+method
+ name ""
+ refid "NiminFetishFantasyv0_fla:MainTimeline/instance/doBattle/inline_method#1"
+ returns QName(PackageNamespace(""), "void")
+ body
+  maxstack 1
+  localcount 1
+  initscopedepth 12
+  maxscopedepth 12
+  code
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           20042
+   findpropstrict      QName(PackageNamespace(""), "doGetRaped")
+   callpropvoid        QName(PackageNamespace(""), "doGetRaped"), 0
+
+   debugline           20043
+   returnvoid
+  end ; code
+ end ; body
+end ; method
