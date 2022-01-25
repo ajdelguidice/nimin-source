@@ -1,0 +1,61 @@
+method
+ name ""
+ refid "NiminFetishFantasyv0_fla:MainTimeline/instance/doExplore/inline_method#2"
+ returns QName(PackageNamespace(""), "void")
+ body
+  maxstack 2
+  localcount 1
+  initscopedepth 11
+  maxscopedepth 11
+  code
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           13237
+   getlex              QName(PackageNamespace(""), "buttonChoice")
+   pushbyte            6
+   ifne                L7
+
+   findpropstrict      QName(PackageNamespace(""), "doTieden")
+   callpropvoid        QName(PackageNamespace(""), "doTieden"), 0
+
+L7:
+   debugline           13238
+   getlex              QName(PackageNamespace(""), "buttonChoice")
+   pushbyte            5
+   ifne                L13
+
+   findpropstrict      QName(PackageNamespace(""), "doLake")
+   callpropvoid        QName(PackageNamespace(""), "doLake"), 0
+
+L13:
+   debugline           13239
+   getlex              QName(PackageNamespace(""), "buttonChoice")
+   pushbyte            7
+   ifne                L19
+
+   findpropstrict      QName(PackageNamespace(""), "doForest")
+   callpropvoid        QName(PackageNamespace(""), "doForest"), 0
+
+L19:
+   debugline           13240
+   getlex              QName(PackageNamespace(""), "buttonChoice")
+   pushbyte            10
+   ifne                L25
+
+   findpropstrict      QName(PackageNamespace(""), "doJungle")
+   callpropvoid        QName(PackageNamespace(""), "doJungle"), 0
+
+L25:
+   debugline           13241
+   getlex              QName(PackageNamespace(""), "buttonChoice")
+   pushbyte            11
+   ifne                L31
+
+   findpropstrict      QName(PackageNamespace(""), "doValley")
+   callpropvoid        QName(PackageNamespace(""), "doValley"), 0
+
+L31:
+   debugline           13242
+   returnvoid
+  end ; code
+ end ; body
+end ; method

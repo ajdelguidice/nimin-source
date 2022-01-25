@@ -1,0 +1,62 @@
+method
+ name ""
+ refid "NiminFetishFantasyv0_fla:MainTimeline/instance/doFirmshaft/inline_method#24"
+ returns QName(PackageNamespace(""), "void")
+ body
+  maxstack 3
+  localcount 3
+  initscopedepth 14
+  maxscopedepth 14
+  code
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           13958
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "By the time he's finally empty, a puddle of his stuff has formed upon the side of his bed and cascades down onto the floor, not including what you're generously coated in. The head of the monster touches his cheek as you release it to slowly settle, and thicker than his arm it takes several moments for the enlarged rod to settle and finally creep back into its expanded home while the boy regains some of his wits.\r\r\"Holy cow!\" He stares down at himself in amazement and fear. His hands grope around himself, feeling how heavier and swollen he has become. \"Geeze... If I looked awkward before, now I must really be a freak...\" He looks up at your smiling face. \"But... You enjoy it like this? I... I guess as long as one person does, it's alright. Plus I must be close to being the 'manliest' man in Firmshaft with a package like this...\" He sits up and hefts up the scrotum and puffy sheath, letting them fall back down between his legs with a slight wince from the tugging of the greater weight.\r\rWith a grimace, he begins to stand. White sheets of thick cum flow down from his body, making an even bigger mess around his feet. He wobbles a bit as he acclimates to his new size, feeling a little hunched as his balls hang down to his knees. \"Eww... It's going to take a while to clean up the mess that... I made... And, umm... Thanks. This makes me feel a bit more confident now; I guess I should show it off more than be trying to hide it? Or something... But I'd like to see you again. I'll try to catch you when I see you in Firmshaft. And... My name is Jamie, heh.\"\r\rJamie almost offers a hand, but letting go of his sack makes him a bit unbalanced and forces him to grab it again. Instead he gives you a rather awkward, but hopeful, grin and nods for you to be on your way so he can get to... doing a lot of cleaning and laundry. You giggle a bit, happy with what you've accomplished, and give him some peace. Just as you're leaving, you hear a splash and see him fall back onto his bed out of the corner of your eyes, his testicles having caught him off-balance..."
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           13959
+   findproperty        QName(PackageNamespace(""), "jamieRep")
+   pushbyte            10
+   initproperty        QName(PackageNamespace(""), "jamieRep")
+
+   debugline           13960
+   findpropstrict      QName(PackageNamespace(""), "jamieSize")
+   dup
+   setlocal1
+
+   getproperty         QName(PackageNamespace(""), "jamieSize")
+   increment_i
+   setlocal2
+
+   getlocal1
+   getlocal2
+   setproperty         QName(PackageNamespace(""), "jamieSize")
+
+   kill                2
+   kill                1
+   debugline           13961
+   findproperty        QName(PackageNamespace(""), "hrs")
+   pushbyte            3
+   initproperty        QName(PackageNamespace(""), "hrs")
+
+   debugline           13962
+   findpropstrict      QName(PackageNamespace(""), "doSexP")
+   pushbyte            20
+   callpropvoid        QName(PackageNamespace(""), "doSexP"), 1
+
+   debugline           13963
+   findpropstrict      QName(PackageNamespace(""), "loseManyItem")
+   pushshort           534
+   pushbyte            1
+   callpropvoid        QName(PackageNamespace(""), "loseManyItem"), 2
+
+   debugline           13964
+   findpropstrict      QName(PackageNamespace(""), "doEnd")
+   callpropvoid        QName(PackageNamespace(""), "doEnd"), 0
+
+   debugline           13965
+   returnvoid
+  end ; code
+ end ; body
+end ; method

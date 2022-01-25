@@ -1,0 +1,184 @@
+method
+ name ""
+ refid "NiminFetishFantasyv0_fla:MainTimeline/instance/doItemUse/inline_method#5"
+ returns QName(PackageNamespace(""), "void")
+ body
+  maxstack 4
+  localcount 3
+  initscopedepth 11
+  maxscopedepth 11
+  code
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           6803
+   getlex              QName(PackageNamespace(""), "buttonChoice")
+   pushbyte            2
+   ifne                L17
+
+   debugline           6804
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "You decide you'd rather keep what you got, for the moment, and put the neuterizer back in your bag."
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           6805
+   findpropstrict      QName(PackageNamespace(""), "itemAdd")
+   pushbyte            120
+   callpropvoid        QName(PackageNamespace(""), "itemAdd"), 1
+
+   debugline           6806
+   findpropstrict      QName(PackageNamespace(""), "doEnd")
+   callpropvoid        QName(PackageNamespace(""), "doEnd"), 0
+
+L17:
+   debugline           6808
+   getlex              QName(PackageNamespace(""), "buttonChoice")
+   pushbyte            5
+   ifne                L51
+
+   debugline           6809
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "You rub the neuterizer into "
+   findpropstrict      QName(PackageNamespace(""), "oneYour")
+   pushbyte            1
+   callproperty        QName(PackageNamespace(""), "oneYour"), 1
+   add
+   pushstring          " "
+   add
+   findpropstrict      QName(PackageNamespace(""), "cockDesc")
+   callproperty        QName(PackageNamespace(""), "cockDesc"), 0
+   add
+   pushstring          " cock"
+   add
+   findpropstrict      QName(PackageNamespace(""), "plural")
+   pushbyte            1
+   callproperty        QName(PackageNamespace(""), "plural"), 1
+   add
+   pushstring          "..."
+   add
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           6810
+   findpropstrict      QName(PackageNamespace(""), "cockChange")
+   pushbyte            0
+   pushbyte            -1
+   callpropvoid        QName(PackageNamespace(""), "cockChange"), 2
+
+   debugline           6811
+   findpropstrict      QName(PackageNamespace(""), "doEnd")
+   callpropvoid        QName(PackageNamespace(""), "doEnd"), 0
+
+L51:
+   debugline           6813
+   getlex              QName(PackageNamespace(""), "buttonChoice")
+   pushbyte            7
+   ifne                L85
+
+   debugline           6814
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "You rub the neuterizer into "
+   findpropstrict      QName(PackageNamespace(""), "oneYour")
+   pushbyte            2
+   callproperty        QName(PackageNamespace(""), "oneYour"), 1
+   add
+   pushstring          " "
+   add
+   findpropstrict      QName(PackageNamespace(""), "vulvaDesc")
+   callproperty        QName(PackageNamespace(""), "vulvaDesc"), 0
+   add
+   pushstring          " cunt"
+   add
+   findpropstrict      QName(PackageNamespace(""), "plural")
+   pushbyte            1
+   callproperty        QName(PackageNamespace(""), "plural"), 1
+   add
+   pushstring          "..."
+   add
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           6815
+   findpropstrict      QName(PackageNamespace(""), "vagChange")
+   pushbyte            0
+   pushbyte            -1
+   callpropvoid        QName(PackageNamespace(""), "vagChange"), 2
+
+   debugline           6816
+   findpropstrict      QName(PackageNamespace(""), "doEnd")
+   callpropvoid        QName(PackageNamespace(""), "doEnd"), 0
+
+L85:
+   debugline           6818
+   getlex              QName(PackageNamespace(""), "buttonChoice")
+   pushbyte            10
+   ifne                L126
+
+   debugline           6819
+   getlex              QName(PackageNamespace(""), "balls")
+   pushbyte            2
+   ifngt               L114
+
+   debugline           6820
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "You rub the neuterizer into your scrotum. You squirm a bit as one of your testicles wrenches a bit, shrinking down. Once it disappears into nothing, you feel perfectly fine again."
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           6821
+   findpropstrict      QName(PackageNamespace(""), "balls")
+   dup
+   setlocal1
+
+   getproperty         QName(PackageNamespace(""), "balls")
+   decrement_i
+   setlocal2
+
+   getlocal1
+   getlocal2
+   setproperty         QName(PackageNamespace(""), "balls")
+
+   kill                2
+   kill                1
+   debugline           6822
+   findpropstrict      QName(PackageNamespace(""), "doEnd")
+   callpropvoid        QName(PackageNamespace(""), "doEnd"), 0
+
+   jump                L126
+
+L114:
+   debugline           6825
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "Unfortunately, the neuterizer cannot simply make your testicles disappear while you still have any cocks. It would be... too dangerous. But, rubbing it onto your scrotum, your balls disappear up into your body, hidden from view."
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           6826
+   findproperty        QName(PackageNamespace(""), "showBalls")
+   pushfalse
+   initproperty        QName(PackageNamespace(""), "showBalls")
+
+   debugline           6827
+   findpropstrict      QName(PackageNamespace(""), "doEnd")
+   callpropvoid        QName(PackageNamespace(""), "doEnd"), 0
+
+L126:
+   debugline           6830
+   getlex              QName(PackageNamespace(""), "buttonChoice")
+   pushbyte            12
+   ifne                L137
+
+   debugline           6831
+   findpropstrict      QName(PackageNamespace(""), "itemAdd")
+   pushbyte            120
+   callpropvoid        QName(PackageNamespace(""), "itemAdd"), 1
+
+   debugline           6832
+   findpropstrict      QName(PackageNamespace(""), "doProcess")
+   callpropvoid        QName(PackageNamespace(""), "doProcess"), 0
+
+L137:
+   debugline           6834
+   returnvoid
+  end ; code
+ end ; body
+end ; method

@@ -1,0 +1,139 @@
+method
+ name ""
+ refid "NiminFetishFantasyv0_fla:MainTimeline/instance/doItemUse/inline_method#10"
+ returns QName(PackageNamespace(""), "void")
+ body
+  maxstack 3
+  localcount 2
+  initscopedepth 11
+  maxscopedepth 11
+  code
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           7798
+   pushbyte            0
+   setlocal1
+
+   debugline           7799
+   getlex              QName(PackageNamespace(""), "buttonChoice")
+   pushbyte            5
+   ifne                L21
+
+   debugline           7800
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "You pop the egg into your mouth and bite down. The gooey stuff splorts about your mouth and... isn't exactly tasty. Even swallowing it makes your belly want to rebel. The act kills off some of your arousal, at least."
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           7801
+   findpropstrict      QName(PackageNamespace(""), "doLust")
+   pushbyte            -3
+   pushbyte            0
+   callpropvoid        QName(PackageNamespace(""), "doLust"), 2
+
+   debugline           7802
+   findpropstrict      QName(PackageNamespace(""), "doEnd")
+   callpropvoid        QName(PackageNamespace(""), "doEnd"), 0
+
+L21:
+   debugline           7804
+   getlex              QName(PackageNamespace(""), "buttonChoice")
+   pushbyte            7
+   ifne                L95
+
+   debug               1, "chance", 0, 7806
+   debugline           7805
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "Taking the chance, you bend around yourself and press the squishy egg up against the hole at the end of your blunted tail. You wince and shudder as you push it in, the passage inside sensitive as it quickly engulfs the sphere, arousing you slightly. Then it's gone.\r\rYou jiggle your "
+   findpropstrict      QName(PackageNamespace(""), "buttDesc")
+   callproperty        QName(PackageNamespace(""), "buttDesc"), 0
+   add
+   pushstring          " butt, feeling the wide fleshy tail flop up and down on it, and wait a few moments as you hear and sense some groaning within, similar to the sounds of digestion. Eventually you feel a pressure against the inside of the hole and you press down, your hand ready at the tip to catch the slimy thing as it pops back out.\r\r"
+   add
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           7806
+   findpropstrict      QName(PackageNamespace(""), "percent")
+   callproperty        QName(PackageNamespace(""), "percent"), 0
+   convert_i
+   setlocal1
+
+   debugline           7807
+   getlocal1
+   pushbyte            8
+   ifnle               L55
+
+   debugline           7808
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "The egg now glows with a sort of regal luster, slightly larger than before with a heavier weight."
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           7809
+   findpropstrict      QName(PackageNamespace(""), "itemAdd")
+   pushshort           537
+   callpropvoid        QName(PackageNamespace(""), "itemAdd"), 1
+
+   jump                L92
+
+L55:
+   debugline           7811
+   getlocal1
+   pushbyte            25
+   ifnle               L69
+
+   debugline           7812
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "The egg now feels tougher, less squishy in your hand than before."
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           7813
+   findpropstrict      QName(PackageNamespace(""), "itemAdd")
+   pushshort           538
+   callpropvoid        QName(PackageNamespace(""), "itemAdd"), 1
+
+   jump                L92
+
+L69:
+   debugline           7815
+   getlocal1
+   pushbyte            55
+   ifnle               L83
+
+   debugline           7816
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "The egg now looks somewhat dimmer, but also has some more warmth to it than before."
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           7817
+   findpropstrict      QName(PackageNamespace(""), "itemAdd")
+   pushshort           539
+   callpropvoid        QName(PackageNamespace(""), "itemAdd"), 1
+
+   jump                L92
+
+L83:
+   debugline           7820
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "The egg now seems rather bland, not as gooey and more starchy than before."
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           7821
+   findpropstrict      QName(PackageNamespace(""), "itemAdd")
+   pushshort           540
+   callpropvoid        QName(PackageNamespace(""), "itemAdd"), 1
+
+L92:
+   debugline           7823
+   findpropstrict      QName(PackageNamespace(""), "doEnd")
+   callpropvoid        QName(PackageNamespace(""), "doEnd"), 0
+
+L95:
+   debugline           7825
+   returnvoid
+  end ; code
+ end ; body
+end ; method

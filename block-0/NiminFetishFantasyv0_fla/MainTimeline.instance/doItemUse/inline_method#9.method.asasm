@@ -1,0 +1,67 @@
+method
+ name ""
+ refid "NiminFetishFantasyv0_fla:MainTimeline/instance/doItemUse/inline_method#9"
+ returns QName(PackageNamespace(""), "void")
+ body
+  maxstack 3
+  localcount 1
+  initscopedepth 11
+  maxscopedepth 11
+  code
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           7665
+   getlex              QName(PackageNamespace(""), "buttonChoice")
+   pushbyte            6
+   ifne                L36
+
+   debugline           7666
+   findpropstrict      QName(PackageNamespace(""), "percent")
+   callproperty        QName(PackageNamespace(""), "percent"), 0
+   pushbyte            2
+   divide
+   getlex              QName(PackageNamespace(""), "str")
+   ifngt               L18
+
+   debugline           7667
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "You pull and tug at the extra layer of 'skin'. It stretches from your body, but yanks itself out of your grip and snaps back in place. The little bugger just doesn't want to let go!"
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   jump                L32
+
+L18:
+   debugline           7670
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "You pull and tug at the extra layer of 'skin'. It stretches from your body and with a bit more exertion it snaps off, coalescing back down into a little ball in your hand. Your "
+   findpropstrict      QName(PackageNamespace(""), "skinDesc")
+   callproperty        QName(PackageNamespace(""), "skinDesc"), 0
+   add
+   pushstring          " now free of the little bugger, you put it back in your bag to deal with later."
+   add
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           7671
+   findproperty        QName(PackageNamespace(""), "snuggleBall")
+   pushfalse
+   initproperty        QName(PackageNamespace(""), "snuggleBall")
+
+L32:
+   debugline           7673
+   findpropstrict      QName(PackageNamespace(""), "doEnd")
+   callpropvoid        QName(PackageNamespace(""), "doEnd"), 0
+
+   jump                L39
+
+L36:
+   debugline           7675
+   findpropstrict      QName(PackageNamespace(""), "doProcess")
+   callpropvoid        QName(PackageNamespace(""), "doProcess"), 0
+
+L39:
+   debugline           7676
+   returnvoid
+  end ; code
+ end ; body
+end ; method

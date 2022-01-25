@@ -1,0 +1,117 @@
+method
+ name ""
+ refid "NiminFetishFantasyv0_fla:MainTimeline/instance/doFirmshaft/inline_method#25"
+ returns QName(PackageNamespace(""), "void")
+ flag NEED_ACTIVATION
+ body
+  maxstack 3
+  localcount 2
+  initscopedepth 14
+  maxscopedepth 15
+  code
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           13925
+   newactivation
+   dup
+   setlocal1
+
+   pushscope
+
+   debug               1, "anonymous$141", 0, 13925
+   debugline           13926
+   getlex              QName(PackageNamespace(""), "buttonChoice")
+   pushbyte            1
+   ifne                L23
+
+   debugline           13927
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "The equan lad stares at the object you're offering him. \"You... You want to use that?\"\r\rA few moments pass as he ponders the drug, rubbing his package in thought until until the monster over your shoulder throbs. He then shrugs, \"I... suppose I can trust your judgement. I mean, you're the only one who has actually taken any interest, so... if you're interested in that, I guess I am too!\"\r\rThe boy leans back on his bed, thrusting his hips forward towards  you and nearly smacking you in the chest with his swinging orbs. The pole drags over you shoulder, making it even harder and heavier, the tip starting to drool with pre down to the floor behind you. You prepare the reduced reduction, smearing the paste between your hands before palming the overgrown fruits before you.\r\rHe shudders as the cool liquid counters the heat of his loins. The balls are meaty within your grip, giving off their own warmth as cum is churned about within, and they recoil back up towards his abdomen to escape the chilled touch. Not that they can actually get away from you, especially at that size, so you still manage to rub the concoction thoroughly into the swollen scrotum. Within moments of you kneading his testicles, the boy begins to relax and enjoy the massage. However, a shiver quickly rides up his spine as things begin to tingle oddly below.\r\rYour hands cover more and more area as the weighty things shrink. The paste beginning to do its duty there, your grasp rises up the sheath and onto the shaft. You lift it from your shoulder as you make your way towards the head, sending him reeling onto his back. His fingers dig into the sheets of his bed, your vigorous polishing of his manly pole making his hips buck and bounce atop the soft padding.\r\rOnce again, the surface your hands are able to apply the stuff more efficiently as the appendage wanes in turn, making your efforts far more effective on his nerves. By the time you reach the flaring tip of the equine glans, the boy lets out a timid whinny, the slightly shrunken balls groaning as the now excessive amount of cum left within is launched through the narrowing barrel. With such pressure and speed, the wads of thick spunk launch high into the air, the stuff leaping from the diminishing vessel in a hurry, and comes showering back down upon you with loud splats. Volley after volley evacuates from the shrinking ship, almost like a desparate swan song."
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           13928
+   findpropstrict      QName(PackageNamespace(""), "doNext")
+   callpropvoid        QName(PackageNamespace(""), "doNext"), 0
+
+   debugline           13929
+   findproperty        QName(PackageNamespace(""), "doListen")
+   newfunction         "NiminFetishFantasyv0_fla:MainTimeline/instance/doFirmshaft/inline_method#21"
+   initproperty        QName(PackageNamespace(""), "doListen")
+
+L23:
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           13939
+   getlex              QName(PackageNamespace(""), "buttonChoice")
+   pushbyte            3
+   ifne                L40
+
+   debugline           13940
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "\"Y-You want me to wear -that- again?!\" A heavy blush floods his face and you can feel the monster buck upon your shoulder. He looks into your eyes to see if you were just joking, but you don't give him any such sign. So, slowly, he concedes. \"You... You would actually like that? I-I suppose I could put it on again. Just... Don't laugh, okay?\"\r\rYou give him an eager nod, backing off to give him some room and letting his erection flop down between his knees. He stands from his bed before kneeling down to grope about beneath it, moving aside some towels until he grabs some other fabrics. The same tube top and skirt you first saw him wearing, he had been hiding it under his bed this whole time.\r\rWith his back to you, the boy finishes stripping by removing his shirt. It's quickly replaced by the tube top, his small frame fitting the small garment well. Then, his tail swishes a bit, giving you flashes of his tight rump, while he steps into the skirt and pulls it up. As it rises to his knees, he angles his member downward, catching it between his knees and behind the waistband of the garment, allowing the skirt to easily rise to his waist without obstruction. The rod pushes his testicles back between his thighs, forcing his legs to bend to give the package room until he can secure the girly thing at his waist. Once it's on, he's able to release the kraken, letting it flick forward with his thighs closing, pulling the hem of the skirt taut just above his knees. He shifts a bit in a crude attempt to make things better before presenting himself, but he eventually gives up and lets out a sigh. Eyes closed, he twirls around.\r\r\"There...\"\r\rThis time he didn't bother to wedge certain parts up into the tube top. Instead, the large cock reaches out at full stiffness, held down by the skirt. The skirt does have too much give though; with the bulbous testicles making the cloth tight around his thighs, the cock almost points straight down, hardly lifting the skirt at all. He didn't even bother with the panties this time, probably having learned his lesson, and didn't take care to prop his cock up into his tube top, which is good for what you're planning.\r\r\"Happy now?,\" he says with a disgruntled look on his face, even though his cock seems even stiffer now.\r\rYou smile in pleasure with no desire to laugh. You look him over, making sure to give him the feeling that you like what you see. You step behind him and begin to brush at his hair, combing it into a more stylish, girly appearance that matches the skirt. Then you duck down and make the confused boy spread his legs.\r\r\"Wh-What are you doing?\""
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           13941
+   findpropstrict      QName(PackageNamespace(""), "doNext")
+   callpropvoid        QName(PackageNamespace(""), "doNext"), 0
+
+   debugline           13942
+   findproperty        QName(PackageNamespace(""), "doListen")
+   newfunction         "NiminFetishFantasyv0_fla:MainTimeline/instance/doFirmshaft/inline_method#23"
+   initproperty        QName(PackageNamespace(""), "doListen")
+
+L40:
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           13954
+   getlex              QName(PackageNamespace(""), "buttonChoice")
+   pushbyte            5
+   ifne                L57
+
+   debugline           13955
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "The equan lad stares at the object you're offering him. \"You... You want me to use that?\"\r\rA few moments pass as he ponders the drug, rubbing his package in thought until until the monster over your shoulder throbs. He then shrugs, \"I... suppose I can trust your judgement. I mean, you're the only one who has actually taken any interest, so... if you're interested in that, I guess I am too!\"\r\rYou motion for him to open wide and you pop the pill into his mouth. He blinks for a moment after he swallows, beginning to blush as a warmth flows through his body. When that warmth reaches his loins, the whole length of thick meat bucks in return and sending him sprawling backwards onto his bed. He braces himself upon his sheets, his eyes closing and his teeth clenching while things begin to shift and swell.\r\rThe pole upon your shoulder begins to rise, lifting itself from the expanding flesh. If it weren't so large, it could have stood straight up, but instead it bends in the middle, jerking in the air with the growth from each beat of his heart. Gobs of pre ooze lazily from the widening tip, drooling down over your head until you move back a bit for cover.\r\rWhile the shaft above continues to rise and swell, the orbs below also groan with growth. You can see them shift about, urging his legs to spread wider to give them some room. They tug at his crotch, pulling the scrotum down with their increasing weight. You hear an \"Nnngh\" as the tightness and heaviness of the scrotum becomes uncomfortable for the poor prone boy.\r\rBefore things could 'grow' more dire, you take it upon yourself to assist him with a hands-on approach. Specifically, your hands reach out for the throbbing flared equine cockhead that leans in your direction. Your fingertips knead into the soft and plush yet rigid and rough glans, the blood beneath pressing back at your touch with great intensity. You stand to lift the pillar of meat up, holding the tower up in the air so it's not depending on its own strength. The massaging of your fingers over the tender expanding flesh as you hug it makes the boy shiver with a snort.\r\rLarge wads of gooey cum leap heavily from the hole between your fingers, splattering up over your arm. They don't fly much further, too thick and weighty. And with the widening barrel of the loaded cannon, the rest of the spunk gurgles out from the tip like a slowly erupting volcano, the molten stuff surging over your hands and back down its length. However, what the ejaculation lacked in velocity it made up for with quantity...\r\rThe stuff doesn't stop gurgling from the tip as the tower continues its growth. The relief to his testicles barely keeps up with their swelling size, preventing any more discomfort, but in turn leaving him constantly moaning and softly neighing with gob after gob of sticky spooge drooling out of his erection. Your hands rapidly become soaked with a warm blanket of white, his bed sheets becoming shiny and heavy with pearlescant moisture. The coarse hair of his tail swishes from side to side beneath his testicles, his body jerking slightly with each load."
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           13956
+   findpropstrict      QName(PackageNamespace(""), "doNext")
+   callpropvoid        QName(PackageNamespace(""), "doNext"), 0
+
+   debugline           13957
+   findproperty        QName(PackageNamespace(""), "doListen")
+   newfunction         "NiminFetishFantasyv0_fla:MainTimeline/instance/doFirmshaft/inline_method#24"
+   initproperty        QName(PackageNamespace(""), "doListen")
+
+L57:
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           13967
+   getlex              QName(PackageNamespace(""), "buttonChoice")
+   pushbyte            11
+   ifne                L78
+
+   debugline           13968
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "In a slightly teasing fashion, you stroke up his length, lift it from your shoulder, and gently let it hang in front of him as you stand up and away from him. You shake your head and let him know that you won't do anything right now, but maybe later.\r\rMouth agape and caught quite off gaurd, the boy looks up at you then down at the dowsing rod that hangs heavily before him. \"A-Alright,\" is all he can muster as you exit his tent. Out of the corner of your eye, you can see his feet stealthily pull a towel out from under his bed just before you leave..."
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           13969
+   findproperty        QName(PackageNamespace(""), "hrs")
+   pushbyte            2
+   initproperty        QName(PackageNamespace(""), "hrs")
+
+   debugline           13970
+   findproperty        QName(PackageNamespace(""), "jamieRep")
+   pushbyte            4
+   initproperty        QName(PackageNamespace(""), "jamieRep")
+
+   debugline           13971
+   findpropstrict      QName(PackageNamespace(""), "doEnd")
+   callpropvoid        QName(PackageNamespace(""), "doEnd"), 0
+
+L78:
+   debugline           13973
+   returnvoid
+  end ; code
+ end ; body
+end ; method

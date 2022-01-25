@@ -1,0 +1,113 @@
+method
+ name ""
+ refid "NiminFetishFantasyv0_fla:MainTimeline/instance/doJungle/inline_method#12"
+ returns QName(PackageNamespace(""), "void")
+ body
+  maxstack 4
+  localcount 1
+  initscopedepth 12
+  maxscopedepth 12
+  code
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           16445
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "A few minutes later, the tentacles retract from whence they came, leaving you to collapse to your "
+   findpropstrict      QName(PackageNamespace(""), "legDesc")
+   pushbyte            6
+   callproperty        QName(PackageNamespace(""), "legDesc"), 1
+   add
+   pushstring          ". Your breasts still feel larger than before, especially when you stretch your "
+   add
+   findpropstrict      QName(PackageNamespace(""), "clothesTop")
+   callproperty        QName(PackageNamespace(""), "clothesTop"), 0
+   add
+   pushstring          " back into place, along with a constant subtle warmth still emanating within. Wet blotches seep across the fabric, your "
+   add
+   findpropstrict      QName(PackageNamespace(""), "nipDesc")
+   callproperty        QName(PackageNamespace(""), "nipDesc"), 0
+   add
+   pushstring          "nipples still dribbling with milk"
+   add
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           16446
+   getlex              QName(PackageNamespace(""), "lactation")
+   pushbyte            0
+   ifnle               L30
+
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          ", but eventually dry back up as they were before, though slightly tingly"
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+L30:
+   debugline           16447
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "..."
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           16448
+   findpropstrict      QName(PackageNamespace(""), "milkAmount")
+   pushbyte            1
+   callpropvoid        QName(PackageNamespace(""), "milkAmount"), 1
+
+   debugline           16449
+   findproperty        QName(PackageNamespace(""), "nipplePlay")
+   getlex              QName(PackageNamespace(""), "nipplePlay")
+   pushbyte            20
+   add
+   initproperty        QName(PackageNamespace(""), "nipplePlay")
+
+   debugline           16450
+   findproperty        QName(PackageNamespace(""), "milkCPoisonNip")
+   getlex              QName(PackageNamespace(""), "milkCPoisonNip")
+   pushbyte            5
+   add
+   initproperty        QName(PackageNamespace(""), "milkCPoisonNip")
+
+   debugline           16451
+   findpropstrict      QName(PackageNamespace(""), "doSexP")
+   pushbyte            10
+   callpropvoid        QName(PackageNamespace(""), "doSexP"), 1
+
+   debugline           16452
+   findpropstrict      QName(PackageNamespace(""), "doLust")
+   getlex              QName(PackageNamespace(""), "Math")
+   getlex              QName(PackageNamespace(""), "breastSize")
+   getlex              QName(PackageNamespace(""), "sen")
+   multiply
+   pushbyte            20
+   divide
+   callproperty        QName(PackageNamespace(""), "floor"), 1
+   negate
+   pushbyte            0
+   pushbyte            3
+   callpropvoid        QName(PackageNamespace(""), "doLust"), 3
+
+   debugline           16453
+   findpropstrict      QName(PackageNamespace(""), "doHP")
+   getlex              QName(PackageNamespace(""), "Math")
+   findpropstrict      QName(PackageNamespace(""), "percent")
+   callproperty        QName(PackageNamespace(""), "percent"), 0
+   pushbyte            10
+   divide
+   callproperty        QName(PackageNamespace(""), "floor"), 1
+   negate
+   callpropvoid        QName(PackageNamespace(""), "doHP"), 1
+
+   debugline           16454
+   findproperty        QName(PackageNamespace(""), "hrs")
+   pushbyte            2
+   initproperty        QName(PackageNamespace(""), "hrs")
+
+   debugline           16455
+   findpropstrict      QName(PackageNamespace(""), "doEnd")
+   callpropvoid        QName(PackageNamespace(""), "doEnd"), 0
+
+   debugline           16456
+   returnvoid
+  end ; code
+ end ; body
+end ; method

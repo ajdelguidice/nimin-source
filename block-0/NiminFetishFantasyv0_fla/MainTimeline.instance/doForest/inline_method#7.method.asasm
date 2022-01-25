@@ -1,0 +1,78 @@
+method
+ name ""
+ refid "NiminFetishFantasyv0_fla:MainTimeline/instance/doForest/inline_method#7"
+ returns QName(PackageNamespace(""), "void")
+ flag NEED_ACTIVATION
+ body
+  maxstack 3
+  localcount 2
+  initscopedepth 12
+  maxscopedepth 13
+  code
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           16243
+   newactivation
+   dup
+   setlocal1
+
+   pushscope
+
+   debug               1, "anonymous$216", 0, 16243
+   debugline           16244
+   getlex              QName(PackageNamespace(""), "buttonChoice")
+   pushbyte            6
+   ifne                L28
+
+   debugline           16245
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "Cautiously standing still, you wait as the tentacles come right up to your breasts. They caress your "
+   findpropstrict      QName(PackageNamespace(""), "nipDesc")
+   callproperty        QName(PackageNamespace(""), "nipDesc"), 0
+   add
+   pushstring          "nipples, seemingly able to smell the milk within your breasts, and they wiggle even more like a drunk... It seems as though the creature smelled your large amount of milk production as you approached and became intoxicated by it.\r\r\rDo you let the creature indulge itself?"
+   add
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           16246
+   findpropstrict      QName(PackageNamespace(""), "buttonConfirm")
+   callpropvoid        QName(PackageNamespace(""), "buttonConfirm"), 0
+
+   debugline           16247
+   findproperty        QName(PackageNamespace(""), "doListen")
+   newfunction         "NiminFetishFantasyv0_fla:MainTimeline/instance/doForest/inline_method#6"
+   initproperty        QName(PackageNamespace(""), "doListen")
+
+L28:
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           16275
+   getlex              QName(PackageNamespace(""), "buttonChoice")
+   pushbyte            7
+   ifne                L49
+
+   debugline           16276
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "You take the opportunity to run from the tentacles before the creature can come to its senses, easily avoiding it."
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           16277
+   findpropstrict      QName(PackageNamespace(""), "doSexP")
+   pushbyte            4
+   callpropvoid        QName(PackageNamespace(""), "doSexP"), 1
+
+   debugline           16278
+   findproperty        QName(PackageNamespace(""), "hrs")
+   pushbyte            1
+   initproperty        QName(PackageNamespace(""), "hrs")
+
+   debugline           16279
+   findpropstrict      QName(PackageNamespace(""), "doEnd")
+   callpropvoid        QName(PackageNamespace(""), "doEnd"), 0
+
+L49:
+   debugline           16281
+   returnvoid
+  end ; code
+ end ; body
+end ; method

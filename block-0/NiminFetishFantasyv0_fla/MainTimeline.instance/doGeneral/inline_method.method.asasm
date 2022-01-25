@@ -1,0 +1,171 @@
+method
+ name ""
+ refid "NiminFetishFantasyv0_fla:MainTimeline/instance/doGeneral/inline_method"
+ returns QName(PackageNamespace(""), "void")
+ body
+  maxstack 2
+  localcount 3
+  initscopedepth 11
+  maxscopedepth 11
+  code
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           4983
+   getlex              QName(PackageNamespace(""), "buttonChoice")
+   pushbyte            1
+   ifne                L7
+
+   findpropstrict      QName(PackageNamespace(""), "doBag")
+   callpropvoid        QName(PackageNamespace(""), "doBag"), 0
+
+L7:
+   debugline           4984
+   getlex              QName(PackageNamespace(""), "buttonChoice")
+   pushbyte            6
+   ifne                L13
+
+   findpropstrict      QName(PackageNamespace(""), "doSleep")
+   callpropvoid        QName(PackageNamespace(""), "doSleep"), 0
+
+L13:
+   debugline           4985
+   getlex              QName(PackageNamespace(""), "buttonChoice")
+   pushbyte            5
+   ifne                L19
+
+   findpropstrict      QName(PackageNamespace(""), "doMasturbate")
+   callpropvoid        QName(PackageNamespace(""), "doMasturbate"), 0
+
+L19:
+   debugline           4986
+   getlex              QName(PackageNamespace(""), "buttonChoice")
+   pushbyte            2
+   ifne                L25
+
+   findpropstrict      QName(PackageNamespace(""), "doStash")
+   callpropvoid        QName(PackageNamespace(""), "doStash"), 0
+
+L25:
+   debugline           4987
+   getlex              QName(PackageNamespace(""), "buttonChoice")
+   pushbyte            3
+   ifne                L31
+
+   findpropstrict      QName(PackageNamespace(""), "doShops")
+   callpropvoid        QName(PackageNamespace(""), "doShops"), 0
+
+L31:
+   debugline           4988
+   getlex              QName(PackageNamespace(""), "buttonChoice")
+   pushbyte            4
+   ifne                L37
+
+   findpropstrict      QName(PackageNamespace(""), "doDayCare")
+   callpropvoid        QName(PackageNamespace(""), "doDayCare"), 0
+
+L37:
+   debugline           4989
+   getlex              QName(PackageNamespace(""), "buttonChoice")
+   pushbyte            7
+   ifne                L43
+
+   findpropstrict      QName(PackageNamespace(""), "doAlchemy")
+   callpropvoid        QName(PackageNamespace(""), "doAlchemy"), 0
+
+L43:
+   debugline           4990
+   getlex              QName(PackageNamespace(""), "buttonChoice")
+   pushbyte            8
+   ifne                L49
+
+   findpropstrict      QName(PackageNamespace(""), "doLevelUP")
+   callpropvoid        QName(PackageNamespace(""), "doLevelUP"), 0
+
+L49:
+   debugline           4991
+   getlex              QName(PackageNamespace(""), "buttonChoice")
+   pushbyte            12
+   ifne                L55
+
+   findpropstrict      QName(PackageNamespace(""), "doExplore")
+   callpropvoid        QName(PackageNamespace(""), "doExplore"), 0
+
+L55:
+   debugline           4992
+   getlex              QName(PackageNamespace(""), "buttonChoice")
+   pushbyte            10
+   ifne                L61
+
+   findpropstrict      QName(PackageNamespace(""), "doProstitute")
+   callpropvoid        QName(PackageNamespace(""), "doProstitute"), 0
+
+L61:
+   debugline           4993
+   getlex              QName(PackageNamespace(""), "loadGame")
+   pushfalse
+   setproperty         QName(PackageNamespace(""), "visible")
+
+   debugline           4994
+   getlex              QName(PackageNamespace(""), "loadGameOutline")
+   pushfalse
+   setproperty         QName(PackageNamespace(""), "visible")
+
+   debugline           4995
+   getlex              QName(PackageNamespace(""), "saveGame")
+   pushfalse
+   setproperty         QName(PackageNamespace(""), "visible")
+
+   debugline           4996
+   getlex              QName(PackageNamespace(""), "saveGameOutline")
+   pushfalse
+   setproperty         QName(PackageNamespace(""), "visible")
+
+   debugline           4997
+   getlex              QName(PackageNamespace(""), "newGame")
+   pushfalse
+   setproperty         QName(PackageNamespace(""), "visible")
+
+   debugline           4998
+   getlex              QName(PackageNamespace(""), "newGameOutline")
+   pushfalse
+   setproperty         QName(PackageNamespace(""), "visible")
+
+   debugline           4999
+   getlex              QName(PackageNamespace(""), "appearanceText")
+   pushfalse
+   setproperty         QName(PackageNamespace(""), "visible")
+
+   debugline           5000
+   getlex              QName(PackageNamespace(""), "appearanceBox")
+   pushfalse
+   setproperty         QName(PackageNamespace(""), "visible")
+
+   debugline           5001
+   getlex              QName(PackageNamespace(""), "buttonChoice")
+   pushbyte            9
+   ifne                L112
+
+   debugline           5002
+   findpropstrict      QName(PackageNamespace(""), "hrs")
+   dup
+   setlocal1
+
+   getproperty         QName(PackageNamespace(""), "hrs")
+   increment_i
+   setlocal2
+
+   getlocal1
+   getlocal2
+   setproperty         QName(PackageNamespace(""), "hrs")
+
+   kill                2
+   kill                1
+   debugline           5003
+   findpropstrict      QName(PackageNamespace(""), "doProcess")
+   callpropvoid        QName(PackageNamespace(""), "doProcess"), 0
+
+L112:
+   debugline           5005
+   returnvoid
+  end ; code
+ end ; body
+end ; method

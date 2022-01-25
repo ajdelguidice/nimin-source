@@ -1,0 +1,164 @@
+method
+ name ""
+ refid "NiminFetishFantasyv0_fla:MainTimeline/instance/doFirmshaft/inline_method#27"
+ returns QName(PackageNamespace(""), "void")
+ flag NEED_ACTIVATION
+ body
+  maxstack 13
+  localcount 2
+  initscopedepth 12
+  maxscopedepth 13
+  code
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           13851
+   newactivation
+   dup
+   setlocal1
+
+   pushscope
+
+   debug               1, "anonymous$143", 0, 13851
+   debugline           13852
+   getlex              QName(PackageNamespace(""), "buttonChoice")
+   pushbyte            1
+   ifne                L86
+
+   debugline           13853
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "You look the boy over again, especially focusing on his profound package, and restate with more emphasis that, yeah, you can probably help him.\r\r\"You think you can now? I still have no idea what you were thinking of doing, but... H-How do you think you can help me?\""
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           13854
+   findpropstrict      QName(PackageNamespace(""), "viewButtonOutline")
+   pushbyte            1
+   pushbyte            0
+   pushbyte            1
+   pushbyte            0
+   pushbyte            1
+   pushbyte            0
+   dup
+   dup
+   pushbyte            0
+   dup
+   pushbyte            1
+   pushbyte            0
+   callpropvoid        QName(PackageNamespace(""), "viewButtonOutline"), 12
+
+   debugline           13855
+   findpropstrict      QName(PackageNamespace(""), "viewButtonText")
+   pushbyte            0
+   dup
+   pushbyte            1
+   pushbyte            0
+   dup
+   dup
+   pushbyte            0
+   dup
+   dup
+   pushbyte            0
+   pushbyte            1
+   pushbyte            0
+   callpropvoid        QName(PackageNamespace(""), "viewButtonText"), 12
+
+   debugline           13856
+   findpropstrict      QName(PackageNamespace(""), "buttonWrite")
+   pushbyte            1
+   pushstring          "Reduc Reduc"
+   callpropvoid        QName(PackageNamespace(""), "buttonWrite"), 2
+
+   debugline           13857
+   findpropstrict      QName(PackageNamespace(""), "checkItem")
+   pushshort           533
+   callproperty        QName(PackageNamespace(""), "checkItem"), 1
+   iffalse             L59
+
+   getlex              QName(PackageNamespace(""), "Choice1")
+   pushtrue
+   setproperty         QName(PackageNamespace(""), "visible")
+
+L59:
+   debugline           13858
+   findpropstrict      QName(PackageNamespace(""), "buttonWrite")
+   pushbyte            5
+   pushstring          "Male Enhance"
+   callpropvoid        QName(PackageNamespace(""), "buttonWrite"), 2
+
+   debugline           13859
+   findpropstrict      QName(PackageNamespace(""), "checkItem")
+   pushshort           534
+   callproperty        QName(PackageNamespace(""), "checkItem"), 1
+   iffalse             L72
+
+   getlex              QName(PackageNamespace(""), "Choice5")
+   pushtrue
+   setproperty         QName(PackageNamespace(""), "visible")
+
+L72:
+   debugline           13860
+   findpropstrict      QName(PackageNamespace(""), "buttonWrite")
+   pushbyte            3
+   pushstring          "Crossdress"
+   callpropvoid        QName(PackageNamespace(""), "buttonWrite"), 2
+
+   debugline           13861
+   findpropstrict      QName(PackageNamespace(""), "buttonWrite")
+   pushbyte            11
+   pushstring          "Maybe Later"
+   callpropvoid        QName(PackageNamespace(""), "buttonWrite"), 2
+
+   debugline           13862
+   findproperty        QName(PackageNamespace(""), "doListen")
+   newfunction         "NiminFetishFantasyv0_fla:MainTimeline/instance/doFirmshaft/inline_method#20"
+   initproperty        QName(PackageNamespace(""), "doListen")
+
+L86:
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           13912
+   getlex              QName(PackageNamespace(""), "buttonChoice")
+   pushbyte            3
+   ifne                L103
+
+   debugline           13913
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "\"You... You want to see it again?\" The boy is a little hesitant. \"Well, since you've already seen it, I guess it wouldn't hurt. But not here, of course. Just follow me back to my place again.\"\r\rHe quickly turns to hide his blush and leads you towards his own tent. The same as before, but the 'used' towels are back out in plain sight. The boy is quick to kick them under his bed again and sits down. \"Alright, I guess I should just get this over with?\" Blush spreads as he asks and deepens even more as you nod. \"A-Alright...\"\r\rStill sitting, he begins to unlatch the waistband of his shorts and shimmy out of them. The round sheath is exposed first, thick with much fleshy padding and a little bit of skin showing in the center as something holds itself back. Then the tops of the large orbs are exposed, so smooth and soft compared to the rest of his fur-covered body. He has to take special care to cradle them up out of his shorts with a palm so he can finish pulling the clothing down without tugging on himself. Once emptied, the shorts quickly fall down to his ankles, allowing him to spread his knees and let the things hang. And gosh do they hang... Nearly touching the piled cloth on the floor while he sits on the bed, they look like large living almonds in stretched fleshy sacks that rise and fall slowly as the testicles shift to the cooler air. You make them nearly jump up as you kneel down between his legs for a closer 'inspection'."
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           13914
+   findpropstrict      QName(PackageNamespace(""), "doNext")
+   callpropvoid        QName(PackageNamespace(""), "doNext"), 0
+
+   debugline           13915
+   findproperty        QName(PackageNamespace(""), "doListen")
+   newfunction         "NiminFetishFantasyv0_fla:MainTimeline/instance/doFirmshaft/inline_method#26"
+   initproperty        QName(PackageNamespace(""), "doListen")
+
+L103:
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           13976
+   getlex              QName(PackageNamespace(""), "buttonChoice")
+   pushbyte            10
+   ifne                L120
+
+   debugline           13977
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "\"O-Oh, you're busy right now, that's fine. I hope I'll catch you again at a better time.\" He blushes and nods, quick to disappear back into the town."
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           13978
+   findproperty        QName(PackageNamespace(""), "hrs")
+   pushbyte            1
+   initproperty        QName(PackageNamespace(""), "hrs")
+
+   debugline           13979
+   findpropstrict      QName(PackageNamespace(""), "doEnd")
+   callpropvoid        QName(PackageNamespace(""), "doEnd"), 0
+
+L120:
+   debugline           13981
+   returnvoid
+  end ; code
+ end ; body
+end ; method

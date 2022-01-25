@@ -1,0 +1,359 @@
+method
+ name ""
+ refid "NiminFetishFantasyv0_fla:MainTimeline/instance/doGender/inline_method"
+ returns QName(PackageNamespace(""), "void")
+ body
+  maxstack 6
+  localcount 3
+  initscopedepth 11
+  maxscopedepth 11
+  code
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           4576
+   getlex              QName(PackageNamespace(""), "buttonChoice")
+   pushbyte            5
+   ifne                L8
+
+   findproperty        QName(PackageNamespace(""), "gender")
+   pushbyte            1
+   initproperty        QName(PackageNamespace(""), "gender")
+
+L8:
+   debugline           4577
+   getlex              QName(PackageNamespace(""), "buttonChoice")
+   pushbyte            6
+   ifne                L15
+
+   findproperty        QName(PackageNamespace(""), "gender")
+   pushbyte            2
+   initproperty        QName(PackageNamespace(""), "gender")
+
+L15:
+   debugline           4578
+   getlex              QName(PackageNamespace(""), "buttonChoice")
+   pushbyte            7
+   ifne                L22
+
+   findproperty        QName(PackageNamespace(""), "gender")
+   pushbyte            3
+   initproperty        QName(PackageNamespace(""), "gender")
+
+L22:
+   debugline           4579
+   getlex              QName(PackageNamespace(""), "gender")
+   pushbyte            1
+   ifne                L106
+
+   debugline           4580
+   findproperty        QName(PackageNamespace(""), "cockSize")
+   pushbyte            12
+   initproperty        QName(PackageNamespace(""), "cockSize")
+
+   debugline           4581
+   findproperty        QName(PackageNamespace(""), "ballSize")
+   pushbyte            3
+   initproperty        QName(PackageNamespace(""), "ballSize")
+
+   debugline           4582
+   findproperty        QName(PackageNamespace(""), "balls")
+   pushbyte            2
+   initproperty        QName(PackageNamespace(""), "balls")
+
+   debugline           4583
+   findproperty        QName(PackageNamespace(""), "cockTotal")
+   pushbyte            1
+   initproperty        QName(PackageNamespace(""), "cockTotal")
+
+   debugline           4584
+   findproperty        QName(PackageNamespace(""), "cockMoist")
+   pushbyte            1
+   initproperty        QName(PackageNamespace(""), "cockMoist")
+
+   debugline           4585
+   findpropstrict      QName(PackageNamespace(""), "strength")
+   dup
+   setlocal1
+
+   getproperty         QName(PackageNamespace(""), "strength")
+   increment_i
+   setlocal2
+
+   getlocal1
+   getlocal2
+   setproperty         QName(PackageNamespace(""), "strength")
+
+   kill                2
+   kill                1
+   debugline           4586
+   getlex              QName(PackageNamespace(""), "dominant")
+   pushbyte            1
+   ifne                L65
+
+   findproperty        QName(PackageNamespace(""), "humanCocks")
+   pushbyte            1
+   initproperty        QName(PackageNamespace(""), "humanCocks")
+
+L65:
+   debugline           4587
+   getlex              QName(PackageNamespace(""), "dominant")
+   pushbyte            2
+   ifne                L72
+
+   findproperty        QName(PackageNamespace(""), "horseCocks")
+   pushbyte            1
+   initproperty        QName(PackageNamespace(""), "horseCocks")
+
+L72:
+   debugline           4588
+   getlex              QName(PackageNamespace(""), "dominant")
+   pushbyte            3
+   ifne                L79
+
+   findproperty        QName(PackageNamespace(""), "wolfCocks")
+   pushbyte            1
+   initproperty        QName(PackageNamespace(""), "wolfCocks")
+
+L79:
+   debugline           4589
+   getlex              QName(PackageNamespace(""), "dominant")
+   pushbyte            4
+   ifne                L86
+
+   findproperty        QName(PackageNamespace(""), "catCocks")
+   pushbyte            1
+   initproperty        QName(PackageNamespace(""), "catCocks")
+
+L86:
+   debugline           4590
+   getlex              QName(PackageNamespace(""), "dominant")
+   pushbyte            6
+   ifne                L106
+
+   debugline           4591
+   findproperty        QName(PackageNamespace(""), "lizardCocks")
+   pushbyte            2
+   initproperty        QName(PackageNamespace(""), "lizardCocks")
+
+   debugline           4592
+   findpropstrict      QName(PackageNamespace(""), "cockTotal")
+   dup
+   setlocal1
+
+   getproperty         QName(PackageNamespace(""), "cockTotal")
+   increment_i
+   setlocal2
+
+   getlocal1
+   getlocal2
+   setproperty         QName(PackageNamespace(""), "cockTotal")
+
+   kill                2
+   kill                1
+L106:
+   debugline           4595
+   getlex              QName(PackageNamespace(""), "gender")
+   pushbyte            2
+   ifne                L151
+
+   debugline           4596
+   findproperty        QName(PackageNamespace(""), "vagSize")
+   pushbyte            12
+   initproperty        QName(PackageNamespace(""), "vagSize")
+
+   debugline           4597
+   findproperty        QName(PackageNamespace(""), "vulvaSize")
+   pushbyte            5
+   initproperty        QName(PackageNamespace(""), "vulvaSize")
+
+   debugline           4598
+   findproperty        QName(PackageNamespace(""), "pregArray")
+   pushfalse
+   pushbyte            0
+   dup
+   dup
+   pushbyte            0
+   newarray            5
+   initproperty        QName(PackageNamespace(""), "pregArray")
+
+   debugline           4599
+   findproperty        QName(PackageNamespace(""), "vagTotal")
+   pushbyte            1
+   initproperty        QName(PackageNamespace(""), "vagTotal")
+
+   debugline           4600
+   findproperty        QName(PackageNamespace(""), "vagMoist")
+   pushbyte            1
+   initproperty        QName(PackageNamespace(""), "vagMoist")
+
+   debugline           4601
+   findproperty        QName(PackageNamespace(""), "clitSize")
+   pushbyte            2
+   initproperty        QName(PackageNamespace(""), "clitSize")
+
+   debugline           4602
+   findpropstrict      QName(PackageNamespace(""), "mentality")
+   dup
+   setlocal1
+
+   getproperty         QName(PackageNamespace(""), "mentality")
+   increment_i
+   setlocal2
+
+   getlocal1
+   getlocal2
+   setproperty         QName(PackageNamespace(""), "mentality")
+
+   kill                2
+   kill                1
+L151:
+   debugline           4604
+   getlex              QName(PackageNamespace(""), "gender")
+   pushbyte            3
+   ifne                L260
+
+   debugline           4605
+   findproperty        QName(PackageNamespace(""), "cockSize")
+   pushbyte            8
+   initproperty        QName(PackageNamespace(""), "cockSize")
+
+   debugline           4606
+   findproperty        QName(PackageNamespace(""), "ballSize")
+   pushbyte            2
+   initproperty        QName(PackageNamespace(""), "ballSize")
+
+   debugline           4607
+   findproperty        QName(PackageNamespace(""), "balls")
+   pushbyte            2
+   initproperty        QName(PackageNamespace(""), "balls")
+
+   debugline           4608
+   findproperty        QName(PackageNamespace(""), "cockTotal")
+   pushbyte            1
+   initproperty        QName(PackageNamespace(""), "cockTotal")
+
+   debugline           4609
+   findproperty        QName(PackageNamespace(""), "cockMoist")
+   pushbyte            1
+   initproperty        QName(PackageNamespace(""), "cockMoist")
+
+   debugline           4610
+   findproperty        QName(PackageNamespace(""), "pregArray")
+   pushfalse
+   pushbyte            0
+   dup
+   dup
+   pushbyte            0
+   newarray            5
+   initproperty        QName(PackageNamespace(""), "pregArray")
+
+   debugline           4611
+   findproperty        QName(PackageNamespace(""), "vagTotal")
+   pushbyte            1
+   initproperty        QName(PackageNamespace(""), "vagTotal")
+
+   debugline           4612
+   findproperty        QName(PackageNamespace(""), "vagMoist")
+   pushbyte            1
+   initproperty        QName(PackageNamespace(""), "vagMoist")
+
+   debugline           4613
+   findproperty        QName(PackageNamespace(""), "vagSize")
+   pushbyte            8
+   initproperty        QName(PackageNamespace(""), "vagSize")
+
+   debugline           4614
+   findproperty        QName(PackageNamespace(""), "vulvaSize")
+   pushbyte            3
+   initproperty        QName(PackageNamespace(""), "vulvaSize")
+
+   debugline           4615
+   getlex              QName(PackageNamespace(""), "dominant")
+   pushbyte            1
+   ifne                L207
+
+   findproperty        QName(PackageNamespace(""), "humanCocks")
+   pushbyte            1
+   initproperty        QName(PackageNamespace(""), "humanCocks")
+
+L207:
+   debugline           4616
+   getlex              QName(PackageNamespace(""), "dominant")
+   pushbyte            2
+   ifne                L214
+
+   findproperty        QName(PackageNamespace(""), "horseCocks")
+   pushbyte            1
+   initproperty        QName(PackageNamespace(""), "horseCocks")
+
+L214:
+   debugline           4617
+   getlex              QName(PackageNamespace(""), "dominant")
+   pushbyte            3
+   ifne                L221
+
+   findproperty        QName(PackageNamespace(""), "wolfCocks")
+   pushbyte            1
+   initproperty        QName(PackageNamespace(""), "wolfCocks")
+
+L221:
+   debugline           4618
+   getlex              QName(PackageNamespace(""), "dominant")
+   pushbyte            4
+   ifne                L228
+
+   findproperty        QName(PackageNamespace(""), "catCocks")
+   pushbyte            1
+   initproperty        QName(PackageNamespace(""), "catCocks")
+
+L228:
+   debugline           4619
+   getlex              QName(PackageNamespace(""), "dominant")
+   pushbyte            6
+   ifne                L248
+
+   debugline           4620
+   findproperty        QName(PackageNamespace(""), "lizardCocks")
+   pushbyte            2
+   initproperty        QName(PackageNamespace(""), "lizardCocks")
+
+   debugline           4621
+   findpropstrict      QName(PackageNamespace(""), "cockTotal")
+   dup
+   setlocal1
+
+   getproperty         QName(PackageNamespace(""), "cockTotal")
+   increment_i
+   setlocal2
+
+   getlocal1
+   getlocal2
+   setproperty         QName(PackageNamespace(""), "cockTotal")
+
+   kill                2
+   kill                1
+L248:
+   debugline           4623
+   findpropstrict      QName(PackageNamespace(""), "libido")
+   dup
+   setlocal1
+
+   getproperty         QName(PackageNamespace(""), "libido")
+   increment_i
+   setlocal2
+
+   getlocal1
+   getlocal2
+   setproperty         QName(PackageNamespace(""), "libido")
+
+   kill                2
+   kill                1
+L260:
+   debugline           4625
+   findpropstrict      QName(PackageNamespace(""), "bodyType")
+   callpropvoid        QName(PackageNamespace(""), "bodyType"), 0
+
+   debugline           4626
+   returnvoid
+  end ; code
+ end ; body
+end ; method

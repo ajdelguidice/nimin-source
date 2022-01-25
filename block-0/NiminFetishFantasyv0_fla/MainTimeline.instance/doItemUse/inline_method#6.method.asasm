@@ -1,0 +1,90 @@
+method
+ name ""
+ refid "NiminFetishFantasyv0_fla:MainTimeline/instance/doItemUse/inline_method#6"
+ returns QName(PackageNamespace(""), "void")
+ body
+  maxstack 3
+  localcount 1
+  initscopedepth 11
+  maxscopedepth 11
+  code
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           6929
+   getlex              QName(PackageNamespace(""), "buttonChoice")
+   pushbyte            5
+   ifne                L32
+
+   debugline           6930
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "You pour out the vial of poison and rub the pearlescant fluid all over your "
+   findpropstrict      QName(PackageNamespace(""), "boobDesc")
+   callproperty        QName(PackageNamespace(""), "boobDesc"), 0
+   add
+   pushstring          " breasts. You shiver a little as they tingle, a subtle warmth permeating your bosom as the poison sets in and remains."
+   add
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           6931
+   findproperty        QName(PackageNamespace(""), "milkCPoisonNip")
+   getlex              QName(PackageNamespace(""), "milkCPoisonNip")
+   pushbyte            5
+   add
+   initproperty        QName(PackageNamespace(""), "milkCPoisonNip")
+
+   debugline           6932
+   findpropstrict      QName(PackageNamespace(""), "doLust")
+   findpropstrict      QName(PackageNamespace(""), "percent")
+   callproperty        QName(PackageNamespace(""), "percent"), 0
+   pushbyte            10
+   divide
+   pushbyte            0
+   callpropvoid        QName(PackageNamespace(""), "doLust"), 2
+
+   debugline           6933
+   findpropstrict      QName(PackageNamespace(""), "doEnd")
+   callpropvoid        QName(PackageNamespace(""), "doEnd"), 0
+
+L32:
+   debugline           6935
+   getlex              QName(PackageNamespace(""), "buttonChoice")
+   pushbyte            7
+   ifne                L63
+
+   debugline           6936
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "You pour out the vial of poison and rub the pearlescant fluid all over your "
+   findpropstrict      QName(PackageNamespace(""), "udderDesc")
+   callproperty        QName(PackageNamespace(""), "udderDesc"), 0
+   add
+   pushstring          " udder. Your hips twitch a little as the fleshy bag tingles, a subtle warmth permeating your udder as the poison sets in and remains."
+   add
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           6937
+   findproperty        QName(PackageNamespace(""), "milkCPoisonUdd")
+   getlex              QName(PackageNamespace(""), "milkCPoisonUdd")
+   pushbyte            5
+   add
+   initproperty        QName(PackageNamespace(""), "milkCPoisonUdd")
+
+   debugline           6938
+   findpropstrict      QName(PackageNamespace(""), "doLust")
+   findpropstrict      QName(PackageNamespace(""), "percent")
+   callproperty        QName(PackageNamespace(""), "percent"), 0
+   pushbyte            10
+   divide
+   pushbyte            0
+   callpropvoid        QName(PackageNamespace(""), "doLust"), 2
+
+   debugline           6939
+   findpropstrict      QName(PackageNamespace(""), "doEnd")
+   callpropvoid        QName(PackageNamespace(""), "doEnd"), 0
+
+L63:
+   debugline           6941
+   returnvoid
+  end ; code
+ end ; body
+end ; method

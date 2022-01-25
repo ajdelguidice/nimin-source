@@ -1,0 +1,47 @@
+method
+ name ""
+ refid "NiminFetishFantasyv0_fla:MainTimeline/instance/doFirmshaft/inline_method#18"
+ returns QName(PackageNamespace(""), "void")
+ flag NEED_ACTIVATION
+ body
+  maxstack 4
+  localcount 2
+  initscopedepth 14
+  maxscopedepth 15
+  code
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           13879
+   newactivation
+   dup
+   setlocal1
+
+   pushscope
+
+   debug               1, "anonymous$134", 0, 13879
+   debugline           13880
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "Grabbing the boy's package, you pull it all through his legs. You yank his testicles until his scrotum stretches to his rump, the orbs nestling below it like another pair of cheeks. Then, to ensure they don't snap back, you pull the erection through his thighs as well, locking it up against his crotch as you push his legs back together. The tautness in the skirt shifts with the manuever, making him appear far girlier from the front as the skirt lays flat against his dainty figure. Of course, his backside looks far more masculine with the thick sausage wedged against his thighs down past his knees with the orbs looking like a second rump beneath the skirt, but that's fine. You're able to conceal it mostly by stepping up behind him, at which point you begin to push him out of his tent.\r\r\"Wait! No! Don't!\" His cries go unheeded and immediately stop as he is pushed outside.\r\rThe boy stands there silently, trying not to draw any attention. His thighs clench around his genitals, desparately trying to prevent them from popping out. After several moments, he begins to realize that nobody is giving him a second thought as they pass by. With his monster tucked behind him, nobody is the wiser. They simply regard him as some flat-chested girl, not particularly ugly or pretty, maybe even a little cute...\r\rAs you feel him relax in front of you, you resume pushing him from behind. A little awkward and resistant at first, he stumbles while trying to keep things hidden. Quickly enough, however, he starts to learn how to walk with his thighs shut, giving him a rather exaggerated feminine swing to his hips. He even begins to break away from your pushing, taking the lead in having a nice stroll around the town. You remain close, of course, to ensure nobody sees the throbbing thing that pokes out behind him, especially as it seems to grow stiffer, the veins bulging from the slightly restricted bloodflow from his clamped thighs. It gets even more difficult to cover him as gobs of pre begin to leak out from the tip, spilling over your "
+   findpropstrict      QName(PackageNamespace(""), "legDesc")
+   pushbyte            10
+   callproperty        QName(PackageNamespace(""), "legDesc"), 1
+   add
+   pushstring          " and making the ground mildly slick.\r\rThe boy is obviously becoming more and more aroused, the reddening cock beginning to buck with his pulse from becoming so sensitive. His thighs squeeze the base of the shaft more, his hips gently thrusting to pull the rod through the tight space between his legs. With each step, he practically humps his own legs, pre dribbling from the tip in large wads while he sighs and moans. His pace slows the further he goes, his tail twitching and tickling the underside of the monster, his whole body jerking as it tries to maintain its composure. Just as he's about to stop, unable to press on any further, you step out and push him, immediately turning his back up against the canvas wall of the nearest tent.\r\rYou watch as his eyes flutter up into his head, a meek moan echoing out of his mouth. The lewd sound of wet splattering is quite audible and you take caution to cover it up from the public. Thick jet after thick jet of pearly warm whiteness launches from behind his legs, smattering the canvas as well as the back of his legs and over his ankles. The cock is oh so red from the built up blood within, so stiff and veiny that it's almost difficult to tell which bulge the hot spunk is pulsing out from. If you weren't actively keeping his legs closed as you stand before him, that thing would have likely broken through and spewed all over some unsuspecting citizens. Even as it is, the thing takes nearly a full minute to finish unloading its seed, the testicles bouncing against his ass as they throb while the rod bobs on its own accord. For an ejaculation without touching the most sensitive locations, it sure does have a good deal of pressure to it."
+   add
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           13881
+   findpropstrict      QName(PackageNamespace(""), "doNext")
+   callpropvoid        QName(PackageNamespace(""), "doNext"), 0
+
+   debugline           13882
+   findproperty        QName(PackageNamespace(""), "doListen")
+   newfunction         "NiminFetishFantasyv0_fla:MainTimeline/instance/doFirmshaft/inline_method#17"
+   initproperty        QName(PackageNamespace(""), "doListen")
+
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           13889
+   returnvoid
+  end ; code
+ end ; body
+end ; method
