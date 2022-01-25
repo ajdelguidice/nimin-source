@@ -1,0 +1,495 @@
+method
+ name ""
+ refid "NiminFetishFantasyv0_fla:MainTimeline/instance/doRace/inline_method"
+ returns QName(PackageNamespace(""), "void")
+ body
+  maxstack 3
+  localcount 3
+  initscopedepth 11
+  maxscopedepth 11
+  code
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           4461
+   findproperty        QName(PackageNamespace(""), "boobTotal")
+   pushbyte            2
+   initproperty        QName(PackageNamespace(""), "boobTotal")
+
+   debugline           4462
+   getlex              QName(PackageNamespace(""), "buttonChoice")
+   pushbyte            6
+   ifne                L66
+
+   debugline           4463
+   findproperty        QName(PackageNamespace(""), "race")
+   pushbyte            1
+   initproperty        QName(PackageNamespace(""), "race")
+
+   debugline           4464
+   findproperty        QName(PackageNamespace(""), "changeMod")
+   getlex              QName(PackageNamespace(""), "changeMod")
+   pushdouble          0.5
+   add
+   initproperty        QName(PackageNamespace(""), "changeMod")
+
+   debugline           4465
+   findproperty        QName(PackageNamespace(""), "currentZone")
+   pushbyte            1
+   initproperty        QName(PackageNamespace(""), "currentZone")
+
+   debugline           4466
+   findproperty        QName(PackageNamespace(""), "foundSoftlik")
+   pushtrue
+   initproperty        QName(PackageNamespace(""), "foundSoftlik")
+
+   debugline           4467
+   findproperty        QName(PackageNamespace(""), "humanAffinity")
+   pushbyte            50
+   initproperty        QName(PackageNamespace(""), "humanAffinity")
+
+   debugline           4469
+   findproperty        QName(PackageNamespace(""), "dominant")
+   pushbyte            1
+   initproperty        QName(PackageNamespace(""), "dominant")
+
+   debugline           4470
+   findproperty        QName(PackageNamespace(""), "ears")
+   pushbyte            1
+   initproperty        QName(PackageNamespace(""), "ears")
+
+   debugline           4471
+   findproperty        QName(PackageNamespace(""), "skinType")
+   pushbyte            1
+   initproperty        QName(PackageNamespace(""), "skinType")
+
+   debugline           4472
+   findproperty        QName(PackageNamespace(""), "faceType")
+   pushbyte            10
+   initproperty        QName(PackageNamespace(""), "faceType")
+
+   debugline           4473
+   findproperty        QName(PackageNamespace(""), "strength")
+   pushbyte            15
+   initproperty        QName(PackageNamespace(""), "strength")
+
+   debugline           4474
+   findproperty        QName(PackageNamespace(""), "mentality")
+   pushbyte            17
+   initproperty        QName(PackageNamespace(""), "mentality")
+
+   debugline           4475
+   findproperty        QName(PackageNamespace(""), "libido")
+   pushbyte            15
+   initproperty        QName(PackageNamespace(""), "libido")
+
+   debugline           4476
+   findproperty        QName(PackageNamespace(""), "sensitivity")
+   pushbyte            17
+   initproperty        QName(PackageNamespace(""), "sensitivity")
+
+   debugline           4477
+   findpropstrict      QName(PackageNamespace(""), "doGender")
+   callpropvoid        QName(PackageNamespace(""), "doGender"), 0
+
+L66:
+   debugline           4479
+   getlex              QName(PackageNamespace(""), "buttonChoice")
+   pushbyte            1
+   ifne                L143
+
+   debugline           4480
+   findproperty        QName(PackageNamespace(""), "race")
+   pushbyte            2
+   initproperty        QName(PackageNamespace(""), "race")
+
+   debugline           4481
+   findproperty        QName(PackageNamespace(""), "foundFirmshaft")
+   pushtrue
+   initproperty        QName(PackageNamespace(""), "foundFirmshaft")
+
+   debugline           4482
+   findproperty        QName(PackageNamespace(""), "currentZone")
+   pushbyte            2
+   initproperty        QName(PackageNamespace(""), "currentZone")
+
+   debugline           4483
+   findproperty        QName(PackageNamespace(""), "horseAffinity")
+   pushbyte            50
+   initproperty        QName(PackageNamespace(""), "horseAffinity")
+
+   debugline           4484
+   findproperty        QName(PackageNamespace(""), "cockSizeMod")
+   getlex              QName(PackageNamespace(""), "cockSizeMod")
+   pushbyte            1
+   add
+   initproperty        QName(PackageNamespace(""), "cockSizeMod")
+
+   debugline           4485
+   findproperty        QName(PackageNamespace(""), "vagSizeMod")
+   getlex              QName(PackageNamespace(""), "vagSizeMod")
+   pushbyte            1
+   add
+   initproperty        QName(PackageNamespace(""), "vagSizeMod")
+
+   debugline           4486
+   findproperty        QName(PackageNamespace(""), "dominant")
+   pushbyte            2
+   initproperty        QName(PackageNamespace(""), "dominant")
+
+   debugline           4487
+   findproperty        QName(PackageNamespace(""), "tail")
+   pushbyte            2
+   initproperty        QName(PackageNamespace(""), "tail")
+
+   debugline           4488
+   findproperty        QName(PackageNamespace(""), "ears")
+   pushbyte            2
+   initproperty        QName(PackageNamespace(""), "ears")
+
+   debugline           4489
+   findproperty        QName(PackageNamespace(""), "skinType")
+   pushbyte            2
+   initproperty        QName(PackageNamespace(""), "skinType")
+
+   debugline           4490
+   findproperty        QName(PackageNamespace(""), "faceType")
+   pushbyte            20
+   initproperty        QName(PackageNamespace(""), "faceType")
+
+   debugline           4491
+   findproperty        QName(PackageNamespace(""), "strength")
+   pushbyte            17
+   initproperty        QName(PackageNamespace(""), "strength")
+
+   debugline           4492
+   findproperty        QName(PackageNamespace(""), "mentality")
+   pushbyte            15
+   initproperty        QName(PackageNamespace(""), "mentality")
+
+   debugline           4493
+   findproperty        QName(PackageNamespace(""), "libido")
+   pushbyte            17
+   initproperty        QName(PackageNamespace(""), "libido")
+
+   debugline           4494
+   findproperty        QName(PackageNamespace(""), "sensitivity")
+   pushbyte            15
+   initproperty        QName(PackageNamespace(""), "sensitivity")
+
+   debugline           4495
+   findproperty        QName(PackageNamespace(""), "tallness")
+   getlex              QName(PackageNamespace(""), "tallness")
+   pushbyte            4
+   add
+   initproperty        QName(PackageNamespace(""), "tallness")
+
+   debugline           4496
+   findpropstrict      QName(PackageNamespace(""), "doGender")
+   callpropvoid        QName(PackageNamespace(""), "doGender"), 0
+
+L143:
+   debugline           4498
+   getlex              QName(PackageNamespace(""), "buttonChoice")
+   pushbyte            3
+   ifne                L216
+
+   debugline           4499
+   findproperty        QName(PackageNamespace(""), "race")
+   pushbyte            3
+   initproperty        QName(PackageNamespace(""), "race")
+
+   debugline           4500
+   findproperty        QName(PackageNamespace(""), "foundTieden")
+   pushtrue
+   initproperty        QName(PackageNamespace(""), "foundTieden")
+
+   debugline           4501
+   findproperty        QName(PackageNamespace(""), "currentZone")
+   pushbyte            3
+   initproperty        QName(PackageNamespace(""), "currentZone")
+
+   debugline           4502
+   findproperty        QName(PackageNamespace(""), "wolfAffinity")
+   pushbyte            50
+   initproperty        QName(PackageNamespace(""), "wolfAffinity")
+
+   debugline           4503
+   findproperty        QName(PackageNamespace(""), "knot")
+   pushtrue
+   initproperty        QName(PackageNamespace(""), "knot")
+
+   debugline           4504
+   findproperty        QName(PackageNamespace(""), "boobTotal")
+   pushbyte            6
+   initproperty        QName(PackageNamespace(""), "boobTotal")
+
+   debugline           4505
+   findproperty        QName(PackageNamespace(""), "dominant")
+   pushbyte            3
+   initproperty        QName(PackageNamespace(""), "dominant")
+
+   debugline           4506
+   findproperty        QName(PackageNamespace(""), "tail")
+   pushbyte            3
+   initproperty        QName(PackageNamespace(""), "tail")
+
+   debugline           4507
+   findproperty        QName(PackageNamespace(""), "ears")
+   pushbyte            3
+   initproperty        QName(PackageNamespace(""), "ears")
+
+   debugline           4508
+   findproperty        QName(PackageNamespace(""), "skinType")
+   pushbyte            2
+   initproperty        QName(PackageNamespace(""), "skinType")
+
+   debugline           4509
+   findproperty        QName(PackageNamespace(""), "faceType")
+   pushbyte            30
+   initproperty        QName(PackageNamespace(""), "faceType")
+
+   debugline           4510
+   findproperty        QName(PackageNamespace(""), "strength")
+   pushbyte            17
+   initproperty        QName(PackageNamespace(""), "strength")
+
+   debugline           4511
+   findproperty        QName(PackageNamespace(""), "mentality")
+   pushbyte            17
+   initproperty        QName(PackageNamespace(""), "mentality")
+
+   debugline           4512
+   findproperty        QName(PackageNamespace(""), "libido")
+   pushbyte            15
+   initproperty        QName(PackageNamespace(""), "libido")
+
+   debugline           4513
+   findproperty        QName(PackageNamespace(""), "sensitivity")
+   pushbyte            15
+   initproperty        QName(PackageNamespace(""), "sensitivity")
+
+   debugline           4514
+   findproperty        QName(PackageNamespace(""), "tallness")
+   getlex              QName(PackageNamespace(""), "tallness")
+   pushbyte            -2
+   add
+   initproperty        QName(PackageNamespace(""), "tallness")
+
+   debugline           4515
+   findpropstrict      QName(PackageNamespace(""), "doGender")
+   callpropvoid        QName(PackageNamespace(""), "doGender"), 0
+
+L216:
+   debugline           4517
+   getlex              QName(PackageNamespace(""), "buttonChoice")
+   pushbyte            9
+   ifne                L305
+
+   debugline           4518
+   findproperty        QName(PackageNamespace(""), "race")
+   pushbyte            4
+   initproperty        QName(PackageNamespace(""), "race")
+
+   debugline           4519
+   findproperty        QName(PackageNamespace(""), "foundSizCalit")
+   pushtrue
+   initproperty        QName(PackageNamespace(""), "foundSizCalit")
+
+   debugline           4520
+   findproperty        QName(PackageNamespace(""), "currentZone")
+   pushbyte            4
+   initproperty        QName(PackageNamespace(""), "currentZone")
+
+   debugline           4521
+   findproperty        QName(PackageNamespace(""), "catAffinity")
+   pushbyte            50
+   initproperty        QName(PackageNamespace(""), "catAffinity")
+
+   debugline           4522
+   findproperty        QName(PackageNamespace(""), "dominant")
+   pushbyte            4
+   initproperty        QName(PackageNamespace(""), "dominant")
+
+   debugline           4523
+   findpropstrict      QName(PackageNamespace(""), "heat")
+   dup
+   setlocal1
+
+   getproperty         QName(PackageNamespace(""), "heat")
+   increment_i
+   setlocal2
+
+   getlocal1
+   getlocal2
+   setproperty         QName(PackageNamespace(""), "heat")
+
+   kill                2
+   kill                1
+   debugline           4524
+   findproperty        QName(PackageNamespace(""), "heatMaxTime")
+   pushbyte            96
+   initproperty        QName(PackageNamespace(""), "heatMaxTime")
+
+   debugline           4525
+   findproperty        QName(PackageNamespace(""), "heatTime")
+   pushbyte            96
+   initproperty        QName(PackageNamespace(""), "heatTime")
+
+   debugline           4526
+   findproperty        QName(PackageNamespace(""), "boobTotal")
+   pushbyte            6
+   initproperty        QName(PackageNamespace(""), "boobTotal")
+
+   debugline           4527
+   findproperty        QName(PackageNamespace(""), "tail")
+   pushbyte            4
+   initproperty        QName(PackageNamespace(""), "tail")
+
+   debugline           4528
+   findproperty        QName(PackageNamespace(""), "ears")
+   pushbyte            4
+   initproperty        QName(PackageNamespace(""), "ears")
+
+   debugline           4529
+   findproperty        QName(PackageNamespace(""), "skinType")
+   pushbyte            2
+   initproperty        QName(PackageNamespace(""), "skinType")
+
+   debugline           4530
+   findproperty        QName(PackageNamespace(""), "faceType")
+   pushbyte            40
+   initproperty        QName(PackageNamespace(""), "faceType")
+
+   debugline           4531
+   findproperty        QName(PackageNamespace(""), "strength")
+   pushbyte            15
+   initproperty        QName(PackageNamespace(""), "strength")
+
+   debugline           4532
+   findproperty        QName(PackageNamespace(""), "mentality")
+   pushbyte            15
+   initproperty        QName(PackageNamespace(""), "mentality")
+
+   debugline           4533
+   findproperty        QName(PackageNamespace(""), "libido")
+   pushbyte            17
+   initproperty        QName(PackageNamespace(""), "libido")
+
+   debugline           4534
+   findproperty        QName(PackageNamespace(""), "sensitivity")
+   pushbyte            17
+   initproperty        QName(PackageNamespace(""), "sensitivity")
+
+   debugline           4535
+   findproperty        QName(PackageNamespace(""), "tallness")
+   getlex              QName(PackageNamespace(""), "tallness")
+   pushbyte            -3
+   add
+   initproperty        QName(PackageNamespace(""), "tallness")
+
+   debugline           4536
+   findpropstrict      QName(PackageNamespace(""), "doGender")
+   callpropvoid        QName(PackageNamespace(""), "doGender"), 0
+
+L305:
+   debugline           4538
+   getlex              QName(PackageNamespace(""), "buttonChoice")
+   pushbyte            11
+   ifne                L382
+
+   debugline           4539
+   findproperty        QName(PackageNamespace(""), "race")
+   pushbyte            6
+   initproperty        QName(PackageNamespace(""), "race")
+
+   debugline           4540
+   findproperty        QName(PackageNamespace(""), "foundOviasis")
+   pushtrue
+   initproperty        QName(PackageNamespace(""), "foundOviasis")
+
+   debugline           4541
+   findproperty        QName(PackageNamespace(""), "currentZone")
+   pushbyte            6
+   initproperty        QName(PackageNamespace(""), "currentZone")
+
+   debugline           4542
+   findproperty        QName(PackageNamespace(""), "lizardAffinity")
+   pushbyte            50
+   initproperty        QName(PackageNamespace(""), "lizardAffinity")
+
+   debugline           4543
+   findproperty        QName(PackageNamespace(""), "dominant")
+   pushbyte            6
+   initproperty        QName(PackageNamespace(""), "dominant")
+
+   debugline           4544
+   findproperty        QName(PackageNamespace(""), "eggLaying")
+   pushbyte            1
+   initproperty        QName(PackageNamespace(""), "eggLaying")
+
+   debugline           4545
+   findproperty        QName(PackageNamespace(""), "eggTime")
+   pushbyte            36
+   initproperty        QName(PackageNamespace(""), "eggTime")
+
+   debugline           4546
+   findproperty        QName(PackageNamespace(""), "eggMaxTime")
+   pushbyte            36
+   initproperty        QName(PackageNamespace(""), "eggMaxTime")
+
+   debugline           4547
+   findproperty        QName(PackageNamespace(""), "tail")
+   pushbyte            6
+   initproperty        QName(PackageNamespace(""), "tail")
+
+   debugline           4548
+   findproperty        QName(PackageNamespace(""), "ears")
+   pushbyte            6
+   initproperty        QName(PackageNamespace(""), "ears")
+
+   debugline           4549
+   findproperty        QName(PackageNamespace(""), "skinType")
+   pushbyte            3
+   initproperty        QName(PackageNamespace(""), "skinType")
+
+   debugline           4550
+   findproperty        QName(PackageNamespace(""), "faceType")
+   pushbyte            60
+   initproperty        QName(PackageNamespace(""), "faceType")
+
+   debugline           4551
+   findproperty        QName(PackageNamespace(""), "strength")
+   pushbyte            17
+   initproperty        QName(PackageNamespace(""), "strength")
+
+   debugline           4552
+   findproperty        QName(PackageNamespace(""), "mentality")
+   pushbyte            16
+   initproperty        QName(PackageNamespace(""), "mentality")
+
+   debugline           4553
+   findproperty        QName(PackageNamespace(""), "libido")
+   pushbyte            15
+   initproperty        QName(PackageNamespace(""), "libido")
+
+   debugline           4554
+   findproperty        QName(PackageNamespace(""), "sensitivity")
+   pushbyte            16
+   initproperty        QName(PackageNamespace(""), "sensitivity")
+
+   debugline           4555
+   findproperty        QName(PackageNamespace(""), "tallness")
+   getlex              QName(PackageNamespace(""), "tallness")
+   pushbyte            2
+   add
+   initproperty        QName(PackageNamespace(""), "tallness")
+
+   debugline           4556
+   findpropstrict      QName(PackageNamespace(""), "doGender")
+   callpropvoid        QName(PackageNamespace(""), "doGender"), 0
+
+L382:
+   debugline           4558
+   returnvoid
+  end ; code
+ end ; body
+end ; method

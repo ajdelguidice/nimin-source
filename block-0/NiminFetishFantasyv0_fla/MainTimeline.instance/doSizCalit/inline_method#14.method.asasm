@@ -1,0 +1,73 @@
+method
+ name ""
+ refid "NiminFetishFantasyv0_fla:MainTimeline/instance/doSizCalit/inline_method#14"
+ returns QName(PackageNamespace(""), "void")
+ flag NEED_ACTIVATION
+ body
+  maxstack 4
+  localcount 2
+  initscopedepth 13
+  maxscopedepth 14
+  code
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           14918
+   newactivation
+   dup
+   setlocal1
+
+   pushscope
+
+   debug               1, "anonymous$166", 0, 14918
+   debugline           14919
+   getlex              QName(PackageNamespace(""), "buttonChoice")
+   pushbyte            6
+   ifne                L30
+
+   debugline           14920
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "Telling the small girl everything will be alright, you motion for her to give you better access to the troublesome area. With a sheepish nod and hiked-up dress in hand, she turns away from you and bends forward, leaning against the wall. Her naked swollen belly bulges below her and quivers slightly as the new position yanks the invader from her loins ever so slightly, making another gob of slick fluid pulse out before your eyes and slowly descend down the back of her legs. The slim back can hardly remain straight as you inspect her, the spine gently curving from one side to the other to balance with the exposed stub of twitching tail at the end. The lithe appendage is thoroughly wedged between the cheeks of her small rump, its length only visible due to the way she has presented herself to you, down until it disappears into the stretched and swollen hungry lips of her slit.\r\rRealizing you're staring far more than helping, you quickly regain your wits and kneel down behind her. She mewls and gasps quietly as your fingers begin to dance around her backside, slowly slipping deeper and deeper between her cheeks, digging under the snugly-packed tail. 'Slipping' being the key word, as all the slimy arousal about her rear easily lubricates your efforts. Once underneath, you slide your hand down through the crevice, until you touch the sensitive flesh.\r\rA much louder, warbling mewl escapes her lips as you try to pull. Naughty spurts of her juices squirt about, followed by a prompt clamping of her inner passage that halts your progress. You pause for a moment as she huffs for air. Once she seems calm enough and you feel her hot vulva relax behind your hand, you attempt to pull once more.\r\rMore mess, more erotic mewls, and near-instant contraction of her vaginal muscles. Pause, wait for her to soften up, try again. Tug after tug, climax after climax, the girl whines and cries in ecstasy and embarassment, her little claws digging into the wall. And after a couple minutes of the process, you have managed to pull out... hardly two inches of the tail...\r\rTaking far too long with Lila rapidly growing exhausted over the ordeal, you prepare yourself for a more effective meneuver. You adjust your "
+   findpropstrict      QName(PackageNamespace(""), "legDesc")
+   pushbyte            6
+   callproperty        QName(PackageNamespace(""), "legDesc"), 1
+   add
+   pushstring          " to anchor yourself in the growing puddle of slick liquids. You adjust your posture for more stability. You firmly grab one of her tight cheeks with your other hand. And as she moans with that sensation, your working hand immediately slides down the length of her tail, yanking it out all in one go!\r\r\"MeeaAUUUUNGH!\" She nearly screeches with a surprised and orgasmic shout, her ears pinning back at her own voice, as the remaining length of her slender tail rushes out of her pussy. Her inner walls squeeze with all their might, but between your swift and powerful pull and her plentiful fluids, they have no chance, leaving her to endure the entire sensation at once.\r\rThe tail whips out of her hole with a squishy pop, flinging thick ribbons of feminine satisfaction everywhere. You can barely tell her belly has deflated back to its original shape before Lila's go limp and she collapses into her puddle with a splash. Claws still stuck in the wooden wall with dress pinned in between from holding it, the rest of her body is stripped nude in the fall and she winds up leaning into the wall, her face and upper breasts pressing against it while her spread thighs twitch limply in the slime, her sex still easily visible and gaping with a steady drool..."
+   add
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           14921
+   findpropstrict      QName(PackageNamespace(""), "doNext")
+   callpropvoid        QName(PackageNamespace(""), "doNext"), 0
+
+   debugline           14922
+   findproperty        QName(PackageNamespace(""), "doListen")
+   newfunction         "NiminFetishFantasyv0_fla:MainTimeline/instance/doSizCalit/inline_method#13"
+   initproperty        QName(PackageNamespace(""), "doListen")
+
+   jump                L45
+
+L30:
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           14931
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "Not being something you think you should be doing, you caringly tell her that she should probably get someone else to help her, such as her mother.\r\rLila reddens further, her knees squirming as she realizes she has exposed herself to you a little too abruptly. \"O-Okay, that's a good idea. Thanks...\"\r\rShe awkwardly drops her dress and shuffles out of the hut. You look out and watch her to make sure she can get home alright. Still stumbling about, unbalanced without her tail to help her and having difficulty with... well, her small sensitive pussy stretched, stuffed, and wholly aroused. So aroused, in fact, that you nearly jump out as you see her fall against the ropes of the canopy bridge, but restrain yourself as you see and hear a splatter of juices fall below her accompanied by a poorly-muffled moan. She twitches for a bit with the minor orgasm, but is quick to right herself and pretend like nothing happened, only to hasten her pace home before she has another 'mishap'. Knowing she'll be fine, you return to your own shenanigans."
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           14932
+   findproperty        QName(PackageNamespace(""), "hrs")
+   getlex              QName(PackageNamespace(""), "hrs")
+   pushbyte            1
+   add
+   initproperty        QName(PackageNamespace(""), "hrs")
+
+   debugline           14933
+   findpropstrict      QName(PackageNamespace(""), "doEnd")
+   callpropvoid        QName(PackageNamespace(""), "doEnd"), 0
+
+L45:
+   debugline           14935
+   returnvoid
+  end ; code
+ end ; body
+end ; method

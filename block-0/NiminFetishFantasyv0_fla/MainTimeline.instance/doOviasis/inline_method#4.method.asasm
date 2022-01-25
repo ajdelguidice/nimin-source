@@ -1,0 +1,236 @@
+method
+ name ""
+ refid "NiminFetishFantasyv0_fla:MainTimeline/instance/doOviasis/inline_method#4"
+ returns QName(PackageNamespace(""), "void")
+ body
+  maxstack 5
+  localcount 1
+  initscopedepth 11
+  maxscopedepth 11
+  code
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           15805
+   getlex              QName(PackageNamespace(""), "buttonChoice")
+   pushbyte            6
+   ifne                L110
+
+   debugline           15806
+   getlex              QName(PackageNamespace(""), "ment")
+   pushbyte            10
+   ifnle               L30
+
+   debugline           15807
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "You nod and derp, picking up the bowl of oils and splashing it across her back. Then you fall down onto her, wiggling like an idiot and using your front to splash and \"massage\" the oil into her scales. The woman jerks in shock, rolling out from under you, her breasts bobbing around and sparkling from the sand, as she slaps you for your rough treatment.\r\r\"Get away from me!\", she says with an annoyed tone. \"I'll get someone else to help. You creep!\"\r\rShe stares you down and waits for you to leave before rolling back onto the sand, awkwardly trying to clean up the mess you made on her back..."
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           15808
+   findpropstrict      QName(PackageNamespace(""), "doHP")
+   pushbyte            -3
+   callpropvoid        QName(PackageNamespace(""), "doHP"), 1
+
+   debugline           15809
+   findpropstrict      QName(PackageNamespace(""), "stats")
+   pushbyte            0
+   pushbyte            -1
+   pushbyte            0
+   dup
+   callpropvoid        QName(PackageNamespace(""), "stats"), 4
+
+   debugline           15810
+   findproperty        QName(PackageNamespace(""), "hrs")
+   pushbyte            2
+   initproperty        QName(PackageNamespace(""), "hrs")
+
+   jump                L106
+
+L30:
+   debugline           15812
+   getlex              QName(PackageNamespace(""), "ment")
+   pushbyte            40
+   ifnle               L51
+
+   debugline           15813
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "You nod and kneel down, splashing your hands around in the bowl to get them nice and drippy with oil. Then you press them onto her back, smearing them around haphazardly, trying to coat her the best you can. Your lack of finesse makes her eye you curiously for a bit, but she shrugs as you're getting the job done. Quite soon she's as shiny as the rest of them.\r\r\"Thank you for the help,\" she smiles and nods at you. Then she dozes off into another nap, content, allowing you to go off on your own again."
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           15814
+   findpropstrict      QName(PackageNamespace(""), "stats")
+   pushbyte            0
+   pushbyte            1
+   pushbyte            0
+   dup
+   callpropvoid        QName(PackageNamespace(""), "stats"), 4
+
+   debugline           15815
+   findproperty        QName(PackageNamespace(""), "hrs")
+   pushbyte            2
+   initproperty        QName(PackageNamespace(""), "hrs")
+
+   jump                L106
+
+L51:
+   debugline           15817
+   getlex              QName(PackageNamespace(""), "ment")
+   pushbyte            80
+   ifnle               L74
+
+   debugline           15818
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "You nod and kneel down beside her, picking up the bowl and drizzling the oil down her spine. She shivers a little from the sensation and croons as your hands come down to press it into her scales, gently pushing it around and kneading her muscles carefully. She squirms a little as you hit her tense areas, obviously enjoying the massage you're giving her. Even her tail whips around a bit as you coat it, exposing her supple genitals for a moment as she accidentally flashes you.\r\rSoon, she's quite coated and relaxed from your efforts. She thanks you for the pleasant experience and insists you take a vial of the oil with you, at least as compensation."
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           15819
+   findpropstrict      QName(PackageNamespace(""), "doLust")
+   pushbyte            6
+   pushbyte            0
+   callpropvoid        QName(PackageNamespace(""), "doLust"), 2
+
+   debugline           15820
+   findpropstrict      QName(PackageNamespace(""), "itemAdd")
+   pushshort           228
+   callpropvoid        QName(PackageNamespace(""), "itemAdd"), 1
+
+   debugline           15821
+   findproperty        QName(PackageNamespace(""), "hrs")
+   pushbyte            3
+   initproperty        QName(PackageNamespace(""), "hrs")
+
+   jump                L106
+
+L74:
+   debugline           15824
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "You nod with a smile and straddle her rump as you kneel down, making sure to stay slightly aloft so as to not put any weight on her. You pick up the bowl and drizzle the oil down her spine, then press into it with your hands and spread it out across her body. Using your weight for more pressure, you deeply massage all of her muscles as you knead into her soft scales, making her moan softly from the tender treatment. You can feel her tail beging to flick beneath your "
+   findpropstrict      QName(PackageNamespace(""), "buttDesc")
+   callproperty        QName(PackageNamespace(""), "buttDesc"), 0
+   add
+   pushstring          " rump as you make your way down to the small of her back, until you trap it as you shuffle back to sit over her knees.\r\rHer tight tush tenses a bit as you gently brush the oil over it, but quickly relaxes as you grab and gently squeeze it. You softly grind into it, making her tail spasm beneath you until it eventually pulls out from under you as you begin to work at its base. You can see the blush in her face as she realizes she has unconsciously flashed you, her supple lips squished between her thighs below her tail. You can see a few sparkles from the dew that's collecting on them, your efforts being a little too pleasant. However, she doesn't seem to try to cover herself and after a moment of your working at her tail, massaging from the tip to the base, she spreads her legs beneath you until you have to adjust your stance to kneel between them.\r\rHer sex quite exposed and drooling honey into the sand below, your hands move in to oil up between her thighs. You slowly work your way up her legs, teasing her until the drooling becomes much more prominent, a large drop pushing out as you press into the outer labia. Her tail nearly slaps you in anticipation, it flicking around so much, and practically urges you to move in. Taking the blatent hints, you gently tug and squeeze at the tender lips, pressing your fingertips into her sex and slipping around to massage the wholly erect button at the front. Your hands deftly fly through again and again, making her gasp and her whole body squirm, shimmering from the oil you had supply her with. As her moaning increases, her panting coming to a climax, you watch as her lips spread. As she groans into the sand in orgasm, trying to muffle herself from everyone around her, your hands"
+   add
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           15825
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          " are filled with a good-sized egg, covered in sensual slime.\r\rHer tail collapses onto your shoulder, resting there as you finish wiping her up and bringing her down, until you finally complete your task. Still breathing heavily, her body looking quite tired, she merely turns up towards you.\r\r\"Please, take some oil with you. Hands like those must be taken advantage of~,\" she sighs pleasantly. \"And you can keep the egg as thanks.\" She sticks out her tongue teasingly, but quickly lays back down to take a nice soothing nap to reminisce the recent events, leaving you to go off on your own."
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           15826
+   findpropstrict      QName(PackageNamespace(""), "itemAdd")
+   pushshort           228
+   callpropvoid        QName(PackageNamespace(""), "itemAdd"), 1
+
+   debugline           15827
+   findpropstrict      QName(PackageNamespace(""), "doLust")
+   pushbyte            10
+   pushbyte            0
+   callpropvoid        QName(PackageNamespace(""), "doLust"), 2
+
+   debugline           15828
+   findpropstrict      QName(PackageNamespace(""), "itemAdd")
+   pushshort           219
+   callpropvoid        QName(PackageNamespace(""), "itemAdd"), 1
+
+   debugline           15829
+   findproperty        QName(PackageNamespace(""), "hrs")
+   pushbyte            4
+   initproperty        QName(PackageNamespace(""), "hrs")
+
+L106:
+   debugline           15831
+   findpropstrict      QName(PackageNamespace(""), "doEnd")
+   callpropvoid        QName(PackageNamespace(""), "doEnd"), 0
+
+   jump                L170
+
+L110:
+   debugline           15834
+   getlex              QName(PackageNamespace(""), "ment")
+   pushbyte            10
+   ifnle               L127
+
+   debugline           15835
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "Either not wanting to get your hands covered in oil or being allergic to the female species, you decide not to help her with her oiling. Instead you awkwardly step back and sneak away, leaving the woman wondering what happened."
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           15836
+   findpropstrict      QName(PackageNamespace(""), "stats")
+   pushbyte            0
+   pushbyte            -1
+   pushbyte            0
+   dup
+   callpropvoid        QName(PackageNamespace(""), "stats"), 4
+
+   jump                L163
+
+L127:
+   debugline           15838
+   getlex              QName(PackageNamespace(""), "ment")
+   pushbyte            40
+   ifnle               L137
+
+   debugline           15839
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "For whatever reason, you don't want to help her with the oiling. Instead you mumble some kind of lame excuse and walk away, leaving her to shrug and try to flag down the next passerby."
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   jump                L163
+
+L137:
+   debugline           15841
+   getlex              QName(PackageNamespace(""), "ment")
+   pushbyte            80
+   ifnle               L154
+
+   debugline           15842
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "Deciding not to help her, you calmly explain that you either don't have the time or you have to do something else. You thank her for the offer anyways and she nods back with a smile, waiting to flag down someone else for assistance."
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           15843
+   findpropstrict      QName(PackageNamespace(""), "stats")
+   pushbyte            0
+   pushbyte            1
+   pushbyte            0
+   dup
+   callpropvoid        QName(PackageNamespace(""), "stats"), 4
+
+   jump                L163
+
+L154:
+   debugline           15846
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "You kindly decline her gracious offer, mentioning how beautiful she looks already and how you might have had \"trouble\" giving her a massage like that, considering her nice features. She gives you a blushing smirk and giggles a little, offering you to take a vial of her massage oils for yourself, as thanks for the sweet compliments."
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           15847
+   findpropstrict      QName(PackageNamespace(""), "itemAdd")
+   pushshort           228
+   callpropvoid        QName(PackageNamespace(""), "itemAdd"), 1
+
+L163:
+   debugline           15849
+   findproperty        QName(PackageNamespace(""), "hrs")
+   pushbyte            1
+   initproperty        QName(PackageNamespace(""), "hrs")
+
+   debugline           15850
+   findpropstrict      QName(PackageNamespace(""), "doEnd")
+   callpropvoid        QName(PackageNamespace(""), "doEnd"), 0
+
+L170:
+   debugline           15852
+   returnvoid
+  end ; code
+ end ; body
+end ; method

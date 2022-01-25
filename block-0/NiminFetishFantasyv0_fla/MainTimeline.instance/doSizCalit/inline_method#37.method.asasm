@@ -1,0 +1,181 @@
+method
+ name ""
+ refid "NiminFetishFantasyv0_fla:MainTimeline/instance/doSizCalit/inline_method#37"
+ returns QName(PackageNamespace(""), "void")
+ body
+  maxstack 4
+  localcount 1
+  initscopedepth 11
+  maxscopedepth 11
+  code
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           15409
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "Everything is a blur as you're carried off without any sense of direction. All you can hear the whole way is collective purring and the smacking of lips, though exactly which kind of lips is hard to tell. Eventually, your arms are tied behind your back and the bag slips off, revealing your new surroundings.\r\rIt seems to just be some strange felin's hut, nothing special. However, the three felins before you are much more notable. Three females, barely clothed in torn tops and loincloths, gasping and panting as they rub their thighs desparately and fluff their fur to try and cool off. The holes in their simple shirts match their own claws, having been scratched at in attempts to get cooler. None of them seem terribly concious of their actions, mewling and purring and mrowling at each other, so drowned in their own heat that they probably are running on instinct. Though how that instinct involves you...\r\rBecomes quite clear quite quickly. Two of the felins begin to paw at your chest, pulling "
+   findpropstrict      QName(PackageNamespace(""), "pullUD")
+   pushbyte            1
+   callproperty        QName(PackageNamespace(""), "pullUD"), 1
+   add
+   pushstring          " your "
+   add
+   findpropstrict      QName(PackageNamespace(""), "clothesTop")
+   callproperty        QName(PackageNamespace(""), "clothesTop"), 0
+   add
+   pushstring          " to expose your "
+   add
+   findpropstrict      QName(PackageNamespace(""), "boobDesc")
+   callproperty        QName(PackageNamespace(""), "boobDesc"), 0
+   add
+   pushstring          " mounds, their fingers twirling about your "
+   add
+   findpropstrict      QName(PackageNamespace(""), "nipDesc")
+   callproperty        QName(PackageNamespace(""), "nipDesc"), 0
+   add
+   pushstring          " nipples to stiffen them up. The third felin picks up a handful of vials filled with white liquid, stuff that can easily be brought from the store. She saunters over to you, her tail waving perversely, like she was about to climax from just thinking about what she's going to do. Then, her free hand reaches up to your mouth and pries it open, leaning back your head to make sure you swallow."
+   add
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           15410
+   findpropstrict      QName(PackageNamespace(""), "percent")
+   callproperty        QName(PackageNamespace(""), "percent"), 0
+   getlex              QName(PackageNamespace(""), "str")
+   pushbyte            40
+   subtract
+   ifnlt               L59
+
+   debugline           15411
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          " However, the restraints they used on you aren't exactly tough and you manage to pull yourself free.\r\rSo entranced by their own heat, the felins hardly put up much of a fight, falling to the ground with the slightest push. They were so worked up over their plans with you that the falls send them over the edge. Their hands immediately slip under their loincloths and begins to ellicit plenty of wet and lewd sounds as they masturbate, neglecting you completely.\r\rNot really having been harmed, you take the vials that they were going to feed to you as reparations for their assault and go on your way, leaving them to their orgasmic fits."
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           15412
+   findpropstrict      QName(PackageNamespace(""), "itemAdd")
+   pushbyte            105
+   callpropvoid        QName(PackageNamespace(""), "itemAdd"), 1
+
+   debugline           15413
+   findpropstrict      QName(PackageNamespace(""), "itemAdd")
+   pushbyte            105
+   callpropvoid        QName(PackageNamespace(""), "itemAdd"), 1
+
+   debugline           15414
+   findpropstrict      QName(PackageNamespace(""), "itemAdd")
+   pushbyte            105
+   callpropvoid        QName(PackageNamespace(""), "itemAdd"), 1
+
+   debugline           15415
+   findproperty        QName(PackageNamespace(""), "hrs")
+   pushbyte            2
+   initproperty        QName(PackageNamespace(""), "hrs")
+
+   debugline           15416
+   findpropstrict      QName(PackageNamespace(""), "doEnd")
+   callpropvoid        QName(PackageNamespace(""), "doEnd"), 0
+
+   jump                L136
+
+L59:
+   debugline           15419
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          " She pours the contents of all the vials down your gullet at once, rubbing your throat in a more-erotic-than-necessary fashion to ensure you swallow.\r\rWithin moment after gulping down the sweet fluid, you feel your "
+   findpropstrict      QName(PackageNamespace(""), "boobDesc")
+   callproperty        QName(PackageNamespace(""), "boobDesc"), 0
+   add
+   pushstring          " breasts begin to grow warm and heavy. Pressure builds up behind your "
+   add
+   findpropstrict      QName(PackageNamespace(""), "nipDesc")
+   callproperty        QName(PackageNamespace(""), "nipDesc"), 0
+   add
+   pushstring          " nipples until you let out a gasp - white drops pool around the tips and splash onto the awaiting tongues of the other two felins."
+   add
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           15420
+   getlex              QName(PackageNamespace(""), "lactation")
+   pushbyte            0
+   ifngt               L82
+
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          " Your leaking picks up as your previous disposition for such lewdness kicks in, allowing the felins to lap at the resulting stream that descends."
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+L82:
+   debugline           15421
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          " Then they latch on, suckling with all their might, trying to really get the flow of milk going."
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           15422
+   getlex              QName(PackageNamespace(""), "boobTotal")
+   pushbyte            2
+   ifne                L96
+
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          " The third girl eventually pushes one aside so she can get some of the delectable treat. Then that girl pushes the other girl and again and again they rotate through your nipples, mewling and purring so loudly that it feels like the whole room is vibrating."
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   jump                L101
+
+L96:
+   debugline           15423
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          " The third girl then ducks beneath the other two, bumping through their own breasts to get to one of your freely-flowing ones. She suckles just like the rest, mewling and purring so loudly that it feels like almost the whole room is vibrating."
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+L101:
+   debugline           15424
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "\r\rTheir thirst isn't the only thing that needs satiating though. The more they drink, the more their hands dive into their loincloths, until their purrs become moans and are nearly drowned by the pervese wet schlicking sounds. But that isn't enough. With the milk soothing their stomach cravings, the pleasant tasty warmth is only making their lower cravings more severe.\r\rEventually, one pops off a nipple with one last big suck. The milk sprays freely, showering the front of the felin. The other two catch on, doing the same and letting the liquid splash over their many tits. They rub it in, mrowling in pleasure and digging deeper beneath their loincloths. Their legs soon give in, making them fall to the floor and lift their loincloths in your direction, exposing their swollen reddened pussies to you and your rain of milk. With each splash over their lower lips, the catty girls twitch and shudder, coming to small orgasms from the feeling and thought alone. Then as the white fluids beads into drops that runs down through their labia, slipping into their nooks and crevices and holes, their hands help the stuff along by rubbing it all over their cunts.\r\rThey climax again and again, delighting in the milky goodness, even after your squirting dies down to steady trickles. When that happens, the girls simply curl around each other, licking the milk from each others slits, jerking and rubbing and groping and coming more and more. The room grows so hot that even your bindings begin to sweat and... you slip free.\r\rHolding back the milk with an arm, you put back on your "
+   findpropstrict      QName(PackageNamespace(""), "clothesTop")
+   callproperty        QName(PackageNamespace(""), "clothesTop"), 0
+   add
+   pushstring          ", where it then begins to blotch. With the felins still having an orgy on your floor, you grab one of the leftover vials and make your escape, though a little milkier than before..."
+   add
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           15425
+   findproperty        QName(PackageNamespace(""), "lactation")
+   getlex              QName(PackageNamespace(""), "lactation")
+   pushbyte            50
+   add
+   initproperty        QName(PackageNamespace(""), "lactation")
+
+   debugline           15426
+   getlex              QName(PackageNamespace(""), "submissiveFetish")
+   pushbyte            1
+   ifngt               L125
+
+   findpropstrict      QName(PackageNamespace(""), "doLust")
+   pushbyte            10
+   pushbyte            0
+   callpropvoid        QName(PackageNamespace(""), "doLust"), 2
+
+L125:
+   debugline           15427
+   findpropstrict      QName(PackageNamespace(""), "itemAdd")
+   pushbyte            105
+   callpropvoid        QName(PackageNamespace(""), "itemAdd"), 1
+
+   debugline           15428
+   findproperty        QName(PackageNamespace(""), "hrs")
+   pushbyte            3
+   initproperty        QName(PackageNamespace(""), "hrs")
+
+   debugline           15429
+   findpropstrict      QName(PackageNamespace(""), "doEnd")
+   callpropvoid        QName(PackageNamespace(""), "doEnd"), 0
+
+L136:
+   debugline           15431
+   returnvoid
+  end ; code
+ end ; body
+end ; method

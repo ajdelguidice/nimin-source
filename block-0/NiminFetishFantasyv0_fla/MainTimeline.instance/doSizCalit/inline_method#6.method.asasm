@@ -1,0 +1,71 @@
+method
+ name ""
+ refid "NiminFetishFantasyv0_fla:MainTimeline/instance/doSizCalit/inline_method#6"
+ returns QName(PackageNamespace(""), "void")
+ flag NEED_ACTIVATION
+ body
+  maxstack 3
+  localcount 2
+  initscopedepth 13
+  maxscopedepth 14
+  code
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           14577
+   newactivation
+   dup
+   setlocal1
+
+   pushscope
+
+   debug               1, "anonymous$158", 0, 14577
+   debugline           14578
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "All is dark when you begin to examine your situation. Forced to curl up in this spherical environment, the warm walls around you smother you with slick honey. Despite the cramped confines, you actually find yourself rather comfortable, cradled and safe. You can feel muscles still tensing around you, coming down from an extensive high. A portion of the walls presses down onto you as a hand rubs across the belly outside, caressing the odd yet pleasant sensation. The body rolls back and forth slightly, wallowing in the abundant warmth being shed. Yet, the rocking comes to an abrupt halt as the owner of your small room comes to a realization.\r\r\"Wh-Whewe did yew go?...\"\r\rThe hand pressing down on you moves slightly. Then stops as she pauses to process the information. Then picks back up as a hurried pace and suddenly pats, quaking your space, as she worriedly calls out. \"Are... Are you in thewe?!!\"\r\rNot really sure how to break the news to her, you meekly nod. Though, you realize she probably can't see you do that, so you instead shout a muffled confirmation and rub the inside of her womb to console her and show you're okay.\r\r\"Eeep!\" She struggles to sit up, making you lose track of which way is down. You can feel a rumble as she hops to the floor, hearing her feet heavily patter across the floor as she grabs her sundress and tosses it on.\r\rNot entirely sure where Lila intends to go, you hear her exit the hut as a breeze rustles her fur. Wood claps below as she runs over the canopy bridges"
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           14579
+   getlex              QName(PackageNamespace(""), "lilaVulva")
+   pushbyte            12
+   ifnle               L21
+
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          " with an awkard stride as her thighs sqeeze the recently-climaxed extra-sensitized mound"
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   jump                L29
+
+L21:
+   debugline           14580
+   getlex              QName(PackageNamespace(""), "lilaVulva")
+   pushbyte            19
+   ifnle               L29
+
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          " slowly with an additional slurping sound as her knees clamp around the recently-climaxed extra-sensitized mass of flesh below"
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+L29:
+   debugline           14581
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          ", frequently stumbling from side to side with the added weight. She soon takes into account her swollen belly, wrapping her hands around it like when she was pregnant, hugging you inside of her. She also pauses several times along the trek to adjust her dress, exposing herself far too often as she was not prepared for such girth.\r\rHer lungs huff above you as she frantically crosses bridged. They eventually settle as she hastily reaches her destination. The feet slow and she carefully enters another doorway."
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           14582
+   findpropstrict      QName(PackageNamespace(""), "doNext")
+   callpropvoid        QName(PackageNamespace(""), "doNext"), 0
+
+   debugline           14583
+   findproperty        QName(PackageNamespace(""), "doListen")
+   newfunction         "NiminFetishFantasyv0_fla:MainTimeline/instance/doSizCalit/inline_method#5"
+   initproperty        QName(PackageNamespace(""), "doListen")
+
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           14596
+   returnvoid
+  end ; code
+ end ; body
+end ; method

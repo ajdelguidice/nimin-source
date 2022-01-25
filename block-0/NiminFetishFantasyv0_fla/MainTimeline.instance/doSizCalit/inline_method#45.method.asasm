@@ -1,0 +1,161 @@
+method
+ name ""
+ refid "NiminFetishFantasyv0_fla:MainTimeline/instance/doSizCalit/inline_method#45"
+ returns QName(PackageNamespace(""), "void")
+ flag NEED_ACTIVATION
+ body
+  maxstack 13
+  localcount 2
+  initscopedepth 13
+  maxscopedepth 14
+  code
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           15477
+   newactivation
+   dup
+   setlocal1
+
+   pushscope
+
+   debug               1, "anonymous$197", 0, 15477
+   debugline           15478
+   getlex              QName(PackageNamespace(""), "mistressRep")
+   pushbyte            0
+   ifne                L15
+
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "\"Mistress, I've found an explorer!\" The felin boy announces with a wag of his tail.\r\rThe woman turns to look at you. \"Ahh, good boy, Fidoris.\" She rolls onto her side, both her large belly and the thing between her legs shifting with her. She props herself up with an arm and smiles. \"Well, traveler. I have a proposition for you. Every now and then, I get certain... 'urges' for a particular kind of fruit. It is found within the jungle and looks very much like a... well, let's just say we call it a 'Pussy Fruit'. Due to the dangers in retrieving it, however, it is hard to obtain such a fruit safely. So, I will pay well for such a fruit, when I'm in the mood. And if I am, I will send my boy, Fidoris, out to retrieve you. I hope that sounds alright?\""
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+L15:
+   debugline           15479
+   getlex              QName(PackageNamespace(""), "mistressRep")
+   pushbyte            0
+   ifngt               L23
+
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "Fidoris speaks out \"Mistress, I have brought the traveler once again!\"\r\rThe woman rolls over, her belly and massive vulva rolling with her. \"Good boy! I hope you have brought along something nice for me?\" Her eyes light up."
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+L23:
+   debugline           15480
+   findpropstrict      QName(PackageNamespace(""), "viewButtonOutline")
+   pushbyte            1
+   pushbyte            0
+   dup
+   dup
+   pushbyte            0
+   dup
+   dup
+   pushbyte            0
+   dup
+   dup
+   pushbyte            1
+   pushbyte            0
+   callpropvoid        QName(PackageNamespace(""), "viewButtonOutline"), 12
+
+   debugline           15481
+   findpropstrict      QName(PackageNamespace(""), "viewButtonText")
+   pushbyte            0
+   dup
+   dup
+   pushbyte            0
+   dup
+   dup
+   pushbyte            0
+   dup
+   dup
+   pushbyte            0
+   pushbyte            1
+   pushbyte            0
+   callpropvoid        QName(PackageNamespace(""), "viewButtonText"), 12
+
+   debugline           15482
+   findpropstrict      QName(PackageNamespace(""), "buttonWrite")
+   pushbyte            1
+   pushstring          "Puss Fruit"
+   callpropvoid        QName(PackageNamespace(""), "buttonWrite"), 2
+
+   debugline           15483
+   findpropstrict      QName(PackageNamespace(""), "checkItem")
+   pushshort           210
+   callproperty        QName(PackageNamespace(""), "checkItem"), 1
+   iffalse             L66
+
+   getlex              QName(PackageNamespace(""), "Choice1")
+   pushtrue
+   setproperty         QName(PackageNamespace(""), "visible")
+
+L66:
+   debugline           15484
+   getlex              QName(PackageNamespace(""), "mistressRep")
+   pushbyte            10
+   ifngt               L86
+
+   debugline           15485
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          " Then her hands grope across her belly, squishing the aroused passage within. \"Mmm... You've been so good to me, though, so I'll let you in on another deal. If you can bring me three of the fruits at a time, I'll have Fidoris cook up my special concoction. Just between you and I, of course, for all the fun we've had~,\" she gives you a naughty wink. \"I'll also let you in on the recipe, but without dear Fidoris I'm afraid it might be less efficient for you.\""
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           15486
+   getlex              QName(PackageNamespace(""), "Choice3Outline")
+   pushtrue
+   setproperty         QName(PackageNamespace(""), "visible")
+
+   debugline           15487
+   getlex              QName(PackageNamespace(""), "knowPussJuice")
+   pushfalse
+   ifne                L86
+
+   findproperty        QName(PackageNamespace(""), "knowPussJuice")
+   pushtrue
+   initproperty        QName(PackageNamespace(""), "knowPussJuice")
+
+L86:
+   debugline           15489
+   findpropstrict      QName(PackageNamespace(""), "buttonWrite")
+   pushbyte            3
+   pushstring          "3x"
+   callpropvoid        QName(PackageNamespace(""), "buttonWrite"), 2
+
+   debugline           15490
+   findpropstrict      QName(PackageNamespace(""), "countItem")
+   pushshort           210
+   callproperty        QName(PackageNamespace(""), "countItem"), 1
+   pushbyte            3
+   greaterequals
+   dup
+   iffalse             L103
+
+   pop
+   getlex              QName(PackageNamespace(""), "mistressRep")
+   pushbyte            10
+   greaterthan
+L103:
+   iffalse             L107
+
+   getlex              QName(PackageNamespace(""), "Choice3")
+   pushtrue
+   setproperty         QName(PackageNamespace(""), "visible")
+
+L107:
+   debugline           15491
+   findpropstrict      QName(PackageNamespace(""), "buttonWrite")
+   pushbyte            11
+   pushstring          "Nothing"
+   callpropvoid        QName(PackageNamespace(""), "buttonWrite"), 2
+
+   debugline           15492
+   findproperty        QName(PackageNamespace(""), "doListen")
+   newfunction         "NiminFetishFantasyv0_fla:MainTimeline/instance/doSizCalit/inline_method#44"
+   initproperty        QName(PackageNamespace(""), "doListen")
+
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           15646
+   returnvoid
+  end ; code
+ end ; body
+end ; method

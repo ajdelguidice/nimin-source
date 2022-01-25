@@ -1,0 +1,106 @@
+method
+ name ""
+ refid "NiminFetishFantasyv0_fla:MainTimeline/instance/doSizCalit/inline_method#41"
+ returns QName(PackageNamespace(""), "void")
+ body
+  maxstack 4
+  localcount 3
+  initscopedepth 15
+  maxscopedepth 15
+  code
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           15610
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "The mistress lets out a loud, deafening cry as her legs lock around your "
+   findpropstrict      QName(PackageNamespace(""), "buttDesc")
+   callproperty        QName(PackageNamespace(""), "buttDesc"), 0
+   add
+   pushstring          " rear, strangling your bottom half as she quakes. Her body lunges up against your "
+   add
+   findpropstrict      QName(PackageNamespace(""), "cockDesc")
+   callproperty        QName(PackageNamespace(""), "cockDesc"), 0
+   add
+   pushstring          " cock, her claws digging into her own distended belly, weighted down by her heavy cunt. Her feminine fluids gush out around you, drenching you in the warm juices. Her belly rumbles at the opposite end as you begin to ejaculate, your own body twitching against her soft vulva."
+   add
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           15611
+   findpropstrict      QName(PackageNamespace(""), "cumAmount")
+   callproperty        QName(PackageNamespace(""), "cumAmount"), 0
+   pushshort           4000
+   ifngt               L25
+
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          " You cum so much that a portion of her belly hangs from the tip of your member, absolutely bloated with spunk as though she were some giant condom, before the rest begins to flood its way back through her vaginal passage and joins the rest of the fem-cum in drowning you."
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+L25:
+   debugline           15612
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          " You spill your seed with great force, your abdomen aching as it works to shoot it all through your length. Then you both collapse onto the bed with a huff...\r\rShe lays sprawled upon her bed, idly licking at the fur of her belly once more. She hugs and squeezes at the bulge as you begin to grow flaccid and deflate her form. Though her pussy may make for a nice pillow, you soon find yourself being pushed away as her vagina begins to grow flaccid itself, the internal blood shrinking the passage and pushing your cock back out. It doesn't take long before before she gives birth to your "
+   findpropstrict      QName(PackageNamespace(""), "cockDesc")
+   callproperty        QName(PackageNamespace(""), "cockDesc"), 0
+   add
+   pushstring          " member, letting it flop onto the bed.\r\r\"Mmmmm~\" With a purr, her legs wrap around her pussy, kneading it in satisfaction. \"I don't think anybody can satisfy me like you just did... I might even get pregnant!\" She chuckles. \"Oh my, for service like that... I should really pay you more for bringing me the fruit.\"\r\rAs she winks, she motions Fidoris over. In addition to giving him some coin, she also hands him a vial to give to you.\r\r\"This vial contains some rather... concentrated juices from the kinds of fruit you bring me. I drink it myself, on occasion. But too much... well, you know.\" Her foot pats her plush pussy. \"You might be able to find a use for it on somebody else, to help you fit a bit better. I figure it might come in handy for you. If not, it should still fetch a decent price. Either way, thank you for a great time, love~\" She winks once more before returning her attention to coming down from her high.\r\rFidoris hands you the coins and vial and escorts you to the exit. Though, just as you're about to leave, you can hear the mistress call out \"Fidoris, sweetie, I think I'd like to feel full for a bit longer. Would you be a dear?\" To which Fidoris replies \"Yes Mistress!\""
+   add
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           15613
+   findpropstrict      QName(PackageNamespace(""), "doCoin")
+   pushbyte            45
+   callpropvoid        QName(PackageNamespace(""), "doCoin"), 1
+
+   debugline           15614
+   findpropstrict      QName(PackageNamespace(""), "doLust")
+   getlex              QName(PackageNamespace(""), "Math")
+   getlex              QName(PackageNamespace(""), "sen")
+   pushbyte            2
+   divide
+   callproperty        QName(PackageNamespace(""), "floor"), 1
+   negate
+   pushbyte            2
+   pushbyte            1
+   callpropvoid        QName(PackageNamespace(""), "doLust"), 3
+
+   debugline           15615
+   findproperty        QName(PackageNamespace(""), "hrs")
+   pushbyte            4
+   initproperty        QName(PackageNamespace(""), "hrs")
+
+   debugline           15616
+   findpropstrict      QName(PackageNamespace(""), "itemAdd")
+   pushshort           221
+   callpropvoid        QName(PackageNamespace(""), "itemAdd"), 1
+
+   debugline           15617
+   findpropstrict      QName(PackageNamespace(""), "doSexP")
+   pushbyte            13
+   callpropvoid        QName(PackageNamespace(""), "doSexP"), 1
+
+   debugline           15618
+   findpropstrict      QName(PackageNamespace(""), "mistressRep")
+   dup
+   setlocal1
+
+   getproperty         QName(PackageNamespace(""), "mistressRep")
+   increment_i
+   setlocal2
+
+   getlocal1
+   getlocal2
+   setproperty         QName(PackageNamespace(""), "mistressRep")
+
+   kill                2
+   kill                1
+   debugline           15619
+   findpropstrict      QName(PackageNamespace(""), "doEnd")
+   callpropvoid        QName(PackageNamespace(""), "doEnd"), 0
+
+   debugline           15620
+   returnvoid
+  end ; code
+ end ; body
+end ; method

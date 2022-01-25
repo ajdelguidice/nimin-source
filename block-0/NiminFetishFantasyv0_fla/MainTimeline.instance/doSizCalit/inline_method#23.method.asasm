@@ -1,0 +1,41 @@
+method
+ name ""
+ refid "NiminFetishFantasyv0_fla:MainTimeline/instance/doSizCalit/inline_method#23"
+ returns QName(PackageNamespace(""), "void")
+ body
+  maxstack 3
+  localcount 1
+  initscopedepth 12
+  maxscopedepth 12
+  code
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           15049
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "A few minutes later, she sits upright, a bit woozy. As her wits return to her, she looks down at your hand and how it glistens with her moisture. \r\r\"I'm sowwy... B-But thank you, it was really nice!\" She jumps up from the bed, letting her dress fall. \"Here, Mommy gave this to me to help me grow up into a big girl.\"\r\rShe pulls a vial from her dress and hands it to you, then gives you a big hug before darting out of the hut, her dress still hiked up around her waist and stuck there from all the moisture, leaving her nethers free for all to see."
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           15050
+   findpropstrict      QName(PackageNamespace(""), "doSexP")
+   pushbyte            10
+   callpropvoid        QName(PackageNamespace(""), "doSexP"), 1
+
+   debugline           15051
+   findpropstrict      QName(PackageNamespace(""), "itemAdd")
+   pushbyte            114
+   callpropvoid        QName(PackageNamespace(""), "itemAdd"), 1
+
+   debugline           15052
+   findproperty        QName(PackageNamespace(""), "hrs")
+   pushbyte            3
+   initproperty        QName(PackageNamespace(""), "hrs")
+
+   debugline           15053
+   findpropstrict      QName(PackageNamespace(""), "doEnd")
+   callpropvoid        QName(PackageNamespace(""), "doEnd"), 0
+
+   debugline           15054
+   returnvoid
+  end ; code
+ end ; body
+end ; method

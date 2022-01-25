@@ -1,0 +1,73 @@
+method
+ name ""
+ refid "NiminFetishFantasyv0_fla:MainTimeline/instance/doOviasis/inline_method#7"
+ returns QName(PackageNamespace(""), "void")
+ body
+  maxstack 5
+  localcount 1
+  initscopedepth 13
+  maxscopedepth 13
+  code
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           16042
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "You wake up some time later having been dragged onto the shore amidst the brush. Your waist aches and there's no sign of the engaged girl. Upon your chest you find a note, hinting as to where she may have gone.\r\r\"So, so sorry for making you pass out! I had to... With my fiancee and... Here, at least have an egg for forgiveness!\"\r\rRight beside you, you find the lone egg she had laid earlier, still slightly slimy and warm from her womb. Considering it's not wet from the oasis waters, it might just be the egg she laid when you were crushed..."
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           16043
+   findpropstrict      QName(PackageNamespace(""), "itemAdd")
+   pushshort           219
+   callpropvoid        QName(PackageNamespace(""), "itemAdd"), 1
+
+   debugline           16044
+   findproperty        QName(PackageNamespace(""), "hrs")
+   pushbyte            4
+   initproperty        QName(PackageNamespace(""), "hrs")
+
+   debugline           16045
+   findpropstrict      QName(PackageNamespace(""), "stats")
+   pushbyte            -1
+   pushbyte            0
+   dup
+   dup
+   callpropvoid        QName(PackageNamespace(""), "stats"), 4
+
+   debugline           16046
+   findpropstrict      QName(PackageNamespace(""), "doHP")
+   pushbyte            -15
+   callpropvoid        QName(PackageNamespace(""), "doHP"), 1
+
+   debugline           16047
+   findpropstrict      QName(PackageNamespace(""), "aff")
+   pushbyte            6
+   getlex              QName(PackageNamespace(""), "Math")
+   findpropstrict      QName(PackageNamespace(""), "percent")
+   callproperty        QName(PackageNamespace(""), "percent"), 0
+   pushbyte            20
+   divide
+   pushbyte            2
+   add
+   callproperty        QName(PackageNamespace(""), "floor"), 1
+   pushbyte            -1
+   callpropvoid        QName(PackageNamespace(""), "aff"), 3
+
+   debugline           16048
+   findpropstrict      QName(PackageNamespace(""), "doLust")
+   getlex              QName(PackageNamespace(""), "Math")
+   getlex              QName(PackageNamespace(""), "lib")
+   pushbyte            4
+   divide
+   callproperty        QName(PackageNamespace(""), "floor"), 1
+   pushbyte            0
+   callpropvoid        QName(PackageNamespace(""), "doLust"), 2
+
+   debugline           16049
+   findpropstrict      QName(PackageNamespace(""), "doEnd")
+   callpropvoid        QName(PackageNamespace(""), "doEnd"), 0
+
+   debugline           16050
+   returnvoid
+  end ; code
+ end ; body
+end ; method

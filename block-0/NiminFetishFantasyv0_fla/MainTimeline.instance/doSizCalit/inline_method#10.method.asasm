@@ -1,0 +1,36 @@
+method
+ name ""
+ refid "NiminFetishFantasyv0_fla:MainTimeline/instance/doSizCalit/inline_method#10"
+ returns QName(PackageNamespace(""), "void")
+ body
+  maxstack 3
+  localcount 1
+  initscopedepth 13
+  maxscopedepth 13
+  code
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           14826
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "Smacking her lips, the girl's mother looks up to you. \"KO! You win!.\" She chuckles. \"Pretty good, I must say. I'm sure you must have bathed your fare share of kittens. But, anyways, once Miss Hair-Trigger here gathers herself, it'll be my turn for a bath. As great as I'm sure you must be, I'd like to have a little mother-daughter time, if that's alright. Though here, take some of this wash for yourself.\"\r\rShe hands you some of the concoction and lets you give the naked Lila a hug before seeing you off."
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           14827
+   findpropstrict      QName(PackageNamespace(""), "itemAdd")
+   pushshort           227
+   callpropvoid        QName(PackageNamespace(""), "itemAdd"), 1
+
+   debugline           14828
+   findproperty        QName(PackageNamespace(""), "hrs")
+   pushbyte            3
+   initproperty        QName(PackageNamespace(""), "hrs")
+
+   debugline           14829
+   findpropstrict      QName(PackageNamespace(""), "doEnd")
+   callpropvoid        QName(PackageNamespace(""), "doEnd"), 0
+
+   debugline           14830
+   returnvoid
+  end ; code
+ end ; body
+end ; method

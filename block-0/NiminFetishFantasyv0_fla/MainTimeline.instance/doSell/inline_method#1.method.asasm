@@ -1,0 +1,129 @@
+method
+ name ""
+ refid "NiminFetishFantasyv0_fla:MainTimeline/instance/doSell/inline_method#1"
+ returns QName(PackageNamespace(""), "void")
+ body
+  maxstack 5
+  localcount 2
+  initscopedepth 12
+  maxscopedepth 12
+  code
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           9065
+   pushbyte            0
+   setlocal1
+
+   debug               1, "tempInt", 0, 9066
+   debugline           9066
+   pushbyte            0
+   setlocal1
+
+   debugline           9067
+   getlex              QName(PackageNamespace(""), "buttonChoice")
+   pushbyte            1
+   ifne                L14
+
+   pushbyte            1
+   setlocal1
+
+L14:
+   debugline           9068
+   getlex              QName(PackageNamespace(""), "buttonChoice")
+   pushbyte            3
+   ifne                L20
+
+   pushbyte            2
+   setlocal1
+
+L20:
+   debugline           9069
+   getlex              QName(PackageNamespace(""), "buttonChoice")
+   pushbyte            5
+   ifne                L26
+
+   pushbyte            5
+   setlocal1
+
+L26:
+   debugline           9070
+   getlex              QName(PackageNamespace(""), "buttonChoice")
+   pushbyte            7
+   ifne                L32
+
+   pushbyte            10
+   setlocal1
+
+L32:
+   debugline           9071
+   getlex              QName(PackageNamespace(""), "buttonChoice")
+   pushbyte            9
+   ifne                L43
+
+   getlex              QName(PackageNamespace(""), "bagStackArray")
+   getlex              QName(PackageNamespace(""), "choiceListResult")
+   pushbyte            1
+   getproperty         MultinameL([PrivateNamespace("NiminFetishFantasyv0_fla:MainTimeline"), PackageNamespace(""), PackageNamespace("flash.events"), PackageNamespace("flash.net"), PrivateNamespace("$0"), PackageNamespace("NiminFetishFantasyv0_fla"), PackageInternalNs("NiminFetishFantasyv0_fla"), Namespace("http://adobe.com/AS3/2006/builtin"), PackageNamespace("adobe.utils"), PackageNamespace("flash.accessibility"), PackageNamespace("flash.desktop"), PackageNamespace("flash.display"), PackageNamespace("flash.errors"), PackageNamespace("flash.external"), PackageNamespace("flash.filters"), PackageNamespace("flash.geom"), PackageNamespace("flash.globalization"), PackageNamespace("flash.media"), PackageNamespace("flash.net.drm"), PackageNamespace("flash.printing"), PackageNamespace("flash.profiler"), PackageNamespace("flash.sampler"), PackageNamespace("flash.sensors"), PackageNamespace("flash.system"), PackageNamespace("flash.text"), PackageNamespace("flash.text.ime"), PackageNamespace("flash.text.engine"), PackageNamespace("flash.ui"), PackageNamespace("flash.utils"), PackageNamespace("flash.xml"), ProtectedNamespace("NiminFetishFantasyv0_fla:MainTimeline"), StaticProtectedNs("NiminFetishFantasyv0_fla:MainTimeline"), StaticProtectedNs("flash.display:MovieClip"), StaticProtectedNs("flash.display:Sprite"), StaticProtectedNs("flash.display:DisplayObjectContainer"), StaticProtectedNs("flash.display:InteractiveObject"), StaticProtectedNs("flash.display:DisplayObject"), StaticProtectedNs("flash.events:EventDispatcher"), StaticProtectedNs("Object")])
+   getproperty         MultinameL([PrivateNamespace("NiminFetishFantasyv0_fla:MainTimeline"), PackageNamespace(""), PackageNamespace("flash.events"), PackageNamespace("flash.net"), PrivateNamespace("$0"), PackageNamespace("NiminFetishFantasyv0_fla"), PackageInternalNs("NiminFetishFantasyv0_fla"), Namespace("http://adobe.com/AS3/2006/builtin"), PackageNamespace("adobe.utils"), PackageNamespace("flash.accessibility"), PackageNamespace("flash.desktop"), PackageNamespace("flash.display"), PackageNamespace("flash.errors"), PackageNamespace("flash.external"), PackageNamespace("flash.filters"), PackageNamespace("flash.geom"), PackageNamespace("flash.globalization"), PackageNamespace("flash.media"), PackageNamespace("flash.net.drm"), PackageNamespace("flash.printing"), PackageNamespace("flash.profiler"), PackageNamespace("flash.sampler"), PackageNamespace("flash.sensors"), PackageNamespace("flash.system"), PackageNamespace("flash.text"), PackageNamespace("flash.text.ime"), PackageNamespace("flash.text.engine"), PackageNamespace("flash.ui"), PackageNamespace("flash.utils"), PackageNamespace("flash.xml"), ProtectedNamespace("NiminFetishFantasyv0_fla:MainTimeline"), StaticProtectedNs("NiminFetishFantasyv0_fla:MainTimeline"), StaticProtectedNs("flash.display:MovieClip"), StaticProtectedNs("flash.display:Sprite"), StaticProtectedNs("flash.display:DisplayObjectContainer"), StaticProtectedNs("flash.display:InteractiveObject"), StaticProtectedNs("flash.display:DisplayObject"), StaticProtectedNs("flash.events:EventDispatcher"), StaticProtectedNs("Object")])
+   convert_i
+   setlocal1
+
+L43:
+   debugline           9073
+   getlex              QName(PackageNamespace(""), "bagStackArray")
+   getlex              QName(PackageNamespace(""), "choiceListResult")
+   pushbyte            1
+   getproperty         MultinameL([PrivateNamespace("NiminFetishFantasyv0_fla:MainTimeline"), PackageNamespace(""), PackageNamespace("flash.events"), PackageNamespace("flash.net"), PrivateNamespace("$0"), PackageNamespace("NiminFetishFantasyv0_fla"), PackageInternalNs("NiminFetishFantasyv0_fla"), Namespace("http://adobe.com/AS3/2006/builtin"), PackageNamespace("adobe.utils"), PackageNamespace("flash.accessibility"), PackageNamespace("flash.desktop"), PackageNamespace("flash.display"), PackageNamespace("flash.errors"), PackageNamespace("flash.external"), PackageNamespace("flash.filters"), PackageNamespace("flash.geom"), PackageNamespace("flash.globalization"), PackageNamespace("flash.media"), PackageNamespace("flash.net.drm"), PackageNamespace("flash.printing"), PackageNamespace("flash.profiler"), PackageNamespace("flash.sampler"), PackageNamespace("flash.sensors"), PackageNamespace("flash.system"), PackageNamespace("flash.text"), PackageNamespace("flash.text.ime"), PackageNamespace("flash.text.engine"), PackageNamespace("flash.ui"), PackageNamespace("flash.utils"), PackageNamespace("flash.xml"), ProtectedNamespace("NiminFetishFantasyv0_fla:MainTimeline"), StaticProtectedNs("NiminFetishFantasyv0_fla:MainTimeline"), StaticProtectedNs("flash.display:MovieClip"), StaticProtectedNs("flash.display:Sprite"), StaticProtectedNs("flash.display:DisplayObjectContainer"), StaticProtectedNs("flash.display:InteractiveObject"), StaticProtectedNs("flash.display:DisplayObject"), StaticProtectedNs("flash.events:EventDispatcher"), StaticProtectedNs("Object")])
+   getproperty         MultinameL([PrivateNamespace("NiminFetishFantasyv0_fla:MainTimeline"), PackageNamespace(""), PackageNamespace("flash.events"), PackageNamespace("flash.net"), PrivateNamespace("$0"), PackageNamespace("NiminFetishFantasyv0_fla"), PackageInternalNs("NiminFetishFantasyv0_fla"), Namespace("http://adobe.com/AS3/2006/builtin"), PackageNamespace("adobe.utils"), PackageNamespace("flash.accessibility"), PackageNamespace("flash.desktop"), PackageNamespace("flash.display"), PackageNamespace("flash.errors"), PackageNamespace("flash.external"), PackageNamespace("flash.filters"), PackageNamespace("flash.geom"), PackageNamespace("flash.globalization"), PackageNamespace("flash.media"), PackageNamespace("flash.net.drm"), PackageNamespace("flash.printing"), PackageNamespace("flash.profiler"), PackageNamespace("flash.sampler"), PackageNamespace("flash.sensors"), PackageNamespace("flash.system"), PackageNamespace("flash.text"), PackageNamespace("flash.text.ime"), PackageNamespace("flash.text.engine"), PackageNamespace("flash.ui"), PackageNamespace("flash.utils"), PackageNamespace("flash.xml"), ProtectedNamespace("NiminFetishFantasyv0_fla:MainTimeline"), StaticProtectedNs("NiminFetishFantasyv0_fla:MainTimeline"), StaticProtectedNs("flash.display:MovieClip"), StaticProtectedNs("flash.display:Sprite"), StaticProtectedNs("flash.display:DisplayObjectContainer"), StaticProtectedNs("flash.display:InteractiveObject"), StaticProtectedNs("flash.display:DisplayObject"), StaticProtectedNs("flash.events:EventDispatcher"), StaticProtectedNs("Object")])
+   getlocal1
+   ifne                L58
+
+   debugline           9074
+   findpropstrict      QName(PackageNamespace(""), "bagSlotClear")
+   getlex              QName(PackageNamespace(""), "choiceListResult")
+   pushbyte            1
+   getproperty         MultinameL([PrivateNamespace("NiminFetishFantasyv0_fla:MainTimeline"), PackageNamespace(""), PackageNamespace("flash.events"), PackageNamespace("flash.net"), PrivateNamespace("$0"), PackageNamespace("NiminFetishFantasyv0_fla"), PackageInternalNs("NiminFetishFantasyv0_fla"), Namespace("http://adobe.com/AS3/2006/builtin"), PackageNamespace("adobe.utils"), PackageNamespace("flash.accessibility"), PackageNamespace("flash.desktop"), PackageNamespace("flash.display"), PackageNamespace("flash.errors"), PackageNamespace("flash.external"), PackageNamespace("flash.filters"), PackageNamespace("flash.geom"), PackageNamespace("flash.globalization"), PackageNamespace("flash.media"), PackageNamespace("flash.net.drm"), PackageNamespace("flash.printing"), PackageNamespace("flash.profiler"), PackageNamespace("flash.sampler"), PackageNamespace("flash.sensors"), PackageNamespace("flash.system"), PackageNamespace("flash.text"), PackageNamespace("flash.text.ime"), PackageNamespace("flash.text.engine"), PackageNamespace("flash.ui"), PackageNamespace("flash.utils"), PackageNamespace("flash.xml"), ProtectedNamespace("NiminFetishFantasyv0_fla:MainTimeline"), StaticProtectedNs("NiminFetishFantasyv0_fla:MainTimeline"), StaticProtectedNs("flash.display:MovieClip"), StaticProtectedNs("flash.display:Sprite"), StaticProtectedNs("flash.display:DisplayObjectContainer"), StaticProtectedNs("flash.display:InteractiveObject"), StaticProtectedNs("flash.display:DisplayObject"), StaticProtectedNs("flash.events:EventDispatcher"), StaticProtectedNs("Object")])
+   callpropvoid        QName(PackageNamespace(""), "bagSlotClear"), 1
+
+   jump                L71
+
+L58:
+   debugline           9077
+   getlex              QName(PackageNamespace(""), "bagStackArray")
+   getlex              QName(PackageNamespace(""), "choiceListResult")
+   pushbyte            1
+   getproperty         MultinameL([PrivateNamespace("NiminFetishFantasyv0_fla:MainTimeline"), PackageNamespace(""), PackageNamespace("flash.events"), PackageNamespace("flash.net"), PrivateNamespace("$0"), PackageNamespace("NiminFetishFantasyv0_fla"), PackageInternalNs("NiminFetishFantasyv0_fla"), Namespace("http://adobe.com/AS3/2006/builtin"), PackageNamespace("adobe.utils"), PackageNamespace("flash.accessibility"), PackageNamespace("flash.desktop"), PackageNamespace("flash.display"), PackageNamespace("flash.errors"), PackageNamespace("flash.external"), PackageNamespace("flash.filters"), PackageNamespace("flash.geom"), PackageNamespace("flash.globalization"), PackageNamespace("flash.media"), PackageNamespace("flash.net.drm"), PackageNamespace("flash.printing"), PackageNamespace("flash.profiler"), PackageNamespace("flash.sampler"), PackageNamespace("flash.sensors"), PackageNamespace("flash.system"), PackageNamespace("flash.text"), PackageNamespace("flash.text.ime"), PackageNamespace("flash.text.engine"), PackageNamespace("flash.ui"), PackageNamespace("flash.utils"), PackageNamespace("flash.xml"), ProtectedNamespace("NiminFetishFantasyv0_fla:MainTimeline"), StaticProtectedNs("NiminFetishFantasyv0_fla:MainTimeline"), StaticProtectedNs("flash.display:MovieClip"), StaticProtectedNs("flash.display:Sprite"), StaticProtectedNs("flash.display:DisplayObjectContainer"), StaticProtectedNs("flash.display:InteractiveObject"), StaticProtectedNs("flash.display:DisplayObject"), StaticProtectedNs("flash.events:EventDispatcher"), StaticProtectedNs("Object")])
+   getlex              QName(PackageNamespace(""), "bagStackArray")
+   getlex              QName(PackageNamespace(""), "choiceListResult")
+   pushbyte            1
+   getproperty         MultinameL([PrivateNamespace("NiminFetishFantasyv0_fla:MainTimeline"), PackageNamespace(""), PackageNamespace("flash.events"), PackageNamespace("flash.net"), PrivateNamespace("$0"), PackageNamespace("NiminFetishFantasyv0_fla"), PackageInternalNs("NiminFetishFantasyv0_fla"), Namespace("http://adobe.com/AS3/2006/builtin"), PackageNamespace("adobe.utils"), PackageNamespace("flash.accessibility"), PackageNamespace("flash.desktop"), PackageNamespace("flash.display"), PackageNamespace("flash.errors"), PackageNamespace("flash.external"), PackageNamespace("flash.filters"), PackageNamespace("flash.geom"), PackageNamespace("flash.globalization"), PackageNamespace("flash.media"), PackageNamespace("flash.net.drm"), PackageNamespace("flash.printing"), PackageNamespace("flash.profiler"), PackageNamespace("flash.sampler"), PackageNamespace("flash.sensors"), PackageNamespace("flash.system"), PackageNamespace("flash.text"), PackageNamespace("flash.text.ime"), PackageNamespace("flash.text.engine"), PackageNamespace("flash.ui"), PackageNamespace("flash.utils"), PackageNamespace("flash.xml"), ProtectedNamespace("NiminFetishFantasyv0_fla:MainTimeline"), StaticProtectedNs("NiminFetishFantasyv0_fla:MainTimeline"), StaticProtectedNs("flash.display:MovieClip"), StaticProtectedNs("flash.display:Sprite"), StaticProtectedNs("flash.display:DisplayObjectContainer"), StaticProtectedNs("flash.display:InteractiveObject"), StaticProtectedNs("flash.display:DisplayObject"), StaticProtectedNs("flash.events:EventDispatcher"), StaticProtectedNs("Object")])
+   getproperty         MultinameL([PrivateNamespace("NiminFetishFantasyv0_fla:MainTimeline"), PackageNamespace(""), PackageNamespace("flash.events"), PackageNamespace("flash.net"), PrivateNamespace("$0"), PackageNamespace("NiminFetishFantasyv0_fla"), PackageInternalNs("NiminFetishFantasyv0_fla"), Namespace("http://adobe.com/AS3/2006/builtin"), PackageNamespace("adobe.utils"), PackageNamespace("flash.accessibility"), PackageNamespace("flash.desktop"), PackageNamespace("flash.display"), PackageNamespace("flash.errors"), PackageNamespace("flash.external"), PackageNamespace("flash.filters"), PackageNamespace("flash.geom"), PackageNamespace("flash.globalization"), PackageNamespace("flash.media"), PackageNamespace("flash.net.drm"), PackageNamespace("flash.printing"), PackageNamespace("flash.profiler"), PackageNamespace("flash.sampler"), PackageNamespace("flash.sensors"), PackageNamespace("flash.system"), PackageNamespace("flash.text"), PackageNamespace("flash.text.ime"), PackageNamespace("flash.text.engine"), PackageNamespace("flash.ui"), PackageNamespace("flash.utils"), PackageNamespace("flash.xml"), ProtectedNamespace("NiminFetishFantasyv0_fla:MainTimeline"), StaticProtectedNs("NiminFetishFantasyv0_fla:MainTimeline"), StaticProtectedNs("flash.display:MovieClip"), StaticProtectedNs("flash.display:Sprite"), StaticProtectedNs("flash.display:DisplayObjectContainer"), StaticProtectedNs("flash.display:InteractiveObject"), StaticProtectedNs("flash.display:DisplayObject"), StaticProtectedNs("flash.events:EventDispatcher"), StaticProtectedNs("Object")])
+   getlocal1
+   subtract
+   setproperty         MultinameL([PrivateNamespace("NiminFetishFantasyv0_fla:MainTimeline"), PackageNamespace(""), PackageNamespace("flash.events"), PackageNamespace("flash.net"), PrivateNamespace("$0"), PackageNamespace("NiminFetishFantasyv0_fla"), PackageInternalNs("NiminFetishFantasyv0_fla"), Namespace("http://adobe.com/AS3/2006/builtin"), PackageNamespace("adobe.utils"), PackageNamespace("flash.accessibility"), PackageNamespace("flash.desktop"), PackageNamespace("flash.display"), PackageNamespace("flash.errors"), PackageNamespace("flash.external"), PackageNamespace("flash.filters"), PackageNamespace("flash.geom"), PackageNamespace("flash.globalization"), PackageNamespace("flash.media"), PackageNamespace("flash.net.drm"), PackageNamespace("flash.printing"), PackageNamespace("flash.profiler"), PackageNamespace("flash.sampler"), PackageNamespace("flash.sensors"), PackageNamespace("flash.system"), PackageNamespace("flash.text"), PackageNamespace("flash.text.ime"), PackageNamespace("flash.text.engine"), PackageNamespace("flash.ui"), PackageNamespace("flash.utils"), PackageNamespace("flash.xml"), ProtectedNamespace("NiminFetishFantasyv0_fla:MainTimeline"), StaticProtectedNs("NiminFetishFantasyv0_fla:MainTimeline"), StaticProtectedNs("flash.display:MovieClip"), StaticProtectedNs("flash.display:Sprite"), StaticProtectedNs("flash.display:DisplayObjectContainer"), StaticProtectedNs("flash.display:InteractiveObject"), StaticProtectedNs("flash.display:DisplayObject"), StaticProtectedNs("flash.events:EventDispatcher"), StaticProtectedNs("Object")])
+
+L71:
+   debugline           9080
+   getlocal1
+   pushbyte            0
+   ifngt               L84
+
+   findpropstrict      QName(PackageNamespace(""), "doCoin")
+   getlocal1
+   findpropstrict      QName(PackageNamespace(""), "itemValue")
+   getlex              QName(PackageNamespace(""), "choiceListResult")
+   pushbyte            0
+   getproperty         MultinameL([PrivateNamespace("NiminFetishFantasyv0_fla:MainTimeline"), PackageNamespace(""), PackageNamespace("flash.events"), PackageNamespace("flash.net"), PrivateNamespace("$0"), PackageNamespace("NiminFetishFantasyv0_fla"), PackageInternalNs("NiminFetishFantasyv0_fla"), Namespace("http://adobe.com/AS3/2006/builtin"), PackageNamespace("adobe.utils"), PackageNamespace("flash.accessibility"), PackageNamespace("flash.desktop"), PackageNamespace("flash.display"), PackageNamespace("flash.errors"), PackageNamespace("flash.external"), PackageNamespace("flash.filters"), PackageNamespace("flash.geom"), PackageNamespace("flash.globalization"), PackageNamespace("flash.media"), PackageNamespace("flash.net.drm"), PackageNamespace("flash.printing"), PackageNamespace("flash.profiler"), PackageNamespace("flash.sampler"), PackageNamespace("flash.sensors"), PackageNamespace("flash.system"), PackageNamespace("flash.text"), PackageNamespace("flash.text.ime"), PackageNamespace("flash.text.engine"), PackageNamespace("flash.ui"), PackageNamespace("flash.utils"), PackageNamespace("flash.xml"), ProtectedNamespace("NiminFetishFantasyv0_fla:MainTimeline"), StaticProtectedNs("NiminFetishFantasyv0_fla:MainTimeline"), StaticProtectedNs("flash.display:MovieClip"), StaticProtectedNs("flash.display:Sprite"), StaticProtectedNs("flash.display:DisplayObjectContainer"), StaticProtectedNs("flash.display:InteractiveObject"), StaticProtectedNs("flash.display:DisplayObject"), StaticProtectedNs("flash.events:EventDispatcher"), StaticProtectedNs("Object")])
+   callproperty        QName(PackageNamespace(""), "itemValue"), 1
+   multiply
+   callpropvoid        QName(PackageNamespace(""), "doCoin"), 1
+
+L84:
+   debugline           9082
+   findpropstrict      QName(PackageNamespace(""), "doSell")
+   callpropvoid        QName(PackageNamespace(""), "doSell"), 0
+
+   debugline           9083
+   returnvoid
+  end ; code
+ end ; body
+end ; method

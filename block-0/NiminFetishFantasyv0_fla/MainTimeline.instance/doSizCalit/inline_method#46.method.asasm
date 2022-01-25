@@ -1,0 +1,76 @@
+method
+ name ""
+ refid "NiminFetishFantasyv0_fla:MainTimeline/instance/doSizCalit/inline_method#46"
+ returns QName(PackageNamespace(""), "void")
+ flag NEED_ACTIVATION
+ body
+  maxstack 3
+  localcount 2
+  initscopedepth 12
+  maxscopedepth 13
+  code
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           15472
+   newactivation
+   dup
+   setlocal1
+
+   pushscope
+
+   debug               1, "anonymous$198", 0, 15472
+   debugline           15473
+   getlex              QName(PackageNamespace(""), "buttonChoice")
+   pushbyte            6
+   ifne                L32
+
+   debugline           15474
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "The felin femme-boy leads you to a rather large tree-borne hut. The closer he gets, the quicker his pace seems to be, as his tail begins to swish in anticipation.\r\rOpening the veil to the home, it seems the 'mistress' is rather well off. Lots of large, plush furniture, plenty of ornate, expensive trinkets and decorations, and overall elegant lifestyle. However, despite all of that, the femme-boy leads you straight to the bedroom.\r\rHe stops just inside the doorway. Past him, you can see an extavagent bed, perpendicular from your perspective, sitting in the middle of the room. On top of it lays the mistress. She's a gorgeous felin lady, with a youthful face and silky-smooth fur that has a healthy shine. You can see her erotically knead the top two pairs of her six breasts through her gown while she lays on her back, oblivious to your presence. Past her second pair, however, her body is hidden behind a mostly opaque curtain. Although, you can still see the silhouette of what might be her form. Her belly seems to be much larger than her figure would suggest, as if she were somewhat pregnant. And her legs seems to be bent and drawn back, straddling a large, round object that is even larger than her belly, perhaps even her whole body."
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           15475
+   getlex              QName(PackageNamespace(""), "mistressRep")
+   pushbyte            10
+   ifngt               L24
+
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "Fidoris leads you to the usual place. The mistress awaits upon her bed, her belly massive with vaginal flesh and pushing her many breasts towards her sides. So large that her gown cannot cover her lowest pair of breasts and stretching it across the next. The curtain that hides her giant pussy from the bedroom entrance is rather useless as you can see the thick lips protrude past the edge, her large clit standing erect above them. All of the growth thanks to your efforts."
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+L24:
+   debugline           15476
+   findpropstrict      QName(PackageNamespace(""), "doNext")
+   callpropvoid        QName(PackageNamespace(""), "doNext"), 0
+
+   debugline           15477
+   findproperty        QName(PackageNamespace(""), "doListen")
+   newfunction         "NiminFetishFantasyv0_fla:MainTimeline/instance/doSizCalit/inline_method#45"
+   initproperty        QName(PackageNamespace(""), "doListen")
+
+   jump                L45
+
+L32:
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           15649
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "\"O-Okay. Thanks anyways!\"\r\rHe turns and skitters off in a hurry, his tail hanging low with his bashfulness. You shrug and continue on with your walk."
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           15650
+   findproperty        QName(PackageNamespace(""), "hrs")
+   pushbyte            1
+   initproperty        QName(PackageNamespace(""), "hrs")
+
+   debugline           15651
+   findpropstrict      QName(PackageNamespace(""), "doEnd")
+   callpropvoid        QName(PackageNamespace(""), "doEnd"), 0
+
+L45:
+   debugline           15653
+   returnvoid
+  end ; code
+ end ; body
+end ; method

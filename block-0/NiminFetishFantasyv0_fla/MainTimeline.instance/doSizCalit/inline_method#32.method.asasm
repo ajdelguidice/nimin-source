@@ -1,0 +1,219 @@
+method
+ name ""
+ refid "NiminFetishFantasyv0_fla:MainTimeline/instance/doSizCalit/inline_method#32"
+ returns QName(PackageNamespace(""), "void")
+ flag NEED_ACTIVATION
+ body
+  maxstack 5
+  localcount 2
+  initscopedepth 13
+  maxscopedepth 14
+  code
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           15278
+   newactivation
+   dup
+   setlocal1
+
+   pushscope
+
+   debug               1, "anonymous$184", 0, 15278
+   debugline           15279
+   getlex              QName(PackageNamespace(""), "buttonChoice")
+   pushbyte            5
+   ifne                L117
+
+   debugline           15280
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "Pulling "
+   findpropstrict      QName(PackageNamespace(""), "pullUD")
+   pushbyte            2
+   callproperty        QName(PackageNamespace(""), "pullUD"), 1
+   add
+   pushstring          " your "
+   add
+   findpropstrict      QName(PackageNamespace(""), "clothesBottom")
+   callproperty        QName(PackageNamespace(""), "clothesBottom"), 0
+   add
+   pushstring          ", you give her a good view of your "
+   add
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           15281
+   getlex              QName(PackageNamespace(""), "cockTotal")
+   pushbyte            0
+   ifngt               L62
+
+   debugline           15282
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   findpropstrict      QName(PackageNamespace(""), "cockDesc")
+   callproperty        QName(PackageNamespace(""), "cockDesc"), 0
+   pushstring          " appendage"
+   add
+   findpropstrict      QName(PackageNamespace(""), "plural")
+   pushbyte            1
+   callproperty        QName(PackageNamespace(""), "plural"), 1
+   add
+   pushstring          ". She shrieks at the sight of such an odd thing, closing her eyes and running out the door, her wet dress sticking to her belly while her nethers are clear for all to see.\r\rFortunately, little girls showing off their nethers is somewhat common in Siz'Calit and nobody seems to pay any mind."
+   add
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           15283
+   findpropstrict      QName(PackageNamespace(""), "doLust")
+   pushbyte            3
+   pushbyte            0
+   callpropvoid        QName(PackageNamespace(""), "doLust"), 2
+
+   debugline           15284
+   findproperty        QName(PackageNamespace(""), "lilaRep")
+   pushbyte            1
+   initproperty        QName(PackageNamespace(""), "lilaRep")
+
+   debugline           15285
+   findproperty        QName(PackageNamespace(""), "hrs")
+   pushbyte            2
+   initproperty        QName(PackageNamespace(""), "hrs")
+
+   debugline           15286
+   findpropstrict      QName(PackageNamespace(""), "doEnd")
+   callpropvoid        QName(PackageNamespace(""), "doEnd"), 0
+
+   jump                L117
+
+L62:
+   debugline           15288
+   getlex              QName(PackageNamespace(""), "vulvaSize")
+   pushbyte            4
+   ifngt               L91
+
+   debugline           15289
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   findpropstrict      QName(PackageNamespace(""), "vulvaDesc")
+   callproperty        QName(PackageNamespace(""), "vulvaDesc"), 0
+   pushstring          " female sex. It's so mature and large, so much stranger than her own, that the girl shuts her eyes and covers them with her hands.\r\r\"I'm sorry miss lady, I-I don't think I'm weady for this\"\r\rStill covering her eyes, she jumps off the bed and heads out the door of the hut, her moist skirt stuck to her belly and her nethers clear for everyone to see."
+   add
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           15290
+   findpropstrict      QName(PackageNamespace(""), "doLust")
+   pushbyte            3
+   pushbyte            0
+   callpropvoid        QName(PackageNamespace(""), "doLust"), 2
+
+   debugline           15291
+   findproperty        QName(PackageNamespace(""), "lilaRep")
+   pushbyte            1
+   initproperty        QName(PackageNamespace(""), "lilaRep")
+
+   debugline           15292
+   findproperty        QName(PackageNamespace(""), "hrs")
+   pushbyte            2
+   initproperty        QName(PackageNamespace(""), "hrs")
+
+   debugline           15293
+   findpropstrict      QName(PackageNamespace(""), "doEnd")
+   callpropvoid        QName(PackageNamespace(""), "doEnd"), 0
+
+   jump                L117
+
+L91:
+   debugline           15296
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   findpropstrict      QName(PackageNamespace(""), "vulvaDesc")
+   callproperty        QName(PackageNamespace(""), "vulvaDesc"), 0
+   pushstring          " female sex. Not much different than herself, she stares intently at the moist webs that mirrors her own lap. Taking your fingers, you rub up through your cleft"
+   add
+   findpropstrict      QName(PackageNamespace(""), "plural")
+   pushbyte            2
+   callproperty        QName(PackageNamespace(""), "plural"), 1
+   add
+   pushstring          " focusing on the "
+   add
+   findpropstrict      QName(PackageNamespace(""), "clitDesc")
+   callproperty        QName(PackageNamespace(""), "clitDesc"), 0
+   add
+   pushstring          " button therein.\r\rDoing the same, the little girl lets out a gasp as she touches herself, her thighs twitching upon the bed. You smile at her, placing a hand on her head between her ears and continue to fondle yourself.\r\rAgain, she does the same, although soon her eyes close and her small hand moves faster and faster. She leans into your body, allowing you to wrap your arm around her while the other busies itself at your groin. Rapidly, you begin to gasp, more aroused than you thought you were, and she echoes in turn.\r\rWithin moments, you both cry out in unison, collapsing onto the bed in an orgasmic fit, your combined honey dripping down the side."
+   add
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           15297
+   findpropstrict      QName(PackageNamespace(""), "doNext")
+   callpropvoid        QName(PackageNamespace(""), "doNext"), 0
+
+   debugline           15298
+   findproperty        QName(PackageNamespace(""), "doListen")
+   newfunction         "NiminFetishFantasyv0_fla:MainTimeline/instance/doSizCalit/inline_method#30"
+   initproperty        QName(PackageNamespace(""), "doListen")
+
+L117:
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           15317
+   getlex              QName(PackageNamespace(""), "buttonChoice")
+   pushbyte            7
+   ifne                L139
+
+   debugline           15318
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "Nodding, you carefully caress up the girl's thigh. She clenches her eyes shut at first as your hand approaches her sensitive area. Her tiny nether-lips are so soft and delicate on your fingertips, like flower petals. Flower petals completely drenched in dew.\r\rShe lets out a short gasp as you focus upon her little button. Her small hips squirm on the bed, her thighs quaking uncontrollably. All the while, her eyes still shut.\r\rWithin just a few moments of gently fondling the girl, her body seizes and she lets out stuttered mewls. Your hand is swamped in a flood of her feminine honey, drenching her dress and the side of the bed. She falls towards you, gasping for breath as she grasps at your "
+   findpropstrict      QName(PackageNamespace(""), "clothesTop")
+   callproperty        QName(PackageNamespace(""), "clothesTop"), 0
+   add
+   pushstring          "."
+   add
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           15319
+   findpropstrict      QName(PackageNamespace(""), "doNext")
+   callpropvoid        QName(PackageNamespace(""), "doNext"), 0
+
+   debugline           15320
+   findproperty        QName(PackageNamespace(""), "doListen")
+   newfunction         "NiminFetishFantasyv0_fla:MainTimeline/instance/doSizCalit/inline_method#31"
+   initproperty        QName(PackageNamespace(""), "doListen")
+
+L139:
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           15329
+   getlex              QName(PackageNamespace(""), "buttonChoice")
+   pushbyte            10
+   ifne                L167
+
+   debugline           15330
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "Deciding it best to not get any more involved than you already are, you pat her on the head between her ears. You tell her this is something her Mommy should teach her and that it's nothing to be ashamed of. You pat your own moistness as proof and dab a bit of it on her little button nose.\r\rCheered up a little, she smiles and gives you a hug.\r\r\"Thank yew. I'll try!\"\r\rShe pushes her dress back down and runs out the door, leaving you feeling slightly warm and fuzzy inside."
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           15331
+   findpropstrict      QName(PackageNamespace(""), "stats")
+   pushbyte            0
+   pushbyte            3
+   pushbyte            0
+   dup
+   callpropvoid        QName(PackageNamespace(""), "stats"), 4
+
+   debugline           15332
+   findproperty        QName(PackageNamespace(""), "lilaRep")
+   pushbyte            1
+   initproperty        QName(PackageNamespace(""), "lilaRep")
+
+   debugline           15333
+   findproperty        QName(PackageNamespace(""), "hrs")
+   pushbyte            2
+   initproperty        QName(PackageNamespace(""), "hrs")
+
+   debugline           15334
+   findpropstrict      QName(PackageNamespace(""), "doEnd")
+   callpropvoid        QName(PackageNamespace(""), "doEnd"), 0
+
+L167:
+   debugline           15336
+   returnvoid
+  end ; code
+ end ; body
+end ; method

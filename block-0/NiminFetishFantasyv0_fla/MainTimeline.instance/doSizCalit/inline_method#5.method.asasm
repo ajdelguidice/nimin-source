@@ -1,0 +1,108 @@
+method
+ name ""
+ refid "NiminFetishFantasyv0_fla:MainTimeline/instance/doSizCalit/inline_method#5"
+ returns QName(PackageNamespace(""), "void")
+ body
+  maxstack 5
+  localcount 1
+  initscopedepth 13
+  maxscopedepth 13
+  code
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           14584
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "You can hear Lila take a deep breath to say something, but a loud gasp from a familiar voice interupts her outside.\r\r\"Lila! A-Are you pregnant again?"
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           14585
+   getlex              QName(PackageNamespace(""), "tallness")
+   pushbyte            26
+   ifngt               L15
+
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          " And what could you have gotten pregnant by? A horse?! You're enormous! How are you even standing upright with a belly like that?! The dress can't even reach past your belly-button!"
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   jump                L23
+
+L15:
+   debugline           14586
+   getlex              QName(PackageNamespace(""), "tallness")
+   pushbyte            12
+   ifngt               L23
+
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          " And what are you pregnant with?! You're huge! Your dress can't even cover your bum!"
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+L23:
+   debugline           14587
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "\"\r\rLila does her best to explain that she has YOU inside of her within a few sentences. \"I don't know what to dew!\"\r\r\"Okay, okay sweetie. If you can fit something in, you can push it back out. Here, just get up on our bed...\" You feel the room jounce around you, then slowly settle into something soft. \"and lay back and relax...\" You lose track of the 'down' direction yet again... \"Now sweetie, I just need you to settle down and think about pushing out, just like you did with your babies.\" You hear Lila's legs spread across the bed and feel a pressure slowly build around you.\r\r\"Good girl, good girl.\" A rhythmic beat echoes around as her mother softly pats the belly. \"Just think about how this happened and do it in reverse.\" ... You suddenly feel the pressure shift the other way, the surroundings growing hotter and a deluge of fresh fluids spill around you.\r\r\"Wait, no, stop thinking about it! You need to calm down, forget about what was happening and just focus on pushing. Geeze, I don't think I even want to know what you two were doing...\"\r\rWith her mother gently rubbing from outside, you can feel the tide shift the other way again, pressing you towards the exit. The muscles squeeze around you, slowly sending you towards a light at the end of a tunnel. You can feel the walls stretch around you, yet tighten and grow hotter at the same time. Even moreso as a pair of relatively large slender hands join you inside, a low cry being heard from Lila. The hands hug your sides, climbing up your body through the slime until they're able to get a grip on you. Then, in the blink of an eye, slide the rest of the way out with a wave of sensual fluids splattering out behind you, a howl of ecstasy filling the room.\r\rLila's mother places you on the ground, helping you stand as you regain your footing. She wipes you down with her bare hands, easily sloughing off plenty of fluids. On the bed before you, Lila lays with her legs spread and her cunt still gaping, dripping steadily while she gasps and pants for air.\r\r\"Umm...\" Her mother tries to think of what to say. \"Congratulations Lila, it's a- Nonono, I'm just kidding. But I guess you're a bit small for my little girl, huh?\""
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           14588
+   getlex              QName(PackageNamespace(""), "lilaVulva")
+   pushbyte            5
+   ifngt               L36
+
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          " She pauses and looks at her daughter, especially at the large erotic mass between the legs. \"Okay, maybe not 'little' in that regard...\""
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+L36:
+   debugline           14589
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          " Checking to make sure Lila is alright, she leans over and strokes a cheek until Lila's eyes open up with an embarassed blush. \"I guess you two just got carried away. You just have to be a little more cautious about going- err..., 'too deep', I guess? You both seem to be perfectly fine though, so even if this happens again by accident, there won't be a serious problem. Just be calm and you should be able to handle it, hun.\" Lila nods, leaning up to give her mother a hug while her loins are still gurgling towards you.\r\rHer mother hugs back, but then is quick to release her. She shakes her head. \"I don't even know what the heck I'm saying... My daughter just sucked in her lover and then gave birth to her lover. I don't even...\" She proceeds to walk out of the room, trying her best not to think too hard about it.\r\rLila giggles hesitantly before hopping down and giving you a hug as well. \"I... I didn't mean to do that to yew...\" Her tail lowers shamefully and she blushes harder, a hand rubbing over her belly. \"It did feel weally good though... So, umm, thank yew... If it happens again, I'll twy to be bettew about it.\"\r\rWith another peck on your cheek, Lila then runs out of the room as well, too embarassed to hear what your response might be. Left alone in her bedroom, you take the opportunity to use her sheets to wipe yourself off a bit more thoroughly. Not that it makes much of a difference, as her sheets are already (and probably always are) quite slick... A bit dumbfounded and confused, you leave the hut without saying goodbye. You'll see her again, but at the moment it's probably a good idea to continue on with your day."
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           14590
+   findproperty        QName(PackageNamespace(""), "hrs")
+   pushbyte            4
+   initproperty        QName(PackageNamespace(""), "hrs")
+
+   debugline           14591
+   findpropstrict      QName(PackageNamespace(""), "aff")
+   pushbyte            4
+   getlex              QName(PackageNamespace(""), "Math")
+   findpropstrict      QName(PackageNamespace(""), "percent")
+   callproperty        QName(PackageNamespace(""), "percent"), 0
+   pushbyte            10
+   divide
+   pushbyte            4
+   add
+   callproperty        QName(PackageNamespace(""), "floor"), 1
+   pushbyte            -3
+   callpropvoid        QName(PackageNamespace(""), "aff"), 3
+
+   debugline           14592
+   findproperty        QName(PackageNamespace(""), "lilaUB")
+   pushtrue
+   initproperty        QName(PackageNamespace(""), "lilaUB")
+
+   debugline           14593
+   findpropstrict      QName(PackageNamespace(""), "doLust")
+   getlex              QName(PackageNamespace(""), "Math")
+   getlex              QName(PackageNamespace(""), "lib")
+   pushbyte            2
+   divide
+   callproperty        QName(PackageNamespace(""), "floor"), 1
+   pushbyte            0
+   pushbyte            2
+   callpropvoid        QName(PackageNamespace(""), "doLust"), 3
+
+   debugline           14594
+   findpropstrict      QName(PackageNamespace(""), "doEnd")
+   callpropvoid        QName(PackageNamespace(""), "doEnd"), 0
+
+   debugline           14595
+   returnvoid
+  end ; code
+ end ; body
+end ; method

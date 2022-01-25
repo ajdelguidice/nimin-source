@@ -1,0 +1,81 @@
+method
+ name ""
+ refid "NiminFetishFantasyv0_fla:MainTimeline/instance/doSizCalit/inline_method#20"
+ returns QName(PackageNamespace(""), "void")
+ flag NEED_ACTIVATION
+ body
+  maxstack 13
+  localcount 2
+  initscopedepth 13
+  maxscopedepth 14
+  code
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           14992
+   newactivation
+   dup
+   setlocal1
+
+   pushscope
+
+   debug               1, "anonymous$172", 0, 14992
+   debugline           14993
+   findpropstrict      QName(PackageNamespace(""), "viewButtonOutline")
+   pushbyte            0
+   dup
+   dup
+   pushbyte            0
+   pushbyte            1
+   pushbyte            0
+   pushbyte            1
+   pushbyte            0
+   dup
+   dup
+   pushbyte            0
+   dup
+   callpropvoid        QName(PackageNamespace(""), "viewButtonOutline"), 12
+
+   debugline           14994
+   findpropstrict      QName(PackageNamespace(""), "viewButtonText")
+   pushbyte            0
+   dup
+   dup
+   pushbyte            0
+   pushbyte            1
+   pushbyte            0
+   pushbyte            1
+   pushbyte            0
+   dup
+   dup
+   pushbyte            0
+   dup
+   callpropvoid        QName(PackageNamespace(""), "viewButtonText"), 12
+
+   debugline           14995
+   findpropstrict      QName(PackageNamespace(""), "buttonWrite")
+   pushbyte            5
+   pushstring          "Drink it"
+   callpropvoid        QName(PackageNamespace(""), "buttonWrite"), 2
+
+   debugline           14996
+   findpropstrict      QName(PackageNamespace(""), "buttonWrite")
+   pushbyte            7
+   pushstring          "No thanks"
+   callpropvoid        QName(PackageNamespace(""), "buttonWrite"), 2
+
+   debugline           14997
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "\"Ohh, so that's what happened?\" Lila's mother blushes as you explain the situation to her. \"I guess she saw me down a Cat's Meow every now and then when she wanted some motherly milk and thought that it helped me be more of an adult, a parent... Well-\" She bends down to her daughter's height, rubbing the girl between the ears and trying to cheer her up. \"It's okay sweetie, as long as you didn't hurt yourself. Milk isn't bad for you, you know that. Though it might be a little...\" She giggles. \"silly for someone your age. Do you want to stop it, honey?\"\r\rLila looks around, trying to think of what to say. \"Ummm... What would I do with it?\"\r\rHer mother smirks again. \"Silly...\"\r\r She takes her daughter's hand and leads her inside, motioning for you to wait a few minutes. You hear odd gasping and mewling coming from within, and not the pained or frightened kind either. It doesn't take long before they both come back, Lila rubbing her front with a blush on her face and her mother carrying a teacup in her hand.\r\rLila's mother offers you the teacup, wiping some white from her upper lip. \"Would you like some? It's fresh~\"\r\rLila looks up at you, curious as to what you will do."
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           14998
+   findproperty        QName(PackageNamespace(""), "doListen")
+   newfunction         "NiminFetishFantasyv0_fla:MainTimeline/instance/doSizCalit/inline_method#19"
+   initproperty        QName(PackageNamespace(""), "doListen")
+
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           15017
+   returnvoid
+  end ; code
+ end ; body
+end ; method

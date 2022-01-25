@@ -1,0 +1,55 @@
+method
+ name ""
+ refid "NiminFetishFantasyv0_fla:MainTimeline/instance/doSizCalit/inline_method#22"
+ returns QName(PackageNamespace(""), "void")
+ body
+  maxstack 5
+  localcount 1
+  initscopedepth 12
+  maxscopedepth 12
+  code
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           15036
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "Whether it was because of the sand or the relaxation in her lust, she seems to be dripping no longer. She lunges forward and wraps her arms around your waist, hugging into your groin.\r\r\"Thank yew so much!\"\r\rShe lets go and fumbles with one of her pockets.\r\r\"Here, you can have my milk Mommy gave me. I alweady had enough today.\"\r\rWith a smile and another hug, she gives you a bottle of milk before running off to join her friends in some tease-less fun."
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           15037
+   findpropstrict      QName(PackageNamespace(""), "stats")
+   pushbyte            0
+   pushbyte            1
+   pushbyte            0
+   dup
+   callpropvoid        QName(PackageNamespace(""), "stats"), 4
+
+   debugline           15038
+   findpropstrict      QName(PackageNamespace(""), "doSexP")
+   pushbyte            15
+   callpropvoid        QName(PackageNamespace(""), "doSexP"), 1
+
+   debugline           15039
+   findpropstrict      QName(PackageNamespace(""), "loseManyItem")
+   pushbyte            103
+   pushbyte            1
+   callpropvoid        QName(PackageNamespace(""), "loseManyItem"), 2
+
+   debugline           15040
+   findpropstrict      QName(PackageNamespace(""), "itemAdd")
+   pushshort           500
+   callpropvoid        QName(PackageNamespace(""), "itemAdd"), 1
+
+   debugline           15041
+   findproperty        QName(PackageNamespace(""), "hrs")
+   pushbyte            1
+   initproperty        QName(PackageNamespace(""), "hrs")
+
+   debugline           15042
+   findpropstrict      QName(PackageNamespace(""), "doEnd")
+   callpropvoid        QName(PackageNamespace(""), "doEnd"), 0
+
+   debugline           15043
+   returnvoid
+  end ; code
+ end ; body
+end ; method

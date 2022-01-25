@@ -1,0 +1,91 @@
+method
+ name ""
+ refid "NiminFetishFantasyv0_fla:MainTimeline/instance/doSizCalit/inline_method#21"
+ returns QName(PackageNamespace(""), "void")
+ flag NEED_ACTIVATION
+ body
+  maxstack 3
+  localcount 2
+  initscopedepth 12
+  maxscopedepth 13
+  code
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           14947
+   newactivation
+   dup
+   setlocal1
+
+   pushscope
+
+   debug               1, "anonymous$173", 0, 14947
+   debugline           14948
+   getlex              QName(PackageNamespace(""), "buttonChoice")
+   pushbyte            1
+   ifne                L23
+
+   debugline           14949
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "You reach into your bag and pull out a dose of Magical Sand of Dryness. Handing it to her, she nods and begins to rub it around her naked body. You watch as her cheeks turn redder, her nipples growing stiff and sticking out more obviously, droplets of milk spilling from their tips and onto the floor. The sand quickly does its work, on the other hand, and the milk quickly dries up.\r\rHowever, the mess between her legs only seems to have amplified, drooling from her crotch down to her knees and then some. Her hands continue to move about herself, her eyes closing and her breath turning into quiet \"mews\". Both hands find their way down between her legs and she starts masturbating right before your eyes. She doesn't seem to mind your presence, your previous encounter reminding her how to take care of herself, especially as her body begins to quiver.\r\rYou manage to duck in just in time and catch her as her legs buckle out from under her. She breathes heavily over her shoulder, a purring echoing through her body, and she melts against your body. \"Th-thank yew...\""
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           14950
+   findpropstrict      QName(PackageNamespace(""), "doNext")
+   callpropvoid        QName(PackageNamespace(""), "doNext"), 0
+
+   debugline           14951
+   findproperty        QName(PackageNamespace(""), "doListen")
+   newfunction         "NiminFetishFantasyv0_fla:MainTimeline/instance/doSizCalit/inline_method#16"
+   initproperty        QName(PackageNamespace(""), "doListen")
+
+L23:
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           14962
+   getlex              QName(PackageNamespace(""), "buttonChoice")
+   pushbyte            5
+   ifne                L40
+
+   debugline           14963
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "You give her a kind smile and kneel before her. Her eyes go wide, her cheeks reddening further, as she watches your face close in on her chest, your mouth opening wide. She winces a little in fear as your moist tongue touches against her fur, but she quickly lets out a subdued gasp as you lick up across her sensitive nipple.\r\rHer milk tastes sweet on your lips as you lap it up from around her areole. It instantly stiffens under your tongue, protruding more from her small body. A fresh drop of milk beads at the tip, as though expecting you to lift it away. Instead, your whole mouth comes down upon it, Lila squirming as your lips latch down upon her nipple. She mewls cutely as you begin to suckle from her, the mess between her legs spilling out across your own. You gulp down as much of her milk as you can, the small amount rapidly running dry. Then you release, eliciting another gasp as her sensitive and wet nipple is touched by the cooler air outside of your mouth. Then another as your mouth tends to another nipple to release more. Then another, and another.\r\rBy the time you're down to the last couple of nipples, the small felin girl is curled around and hugging your head as she purrs, her hips bending up towards you to help you reach the bottom pair and her honey drizzling down your neck. You find it difficult to latch on as you lick around. Her hips begin to buck against you, trying to rub her little button against your body. Her thighs are drenched with her arousal, your efforts forcing her natural instincts to take over. So, you decide to go with the flow and drink from her other leaking place."
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           14964
+   findpropstrict      QName(PackageNamespace(""), "doNext")
+   callpropvoid        QName(PackageNamespace(""), "doNext"), 0
+
+   debugline           14965
+   findproperty        QName(PackageNamespace(""), "doListen")
+   newfunction         "NiminFetishFantasyv0_fla:MainTimeline/instance/doSizCalit/inline_method#18"
+   initproperty        QName(PackageNamespace(""), "doListen")
+
+L40:
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           14989
+   getlex              QName(PackageNamespace(""), "buttonChoice")
+   pushbyte            10
+   ifne                L57
+
+   debugline           14990
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "You pat her on her head and tell her she should go confront her mother about that kind of problem.\r\r\"Okay...\" Her shoulders drop in reluctance.\r\rShe takes your hand and begins to walk you out the doorway, but then pauses two steps out as she realizes she bare-naked still, with milk and heat dripping from her body. Face as bright as ever, she dashes back in and tosses on her sundress and rushes back out to you. As she leads you to her home, you take a moment to tug down the backside of her dress after walking for a while and realizing her bare bum had been exposed through the hasty dressing.\r\rAs you begin to approach her home, the girl's mother spots you through the doorway as you walk beside her moist daughte and jumps to greet you. \"Oh, hello! Ummm... Might you be the one she's been going on about, something about 'help'?\", she eyes you suspiciously.\r\rYou stammer to get the words out, not exactly sure how to explain it.\r\rA grin spreads across her face as she lets out a chuckle. \"Hehe, don't worry. Lila has seemed much happier than when she first went into heat, and the way she talks about you being so nice to her lets me know you took good care of her. Although, umm... What's wrong now?\" She looks down to Lila, who hangs her head in shame and tries to hide the blotches that decorate her dress."
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           14991
+   findpropstrict      QName(PackageNamespace(""), "doNext")
+   callpropvoid        QName(PackageNamespace(""), "doNext"), 0
+
+   debugline           14992
+   findproperty        QName(PackageNamespace(""), "doListen")
+   newfunction         "NiminFetishFantasyv0_fla:MainTimeline/instance/doSizCalit/inline_method#20"
+   initproperty        QName(PackageNamespace(""), "doListen")
+
+L57:
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           15019
+   returnvoid
+  end ; code
+ end ; body
+end ; method

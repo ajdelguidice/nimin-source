@@ -1,0 +1,19 @@
+method
+ name ""
+ refid "NiminFetishFantasyv0_fla:MainTimeline/instance/doShop/inline_method#1"
+ returns QName(PackageNamespace(""), "void")
+ body
+  maxstack 1
+  localcount 1
+  initscopedepth 13
+  maxscopedepth 13
+  code
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           8993
+   findpropstrict      QName(PackageNamespace(""), "doShop")
+   callpropvoid        QName(PackageNamespace(""), "doShop"), 0
+
+   returnvoid
+  end ; code
+ end ; body
+end ; method

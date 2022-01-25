@@ -1,0 +1,75 @@
+method
+ name ""
+ refid "NiminFetishFantasyv0_fla:MainTimeline/instance/doOviasis/inline_method#2"
+ returns QName(PackageNamespace(""), "void")
+ flag NEED_ACTIVATION
+ body
+  maxstack 3
+  localcount 2
+  initscopedepth 12
+  maxscopedepth 13
+  code
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           15673
+   newactivation
+   dup
+   setlocal1
+
+   pushscope
+
+   debug               1, "anonymous$201", 0, 15673
+   debugline           15674
+   getlex              QName(PackageNamespace(""), "buttonChoice")
+   pushbyte            6
+   ifne                L29
+
+   debugline           15675
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "Her eyes light up, her muzzle rushing in to kiss you. Lips locked for a moment, her eyes spring open as she catches her eagerness early. \"Heh, sorry... Umm... Hope you like flying?\"\r\rHer tail readjusts itself for a better grip around your "
+   findpropstrict      QName(PackageNamespace(""), "buttDesc")
+   callproperty        QName(PackageNamespace(""), "buttDesc"), 0
+   add
+   pushstring          " rump. And since her winged arms will be occupied with flying, her legs wind up cradling your back as she begins to take off in the middle of the bazaar, positioning you much lower down her body. You get a mighty whiff of arousal as pre drools over your lips, your face mashed up against the tip of the large erection in her loin cloth... Nevertheless, she avoids humping you too much as she focuses on remaining balanced in flight, giving you a chance to twist around and watch the sand fly by below. The two of you go higher and higher, giving you a fantastic view of the desert. You fly out of Oviasis and can soon clearly see the path to your destination: a large dune about 2 hours away on foot. You wouldn't have given much attention such a dune in your usual exploration, since it looks like many many many of the others, but as you fly over to the opposite side you can make out a large jutting stone overhanging a cave.\r\rThe strange woman takes you down and lands you gently atop the sand, giving you a good view of the outside of 'her place'. A simple tunnel burrowing into the ground beneath the rock, the entrance is decorated with all sorts of crystalline chimes that softly ring out with a slight breeze. There's also some painted barriers to keep the sand out as well as a large barrel of water and towels to allow somebody to remove any sand from themselves as well. Otherwise, you can't quite tell what's in the tunnel.\r\r\"Well, umm... This is my home!\""
+   add
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           15676
+   findpropstrict      QName(PackageNamespace(""), "doNext")
+   callpropvoid        QName(PackageNamespace(""), "doNext"), 0
+
+   debugline           15677
+   findproperty        QName(PackageNamespace(""), "doListen")
+   newfunction         "NiminFetishFantasyv0_fla:MainTimeline/instance/doOviasis/inline_method#1"
+   initproperty        QName(PackageNamespace(""), "doListen")
+
+   jump                L46
+
+L29:
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           15725
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "Your rejection falls harshly upon her, her ears pinning back against her hood and her tail swinging in between her legs. She jumps away from you, her wings flap around you as they release and snap back to cover herself. She steps backwards, her eyes peering through a couple feathers with tears welling up as she hides behind them, and she gulps to speak, \"Oh... I-I'm so sorry for what happened then!\"\r\rHer sandles kick up the sand as she turns to run away and after a few yards her wings unfurl for a speedier retreat.\r\r\rUnsure of who this stranger was or what exactly happened, it's the last you've seen of her."
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           15726
+   findproperty        QName(PackageNamespace(""), "silRep")
+   pushbyte            -1
+   initproperty        QName(PackageNamespace(""), "silRep")
+
+   debugline           15727
+   findproperty        QName(PackageNamespace(""), "hrs")
+   pushbyte            2
+   initproperty        QName(PackageNamespace(""), "hrs")
+
+   debugline           15728
+   findpropstrict      QName(PackageNamespace(""), "doEnd")
+   callpropvoid        QName(PackageNamespace(""), "doEnd"), 0
+
+L46:
+   debugline           15730
+   returnvoid
+  end ; code
+ end ; body
+end ; method

@@ -1,0 +1,78 @@
+method
+ name ""
+ refid "NiminFetishFantasyv0_fla:MainTimeline/instance/doSalon/inline_method#1"
+ returns QName(PackageNamespace(""), "void")
+ body
+  maxstack 2
+  localcount 1
+  initscopedepth 13
+  maxscopedepth 13
+  code
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           9574
+   getlex              QName(PackageNamespace(""), "buttonChoice")
+   pushbyte            1
+   ifne                L9
+
+   findproperty        QName(PackageNamespace(""), "hairLength")
+   pushbyte            2
+   initproperty        QName(PackageNamespace(""), "hairLength")
+
+   jump                L40
+
+L9:
+   debugline           9575
+   getlex              QName(PackageNamespace(""), "buttonChoice")
+   pushbyte            2
+   ifne                L17
+
+   findproperty        QName(PackageNamespace(""), "hairLength")
+   pushbyte            4
+   initproperty        QName(PackageNamespace(""), "hairLength")
+
+   jump                L40
+
+L17:
+   debugline           9576
+   getlex              QName(PackageNamespace(""), "buttonChoice")
+   pushbyte            5
+   ifne                L25
+
+   findproperty        QName(PackageNamespace(""), "hairLength")
+   pushbyte            6
+   initproperty        QName(PackageNamespace(""), "hairLength")
+
+   jump                L40
+
+L25:
+   debugline           9577
+   getlex              QName(PackageNamespace(""), "buttonChoice")
+   pushbyte            6
+   ifne                L33
+
+   findproperty        QName(PackageNamespace(""), "hairLength")
+   pushbyte            8
+   initproperty        QName(PackageNamespace(""), "hairLength")
+
+   jump                L40
+
+L33:
+   debugline           9578
+   getlex              QName(PackageNamespace(""), "buttonChoice")
+   pushbyte            7
+   ifne                L40
+
+   findproperty        QName(PackageNamespace(""), "hairLength")
+   pushbyte            10
+   initproperty        QName(PackageNamespace(""), "hairLength")
+
+L40:
+   debugline           9579
+   findpropstrict      QName(PackageNamespace(""), "doSalon")
+   callpropvoid        QName(PackageNamespace(""), "doSalon"), 0
+
+   debugline           9580
+   returnvoid
+  end ; code
+ end ; body
+end ; method

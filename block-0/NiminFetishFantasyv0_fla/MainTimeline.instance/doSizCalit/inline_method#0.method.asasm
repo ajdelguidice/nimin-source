@@ -1,0 +1,54 @@
+method
+ name ""
+ refid "NiminFetishFantasyv0_fla:MainTimeline/instance/doSizCalit/inline_method#0"
+ returns QName(PackageNamespace(""), "void")
+ body
+  maxstack 5
+  localcount 1
+  initscopedepth 12
+  maxscopedepth 12
+  code
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           14360
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "Lila's mother shortly shows up in tears, happy to see her daughter is alright and her grandchildren doing quite well. You all eventually move back to their home, where they have already set up preparations for the newborns. Nice fluffy bedding right next to the larger bed in their bedroom.\r\rStaying the night, you make sure everything is well. Lila is quickly walking around again, despite her recent birth, but also quickly collapses onto the bed with a snore. Her mother assures you the babies will be alright and they'll be well taken care of, allowing you to cuddle up beside her daughter to rest as well.\r\rBy the next day, everything is perfectly fine. The babies are in quite good hands with their well experience grandmother and their loving mother. Your only concern, however, is how Lila began to grind up against you when she began to wake up..."
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           14361
+   findproperty        QName(PackageNamespace(""), "hrs")
+   pushbyte            24
+   initproperty        QName(PackageNamespace(""), "hrs")
+
+   debugline           14362
+   findproperty        QName(PackageNamespace(""), "exhaustion")
+   pushbyte            -24
+   initproperty        QName(PackageNamespace(""), "exhaustion")
+
+   debugline           14363
+   findpropstrict      QName(PackageNamespace(""), "stats")
+   pushbyte            0
+   pushbyte            1
+   pushbyte            0
+   dup
+   callpropvoid        QName(PackageNamespace(""), "stats"), 4
+
+   debugline           14364
+   findpropstrict      QName(PackageNamespace(""), "doSexP")
+   pushbyte            75
+   callpropvoid        QName(PackageNamespace(""), "doSexP"), 1
+
+   debugline           14365
+   findproperty        QName(PackageNamespace(""), "lilaPreg")
+   pushbyte            -1
+   initproperty        QName(PackageNamespace(""), "lilaPreg")
+
+   debugline           14366
+   findpropstrict      QName(PackageNamespace(""), "doEnd")
+   callpropvoid        QName(PackageNamespace(""), "doEnd"), 0
+
+   debugline           14367
+   returnvoid
+  end ; code
+ end ; body
+end ; method

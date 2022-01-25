@@ -1,0 +1,140 @@
+method
+ name ""
+ refid "NiminFetishFantasyv0_fla:MainTimeline/instance/doPlains/inline_method#3"
+ returns QName(PackageNamespace(""), "void")
+ body
+  maxstack 3
+  localcount 1
+  initscopedepth 11
+  maxscopedepth 11
+  code
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           16586
+   getlex              QName(PackageNamespace(""), "buttonChoice")
+   pushbyte            6
+   ifne                L80
+
+   debugline           16587
+   getlex              QName(PackageNamespace(""), "firstExplore")
+   pushfalse
+   ifne                L19
+
+   debugline           16588
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "You take a deep breath. You're finally doing it, you're actually going beyond your home. There's a sense of nervousness from the unknown, but at the same time a since of exhiliration, like you're actually going to do something important. And for the first time since you've started having those dreams, you don't feel anxious about your life. You step forward with a sense of relief.\r\r"
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           16589
+   findproperty        QName(PackageNamespace(""), "firstExplore")
+   pushtrue
+   initproperty        QName(PackageNamespace(""), "firstExplore")
+
+   jump                L24
+
+L19:
+   debugline           16591
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          ""
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+L24:
+   debugline           16592
+   getlex              QName(PackageNamespace(""), "currentZone")
+   pushbyte            1
+   ifne                L52
+
+   debugline           16593
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "Following the road, signs of civilization come into view. Large tents flutter in the breeze, made from canvas held up by rocks and logs, with a few smaller brick buildings here and there. You can hear the soft clapping of hard feet everywhere, as you spot several large horse-like people walk and dash about.\r\rYou have now entered the Equan home-city of Firmshaft! Although, looking behind you, there seems to be no sign of the road you just took. Getting back might be a bit difficult..."
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           16594
+   findpropstrict      QName(PackageNamespace(""), "regionChange")
+   pushbyte            2
+   callpropvoid        QName(PackageNamespace(""), "regionChange"), 1
+
+   debugline           16595
+   getlex              QName(PackageNamespace(""), "foundFirmshaft")
+   pushfalse
+   ifne                L44
+
+   findproperty        QName(PackageNamespace(""), "foundFirmshaft")
+   pushtrue
+   initproperty        QName(PackageNamespace(""), "foundFirmshaft")
+
+L44:
+   debugline           16596
+   findproperty        QName(PackageNamespace(""), "hrs")
+   pushbyte            4
+   initproperty        QName(PackageNamespace(""), "hrs")
+
+   debugline           16597
+   findpropstrict      QName(PackageNamespace(""), "doEnd")
+   callpropvoid        QName(PackageNamespace(""), "doEnd"), 0
+
+   jump                L79
+
+L52:
+   debugline           16599
+   getlex              QName(PackageNamespace(""), "currentZone")
+   pushbyte            2
+   ifne                L79
+
+   debugline           16600
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "Following the road, the level land breaks up into rolling hills. Not far, you see tall buildings of wood and stone, with open streets of dirt and pebbles, nestled between the hills. Fur-less people move all about, busy doing odd jobs or having fun.\r\rYou have found the Human home-city of Softlik! Although, looking behind you, there seems to be no sign of the road you just took. Getting back might be a bit difficult..."
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           16601
+   findpropstrict      QName(PackageNamespace(""), "regionChange")
+   pushbyte            1
+   callpropvoid        QName(PackageNamespace(""), "regionChange"), 1
+
+   debugline           16602
+   getlex              QName(PackageNamespace(""), "foundSoftlik")
+   pushfalse
+   ifne                L72
+
+   findproperty        QName(PackageNamespace(""), "foundSoftlik")
+   pushtrue
+   initproperty        QName(PackageNamespace(""), "foundSoftlik")
+
+L72:
+   debugline           16603
+   findproperty        QName(PackageNamespace(""), "hrs")
+   pushbyte            4
+   initproperty        QName(PackageNamespace(""), "hrs")
+
+   debugline           16604
+   findpropstrict      QName(PackageNamespace(""), "doEnd")
+   callpropvoid        QName(PackageNamespace(""), "doEnd"), 0
+
+L79:
+   jump                L92
+
+L80:
+   debugline           16608
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "You return from whence you came."
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           16609
+   findproperty        QName(PackageNamespace(""), "hrs")
+   pushbyte            1
+   initproperty        QName(PackageNamespace(""), "hrs")
+
+   debugline           16610
+   findpropstrict      QName(PackageNamespace(""), "doEnd")
+   callpropvoid        QName(PackageNamespace(""), "doEnd"), 0
+
+L92:
+   debugline           16612
+   returnvoid
+  end ; code
+ end ; body
+end ; method

@@ -1,0 +1,84 @@
+method
+ name ""
+ refid "NiminFetishFantasyv0_fla:MainTimeline/instance/doSizCalit/inline_method#3"
+ returns QName(PackageNamespace(""), "void")
+ body
+  maxstack 5
+  localcount 1
+  initscopedepth 13
+  maxscopedepth 13
+  code
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           14523
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "After a few minutes of continuous orgasm, Lila spends several more simply panting and gasping for air. You crawl up between her legs and hug around her belly, easing her nerves and helping bring her back to this world. She eventually regains enough of her wits to hug you back, kissing your forehead.\r\r\"Thank yew... That was... That was...\" She can't really finish the statement, merely pressing her plush vulva up against you and kissing your waist in another sense.\r\rAt a loss for words, the two of you lay there for a while until the feeling returns to her legs. Lila stands, swaying slightly while she catches her balance, and lowers her soaked dress the best she can. \"I need to go home nao and take a nice long nap... I weally enjoyed this, though, and won't mind if it happens again...\" She blushes with embarassment over her naughty desire for more and is quick to escape the hut, her tail writhing about as she recounts what happened in her mind, her knees twitching as she nearly climaxes from the memory alone...\r\rTaking your time with wiping yourself down from the deluge, you also think about what happened. Overall, it's rather arousing and feels quite pleasant..."
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           14524
+   findpropstrict      QName(PackageNamespace(""), "checkItem")
+   pushshort           200
+   callproperty        QName(PackageNamespace(""), "checkItem"), 1
+   iffalse             L25
+
+   debugline           14525
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "\r\rHowever, once you're dry, you notice a blotch still forming. You quickly open up your bag and take out the culprit. The gift Lila had given to you when you first met her now seems much... 'wetter'. The leaves and flowers of the little charm sweat with drops of 'dew', producing a small amount of familiar honey from nothing. There's also a general warmth to the object that wasn't there before and seems to be having an effect on yourself. It seems Lila's gift has become more imbued with the girl's nature with the rather intimate 'connection' you two shared..."
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           14526
+   findpropstrict      QName(PackageNamespace(""), "loseManyItem")
+   pushshort           200
+   pushbyte            1
+   callpropvoid        QName(PackageNamespace(""), "loseManyItem"), 2
+
+   debugline           14527
+   findpropstrict      QName(PackageNamespace(""), "itemAdd")
+   pushshort           237
+   callpropvoid        QName(PackageNamespace(""), "itemAdd"), 1
+
+L25:
+   debugline           14529
+   findproperty        QName(PackageNamespace(""), "hrs")
+   pushbyte            4
+   initproperty        QName(PackageNamespace(""), "hrs")
+
+   debugline           14530
+   findpropstrict      QName(PackageNamespace(""), "aff")
+   pushbyte            4
+   getlex              QName(PackageNamespace(""), "Math")
+   findpropstrict      QName(PackageNamespace(""), "percent")
+   callproperty        QName(PackageNamespace(""), "percent"), 0
+   pushbyte            10
+   divide
+   pushbyte            4
+   add
+   callproperty        QName(PackageNamespace(""), "floor"), 1
+   pushbyte            -3
+   callpropvoid        QName(PackageNamespace(""), "aff"), 3
+
+   debugline           14531
+   findpropstrict      QName(PackageNamespace(""), "doHP")
+   pushbyte            10
+   callpropvoid        QName(PackageNamespace(""), "doHP"), 1
+
+   debugline           14532
+   findpropstrict      QName(PackageNamespace(""), "doLust")
+   getlex              QName(PackageNamespace(""), "Math")
+   getlex              QName(PackageNamespace(""), "lib")
+   pushdouble          1.5
+   divide
+   callproperty        QName(PackageNamespace(""), "floor"), 1
+   pushbyte            0
+   callpropvoid        QName(PackageNamespace(""), "doLust"), 2
+
+   debugline           14533
+   findpropstrict      QName(PackageNamespace(""), "doEnd")
+   callpropvoid        QName(PackageNamespace(""), "doEnd"), 0
+
+   debugline           14534
+   returnvoid
+  end ; code
+ end ; body
+end ; method

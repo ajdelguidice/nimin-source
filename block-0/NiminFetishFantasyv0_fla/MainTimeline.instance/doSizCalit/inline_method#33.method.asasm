@@ -1,0 +1,93 @@
+method
+ name ""
+ refid "NiminFetishFantasyv0_fla:MainTimeline/instance/doSizCalit/inline_method#33"
+ returns QName(PackageNamespace(""), "void")
+ body
+  maxstack 5
+  localcount 1
+  initscopedepth 13
+  maxscopedepth 13
+  code
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           15358
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "Some hours later, she rustles awake within your arms, rousing you as well. She nuzzles into your "
+   findpropstrict      QName(PackageNamespace(""), "boobDesc")
+   callproperty        QName(PackageNamespace(""), "boobDesc"), 0
+   add
+   pushstring          " chest, purring softly. A few sweet moments pass and she mews, slipping a hand between her legs.\r\r\"Thank yew so much! It woked!\" She grins happily. Then she blushes, \"And thank yew for cleaning me so well, I really liked it... I'll neva forget it!\"\r\rKissing you on the cheek, she pushes something into your belly before hopping off the bed and running out of the hut, her tail swishing high behind her ...And her butt in plain view as she forgot to string the perky tail through its hole, leaving it to pull the dress up from underneath."
+   add
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           15359
+   findpropstrict      QName(PackageNamespace(""), "stats")
+   pushbyte            0
+   dup
+   pushbyte            2
+   dup
+   callpropvoid        QName(PackageNamespace(""), "stats"), 4
+
+   debugline           15360
+   findpropstrict      QName(PackageNamespace(""), "doLust")
+   getlex              QName(PackageNamespace(""), "Math")
+   getlex              QName(PackageNamespace(""), "lib")
+   pushbyte            4
+   divide
+   callproperty        QName(PackageNamespace(""), "floor"), 1
+   pushbyte            0
+   callpropvoid        QName(PackageNamespace(""), "doLust"), 2
+
+   debugline           15361
+   findpropstrict      QName(PackageNamespace(""), "itemAdd")
+   pushshort           200
+   callpropvoid        QName(PackageNamespace(""), "itemAdd"), 1
+
+   debugline           15362
+   findproperty        QName(PackageNamespace(""), "lilaRep")
+   pushbyte            3
+   initproperty        QName(PackageNamespace(""), "lilaRep")
+
+   debugline           15363
+   findpropstrict      QName(PackageNamespace(""), "aff")
+   pushbyte            4
+   getlex              QName(PackageNamespace(""), "Math")
+   findpropstrict      QName(PackageNamespace(""), "percent")
+   callproperty        QName(PackageNamespace(""), "percent"), 0
+   pushbyte            20
+   divide
+   pushbyte            8
+   add
+   callproperty        QName(PackageNamespace(""), "floor"), 1
+   pushbyte            -2
+   callpropvoid        QName(PackageNamespace(""), "aff"), 3
+
+   debugline           15364
+   findpropstrict      QName(PackageNamespace(""), "doSexP")
+   pushbyte            45
+   callpropvoid        QName(PackageNamespace(""), "doSexP"), 1
+
+   debugline           15365
+   findproperty        QName(PackageNamespace(""), "exhaustion")
+   pushbyte            0
+   initproperty        QName(PackageNamespace(""), "exhaustion")
+
+   debugline           15366
+   findproperty        QName(PackageNamespace(""), "skipExhaustion")
+   pushtrue
+   initproperty        QName(PackageNamespace(""), "skipExhaustion")
+
+   debugline           15367
+   findproperty        QName(PackageNamespace(""), "hrs")
+   pushbyte            3
+   initproperty        QName(PackageNamespace(""), "hrs")
+
+   debugline           15368
+   findpropstrict      QName(PackageNamespace(""), "doEnd")
+   callpropvoid        QName(PackageNamespace(""), "doEnd"), 0
+
+   debugline           15369
+   returnvoid
+  end ; code
+ end ; body
+end ; method
