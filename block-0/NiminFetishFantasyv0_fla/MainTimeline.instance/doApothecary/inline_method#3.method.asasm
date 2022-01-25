@@ -1,0 +1,345 @@
+method
+ name ""
+ refid "NiminFetishFantasyv0_fla:MainTimeline/instance/doApothecary/inline_method#3"
+ returns QName(PackageNamespace(""), "void")
+ flag NEED_ACTIVATION
+ body
+  maxstack 13
+  localcount 2
+  initscopedepth 12
+  maxscopedepth 13
+  code
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           9300
+   newactivation
+   dup
+   setlocal1
+
+   pushscope
+
+   debug               1, "anonymous$67", 0, 9300
+   debugline           9301
+   getlex              QName(PackageNamespace(""), "buttonChoice")
+   pushbyte            4
+   equals
+   not
+   dup
+   iffalse             L19
+
+   pop
+   getlex              QName(PackageNamespace(""), "buttonChoice")
+   pushbyte            8
+   equals
+   not
+L19:
+   dup
+   iffalse             L26
+
+   pop
+   getlex              QName(PackageNamespace(""), "buttonChoice")
+   pushbyte            12
+   equals
+   not
+L26:
+   dup
+   iffalse             L35
+
+   pop
+   findpropstrict      QName(PackageNamespace(""), "apothID")
+   getlex              QName(PackageNamespace(""), "buttonChoice")
+   callproperty        QName(PackageNamespace(""), "apothID"), 1
+   pushbyte            0
+   equals
+   not
+L35:
+   iffalse             L61
+
+   debugline           9302
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   findpropstrict      QName(PackageNamespace(""), "apothDescription")
+   findpropstrict      QName(PackageNamespace(""), "apothID")
+   getlex              QName(PackageNamespace(""), "buttonChoice")
+   callproperty        QName(PackageNamespace(""), "apothID"), 1
+   callproperty        QName(PackageNamespace(""), "apothDescription"), 1
+   pushstring          "\r\rCost: "
+   add
+   pushbyte            3
+   findpropstrict      QName(PackageNamespace(""), "apothValue")
+   findpropstrict      QName(PackageNamespace(""), "apothID")
+   getlex              QName(PackageNamespace(""), "buttonChoice")
+   callproperty        QName(PackageNamespace(""), "apothID"), 1
+   callproperty        QName(PackageNamespace(""), "apothValue"), 1
+   multiply
+   add
+   pushstring          " coins."
+   add
+   pushtrue
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           9303
+   findproperty        QName(PackageInternalNs("NiminFetishFantasyv0_fla"), "buy")
+   getlex              QName(PackageNamespace(""), "buttonChoice")
+   setproperty         QName(PackageInternalNs("NiminFetishFantasyv0_fla"), "buy")
+
+L61:
+   debugline           9305
+   getlex              QName(PackageNamespace(""), "buttonChoice")
+   pushbyte            4
+   equals
+   dup
+   iffalse             L72
+
+   pop
+   getlex              QName(PackageInternalNs("NiminFetishFantasyv0_fla"), "buy")
+   pushbyte            0
+   equals
+   not
+L72:
+   iffalse             L273
+
+   debugline           9306
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "\r\rAre you sure you would like to buy "
+   findpropstrict      QName(PackageNamespace(""), "apothName")
+   findpropstrict      QName(PackageNamespace(""), "apothID")
+   getlex              QName(PackageInternalNs("NiminFetishFantasyv0_fla"), "buy")
+   callproperty        QName(PackageNamespace(""), "apothID"), 1
+   callproperty        QName(PackageNamespace(""), "apothName"), 1
+   add
+   pushstring          "?"
+   add
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           9307
+   findpropstrict      QName(PackageNamespace(""), "apothID")
+   getlex              QName(PackageInternalNs("NiminFetishFantasyv0_fla"), "buy")
+   callproperty        QName(PackageNamespace(""), "apothID"), 1
+   pushshort           200
+   greaterthan
+   dup
+   iffalse             L102
+
+   pop
+   findpropstrict      QName(PackageNamespace(""), "itemStackMax")
+   findpropstrict      QName(PackageNamespace(""), "apothID")
+   getlex              QName(PackageInternalNs("NiminFetishFantasyv0_fla"), "buy")
+   callproperty        QName(PackageNamespace(""), "apothID"), 1
+   callproperty        QName(PackageNamespace(""), "itemStackMax"), 1
+   pushbyte            1
+   greaterthan
+L102:
+   iffalse             L266
+
+   debugline           9308
+   findpropstrict      QName(PackageNamespace(""), "viewButtonOutline")
+   pushbyte            1
+   dup
+   dup
+   pushbyte            0
+   dup
+   dup
+   pushbyte            0
+   dup
+   dup
+   pushbyte            0
+   dup
+   pushbyte            1
+   callpropvoid        QName(PackageNamespace(""), "viewButtonOutline"), 12
+
+   debugline           9309
+   findpropstrict      QName(PackageNamespace(""), "viewButtonText")
+   pushbyte            1
+   dup
+   dup
+   pushbyte            0
+   dup
+   dup
+   pushbyte            0
+   dup
+   dup
+   pushbyte            0
+   dup
+   pushbyte            1
+   callpropvoid        QName(PackageNamespace(""), "viewButtonText"), 12
+
+   debugline           9310
+   findpropstrict      QName(PackageNamespace(""), "buttonWrite")
+   pushbyte            1
+   pushstring          "Buy 1"
+   callpropvoid        QName(PackageNamespace(""), "buttonWrite"), 2
+
+   debugline           9311
+   findpropstrict      QName(PackageNamespace(""), "buttonWrite")
+   pushbyte            2
+   pushstring          "Buy 2"
+   callpropvoid        QName(PackageNamespace(""), "buttonWrite"), 2
+
+   debugline           9312
+   findpropstrict      QName(PackageNamespace(""), "buttonWrite")
+   pushbyte            3
+   pushstring          "Buy 5"
+   callpropvoid        QName(PackageNamespace(""), "buttonWrite"), 2
+
+   debugline           9313
+   findpropstrict      QName(PackageNamespace(""), "buttonWrite")
+   pushbyte            12
+   pushstring          "Nevermind"
+   callpropvoid        QName(PackageNamespace(""), "buttonWrite"), 2
+
+   debugline           9315
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "\r\rThis item can be bought in the following quantities: 1 for "
+   pushbyte            3
+   findpropstrict      QName(PackageNamespace(""), "apothValue")
+   findpropstrict      QName(PackageNamespace(""), "apothID")
+   getlex              QName(PackageInternalNs("NiminFetishFantasyv0_fla"), "buy")
+   callproperty        QName(PackageNamespace(""), "apothID"), 1
+   callproperty        QName(PackageNamespace(""), "apothValue"), 1
+   multiply
+   add
+   pushstring          " coins, 2 for "
+   add
+   pushbyte            6
+   findpropstrict      QName(PackageNamespace(""), "apothValue")
+   findpropstrict      QName(PackageNamespace(""), "apothID")
+   getlex              QName(PackageInternalNs("NiminFetishFantasyv0_fla"), "buy")
+   callproperty        QName(PackageNamespace(""), "apothID"), 1
+   callproperty        QName(PackageNamespace(""), "apothValue"), 1
+   multiply
+   add
+   pushstring          " coins, 5 for "
+   add
+   pushbyte            15
+   findpropstrict      QName(PackageNamespace(""), "apothValue")
+   findpropstrict      QName(PackageNamespace(""), "apothID")
+   getlex              QName(PackageInternalNs("NiminFetishFantasyv0_fla"), "buy")
+   callproperty        QName(PackageNamespace(""), "apothID"), 1
+   callproperty        QName(PackageNamespace(""), "apothValue"), 1
+   multiply
+   add
+   pushstring          " coins"
+   add
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   debugline           9317
+   findpropstrict      QName(PackageNamespace(""), "itemStackMax")
+   findpropstrict      QName(PackageNamespace(""), "apothID")
+   getlex              QName(PackageInternalNs("NiminFetishFantasyv0_fla"), "buy")
+   callproperty        QName(PackageNamespace(""), "apothID"), 1
+   callproperty        QName(PackageNamespace(""), "itemStackMax"), 1
+   pushbyte            10
+   ifnge               L224
+
+   debugline           9318
+   findpropstrict      QName(PackageNamespace(""), "buttonWrite")
+   pushbyte            9
+   pushstring          "Buy 10"
+   callpropvoid        QName(PackageNamespace(""), "buttonWrite"), 2
+
+   debugline           9319
+   getlex              QName(PackageNamespace(""), "Choice9Outline")
+   pushtrue
+   setproperty         QName(PackageNamespace(""), "visible")
+
+   debugline           9320
+   getlex              QName(PackageNamespace(""), "Choice9")
+   pushtrue
+   setproperty         QName(PackageNamespace(""), "visible")
+
+   debugline           9321
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          ", 10 for "
+   pushbyte            30
+   findpropstrict      QName(PackageNamespace(""), "apothValue")
+   findpropstrict      QName(PackageNamespace(""), "apothID")
+   getlex              QName(PackageInternalNs("NiminFetishFantasyv0_fla"), "buy")
+   callproperty        QName(PackageNamespace(""), "apothID"), 1
+   callproperty        QName(PackageNamespace(""), "apothValue"), 1
+   multiply
+   add
+   pushstring          " coins"
+   add
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+L224:
+   debugline           9323
+   findpropstrict      QName(PackageNamespace(""), "itemStackMax")
+   findpropstrict      QName(PackageNamespace(""), "apothID")
+   getlex              QName(PackageInternalNs("NiminFetishFantasyv0_fla"), "buy")
+   callproperty        QName(PackageNamespace(""), "apothID"), 1
+   callproperty        QName(PackageNamespace(""), "itemStackMax"), 1
+   pushbyte            15
+   ifnge               L260
+
+   debugline           9324
+   findpropstrict      QName(PackageNamespace(""), "buttonWrite")
+   pushbyte            10
+   pushstring          "Buy 15"
+   callpropvoid        QName(PackageNamespace(""), "buttonWrite"), 2
+
+   debugline           9325
+   getlex              QName(PackageNamespace(""), "Choice10Outline")
+   pushtrue
+   setproperty         QName(PackageNamespace(""), "visible")
+
+   debugline           9326
+   getlex              QName(PackageNamespace(""), "Choice10")
+   pushtrue
+   setproperty         QName(PackageNamespace(""), "visible")
+
+   debugline           9327
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          ", 15 for "
+   pushbyte            45
+   findpropstrict      QName(PackageNamespace(""), "apothValue")
+   findpropstrict      QName(PackageNamespace(""), "apothID")
+   getlex              QName(PackageInternalNs("NiminFetishFantasyv0_fla"), "buy")
+   callproperty        QName(PackageNamespace(""), "apothID"), 1
+   callproperty        QName(PackageNamespace(""), "apothValue"), 1
+   multiply
+   add
+   pushstring          " coins"
+   add
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+L260:
+   debugline           9329
+   findpropstrict      QName(PackageNamespace(""), "outputMainText")
+   pushstring          "."
+   pushfalse
+   callpropvoid        QName(PackageNamespace(""), "outputMainText"), 2
+
+   jump                L269
+
+L266:
+   debugline           9331
+   findpropstrict      QName(PackageNamespace(""), "buttonConfirm")
+   callpropvoid        QName(PackageNamespace(""), "buttonConfirm"), 0
+
+L269:
+   debugline           9332
+   findproperty        QName(PackageNamespace(""), "doListen")
+   newfunction         "NiminFetishFantasyv0_fla:MainTimeline/instance/doApothecary/inline_method#2"
+   initproperty        QName(PackageNamespace(""), "doListen")
+
+L273:
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           9367
+   getlex              QName(PackageNamespace(""), "buttonChoice")
+   pushbyte            12
+   ifne                L281
+
+   debugline           9368
+   findpropstrict      QName(PackageNamespace(""), "doReturn")
+   callpropvoid        QName(PackageNamespace(""), "doReturn"), 0
+
+L281:
+   debugline           9370
+   returnvoid
+  end ; code
+ end ; body
+end ; method

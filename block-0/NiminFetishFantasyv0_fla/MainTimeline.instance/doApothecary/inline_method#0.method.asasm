@@ -1,0 +1,19 @@
+method
+ name ""
+ refid "NiminFetishFantasyv0_fla:MainTimeline/instance/doApothecary/inline_method#0"
+ returns QName(PackageNamespace(""), "void")
+ body
+  maxstack 1
+  localcount 1
+  initscopedepth 13
+  maxscopedepth 13
+  code
+   debugfile           "NiminFetishFantasyv0_fla.MainTimeline::frame1"
+   debugline           9346
+   findpropstrict      QName(PackageNamespace(""), "doApothecary")
+   callpropvoid        QName(PackageNamespace(""), "doApothecary"), 0
+
+   returnvoid
+  end ; code
+ end ; body
+end ; method
